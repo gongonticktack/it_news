@@ -387,6 +387,9 @@ CSS += '''
 '''
 
 
+CSS += '.sister-site{display:inline-flex;align-items:center;margin-top:16px;padding:5px 11px;border:1px solid var(--line);border-radius:9px;background:rgba(155,117,255,.06);color:var(--muted);font-size:.75rem}.sister-site:hover{color:var(--text);background:rgba(155,117,255,.14)}'
+
+
 def esc(s):
     return html.escape(str(s), quote=True)
 
@@ -435,7 +438,9 @@ def page_shell(title, content):
             '<meta name="description" content="Daily AI and IT news in Japanese and English">'
             '<title>' + esc(title) + '</title><style>' + CSS + '</style>'
             '<link rel="stylesheet" href="theme.css?v=' + css_version + '"></head><body>'
-            + nav + '<main class="wrap">' + content + '<footer>' + footer + '</footer>'
+            + nav + '<main class="wrap">' + content + '<footer>' + footer +
+            '<div><a class="sister-site" href="https://gongonticktack.github.io/stock_daily_reports/">' +
+            bilingual('株式NEWS を読む ↗', 'Visit STOCK NEWS ↗') + '</a></div></footer>'
             '</main>' + script + '</body></html>')
 
 
