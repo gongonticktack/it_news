@@ -2,49 +2,62 @@
   "date": "2026-10-12",
   "items": [
     {
-      "title": "Deno is joining Cloudflare",
-      "summary": "The Deno team is joining Cloudflare to radically simplify self-hosting Workers and Durable Objects, so developers can use the same primitives in more places.",
-      "url": "https://blog.cloudflare.com/deno-joins-cloudflare",
+      "title": "Introducing Clef-omni with full multimodality, plus a faster Clef and a cheaper Clef-flash",
+      "summary": "We are expanding the Clef decision model family with Clef-omni, natively processing audio, video, images, and text in a single pipeline. We’ve also lowered Clef-flash pricing and boosted Clef inference speeds by up to 2.0x.",
+      "url": "https://blog.cloudflare.com/clef-faster-cheaper-multimodal",
       "source": "Cloudflare Blog",
-      "published": "2026-10-09 21:50 JST",
-      "topic": "開発・OSS",
-      "importance": "開発者が使えるツールや技術の選択肢に関わる可能性があります。"
+      "published": "2026-10-10 03:27 JST",
+      "topic": "AI・LLM",
+      "title_ja": "海外ITニュース：AI・LLMの最新情報",
+      "translation_note": "見出しの自動翻訳に失敗しました。原文は情報源から確認してください。",
+      "overview": "配信元の概要は日本語に翻訳できませんでした。元記事をご確認ください。",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
     },
     {
-      "title": "Impactful scheduling for GPU clusters",
-      "summary": "",
-      "url": "https://huggingface.co/blog/allenai/impactful-scheduling",
-      "source": "Hugging Face",
-      "published": "2026-10-10 00:20 JST",
+      "title": "NVIDIAら37社が「Open Secure AI Alliance」設立――AIエージェントのセキュリティは重みの非公開では守れない",
+      "summary": "NVIDIAら37社が「Open Secure AI Alliance」設立――AIエージェントのセキュリティは重みの非公開では守れない ThinkIT",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9mY3BaT1FHNjNMQjhnVExqV0FJSDFRNmlDOG5MWFptUl9yemppZkVDOUtqZllhR1RXdWtDbW5SUGtrWTZnYlhqNTF5bw",
+      "source": "ThinkIT",
+      "published": "2026-10-10 16:32 JST",
+      "topic": "AI・LLM",
+      "title_ja": "NVIDIAら37社が「Open Secure AI Alliance」設立――AIエージェントのセキュリティは重みの非公開では守れない",
+      "overview": "NVIDIAら37社が「Open Secure AI Alliance」設立――AIエージェントのセキュリティは重みの非公開では守れない ThinkIT",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "Introducing on-demand CPU and memory profiling with flamegraphs for Workers and Durable Objects",
+      "summary": "On-demand CPU and memory profiling for Cloudflare Workers and Durable Objects is now available. Now you can generate interactive flamegraphs directly in production to quickly track down memory leaks and performance bottlenecks.",
+      "url": "https://blog.cloudflare.com/workers-on-demand-profiling",
+      "source": "Cloudflare Blog",
+      "published": "2026-10-09 22:00 JST",
+      "topic": "クラウド",
+      "title_ja": "海外ITニュース：クラウドの最新情報",
+      "translation_note": "見出しの自動翻訳に失敗しました。原文は情報源から確認してください。",
+      "overview": "配信元の概要は日本語に翻訳できませんでした。元記事をご確認ください。",
+      "importance": "クラウドサービスの機能や運用方法に関わる可能性があります。"
+    },
+    {
+      "title": "Roblox新AI技術「Roblox Reality」を発表、Google Earthに新機能、独自の3Dマップ作成が可能 ほか",
+      "summary": "Roblox新AI技術「Roblox Reality」を発表、Google Earthに新機能、独自の3Dマップ作成が可能 ほか ThinkIT",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1USkRucHhnT0FuSlhheEwxS1hXcnIxT1U5R0o2aVUzOWdkRndJQWhvTkFFWmNnWWl2QVR6YmVvbWVfbkd1eFhNYUpubw",
+      "source": "ThinkIT",
+      "published": "2026-10-11 17:16 JST",
       "topic": "3D・ロボット",
+      "title_ja": "Roblox新AI技術「Roblox Reality」を発表、Google Earthに新機能、独自の3Dマップ作成が可能 ほか",
+      "overview": "Roblox新AI技術「Roblox Reality」を発表、Google Earthに新機能、独自の3Dマップ作成が可能 ほか ThinkIT",
       "importance": "画像処理・3D・ロボティクスの技術動向を知る手掛かりになります。"
     },
     {
-      "title": "Microsoft、文章を生成しない新AI「Decision-1」を発表：GPT-6 Solの約35倍高速と主張",
-      "summary": "Microsoft、文章を生成しない新AI「Decision-1」を発表：GPT-6 Solの約35倍高速と主張 XenoSpectrum",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE94QnBJc25HaVU2U3ltTnJ0LW1meE9qQm9EOWZ2bGwzZEtRalE0ZS1OMmg1cEo1NEp4WXo5Z00tc3JyMzR5TTVobDFQaWEzVmthcUN6OUZMVHlTcTFYQnlfQUYwMUZraUFRNnBvQVlvMG9yYy1sQnZPbTZacw",
-      "source": "XenoSpectrum",
-      "published": "2026-10-11 09:01 JST",
-      "topic": "AI・LLM",
-      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
-    },
-    {
-      "title": "オープンソースAIエージェント「Hermes Agent」のNous Research、NVIDIAなどから9,000万ドルを調達",
-      "summary": "オープンソースAIエージェント「Hermes Agent」のNous Research、NVIDIAなどから9,000万ドルを調達 BRIDGE（ブリッジ）",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0tOEcxSlhLbE1HQUpvRFMxX3YzWmtYbXhEcDR4NjJEYk5vLTUtM3R5UnhWTmhib0g0elBnb0FZcnVIcVRXcGk3Rm1JeUhudDN6Q1dUa21Ha3FmYTFiN2tjVFJ5dDFtR3dycWZtSFZFc3Y3LVZmUlhxdVYwaHZINlU",
-      "source": "BRIDGE（ブリッジ）",
-      "published": "2026-10-09 16:37 JST",
-      "topic": "AI・LLM",
-      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
-    },
-    {
-      "title": "今週の世界ニュース：AIがサイバーセキュリティの様相を一変させている。",
-      "summary": "今週の世界ニュース：AIがサイバーセキュリティの様相を一変させている。 Vietnam.vn",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOUEpjSWl2blpSd2xWXy1vakRMdy0zMWdfZ3NzblJZLWVhNkpTTHJ5MWZmd19TdjhoWlN6dkw4d3F2VVdsdW1RejluSm15bm5RSEVBWnlnRmFUXzV0OGdmaUZ4MU5aU3huNFRYWDF1MTdzVnBfNlRzS2hGMW5HTlFWc2RfSzBZSnVf",
-      "source": "Vietnam.vn",
-      "published": "2026-10-11 15:49 JST",
-      "topic": "セキュリティ",
-      "importance": "システムの安全性や対策の見直しに関わる可能性があります。"
+      "title": "Hack the World: Why hackathons are still the best place to learn to build",
+      "summary": "The barriers to building software have collapsed. Today, anyone can build. Hackathons are a great place to start learning. The post Hack the World: Why hackathons are still the best place to learn to build appeared first on The GitHub Blog .",
+      "url": "https://github.blog/developer-skills/career-growth/hack-the-world-why-hackathons-are-still-the-best-place-to-learn-to-build",
+      "source": "GitHub Blog",
+      "published": "2026-10-10 01:00 JST",
+      "topic": "開発・OSS",
+      "title_ja": "海外ITニュース：開発・OSSの最新情報",
+      "translation_note": "見出しの自動翻訳に失敗しました。原文は情報源から確認してください。",
+      "overview": "配信元の概要は日本語に翻訳できませんでした。元記事をご確認ください。",
+      "importance": "開発者が使えるツールや技術の選択肢に関わる可能性があります。"
     }
   ]
 }

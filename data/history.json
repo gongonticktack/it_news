@@ -1,24 +1,24 @@
 {
   "2026-10-12": [
     {
-      "title": "Deno is joining Cloudflare",
-      "url": "https://blog.cloudflare.com/deno-joins-cloudflare"
+      "title": "Introducing Clef-omni with full multimodality, plus a faster Clef and a cheaper Clef-flash",
+      "url": "https://blog.cloudflare.com/clef-faster-cheaper-multimodal"
     },
     {
-      "title": "Impactful scheduling for GPU clusters",
-      "url": "https://huggingface.co/blog/allenai/impactful-scheduling"
+      "title": "NVIDIAら37社が「Open Secure AI Alliance」設立――AIエージェントのセキュリティは重みの非公開では守れない",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9mY3BaT1FHNjNMQjhnVExqV0FJSDFRNmlDOG5MWFptUl9yemppZkVDOUtqZllhR1RXdWtDbW5SUGtrWTZnYlhqNTF5bw"
     },
     {
-      "title": "Microsoft、文章を生成しない新AI「Decision-1」を発表：GPT-6 Solの約35倍高速と主張",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE94QnBJc25HaVU2U3ltTnJ0LW1meE9qQm9EOWZ2bGwzZEtRalE0ZS1OMmg1cEo1NEp4WXo5Z00tc3JyMzR5TTVobDFQaWEzVmthcUN6OUZMVHlTcTFYQnlfQUYwMUZraUFRNnBvQVlvMG9yYy1sQnZPbTZacw"
+      "title": "Introducing on-demand CPU and memory profiling with flamegraphs for Workers and Durable Objects",
+      "url": "https://blog.cloudflare.com/workers-on-demand-profiling"
     },
     {
-      "title": "オープンソースAIエージェント「Hermes Agent」のNous Research、NVIDIAなどから9,000万ドルを調達",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0tOEcxSlhLbE1HQUpvRFMxX3YzWmtYbXhEcDR4NjJEYk5vLTUtM3R5UnhWTmhib0g0elBnb0FZcnVIcVRXcGk3Rm1JeUhudDN6Q1dUa21Ha3FmYTFiN2tjVFJ5dDFtR3dycWZtSFZFc3Y3LVZmUlhxdVYwaHZINlU"
+      "title": "Roblox新AI技術「Roblox Reality」を発表、Google Earthに新機能、独自の3Dマップ作成が可能 ほか",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1USkRucHhnT0FuSlhheEwxS1hXcnIxT1U5R0o2aVUzOWdkRndJQWhvTkFFWmNnWWl2QVR6YmVvbWVfbkd1eFhNYUpubw"
     },
     {
-      "title": "今週の世界ニュース：AIがサイバーセキュリティの様相を一変させている。",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOUEpjSWl2blpSd2xWXy1vakRMdy0zMWdfZ3NzblJZLWVhNkpTTHJ5MWZmd19TdjhoWlN6dkw4d3F2VVdsdW1RejluSm15bm5RSEVBWnlnRmFUXzV0OGdmaUZ4MU5aU3huNFRYWDF1MTdzVnBfNlRzS2hGMW5HTlFWc2RfSzBZSnVf"
+      "title": "Hack the World: Why hackathons are still the best place to learn to build",
+      "url": "https://github.blog/developer-skills/career-growth/hack-the-world-why-hackathons-are-still-the-best-place-to-learn-to-build"
     }
   ]
 }
