@@ -1,12 +1,14 @@
 # IT NEWS — 毎朝7時のAI・ITニュース5選
 
+🌐 **公開サイト（GitHub Pages）：[IT NEWSを開く](https://gongonticktack.github.io/it_news/)**
+
 **株式日報とは独立**したニュースサイトです。GitHub Actionsで毎朝07:00 JST頃にPythonを実行し、RSSから新着ニュースを選定して日付別のHTML/JSONに保存します。GitHub Pagesに公開します。
 
 ## セットアップ
 
 1. リポジトリ `gongonticktack/it_news` の **Settings → Pages → Build and deployment → Source → GitHub Actions** を選択。
 2. **Actions → IT NEWS daily → Run workflow** で手動実行し、初回の結果を確認。
-3. 公開URL: `https://gongonticktack.github.io/it_news/`（デプロイ完了後）。
+3. 公開サイト：[IT NEWS](https://gongonticktack.github.io/it_news/)。
 4. 任意: **Settings → Secrets and variables → Actions** に `OPENAI_API_KEY` を登録すると、取得済みニュースの日本語要約と重要性をOpenAI APIで生成。ChatGPT Plusとは別途API従量課金が発生します。キー未設定時はRSSの見出しと概要を表示（英語のままの場合があります）。
 
 ## 配信内容と品質
