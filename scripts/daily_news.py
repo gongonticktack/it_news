@@ -342,10 +342,18 @@ def main():
         raise RuntimeError('Missing config/sources.json')
     history_path = ROOT / 'data/history.json'
     history = read_json(history_path, {})
-    candidates = gather(config, now)
-    if not candidates:
-        raise RuntimeError('All news feeds failed or contained no dated recent entries; refusing to overwrite site')
-    items = localize_items(ai_enrich(select(candidates, history, today, now)))
+    existing_report = read_json(ROOT / 'reports' / f'{today.isoformat()}.json', {})
+    if existing_report.get('items'):
+        # Rebuild today's edition without changing the selected stories on code updates.
+        items = existing_report['items']
+        candidates = []
+        LOG.info('Reusing %s existing stories for %s', len(items), today)
+    else:
+        candidates = gather(config, now)
+        if not candidates:
+            raise RuntimeError('All news feeds failed or contained no dated recent entries; refusing to overwrite site')
+        items = ai_enrich(select(candidates, history, today, now))
+    items = localize_items(items)
     fallback_importance = {
         'AI・LLM': 'AIモデルの性能・利用方法や導入判断に関わる可能性があります。',
         '開発・OSS': '開発者が使えるツールや技術の選択肢に関わる可能性があります。',
