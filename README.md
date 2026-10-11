@@ -27,6 +27,7 @@
 - `reports/YYYY-MM-DD.json`: 日付別の機械可読アーカイブ
 - `docs/YYYY-MM-DD.html`: 日付別ニュース記事ページ
 - `docs/index.html`: 最新ニュースとアーカイブへのリンク
+- 最新・日付別ページの先頭に前日／翌日ボタンを表示。前後の公開済み日へ移動し、最古・最新では該当ボタンを無効化します。毎日の生成時に過去ページの翌日リンクも更新します。
 - `data/history.json`: 重複除外履歴
 - `.github/workflows/daily.yml`: 毎朝7時の自動実行・Pagesデプロイ
 

@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import calendar
 import html
+import hashlib
 import json
 import logging
 import os
@@ -374,6 +375,18 @@ html[lang="en"] p.lang-en,html[lang="en"] div.lang-en{display:block}
 '''
 
 
+CSS += '''
+/* Daily edition navigation */
+.date-navigation{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:12px;margin:0 0 20px;padding:12px 0}
+.date-navigation time{font-weight:750;font-variant-numeric:tabular-nums;color:#e4d6ff}
+.date-navigation .date-button{display:inline-flex;justify-content:center;padding:9px 14px;border:1px solid var(--line);border-radius:13px;background:rgba(155,117,255,.15);font-size:.85rem;font-weight:700}
+.date-navigation .date-button:last-child{justify-self:end}
+.date-navigation .date-button:first-child{justify-self:start}
+.date-button[aria-disabled="true"]{opacity:.4;cursor:default}
+@media(max-width:400px){.date-navigation{gap:6px}.date-navigation .date-button{padding:8px 9px;font-size:.78rem}}
+'''
+
+
 def esc(s):
     return html.escape(str(s), quote=True)
 
@@ -383,6 +396,8 @@ def bilingual(ja, en):
 
 
 def page_shell(title, content):
+    stylesheet = ROOT / 'docs/theme.css'
+    css_version = hashlib.sha256(stylesheet.read_bytes() if stylesheet.exists() else CSS.encode('utf-8')).hexdigest()[:12]
     script = """
 <script>
 (function(){
@@ -419,7 +434,7 @@ def page_shell(title, content):
             '<meta name="viewport" content="width=device-width,initial-scale=1">'
             '<meta name="description" content="Daily AI and IT news in Japanese and English">'
             '<title>' + esc(title) + '</title><style>' + CSS + '</style>'
-            '<link rel="stylesheet" href="theme.css"></head><body>'
+            '<link rel="stylesheet" href="theme.css?v=' + css_version + '"></head><body>'
             + nav + '<main class="wrap">' + content + '<footer>' + footer + '</footer>'
             '</main>' + script + '</body></html>')
 
@@ -457,7 +472,25 @@ def story_html(item, number):
             + bilingual('情報源・元記事を読む ↗', 'Read original source ↗') + '</a></article>')
 
 
-def render_day(day, items):
+def date_navigation(day, days):
+    ordered = sorted(set(days))
+    if day not in ordered:
+        return ''
+    index = ordered.index(day)
+    def button(target, ja, en, relation):
+        label = bilingual(ja, en)
+        if target is None:
+            return '<span class="date-button" aria-disabled="true">' + label + '</span>'
+        return ('<a class="date-button" rel="' + relation + '" href="' + esc(target) +
+                '.html" title="' + esc(target) + '">' + label + '</a>')
+    return ('<nav class="date-navigation" aria-label="日付移動 / Browse dates">' +
+            button(ordered[index - 1] if index else None, '← 前日', '← Previous', 'prev') +
+            '<time datetime="' + esc(day) + '">' + esc(day) + '</time>' +
+            button(ordered[index + 1] if index + 1 < len(ordered) else None,
+                   '翌日 →', 'Next →', 'next') + '</nav>')
+
+
+def render_day(day, items, archive_days=None):
     headline = ('<section class="hero"><div class="eyebrow">DAILY TECHNOLOGY BRIEFING</div>'
                 '<h1 class="gradient-text">IT NEWS.</h1><p>' + esc(day) + ' ｜ ' +
                 bilingual(f'AI・ITニュース {len(items)}件', f'{len(items)} AI & technology stories') +
@@ -466,7 +499,7 @@ def render_day(day, items):
                (''.join(story_html(x, i) for i, x in enumerate(items, 1)) or
                 '<div class="story">' + bilingual('新しいニュースを取得できませんでした。', 'No news available.') + '</div>') +
                '</section>')
-    return page_shell(f'IT NEWS｜{day}', headline + stories)
+    return page_shell(f'IT NEWS｜{day}', date_navigation(day, archive_days or [day]) + headline + stories)
 
 
 def render_index(day, items, archive_days):
@@ -484,7 +517,22 @@ def render_index(day, items, archive_days):
                ''.join('<li><a href="' + esc(d) + '.html">' +
                        bilingual(d + ' のIT NEWS', 'IT NEWS — ' + d) + '</a></li>'
                        for d in archive_days) + '</ul></section>')
-    return page_shell('IT NEWS｜最新のAI・ITニュース', headline + stories + archive)
+    return page_shell('IT NEWS｜最新のAI・ITニュース', date_navigation(day, archive_days) + headline + stories + archive)
+
+
+def build_site():
+    """Rebuild every edition so older pages gain links to newly published days."""
+    paths = sorted((ROOT / 'reports').glob('????-??-??.json'), reverse=True)
+    days = [path.stem for path in paths]
+    docs = ROOT / 'docs'
+    docs.mkdir(exist_ok=True)
+    if not (docs / 'theme.css').exists():
+        (docs / 'theme.css').write_text(CSS, encoding='utf-8')
+    for path in paths:
+        items = read_json(path, {})['items']
+        (docs / (path.stem + '.html')).write_text(render_day(path.stem, items, days), encoding='utf-8')
+        if path == paths[0]:
+            (docs / 'index.html').write_text(render_index(path.stem, items, days), encoding='utf-8')
 
 
 def main():
@@ -527,12 +575,10 @@ def main():
     (ROOT / 'data').mkdir(exist_ok=True)
     day = today.isoformat()
     (ROOT / 'reports' / f'{day}.json').write_text(json.dumps({'date': day, 'items': items}, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-    (ROOT / 'docs' / f'{day}.html').write_text(render_day(day, items), encoding='utf-8')
     history[day] = [{'title': x['title'], 'url': x['url']} for x in items]
     history = {k: v for k, v in history.items() if (today - date.fromisoformat(k)).days <= 30}
     history_path.write_text(json.dumps(dict(sorted(history.items())), ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-    archive_days = sorted((p.stem for p in (ROOT / 'reports').glob('????-??-??.json')), reverse=True)
-    (ROOT / 'docs' / 'index.html').write_text(render_index(day, items, archive_days), encoding='utf-8')
+    build_site()
     print(f'IT NEWS {day}: {len(items)} stories; {len(candidates)} candidate headlines')
 
 

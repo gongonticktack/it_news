@@ -10,6 +10,8 @@ on:
     paths:
       - '.github/workflows/daily.yml'
       - 'scripts/**'
+      - 'tests/**'
+      - 'docs/theme.css'
       - 'config/**'
       - 'requirements.txt'
 
@@ -39,10 +41,13 @@ jobs:
       - name: Test bilingual news rendering
         run: python -m unittest discover -s tests -v
       - name: Collect and publish IT news
+        if: github.event_name != 'push'
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_MODEL: gpt-4.1-mini
         run: python scripts/daily_news.py
+      - name: Rebuild archived editions and date navigation
+        run: python -c "from scripts.daily_news import build_site; build_site()"
       - name: Commit daily archive
         run: |
           git config user.name 'github-actions[bot]'

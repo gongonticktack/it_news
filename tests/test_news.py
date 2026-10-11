@@ -9,12 +9,45 @@ try:
 except ImportError:
     sys.modules["requests"] = types.ModuleType("requests")
 import unittest
+import tempfile
+import json
+from unittest.mock import patch
+from bs4 import BeautifulSoup
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
 import daily_news as news
 
 class NewsTests(unittest.TestCase):
+    def test_date_navigation_and_archived_page_rebuild(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            (root / 'reports').mkdir()
+            days = ['2026-10-08', '2026-10-10', '2026-10-12']
+            for day in days:
+                (root / 'reports' / (day + '.json')).write_text(json.dumps({'date': day, 'items': []}), encoding='utf-8')
+            with patch.object(news, 'ROOT', root):
+                news.build_site()
+                for index, day in enumerate(days):
+                    page = (root / 'docs' / (day + '.html')).read_text(encoding='utf-8')
+                    soup = BeautifulSoup(page, 'html.parser')
+                    nav = soup.select_one('.date-navigation')
+                    self.assertEqual(nav.time['datetime'], day)
+                    self.assertLess(page.index('class="date-navigation"'), page.index('class="hero"'))
+                    for relation, target in [('prev', days[index - 1] if index else None),
+                                             ('next', days[index + 1] if index + 1 < len(days) else None)]:
+                        link = nav.find('a', rel=relation)
+                        if target:
+                            self.assertEqual(link['href'], target + '.html')
+                            self.assertTrue((root / 'docs' / link['href']).exists())
+                        else:
+                            self.assertIsNone(link)
+                    self.assertEqual(len(nav.select('[aria-disabled="true"]')), int(index == 0) + int(index == len(days) - 1))
+                latest = BeautifulSoup((root / 'docs/index.html').read_text(encoding='utf-8'), 'html.parser')
+                self.assertEqual(latest.select_one('.date-navigation time')['datetime'], days[-1])
+                self.assertIsNone(latest.select_one('.date-navigation a[rel="next"]'))
+                self.assertEqual(latest.select_one('.date-navigation a[rel="prev"]')['href'], '2026-10-10.html')
+
     def test_title_similarity(self):
         self.assertTrue(news.similar('OpenAI releases a new model', 'OpenAI releases a new model - News'))
         self.assertFalse(news.similar('Cloudflare security update', 'New robotics hardware'))
