@@ -36,4 +36,45 @@ class NewsTests(unittest.TestCase):
         self.assertNotIn('<script>',page)
         self.assertIn('&lt;script&gt;',page)
 
+
+    def test_language_toggle_and_bilingual_content(self):
+        item = {'title': 'Original English headline',
+                'title_ja': '日本語の見出し',
+                'title_en': 'Original English headline',
+                'summary': 'Original English summary',
+                'overview': '日本語の概要',
+                'overview_en': 'Original English summary',
+                'source': 'Official', 'published': '2026-10-12 07:00 JST',
+                'url': 'https://example.com', 'topic': 'AI・LLM'}
+        page = news.render_day('2026-10-12', [item])
+        self.assertIn('data-set-lang="ja"', page)
+        self.assertIn('data-set-lang="en"', page)
+        self.assertIn('Original English headline', page)
+        self.assertIn('日本語の見出し', page)
+        self.assertIn("localStorage.setItem('it_news_language'", page)
+
+    def test_failed_translation_preserves_original(self):
+        from unittest.mock import patch
+        item = {'title': 'Original English headline', 'summary': 'English summary',
+                'source': 'Official', 'topic': 'IT全般'}
+        with patch.object(news, 'translate_to_japanese', return_value=''):
+            result = news.localize_items([item])[0]
+        self.assertEqual(result['title_ja'], 'Original English headline')
+        self.assertEqual(result['overview'], 'English summary')
+        self.assertIn('自動翻訳に失敗', result['translation_note'])
+        self.assertIn('英語の原文', result['summary_translation_note'])
+        page = news.story_html({**result, 'published': '2026-10-12 07:00 JST',
+                                'url': 'https://example.com'}, 1)
+        self.assertIn('Original English headline', page)
+        self.assertIn('自動翻訳に失敗', page)
+
+    def test_original_japanese_stays_available_in_english_view(self):
+        from unittest.mock import patch
+        item = {'title': '日本語のニュース', 'summary': '日本語の説明',
+                'source': 'Official', 'topic': 'IT全般'}
+        with patch.object(news, 'translate_to_english', return_value=''):
+            result = news.localize_items([item])[0]
+        self.assertEqual(result['title_en'], '日本語のニュース')
+        self.assertIn('English translation unavailable', result['translation_note_en'])
+
 if __name__=='__main__': unittest.main()
