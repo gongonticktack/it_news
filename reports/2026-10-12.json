@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-12",
+  "items": [
+    {
+      "title": "Introducing Clef-omni with full multimodality, plus a faster Clef and a cheaper Clef-flash",
+      "summary": "We are expanding the Clef decision model family with Clef-omni, natively processing audio, video, images, and text in a single pipeline. We’ve also lowered Clef-flash pricing and boosted Clef inference speeds by up to 2.0x.",
+      "url": "https://blog.cloudflare.com/clef-faster-cheaper-multimodal",
+      "source": "Cloudflare Blog",
+      "published": "2026-10-10 03:27 JST",
+      "topic": "AI・LLM",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "NVIDIAら37社が「Open Secure AI Alliance」設立――AIエージェントのセキュリティは重みの非公開では守れない",
+      "summary": "NVIDIAら37社が「Open Secure AI Alliance」設立――AIエージェントのセキュリティは重みの非公開では守れない ThinkIT",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9mY3BaT1FHNjNMQjhnVExqV0FJSDFRNmlDOG5MWFptUl9yemppZkVDOUtqZllhR1RXdWtDbW5SUGtrWTZnYlhqNTF5bw",
+      "source": "ThinkIT",
+      "published": "2026-10-10 16:32 JST",
+      "topic": "AI・LLM",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "Introducing on-demand CPU and memory profiling with flamegraphs for Workers and Durable Objects",
+      "summary": "On-demand CPU and memory profiling for Cloudflare Workers and Durable Objects is now available. Now you can generate interactive flamegraphs directly in production to quickly track down memory leaks and performance bottlenecks.",
+      "url": "https://blog.cloudflare.com/workers-on-demand-profiling",
+      "source": "Cloudflare Blog",
+      "published": "2026-10-09 22:00 JST",
+      "topic": "クラウド",
+      "importance": "クラウドサービスの機能や運用方法に関わる可能性があります。"
+    },
+    {
+      "title": "Roblox新AI技術「Roblox Reality」を発表、Google Earthに新機能、独自の3Dマップ作成が可能 ほか",
+      "summary": "Roblox新AI技術「Roblox Reality」を発表、Google Earthに新機能、独自の3Dマップ作成が可能 ほか ThinkIT",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1USkRucHhnT0FuSlhheEwxS1hXcnIxT1U5R0o2aVUzOWdkRndJQWhvTkFFWmNnWWl2QVR6YmVvbWVfbkd1eFhNYUpubw",
+      "source": "ThinkIT",
+      "published": "2026-10-11 17:16 JST",
+      "topic": "3D・ロボット",
+      "importance": "画像処理・3D・ロボティクスの技術動向を知る手掛かりになります。"
+    },
+    {
+      "title": "Hack the World: Why hackathons are still the best place to learn to build",
+      "summary": "The barriers to building software have collapsed. Today, anyone can build. Hackathons are a great place to start learning. The post Hack the World: Why hackathons are still the best place to learn to build appeared first on The GitHub Blog .",
+      "url": "https://github.blog/developer-skills/career-growth/hack-the-world-why-hackathons-are-still-the-best-place-to-learn-to-build",
+      "source": "GitHub Blog",
+      "published": "2026-10-10 01:00 JST",
+      "topic": "開発・OSS",
+      "importance": "開発者が使えるツールや技術の選択肢に関わる可能性があります。"
+    }
+  ]
+}

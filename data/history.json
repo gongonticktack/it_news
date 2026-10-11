@@ -1,1 +1,24 @@
-{}
+{
+  "2026-10-12": [
+    {
+      "title": "Introducing Clef-omni with full multimodality, plus a faster Clef and a cheaper Clef-flash",
+      "url": "https://blog.cloudflare.com/clef-faster-cheaper-multimodal"
+    },
+    {
+      "title": "NVIDIAら37社が「Open Secure AI Alliance」設立――AIエージェントのセキュリティは重みの非公開では守れない",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9mY3BaT1FHNjNMQjhnVExqV0FJSDFRNmlDOG5MWFptUl9yemppZkVDOUtqZllhR1RXdWtDbW5SUGtrWTZnYlhqNTF5bw"
+    },
+    {
+      "title": "Introducing on-demand CPU and memory profiling with flamegraphs for Workers and Durable Objects",
+      "url": "https://blog.cloudflare.com/workers-on-demand-profiling"
+    },
+    {
+      "title": "Roblox新AI技術「Roblox Reality」を発表、Google Earthに新機能、独自の3Dマップ作成が可能 ほか",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1USkRucHhnT0FuSlhheEwxS1hXcnIxT1U5R0o2aVUzOWdkRndJQWhvTkFFWmNnWWl2QVR6YmVvbWVfbkd1eFhNYUpubw"
+    },
+    {
+      "title": "Hack the World: Why hackathons are still the best place to learn to build",
+      "url": "https://github.blog/developer-skills/career-growth/hack-the-world-why-hackathons-are-still-the-best-place-to-learn-to-build"
+    }
+  ]
+}
