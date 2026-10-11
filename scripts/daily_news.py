@@ -254,33 +254,67 @@ def translate_to_japanese(value: str, cache: dict) -> str:
     return ''
 
 
-def localize_items(items: list[dict]) -> list[dict]:
-    """Ensure every published headline and summary is in Japanese without a paid API."""
-    cache = {}
-    for item in items:
-        headline = clean_text(
-            item['title'] if item.get('translation_note') else (item.get('title_ja') or item['title']), 220
-        )
-        previous_overview = item.get('overview') or ''
-        summary = clean_text(
-            item.get('summary') if previous_overview.startswith(('配信元の概要は', '配信元から記事の概要が'))
-            else (previous_overview or item.get('summary') or ''), 500
-        )
-        item.pop('translation_note', None)
-        translated_title = translate_to_japanese(headline, cache)
-        translated_summary = translate_to_japanese(summary, cache)
-        # Never display untranslated English paragraphs as the primary Japanese copy.
-        if not translated_title:
-            item['title_ja'] = '海外ITニュース：' + item.get('topic', 'IT') + 'の最新情報'
-            item['translation_note'] = '見出しの自動翻訳に失敗しました。原文は情報源から確認してください。'
-        else:
-            item['title_ja'] = translated_title
-        item['overview'] = translated_summary or (
-            '配信元の概要は日本語に翻訳できませんでした。元記事をご確認ください。'
-            if summary else '配信元から記事の概要が提供されていません。'
-        )
-    return items
+def has_japanese(value: str) -> bool:
+    return bool(re.search(r'[\u3040-\u30ff\u3400-\u9fff]', value or ''))
 
+
+def translate_to_english(value: str, cache: dict) -> str:
+    value = clean_text(value, 500)
+    if not value or not has_japanese(value):
+        return value
+    if value in cache:
+        return cache[value]
+    try:
+        from deep_translator import GoogleTranslator
+        translated = clean_text(GoogleTranslator(source='auto', target='en').translate(value) or '', 650)
+        if translated and not has_japanese(translated):
+            cache[value] = translated
+            return translated
+    except Exception as exc:
+        LOG.warning('English translation unavailable: %s', exc)
+    return ''
+
+
+def localize_items(items: list[dict]) -> list[dict]:
+    """Keep original RSS text and prepare both languages for every article."""
+    cache_ja, cache_en = {}, {}
+    for item in items:
+        original_title = clean_text(item.get('title', ''), 220)
+        original_summary = clean_text(item.get('summary', ''), 500)
+        prior_title = clean_text(item.get('title_ja') or '', 220)
+        prior_overview = clean_text(item.get('overview') or '', 500)
+
+        # Old editions may contain a generic placeholder after a failed translation.
+        if item.get('translation_note') or prior_title.startswith('海外ITニュース：'):
+            prior_title = ''
+        if prior_overview.startswith(('配信元の概要は', '配信元から記事の概要が')):
+            prior_overview = ''
+
+        title_ja = prior_title or translate_to_japanese(original_title, cache_ja)
+        overview_ja = prior_overview or translate_to_japanese(original_summary, cache_ja)
+        title_en = translate_to_english(original_title, cache_en)
+        overview_en = translate_to_english(original_summary, cache_en)
+
+        item['title_ja'] = title_ja or original_title
+        item['overview'] = overview_ja or original_summary or '配信元から記事の概要が提供されていません。'
+        item['title_en'] = title_en or original_title
+        item['overview_en'] = overview_en or original_summary or 'No summary was provided by the source.'
+        item.pop('translation_note', None)
+        item.pop('translation_note_en', None)
+
+        if original_title and not title_ja and needs_japanese_translation(original_title):
+            item['translation_note'] = '自動翻訳に失敗したため、見出しは英語の原文を表示しています。'
+        if original_summary and not overview_ja and needs_japanese_translation(original_summary):
+            item['summary_translation_note'] = '概要を翻訳できなかったため、英語の原文を表示しています。'
+        else:
+            item.pop('summary_translation_note', None)
+        if has_japanese(original_title) and not title_en:
+            item['translation_note_en'] = 'English translation unavailable. Showing the original Japanese headline.'
+        if has_japanese(original_summary) and not overview_en:
+            item['summary_translation_note_en'] = 'English translation unavailable. Showing the original Japanese summary.'
+        else:
+            item.pop('summary_translation_note_en', None)
+    return items
 
 CSS = '''
 :root{color-scheme:dark;--bg:#090917;--panel:#151329;--panel2:#201b39;--line:rgba(183,162,255,.19);--text:#f5f2ff;--muted:#b2aecb;--accent:#bba2ff;--blue:#8098ff;--pink:#e5b3ff;--glow:rgba(135,96,255,.22)}
@@ -317,6 +351,18 @@ footer{margin-top:50px;border-top:1px solid var(--line);padding-top:20px;font-si
 .report hr{border:0;border-top:1px solid var(--line);margin-top:35px}.report>ul{padding-left:23px}
 
 .news{grid-template-columns:1fr}.story h2{max-width:830px}.story .meta time{margin-left:auto}.story .link{margin-top:16px}@media(min-width:850px){.news .story:first-child{padding:38px 40px}.news .story:first-child h2{font-size:1.95rem}}
+/* Accessible bilingual toggle and localized content */
+.lang-en{display:none}
+html[lang="en"] .lang-ja{display:none}
+html[lang="en"] .lang-en{display:inline}
+html[lang="en"] p.lang-en,html[lang="en"] div.lang-en{display:block}
+.lang-switch{display:inline-flex;align-items:center;gap:3px;padding:4px;border-radius:100px;background:rgba(148,119,239,.13);border:1px solid rgba(188,165,255,.35);white-space:nowrap}
+.lang-switch button{appearance:none;cursor:pointer;border:0;background:transparent;color:#c7bedf;border-radius:100px;padding:6px 12px;font:700 .79rem/1.2 inherit;min-width:43px;transition:background .18s,color .18s,box-shadow .18s}
+.lang-switch button[aria-pressed="true"]{color:#110d28;background:linear-gradient(110deg,#d4b8ff,#a4aaff);box-shadow:0 3px 12px rgba(118,86,218,.24)}
+.lang-switch button:focus-visible{outline:2px solid #d9c5ff;outline-offset:3px}
+.translation-note{font-size:.82rem!important;color:#dfc1ff!important;background:rgba(181,128,255,.11);border:1px solid rgba(191,156,255,.25);padding:8px 12px;border-radius:10px}
+@media(max-width:620px){.top{flex-wrap:wrap}.top nav{margin-left:auto}.lang-switch button{padding:7px 10px}}
+
 '''
 
 
@@ -324,37 +370,112 @@ def esc(s):
     return html.escape(str(s), quote=True)
 
 
+def bilingual(ja, en):
+    return '<span class="lang-ja">' + esc(ja) + '</span><span class="lang-en">' + esc(en) + '</span>'
+
+
 def page_shell(title, content):
-    return ('<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
-            '<meta name="description" content="AI・ITニュースを毎朝5件、日本語で紹介する日刊アーカイブ">'
-            '<title>' + esc(title) + '</title><style>' + CSS + '</style><link rel="stylesheet" href="theme.css"></head><body>'
-            '<header><div class="top"><a class="brand" href="index.html">IT <b>NEWS</b></a><nav><a href="index.html">最新号</a><a href="index.html#archive">過去の記事</a></nav></div></header>'
-            '<main class="wrap">' + content + '<footer>RSSの見出し・概要をもとに編集。元記事を必ずご確認ください。'
-            'GitHub Actionsの起動時刻は前後することがあります。</footer></main></body></html>')
+    script = """
+<script>
+(function(){
+  const buttons = Array.from(document.querySelectorAll('[data-set-lang]'));
+  function setLanguage(lang) {
+    lang = lang === 'en' ? 'en' : 'ja';
+    document.documentElement.lang = lang;
+    buttons.forEach(function(button) {
+      button.setAttribute('aria-pressed', String(button.dataset.setLang === lang));
+    });
+    try { localStorage.setItem('it_news_language', lang); } catch (error) {}
+  }
+  let saved = 'ja';
+  try { saved = localStorage.getItem('it_news_language') || 'ja'; } catch (error) {}
+  setLanguage(saved);
+  buttons.forEach(function(button) {
+    button.addEventListener('click', function() { setLanguage(button.dataset.setLang); });
+  });
+})();
+</script>"""
+    nav = ('<header><div class="top">'
+           '<a class="brand" href="index.html">IT <b>NEWS</b></a>'
+           '<nav><a href="index.html">' + bilingual('最新号', 'Latest') + '</a>'
+           '<a href="index.html#archive">' + bilingual('過去の記事', 'Archive') + '</a></nav>'
+           '<div class="lang-switch" role="group" aria-label="Language / 表示言語">'
+           '<button type="button" data-set-lang="ja" aria-pressed="true" lang="ja">日本語</button>'
+           '<button type="button" data-set-lang="en" aria-pressed="false" lang="en">EN</button>'
+           '</div></div></header>')
+    footer = bilingual(
+        'RSSの見出し・概要をもとに編集。元記事を必ずご確認ください。GitHub Actionsの起動時刻は前後することがあります。',
+        'Edited from RSS headlines and summaries. Please verify the original sources. GitHub Actions may run later than scheduled.'
+    )
+    return ('<!doctype html><html lang="ja"><head><meta charset="utf-8">'
+            '<meta name="viewport" content="width=device-width,initial-scale=1">'
+            '<meta name="description" content="Daily AI and IT news in Japanese and English">'
+            '<title>' + esc(title) + '</title><style>' + CSS + '</style>'
+            '<link rel="stylesheet" href="theme.css"></head><body>'
+            + nav + '<main class="wrap">' + content + '<footer>' + footer + '</footer>'
+            '</main>' + script + '</body></html>')
+
+
+IMPORTANCE_EN = {
+    'AI・LLM': 'This development may affect AI capabilities, usage, and adoption decisions.',
+    '開発・OSS': 'This may influence developers’ choices of tools and technologies.',
+    'クラウド': 'This may affect cloud capabilities and operations.',
+    'セキュリティ': 'This may inform security practices and risk management.',
+    '3D・ロボット': 'This may be relevant to imaging, 3D, and robotics technologies.',
+    'IT全般': 'This is a development worth following in the technology sector.',
+}
 
 
 def story_html(item, number):
-    title = esc(item.get('title_ja') or item['title'])
-    overview = esc(item.get('overview') or item.get('summary') or '概要は配信されていません。')
-    why = item.get('importance')
-    why_html = '<p class="why"><strong>なぜ重要か：</strong>' + esc(why) + '</p>' if why else '<p class="why">なぜ重要か：元記事で詳細をご確認ください。</p>'
-    translation_note = ('<p class="translation-note">' + esc(item['translation_note']) + '</p>') if item.get('translation_note') else ''
+    title = bilingual(item.get('title_ja') or item['title'],
+                      item.get('title_en') or item['title'])
+    overview = bilingual(item.get('overview') or item.get('summary') or '概要は配信されていません。',
+                         item.get('overview_en') or item.get('summary') or 'No summary was provided.')
+    why = item.get('importance') or '元記事で詳細をご確認ください。'
+    why_en = item.get('importance_en') or IMPORTANCE_EN.get(item.get('topic'), IMPORTANCE_EN['IT全般'])
+    why_html = ('<p class="why"><strong>' + bilingual('なぜ重要か：', 'Why it matters: ') +
+                '</strong>' + bilingual(why, why_en) + '</p>')
+    note_ja = ' '.join(filter(None, [item.get('translation_note'), item.get('summary_translation_note')]))
+    note_en = ' '.join(filter(None, [item.get('translation_note_en'), item.get('summary_translation_note_en')]))
+    note_html = ''
+    if note_ja:
+        note_html += '<p class="translation-note lang-ja">' + esc(note_ja) + '</p>'
+    if note_en:
+        note_html += '<p class="translation-note lang-en">' + esc(note_en) + '</p>'
     return (f'<article class="story"><div class="meta"><span class="tag">{esc(item["topic"])}</span>'
             f'<span>#{number:02d}</span><span>{esc(item["source"])}</span><time>{esc(item["published"])}</time></div>'
-            f'<h2>{title}</h2><p>{overview}</p>{why_html}{translation_note}'
-            f'<a class="link" href="{esc(item["url"])}" target="_blank" rel="noopener noreferrer">情報源・元記事を読む ↗</a></article>')
+            f'<h2>{title}</h2><p>{overview}</p>{why_html}{note_html}'
+            f'<a class="link" href="{esc(item["url"])}" target="_blank" rel="noopener noreferrer">'
+            + bilingual('情報源・元記事を読む ↗', 'Read original source ↗') + '</a></article>')
 
 
 def render_day(day, items):
-    headline = f'<section class="hero"><div class="eyebrow">DAILY TECHNOLOGY BRIEFING</div><h1 class="gradient-text">IT NEWS.</h1><p>{esc(day)} ｜ AI・ITニュース {len(items)}件</p></section>'
-    stories = '<section class="news">' + (''.join(story_html(x, i) for i, x in enumerate(items, 1)) or '<div class="story">新しいニュースを取得できませんでした。前号をご覧ください。</div>') + '</section>'
+    headline = ('<section class="hero"><div class="eyebrow">DAILY TECHNOLOGY BRIEFING</div>'
+                '<h1 class="gradient-text">IT NEWS.</h1><p>' + esc(day) + ' ｜ ' +
+                bilingual(f'AI・ITニュース {len(items)}件', f'{len(items)} AI & technology stories') +
+                '</p></section>')
+    stories = ('<section class="news">' +
+               (''.join(story_html(x, i) for i, x in enumerate(items, 1)) or
+                '<div class="story">' + bilingual('新しいニュースを取得できませんでした。', 'No news available.') + '</div>') +
+               '</section>')
     return page_shell(f'IT NEWS｜{day}', headline + stories)
 
 
 def render_index(day, items, archive_days):
-    headline = f'<section class="hero"><div class="eyebrow">YOUR DAILY TECH SIGNAL</div><h1 class="gradient-text">IT NEWS.</h1><p>AI・クラウド・開発技術の重要ニュースを毎朝5件。<br>最新号：{esc(day)}</p></section>'
-    stories = '<section class="news">' + (''.join(story_html(x, i) for i, x in enumerate(items, 1)) or '<div class="story">現在、新しいニュースはありません。</div>') + '</section>'
-    archive = '<section class="archive" id="archive"><h2>ARCHIVE / 過去の記事</h2><ul>' + ''.join(f'<li><a href="{esc(d)}.html">{esc(d)} のIT NEWS</a></li>' for d in archive_days) + '</ul></section>'
+    headline = ('<section class="hero"><div class="eyebrow">YOUR DAILY TECH SIGNAL</div>'
+                '<h1 class="gradient-text">IT NEWS.</h1><p>' +
+                bilingual('AI・クラウド・開発技術の重要ニュースを毎朝5件。',
+                          'Five important AI, cloud, and software development stories each morning.') +
+                ' ' + bilingual('最新号：', 'Latest edition: ') + esc(day) + '</p></section>')
+    stories = ('<section class="news">' +
+               (''.join(story_html(x, i) for i, x in enumerate(items, 1)) or
+                '<div class="story">' + bilingual('現在、新しいニュースはありません。', 'No new stories available.') + '</div>') +
+               '</section>')
+    archive = ('<section class="archive" id="archive"><h2>ARCHIVE / ' +
+               bilingual('過去の記事', 'Previous editions') + '</h2><ul>' +
+               ''.join('<li><a href="' + esc(d) + '.html">' +
+                       bilingual(d + ' のIT NEWS', 'IT NEWS — ' + d) + '</a></li>'
+                       for d in archive_days) + '</ul></section>')
     return page_shell('IT NEWS｜最新のAI・ITニュース', headline + stories + archive)
 
 
