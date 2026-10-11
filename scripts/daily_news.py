@@ -240,8 +240,15 @@ def localize_items(items: list[dict]) -> list[dict]:
     """Ensure every published headline and summary is in Japanese without a paid API."""
     cache = {}
     for item in items:
-        headline = clean_text(item.get('title_ja') or item['title'], 220)
-        summary = clean_text(item.get('overview') or item.get('summary') or '', 500)
+        headline = clean_text(
+            item['title'] if item.get('translation_note') else (item.get('title_ja') or item['title']), 220
+        )
+        previous_overview = item.get('overview') or ''
+        summary = clean_text(
+            item.get('summary') if previous_overview.startswith(('配信元の概要は', '配信元から記事の概要が'))
+            else (previous_overview or item.get('summary') or ''), 500
+        )
+        item.pop('translation_note', None)
         translated_title = translate_to_japanese(headline, cache)
         translated_summary = translate_to_japanese(summary, cache)
         # Never display untranslated English paragraphs as the primary Japanese copy.
