@@ -272,6 +272,14 @@ def translate_to_english(value: str, cache: dict) -> str:
             return translated
     except Exception as exc:
         LOG.warning('English translation unavailable: %s', exc)
+    try:
+        from deep_translator import MyMemoryTranslator
+        translated = clean_text(MyMemoryTranslator(source='japanese', target='english').translate(value[:450]) or '', 650)
+        if translated and not has_japanese(translated):
+            cache[value] = translated
+            return translated
+    except Exception as exc:
+        LOG.warning('Backup English translation unavailable: %s', exc)
     return ''
 
 
