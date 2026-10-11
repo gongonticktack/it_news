@@ -224,7 +224,7 @@ def esc(s):
 def page_shell(title, content):
     return ('<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
             '<meta name="description" content="AI・ITニュースを毎朝5件、日本語で紹介する日刊アーカイブ">'
-            '<title>' + esc(title) + '</title><style>' + CSS + '</style></head><body>'
+            '<title>' + esc(title) + '</title><style>' + CSS + '</style><link rel="stylesheet" href="theme.css"></head><body>'
             '<header><div class="top"><a class="brand" href="index.html">IT <b>NEWS</b></a><nav><a href="index.html">最新号</a><a href="index.html#archive">過去の記事</a></nav></div></header>'
             '<main class="wrap">' + content + '<footer>RSSの見出し・概要をもとに編集。元記事を必ずご確認ください。'
             'GitHub Actionsの起動時刻は前後することがあります。</footer></main></body></html>')
@@ -242,13 +242,13 @@ def story_html(item, number):
 
 
 def render_day(day, items):
-    headline = f'<section class="hero"><div class="eyebrow">DAILY TECHNOLOGY BRIEFING</div><h1>IT NEWS</h1><p>{esc(day)} ｜ AI・ITニュース {len(items)}件</p></section>'
+    headline = f'<section class="hero"><div class="eyebrow">DAILY TECHNOLOGY BRIEFING</div><h1 class="gradient-text">IT NEWS.</h1><p>{esc(day)} ｜ AI・ITニュース {len(items)}件</p></section>'
     stories = '<section class="news">' + (''.join(story_html(x, i) for i, x in enumerate(items, 1)) or '<div class="story">新しいニュースを取得できませんでした。前号をご覧ください。</div>') + '</section>'
     return page_shell(f'IT NEWS｜{day}', headline + stories)
 
 
 def render_index(day, items, archive_days):
-    headline = f'<section class="hero"><div class="eyebrow">YOUR DAILY TECH SIGNAL</div><h1>IT NEWS<span style="color:var(--accent)">.</span></h1><p>AI・クラウド・開発技術の重要ニュースを毎朝5件。<br>最新号：{esc(day)}</p></section>'
+    headline = f'<section class="hero"><div class="eyebrow">YOUR DAILY TECH SIGNAL</div><h1 class="gradient-text">IT NEWS.</h1><p>AI・クラウド・開発技術の重要ニュースを毎朝5件。<br>最新号：{esc(day)}</p></section>'
     stories = '<section class="news">' + (''.join(story_html(x, i) for i, x in enumerate(items, 1)) or '<div class="story">現在、新しいニュースはありません。</div>') + '</section>'
     archive = '<section class="archive" id="archive"><h2>ARCHIVE / 過去の記事</h2><ul>' + ''.join(f'<li><a href="{esc(d)}.html">{esc(d)} のIT NEWS</a></li>' for d in archive_days) + '</ul></section>'
     return page_shell('IT NEWS｜最新のAI・ITニュース', headline + stories + archive)
