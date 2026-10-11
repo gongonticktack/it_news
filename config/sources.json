@@ -1,0 +1,17 @@
+{
+  "feeds": [
+    {"name": "GitHub Blog", "url": "https://github.blog/feed/", "priority": 4},
+    {"name": "Cloudflare Blog", "url": "https://blog.cloudflare.com/rss/", "priority": 4},
+    {"name": "AWS News Blog", "url": "https://aws.amazon.com/blogs/aws/feed/", "priority": 4},
+    {"name": "Google Blog AI", "url": "https://blog.google/technology/ai/rss/", "priority": 4},
+    {"name": "Microsoft Blog", "url": "https://blogs.microsoft.com/blog/feed/", "priority": 3},
+    {"name": "Hugging Face", "url": "https://huggingface.co/blog/feed.xml", "priority": 4}
+  ],
+  "google_news_queries": [
+    "生成AI LLM 新モデル 発表",
+    "AI エージェント オープンソース 新技術",
+    "クラウド セキュリティ 開発者 新機能",
+    "画像生成 3D ロボティクス AI 技術",
+    "半導体 GPU AI インフラ 発表"
+  ]
+}
