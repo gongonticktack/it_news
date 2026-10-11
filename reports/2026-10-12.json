@@ -8,10 +8,9 @@
       "source": "Cloudflare Blog",
       "published": "2026-10-10 03:27 JST",
       "topic": "AI・LLM",
-      "title_ja": "海外ITニュース：AI・LLMの最新情報",
-      "overview": "配信元の概要は日本語に翻訳できませんでした。元記事をご確認ください。",
-      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。",
-      "translation_note": "見出しの自動翻訳に失敗しました。原文は情報源から確認してください。"
+      "title_ja": "マルチモーダル対応の「Clef-omni」を発表、既存モデルの高速化と低価格版も提供",
+      "overview": "Clefの意思決定モデル群に、音声・動画・画像・テキストを単一の処理系で扱う「Clef-omni」が加わりました。Clef-flashの料金引き下げと、推論速度の最大2倍への改善も発表されています。",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
     },
     {
       "title": "NVIDIAら37社が「Open Secure AI Alliance」設立――AIエージェントのセキュリティは重みの非公開では守れない",
@@ -31,10 +30,9 @@
       "source": "Cloudflare Blog",
       "published": "2026-10-09 22:00 JST",
       "topic": "クラウド",
-      "title_ja": "海外ITニュース：クラウドの最新情報",
-      "overview": "配信元の概要は日本語に翻訳できませんでした。元記事をご確認ください。",
-      "importance": "クラウドサービスの機能や運用方法に関わる可能性があります。",
-      "translation_note": "見出しの自動翻訳に失敗しました。原文は情報源から確認してください。"
+      "title_ja": "Cloudflare WorkersとDurable ObjectsにCPU・メモリのオンデマンド解析機能を追加",
+      "overview": "Cloudflare WorkersとDurable Objectsで、CPUとメモリの使用状況を本番環境から直接解析できるようになりました。対話型フレームグラフを生成し、メモリリークや性能上のボトルネックの特定を支援します。",
+      "importance": "クラウドサービスの機能や運用方法に関わる可能性があります。"
     },
     {
       "title": "Roblox新AI技術「Roblox Reality」を発表、Google Earthに新機能、独自の3Dマップ作成が可能 ほか",
@@ -54,10 +52,9 @@
       "source": "GitHub Blog",
       "published": "2026-10-10 01:00 JST",
       "topic": "開発・OSS",
-      "title_ja": "海外ITニュース：開発・OSSの最新情報",
-      "overview": "配信元の概要は日本語に翻訳できませんでした。元記事をご確認ください。",
-      "importance": "開発者が使えるツールや技術の選択肢に関わる可能性があります。",
-      "translation_note": "見出しの自動翻訳に失敗しました。原文は情報源から確認してください。"
+      "title_ja": "「Hack the World」：開発を学ぶ場としてハッカソンが今も有効な理由",
+      "overview": "ソフトウェア開発を始めるための障壁が下がるなか、ハッカソンは実践的な開発を学ぶ入り口として有効だとするGitHub Blogの記事です。",
+      "importance": "開発者が使えるツールや技術の選択肢に関わる可能性があります。"
     }
   ]
 }
