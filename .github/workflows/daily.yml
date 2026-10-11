@@ -36,6 +36,8 @@ jobs:
           python-version: '3.11'
           cache: pip
       - run: pip install -r requirements.txt
+      - name: Test bilingual news rendering
+        run: python -m unittest discover -s tests -v
       - name: Collect and publish IT news
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
