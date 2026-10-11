@@ -24,10 +24,8 @@
       "title_ja": "NVIDIAら37社が「Open Secure AI Alliance」設立――AIエージェントのセキュリティは重みの非公開では守れない",
       "overview": "NVIDIAら37社が「Open Secure AI Alliance」設立――AIエージェントのセキュリティは重みの非公開では守れない ThinkIT",
       "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。",
-      "title_en": "NVIDIAら37社が「Open Secure AI Alliance」設立――AIエージェントのセキュリティは重みの非公開では守れない",
-      "overview_en": "NVIDIAら37社が「Open Secure AI Alliance」設立――AIエージェントのセキュリティは重みの非公開では守れない ThinkIT",
-      "translation_note_en": "English translation unavailable. Showing the original Japanese headline.",
-      "summary_translation_note_en": "English translation unavailable. Showing the original Japanese summary."
+      "title_en": "NVIDIA and 37 other companies set up the Open Secure AI Alliance - AI agent security can not be protected by private weight",
+      "overview_en": "NVIDIA and 37 other companies established the Open Secure AI Alliance - ThinkIT can't protect the security of AI agents without disclosing the weight"
     },
     {
       "title": "Introducing on-demand CPU and memory profiling with flamegraphs for Workers and Durable Objects",
@@ -52,10 +50,8 @@
       "title_ja": "Roblox新AI技術「Roblox Reality」を発表、Google Earthに新機能、独自の3Dマップ作成が可能 ほか",
       "overview": "Roblox新AI技術「Roblox Reality」を発表、Google Earthに新機能、独自の3Dマップ作成が可能 ほか ThinkIT",
       "importance": "画像処理・3D・ロボティクスの技術動向を知る手掛かりになります。",
-      "title_en": "Roblox新AI技術「Roblox Reality」を発表、Google Earthに新機能、独自の3Dマップ作成が可能 ほか",
-      "overview_en": "Roblox新AI技術「Roblox Reality」を発表、Google Earthに新機能、独自の3Dマップ作成が可能 ほか ThinkIT",
-      "translation_note_en": "English translation unavailable. Showing the original Japanese headline.",
-      "summary_translation_note_en": "English translation unavailable. Showing the original Japanese summary."
+      "title_en": "Roblox announces new AI technology \"Roblox Reality\", new features in Google Earth, ability to create your own 3D maps, and more",
+      "overview_en": "Roblox announces new AI technology \"Roblox Reality\", new features in Google Earth, ability to create your own 3D maps, and ThinkIT"
     },
     {
       "title": "Hack the World: Why hackathons are still the best place to learn to build",
