@@ -202,6 +202,61 @@ def ai_enrich(items):
     return items
 
 
+
+def needs_japanese_translation(value: str) -> bool:
+    """Translate English prose; keep Japanese text and short product names unchanged."""
+    text = clean_text(value, 500)
+    return bool(re.search(r'[A-Za-z]{4}', text) and not re.search(r'[\u3040-\u30ff\u3400-\u9fff]', text))
+
+
+def translate_to_japanese(value: str, cache: dict) -> str:
+    """Free, best-effort translation when the optional OpenAI API is not configured."""
+    value = clean_text(value, 500)
+    if not value or not needs_japanese_translation(value):
+        return value
+    if value in cache:
+        return cache[value]
+    translated = ''
+    try:
+        from deep_translator import GoogleTranslator
+        translated = GoogleTranslator(source='auto', target='ja').translate(value) or ''
+    except Exception as exc:
+        LOG.warning('Google translation unavailable: %s', exc)
+    if needs_japanese_translation(translated) or not translated:
+        try:
+            from deep_translator import MyMemoryTranslator
+            translated = MyMemoryTranslator(source='en', target='ja').translate(value[:450]) or ''
+        except Exception as exc:
+            LOG.warning('Backup translation unavailable: %s', exc)
+    translated = clean_text(translated, 650)
+    if not needs_japanese_translation(translated) and translated:
+        cache[value] = translated
+        return translated
+    LOG.warning('Unable to translate headline or summary: %s', value[:90])
+    return ''
+
+
+def localize_items(items: list[dict]) -> list[dict]:
+    """Ensure every published headline and summary is in Japanese without a paid API."""
+    cache = {}
+    for item in items:
+        headline = clean_text(item.get('title_ja') or item['title'], 220)
+        summary = clean_text(item.get('overview') or item.get('summary') or '', 500)
+        translated_title = translate_to_japanese(headline, cache)
+        translated_summary = translate_to_japanese(summary, cache)
+        # Never display untranslated English paragraphs as the primary Japanese copy.
+        if not translated_title:
+            item['title_ja'] = '海外ITニュース：' + item.get('topic', 'IT') + 'の最新情報'
+            item['translation_note'] = '見出しの自動翻訳に失敗しました。原文は情報源から確認してください。'
+        else:
+            item['title_ja'] = translated_title
+        item['overview'] = translated_summary or (
+            '配信元の概要は日本語に翻訳できませんでした。元記事をご確認ください。'
+            if summary else '配信元から記事の概要が提供されていません。'
+        )
+    return items
+
+
 CSS = '''
 :root{color-scheme:dark;--bg:#090917;--panel:#151329;--panel2:#201b39;--line:rgba(183,162,255,.19);--text:#f5f2ff;--muted:#b2aecb;--accent:#bba2ff;--blue:#8098ff;--pink:#e5b3ff;--glow:rgba(135,96,255,.22)}
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--text);font:15px/1.85 -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans JP",sans-serif;background:radial-gradient(ellipse 75% 40% at 7% -10%,rgba(117,77,236,.32),transparent 80%),radial-gradient(ellipse 55% 35% at 100% 12%,rgba(71,96,237,.22),transparent 80%),#090917;min-height:100vh;letter-spacing:.012em}body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.22;background-image:linear-gradient(rgba(171,150,255,.09) 1px,transparent 1px),linear-gradient(90deg,rgba(171,150,255,.09) 1px,transparent 1px);background-size:52px 52px;mask-image:linear-gradient(to bottom,#000,transparent 82%);z-index:-1}
@@ -258,9 +313,10 @@ def story_html(item, number):
     overview = esc(item.get('overview') or item.get('summary') or '概要は配信されていません。')
     why = item.get('importance')
     why_html = '<p class="why"><strong>なぜ重要か：</strong>' + esc(why) + '</p>' if why else '<p class="why">なぜ重要か：元記事で詳細をご確認ください。</p>'
+    translation_note = ('<p class="translation-note">' + esc(item['translation_note']) + '</p>') if item.get('translation_note') else ''
     return (f'<article class="story"><div class="meta"><span class="tag">{esc(item["topic"])}</span>'
             f'<span>#{number:02d}</span><span>{esc(item["source"])}</span><time>{esc(item["published"])}</time></div>'
-            f'<h2>{title}</h2><p>{overview}</p>{why_html}'
+            f'<h2>{title}</h2><p>{overview}</p>{why_html}{translation_note}'
             f'<a class="link" href="{esc(item["url"])}" target="_blank" rel="noopener noreferrer">情報源・元記事を読む ↗</a></article>')
 
 
@@ -289,7 +345,7 @@ def main():
     candidates = gather(config, now)
     if not candidates:
         raise RuntimeError('All news feeds failed or contained no dated recent entries; refusing to overwrite site')
-    items = ai_enrich(select(candidates, history, today, now))
+    items = localize_items(ai_enrich(select(candidates, history, today, now)))
     fallback_importance = {
         'AI・LLM': 'AIモデルの性能・利用方法や導入判断に関わる可能性があります。',
         '開発・OSS': '開発者が使えるツールや技術の選択肢に関わる可能性があります。',
