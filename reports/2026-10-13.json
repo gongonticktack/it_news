@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-13",
+  "items": [
+    {
+      "title": "Announcing AWS Lambda Web Functions",
+      "summary": "AWS Lambda Web Functions is a serverless compute primitive that runs your HTTP framework natively, delivering fast, consistent responses through multi-concurrent execution and automated global distribution.",
+      "url": "https://aws.amazon.com/blogs/aws/announcing-aws-lambda-web-functions-for-fast-consistent-web-app-performance-anywhere",
+      "source": "AWS News Blog",
+      "published": "2026-10-13 07:34 JST",
+      "topic": "クラウド",
+      "title_ja": "AWS Lambda Web関数の発表",
+      "overview": "AWS Lambda Web Functionsは、HTTPフレームワークをネイティブに実行するサーバーレスコンピューティングプリミティブで、マルチコンカレント実行と自動化されたグローバル配信を通じて、高速で一貫した応答を提供します。",
+      "title_en": "Announcing AWS Lambda Web Functions",
+      "overview_en": "AWS Lambda Web Functions is a serverless compute primitive that runs your HTTP framework natively, delivering fast, consistent responses through multi-concurrent execution and automated global distribution.",
+      "importance": "クラウドサービスの機能や運用方法に関わる可能性があります。"
+    },
+    {
+      "title": "GitHub Copilot app for Beginners: How to teach Copilot about your codebase",
+      "summary": "Learn how to add custom instructions and skills to your repository, use custom agents, and connect MCP servers like Playwright. The post GitHub Copilot app for Beginners: How to teach Copilot about your codebase appeared first on The GitHub Blog .",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase",
+      "source": "GitHub Blog",
+      "published": "2026-10-13 02:43 JST",
+      "topic": "AI・LLM",
+      "title_ja": "初心者向けGitHub Copilotアプリ：コードベースについてCopilotに教える方法",
+      "overview": "カスタム手順とスキルをリポジトリに追加したり、カスタムエージェントを使用したり、PlaywrightのようなMCPサーバーに接続したりする方法について説明します。初心者向けのGitHub Copilotアプリの投稿：コードベースについてCopilotに教える方法は、GitHubブログに最初に掲載されました。",
+      "title_en": "GitHub Copilot app for Beginners: How to teach Copilot about your codebase",
+      "overview_en": "Learn how to add custom instructions and skills to your repository, use custom agents, and connect MCP servers like Playwright. The post GitHub Copilot app for Beginners: How to teach Copilot about your codebase appeared first on The GitHub Blog .",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "Filter, reshape, and redact logs before export with Transformers",
+      "summary": "Logpush now supports Transformers, allowing teams to filter, redact, and reshape log streams using SQL before export. Powered by Apache DataFusion and Apache Arrow, Transformers apply those changes directly to log data before it reaches the destination.",
+      "url": "https://blog.cloudflare.com/transformers-on-logpush",
+      "source": "Cloudflare Blog",
+      "published": "2026-10-12 23:44 JST",
+      "topic": "3D・ロボット",
+      "title_ja": "トランスフォーマーでエクスポートする前にログをフィルタリング、整形、および編集する",
+      "overview": "LogpushがTransformerをサポートするようになり、チームはエクスポート前にSQLを使用してログストリームをフィルタリング、編集、および再整形できるようになりました。Apache DataFusionとApache Arrowを搭載したTransformerは、これらの変更を宛先に到達する前にログデータに直接適用します。",
+      "title_en": "Filter, reshape, and redact logs before export with Transformers",
+      "overview_en": "Logpush now supports Transformers, allowing teams to filter, redact, and reshape log streams using SQL before export. Powered by Apache DataFusion and Apache Arrow, Transformers apply those changes directly to log data before it reaches the destination.",
+      "importance": "画像処理・3D・ロボティクスの技術動向を知る手掛かりになります。"
+    },
+    {
+      "title": "なんでもリバースエンジニアリング。ソースコード非公開のアプリをAIに解析させ、類似機能を作らせるオープンソースツール「REA」（生成AIクローズアップ）",
+      "summary": "なんでもリバースエンジニアリング。ソースコード非公開のアプリをAIに解析させ、類似機能を作らせるオープンソースツール「REA」（生成AIクローズアップ） テクノエッジ TechnoEdge",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9hMzZDWmhxMXRFSUd6RkstZ1EzR3o0WGIxbFJzeGFNd3pqb3lVTG56dm94SUxaZGhtMnoyOUtqUkdFREhuX3MybE9hN1drMG5ZeDR6ZlJiNFhVXzdNUy1peE9nWmFKLTA",
+      "source": "テクノエッジ TechnoEdge",
+      "published": "2026-10-12 12:46 JST",
+      "topic": "AI・LLM",
+      "title_ja": "なんでもリバースエンジニアリング。ソースコード非公開のアプリをAIに解析させ、類似機能を作らせるオープンソースツール「REA」（生成AIクローズアップ）",
+      "overview": "なんでもリバースエンジニアリング。ソースコード非公開のアプリをAIに解析させ、類似機能を作らせるオープンソースツール「REA」（生成AIクローズアップ） テクノエッジ TechnoEdge",
+      "title_en": "Reverse-engineering anything. REA (Generative AI Close-Up), an open-source tool that lets AI analyze apps whose source code is not public and create similar functions",
+      "overview_en": "Reverse engineer anything. REA (Generative AI Close-Up) TechnoEdge, an open-source tool that lets AI analyze apps whose source code is not publicly available and create similar functions",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "Metaの新モデル「Muse Wonder」が最上位にランクイン：Claude・GPT比較で見える実力と制約",
+      "summary": "Metaの新モデル「Muse Wonder」が最上位にランクイン：Claude・GPT比較で見える実力と制約 XenoSpectrum",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFA0aGxHN0JnNVRTYk9BLVFSMHhHQkFIOHFPSlc2R2VLSXFvdl9CbmdwUWV5eXo2S29Dd2UzdHIwMDYxVmQtemxKUkh5djJWMll1VHFZZDlNRU9yVWppVUN3cmNDMzNRcEdlUnZiZkZLWV9udw",
+      "source": "XenoSpectrum",
+      "published": "2026-10-13 06:18 JST",
+      "topic": "AI・LLM",
+      "title_ja": "Metaの新モデル「Muse Wonder」が最上位にランクイン：Claude・GPT比較で見える実力と制約",
+      "overview": "Metaの新モデル「Muse Wonder」が最上位にランクイン：Claude・GPT比較で見える実力と制約 XenoSpectrum",
+      "title_en": "Meta's new model \"Muse Wonder\" is ranked at the top: Competencies and constraints seen in the Claude-GPT comparison",
+      "overview_en": "Meta's new model \"Muse Wonder\" is ranked at the top: Competencies and constraints seen in the Claude-GPT comparison XenoSpectrum",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    }
+  ]
+}
