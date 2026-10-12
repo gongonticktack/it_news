@@ -2,14 +2,14 @@
 
 🌐 **公開サイト（GitHub Pages）：[IT NEWSを開く](https://gongonticktack.github.io/it_news/)**
 
-**株式日報とは独立**したニュースサイトです。GitHub Actionsで毎朝07:00 JST頃にPythonを実行し、RSSから新着ニュースを選定して日付別のHTML/JSONに保存します。GitHub Pagesに公開します。
+**株式日報とは独立**したニュースサイトです。GitHub Actionsで毎朝06:17 JSTに実行を予約し、06:47 JSTに予備実行します。7時までの公開を目指して、RSSから新着ニュースを選定して日付別のHTML/JSONに保存します。GitHub Pagesに公開します。
 
 ## セットアップ
 
 1. リポジトリ `gongonticktack/it_news` の **Settings → Pages → Build and deployment → Source → GitHub Actions** を選択。
 2. **Actions → IT NEWS daily → Run workflow** で手動実行し、初回の結果を確認。
 3. 公開サイト：[IT NEWS](https://gongonticktack.github.io/it_news/)。
-4. 任意: **Settings → Secrets and variables → Actions** に `OPENAI_API_KEY` を登録すると、取得済みニュースの日本語要約と重要性をOpenAI APIで生成。ChatGPT Plusとは別途API従量課金が発生します。キー未設定時はRSSの見出しと概要を表示（英語のままの場合があります）。
+4. 任意: **Settings → Secrets and variables → Actions** に `OPENAI_API_KEY` を登録すると、取得済みニュースの日本語要約と重要性をOpenAI APIで生成。ChatGPT Plusとは別途API従量課金が発生します。キー未設定時も無料翻訳を試み、失敗した場合は原文と翻訳失敗の表示を残します。
 
 ## 配信内容と品質
 
@@ -19,7 +19,7 @@
 - 見出し、概要、なぜ重要か、情報源、公開日時、元記事リンクを掲載。
 - AI要約はRSS由来のタイトル・概要のみを根拠とし、記事本文の精読や事実確認をしたものではありません。
 - 5件未満しか新着がない場合は件数を減らして公開。新着が0件の場合は明記して公開。
-- GitHub Actionsは混雑により07:00より遅れる場合があります。実行失敗時は更新されません。
+- GitHub Actionsは混雑により遅れる場合があり、07:00までの公開は保証されません。予備実行は生成済みの日報を再利用し、未生成なら収集を再試行します。日付と生成物を検証し、失敗時はActionsにエラーを残します。
 - PublicリポジトリとGitHub Pagesは**全世界に公開**されます。アクセス制限はありません。
 
 ## ファイル
@@ -31,7 +31,7 @@
 - `docs/index.html`: 最新ニュースとアーカイブへのリンク
 - 最新・日付別ページの先頭に前日／翌日ボタンを表示。前後の公開済み日へ移動し、最古・最新では該当ボタンを無効化します。毎日の生成時に過去ページの翌日リンクも更新します。
 - `data/history.json`: 重複除外履歴
-- `.github/workflows/daily.yml`: 毎朝7時の自動実行・Pagesデプロイ
+- `.github/workflows/daily.yml`: 毎朝6:17の自動実行・6:47の予備実行・Pagesデプロイ
 
 ## ローカルで試す
 

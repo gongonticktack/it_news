@@ -48,6 +48,40 @@ class NewsTests(unittest.TestCase):
                 self.assertIsNone(latest.select_one('.date-navigation a[rel="next"]'))
                 self.assertEqual(latest.select_one('.date-navigation a[rel="prev"]')['href'], '2026-10-10.html')
 
+
+    def test_reuses_successful_translations(self):
+        item = {'title': 'New platform announcement', 'summary': 'English source summary',
+                'title_ja': '新しいプラットフォームの発表', 'overview': '日本語の概要',
+                'title_en': 'New platform announcement', 'overview_en': 'English source summary',
+                'topic': 'IT全般', 'source': 'Official'}
+        with patch.object(news, 'translate_to_english') as english, \
+             patch.object(news, 'translate_to_japanese') as japanese:
+            localized = news.localize_items([item])[0]
+        english.assert_not_called()
+        japanese.assert_not_called()
+        self.assertEqual(localized['overview_en'], 'English source summary')
+
+    def test_empty_completed_edition_is_not_collected_again(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            for folder in ('config', 'reports', 'data'):
+                (root / folder).mkdir()
+            (root / 'config/sources.json').write_text('{"feeds": ["fixture"]}')
+            (root / 'reports/2026-10-13.json').write_text('{"date":"2026-10-13","items":[]}')
+            with patch.object(news, 'ROOT', root), patch.object(news, 'gather') as gather, \
+                 patch.dict('os.environ', {'REPORT_DATE': '2026-10-13'}):
+                news.main()
+            gather.assert_not_called()
+            self.assertIn('2026-10-13', (root / 'docs/index.html').read_text())
+            self.assertEqual(json.loads((root / 'reports/2026-10-13.json').read_text())['items'], [])
+
+    def test_theme_has_single_stylesheet_and_light_browser_color(self):
+        page = news.page_shell('IT NEWS', '<p>fixture</p>')
+        soup = BeautifulSoup(page, 'html.parser')
+        self.assertIsNone(soup.find('style'))
+        self.assertEqual(soup.find('meta', attrs={'name': 'theme-color'})['content'], '#f7f4ff')
+        self.assertEqual(len(soup.select('link[rel="stylesheet"]')), 1)
+
     def test_title_similarity(self):
         self.assertTrue(news.similar('OpenAI releases a new model', 'OpenAI releases a new model - News'))
         self.assertFalse(news.similar('Cloudflare security update', 'New robotics hardware'))

@@ -2,8 +2,9 @@ name: IT NEWS daily
 
 on:
   schedule:
-    # 22:00 UTC is 07:00 JST on the following day.
-    - cron: '0 22 * * *'
+    # 06:17 JST primary run; 06:47 JST backup. Schedules may be delayed.
+    - cron: '17 21 * * *'
+    - cron: '47 21 * * *'
   workflow_dispatch:
   push:
     branches: [main]
@@ -40,14 +41,47 @@ jobs:
       - run: pip install -r requirements.txt
       - name: Test bilingual news rendering
         run: python -m unittest discover -s tests -v
+      - name: Check today's edition
+        id: edition
+        run: |
+          report_date=$(TZ=Asia/Tokyo date +%F)
+          echo "date=$report_date" >> "$GITHUB_OUTPUT"
+          REPORT_DATE="$report_date" python - <<'PY'
+          import json, os
+          from pathlib import Path
+          day = os.environ['REPORT_DATE']
+          try:
+              report = json.loads(Path(f'reports/{day}.json').read_text(encoding='utf-8'))
+              exists = report.get('date') == day and isinstance(report.get('items'), list)
+          except (OSError, ValueError, AttributeError):
+              exists = False
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as output:
+              output.write(f"exists={str(exists).lower()}\n")
+          PY
       - name: Collect and publish IT news
-        if: github.event_name != 'push'
+        if: steps.edition.outputs.exists != 'true'
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_MODEL: gpt-4.1-mini
+          REPORT_DATE: ${{ steps.edition.outputs.date }}
         run: python scripts/daily_news.py
       - name: Rebuild archived editions and date navigation
         run: python -c "from scripts.daily_news import build_site; build_site()"
+      - name: Verify today's edition and website
+        env:
+          REPORT_DATE: ${{ steps.edition.outputs.date }}
+        run: |
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          day = os.environ['REPORT_DATE']
+          report = json.loads(Path(f'reports/{day}.json').read_text(encoding='utf-8'))
+          assert report['date'] == day and isinstance(report['items'], list)
+          assert day in Path(f'docs/{day}.html').read_text(encoding='utf-8')
+          assert day in Path('docs/index.html').read_text(encoding='utf-8')
+          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as output:
+              output.write(f"Verified IT NEWS {day}: {len(report['items'])} stories (JST).\n")
+          PY
       - name: Commit daily archive
         run: |
           git config user.name 'github-actions[bot]'
@@ -64,7 +98,16 @@ jobs:
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
+          name: github-pages-${{ github.run_id }}-${{ github.run_attempt }}
           path: docs
       - name: Deploy GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          artifact_name: github-pages-${{ github.run_id }}-${{ github.run_attempt }}
+      - name: Explain failed update
+        if: failure()
+        run: |
+          echo "::error::IT NEWS update failed. Check the failed step; the backup schedule can retry."
+          echo "### IT NEWS update failed" >> "$GITHUB_STEP_SUMMARY"
+          echo "Backup schedule: 06:47 JST. Manual retry: Run workflow." >> "$GITHUB_STEP_SUMMARY"

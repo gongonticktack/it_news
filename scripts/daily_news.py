@@ -301,8 +301,8 @@ def localize_items(items: list[dict]) -> list[dict]:
 
         title_ja = prior_title or translate_to_japanese(original_title, cache_ja)
         overview_ja = prior_overview or translate_to_japanese(original_summary, cache_ja)
-        title_en = translate_to_english(original_title, cache_en)
-        overview_en = translate_to_english(original_summary, cache_en)
+        title_en = item.get('title_en') if item.get('title_en') and not has_japanese(item['title_en']) else translate_to_english(original_title, cache_en)
+        overview_en = item.get('overview_en') if item.get('overview_en') and not has_japanese(item['overview_en']) else translate_to_english(original_summary, cache_en)
 
         item['title_ja'] = title_ja or original_title
         item['overview'] = overview_ja or original_summary or '配信元から記事の概要が提供されていません。'
@@ -325,69 +325,7 @@ def localize_items(items: list[dict]) -> list[dict]:
             item.pop('summary_translation_note_en', None)
     return items
 
-CSS = '''
-:root{color-scheme:dark;--bg:#090917;--panel:#151329;--panel2:#201b39;--line:rgba(183,162,255,.19);--text:#f5f2ff;--muted:#b2aecb;--accent:#bba2ff;--blue:#8098ff;--pink:#e5b3ff;--glow:rgba(135,96,255,.22)}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--text);font:15px/1.85 -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans JP",sans-serif;background:radial-gradient(ellipse 75% 40% at 7% -10%,rgba(117,77,236,.32),transparent 80%),radial-gradient(ellipse 55% 35% at 100% 12%,rgba(71,96,237,.22),transparent 80%),#090917;min-height:100vh;letter-spacing:.012em}body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.22;background-image:linear-gradient(rgba(171,150,255,.09) 1px,transparent 1px),linear-gradient(90deg,rgba(171,150,255,.09) 1px,transparent 1px);background-size:52px 52px;mask-image:linear-gradient(to bottom,#000,transparent 82%);z-index:-1}
-a{color:#c8b7ff;text-decoration:none;transition:color .2s}a:hover{color:#e9ddff}a:focus-visible{outline:2px solid #d7c6ff;outline-offset:4px;border-radius:5px}
-header{position:sticky;top:0;z-index:20;background:rgba(12,11,29,.78);border-bottom:1px solid var(--line);backdrop-filter:blur(22px);-webkit-backdrop-filter:blur(22px)}
-.top{max-width:1120px;margin:auto;display:flex;align-items:center;justify-content:space-between;gap:14px;padding:15px 24px}
-.brand{color:#fff;font-size:1.12rem;letter-spacing:.07em;font-weight:850}.brand b{color:var(--accent)}nav{display:flex;gap:10px;align-items:center}nav a{font-size:.84rem;color:#d5cfee;padding:7px 12px;border:1px solid rgba(178,154,255,.17);border-radius:12px;background:rgba(255,255,255,.035)}
-.wrap,main{max-width:1120px;margin:0 auto;padding:30px 24px 90px}
-.hero{position:relative;overflow:hidden;margin:12px 0 28px;padding:clamp(28px,5vw,58px);border:1px solid rgba(184,157,255,.28);border-radius:28px;background:linear-gradient(115deg,rgba(108,73,208,.25),rgba(51,56,122,.19) 60%,rgba(150,104,234,.13));box-shadow:inset 0 1px rgba(255,255,255,.12),0 28px 85px rgba(0,0,0,.25);backdrop-filter:blur(22px)}
-.hero:after{content:"";position:absolute;width:330px;height:330px;border-radius:50%;background:radial-gradient(circle,rgba(180,125,255,.28),transparent 68%);right:-100px;top:-140px;pointer-events:none}
-.eyebrow,.kicker{font-size:.73rem;font-weight:800;letter-spacing:.2em;color:#c9b7ff;text-transform:uppercase}
-.hero h1{font-size:clamp(2.5rem,7vw,5.2rem);letter-spacing:-.055em;line-height:1.12;margin:12px 0 14px;font-weight:850;background:linear-gradient(110deg,#fff 15%,#d9c2ff 65%,#9baaff);color:transparent;background-clip:text;-webkit-background-clip:text}
-.hero p{max-width:660px;color:#c9c5df;margin:10px 0 0;font-size:1.01rem}
-.story,.stock-card,.glass,.archive,.report-table{border:1px solid var(--line);background:linear-gradient(135deg,rgba(41,34,70,.83),rgba(20,20,42,.87));border-radius:23px;box-shadow:inset 1px 1px rgba(255,255,255,.07),0 14px 35px rgba(0,0,0,.2);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px)}
-.story,.stock-card,.glass{padding:clamp(20px,3vw,30px);transition:transform .2s,border-color .2s,box-shadow .2s}
-.story:hover,.stock-card:hover,.glass:hover{transform:translateY(-3px);border-color:rgba(193,169,255,.48);box-shadow:0 22px 48px rgba(23,15,58,.42)}
-.news{display:grid;gap:18px}.story:first-child{background:linear-gradient(125deg,rgba(83,60,146,.68),rgba(25,24,54,.92));border-color:rgba(195,166,255,.44)}
-.meta{display:flex;flex-wrap:wrap;align-items:center;gap:10px;color:var(--muted);font-size:.78rem}
-.tag{border:1px solid rgba(192,168,255,.38);border-radius:100px;background:rgba(155,117,255,.15);padding:3px 11px;color:#dfceff;font-weight:750}
-.story h2{font-size:clamp(1.14rem,2.6vw,1.55rem);line-height:1.48;letter-spacing:-.02em;margin:17px 0 12px;color:#fff}
-.story p{color:#d1cde2;margin:11px 0}.why{border-left:3px solid #a58cff;padding-left:15px;color:#e2d9ff!important;background:linear-gradient(90deg,rgba(158,118,255,.09),transparent);padding-top:7px;padding-bottom:7px}
-.link,.cta{display:inline-flex;align-items:center;gap:8px;margin-top:10px;border-radius:13px;padding:10px 17px;background:linear-gradient(115deg,#a88bff,#849cff);color:#100d25;font-weight:800;box-shadow:0 8px 25px rgba(110,91,231,.24)}.link:hover,.cta:hover{color:#0b0820;filter:brightness(1.12)}
-.archive{margin-top:36px;padding:24px}.archive h2{margin:0 0 15px;font-size:1.06rem;letter-spacing:.07em}.archive ul{margin:0;padding:0;list-style:none;display:grid;gap:10px}.archive li a{display:block;padding:12px 15px;border-radius:13px;background:rgba(160,138,255,.07);border:1px solid rgba(190,166,255,.1)}.archive li a:hover{background:rgba(165,139,255,.16)}
-footer{margin-top:50px;border-top:1px solid var(--line);padding-top:20px;font-size:.78rem;color:var(--muted)}
-@media(max-width:620px){.top{padding:12px 15px}.wrap,main{padding:20px 14px 70px}.hero{border-radius:21px;padding:26px 22px}.story,.stock-card,.glass{border-radius:19px}nav{gap:5px}nav a{padding:6px 9px;font-size:.75rem}}
-@media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
-
-.report{max-width:1040px}.report>h1{font-size:clamp(1.75rem,4vw,3rem);line-height:1.3;letter-spacing:-.04em;margin:18px 0 8px}.report>h2{margin:42px 0 18px;padding-bottom:11px;border-bottom:1px solid rgba(190,164,255,.26);font-size:clamp(1.3rem,3vw,1.75rem);letter-spacing:-.02em}.report>h3{font-size:1.16rem}
-.report p,.report li{color:#d4d0e6}.report p{margin:13px 0}.report strong{color:#f5f0ff}.report>p:first-of-type{color:#cbbaff}
-.report table{width:100%;border-collapse:separate;border-spacing:0;border:1px solid var(--line);border-radius:17px;overflow:hidden;display:block;overflow-x:auto;background:rgba(30,25,54,.72)}.report th,.report td{padding:11px 14px;border-bottom:1px solid rgba(180,160,255,.13);text-align:left;white-space:nowrap}.report th{color:#d9c7ff;background:rgba(137,107,221,.19);font-size:.82rem}.report tr:last-child td{border-bottom:0}.report pre{overflow-x:auto;padding:15px;border-radius:14px;background:#101126;border:1px solid var(--line);color:#d5cbff}
-.report .stock-card{margin:20px 0;padding:23px 25px}.stock-card h3{margin:0 0 10px;font-size:1.28rem;color:#f2eaff}.stock-card>p:nth-of-type(2){background:rgba(131,109,238,.11);padding:12px 15px;border-radius:12px;border:1px solid rgba(166,144,255,.15)}.stock-card ul{padding-left:20px}.stock-card a{overflow-wrap:anywhere}
-.archive-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(235px,1fr));gap:15px}.archive-grid .glass{display:block;color:#f3efff}.archive-grid .glass span{display:block;font-size:.75rem;color:#b9addb;letter-spacing:.13em;margin-bottom:8px}.archive-grid .glass strong{font-size:1.15rem}.archive-grid .glass small{display:block;color:#c4bfd9;margin-top:8px}
-.report hr{border:0;border-top:1px solid var(--line);margin-top:35px}.report>ul{padding-left:23px}
-
-.news{grid-template-columns:1fr}.story h2{max-width:830px}.story .meta time{margin-left:auto}.story .link{margin-top:16px}@media(min-width:850px){.news .story:first-child{padding:38px 40px}.news .story:first-child h2{font-size:1.95rem}}
-/* Accessible bilingual toggle and localized content */
-.lang-en{display:none}
-html[lang="en"] .lang-ja{display:none}
-html[lang="en"] .lang-en{display:inline}
-html[lang="en"] p.lang-en,html[lang="en"] div.lang-en{display:block}
-.lang-switch{display:inline-flex;align-items:center;gap:3px;padding:4px;border-radius:100px;background:rgba(148,119,239,.13);border:1px solid rgba(188,165,255,.35);white-space:nowrap}
-.lang-switch button{appearance:none;cursor:pointer;border:0;background:transparent;color:#c7bedf;border-radius:100px;padding:6px 12px;font:700 .79rem/1.2 inherit;min-width:43px;transition:background .18s,color .18s,box-shadow .18s}
-.lang-switch button[aria-pressed="true"]{color:#110d28;background:linear-gradient(110deg,#d4b8ff,#a4aaff);box-shadow:0 3px 12px rgba(118,86,218,.24)}
-.lang-switch button:focus-visible{outline:2px solid #d9c5ff;outline-offset:3px}
-.translation-note{font-size:.82rem!important;color:#dfc1ff!important;background:rgba(181,128,255,.11);border:1px solid rgba(191,156,255,.25);padding:8px 12px;border-radius:10px}
-@media(max-width:620px){.top{flex-wrap:wrap}.top nav{margin-left:auto}.lang-switch button{padding:7px 10px}}
-
-'''
-
-
-CSS += '''
-/* Daily edition navigation */
-.date-navigation{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:12px;margin:0 0 20px;padding:12px 0}
-.date-navigation time{font-weight:750;font-variant-numeric:tabular-nums;color:#e4d6ff}
-.date-navigation .date-button{display:inline-flex;justify-content:center;padding:9px 14px;border:1px solid var(--line);border-radius:13px;background:rgba(155,117,255,.15);font-size:.85rem;font-weight:700}
-.date-navigation .date-button:last-child{justify-self:end}
-.date-navigation .date-button:first-child{justify-self:start}
-.date-button[aria-disabled="true"]{opacity:.4;cursor:default}
-@media(max-width:400px){.date-navigation{gap:6px}.date-navigation .date-button{padding:8px 9px;font-size:.78rem}}
-'''
-
-
-CSS += '.sister-site{display:inline-flex;align-items:center;margin-top:16px;padding:5px 11px;border:1px solid var(--line);border-radius:9px;background:rgba(155,117,255,.06);color:var(--muted);font-size:.75rem}.sister-site:hover{color:var(--text);background:rgba(155,117,255,.14)}'
+CSS = "/* IT NEWS: milky lavender, soft pink, and violet accents. */\n:root{color-scheme:light;--bg:#f7f4ff;--text:#302746;--muted:#655975;--accent:#7050bd;--line:#dfd4f0;--shadow:0 12px 32px rgba(92,66,139,.08)}\n*{box-sizing:border-box}\nhtml{scroll-behavior:smooth}\nbody{margin:0;min-height:100vh;color:var(--text);font:15px/1.85 -apple-system,BlinkMacSystemFont,\"Segoe UI\",\"Noto Sans JP\",sans-serif;background:radial-gradient(ellipse at 0 0,#efe5ff 0,transparent 55%),radial-gradient(ellipse at 100% 25%,#fff0f7 0,transparent 50%),var(--bg);letter-spacing:.012em}\na{color:#6744ac;text-decoration:none;transition:color .2s,background .2s,transform .2s}\na:hover{color:#452776}\na:focus-visible,button:focus-visible{outline:3px solid #8961ce;outline-offset:4px}\n::selection{background:#ded0f7;color:#302746}\nheader{position:sticky;top:0;z-index:20;background:rgba(255,253,255,.93);border-bottom:1px solid var(--line);backdrop-filter:blur(16px)}\n.top{max-width:1120px;margin:auto;display:flex;align-items:center;justify-content:space-between;gap:14px;padding:15px 24px}\n.brand{color:#302746;font-size:1.12rem;letter-spacing:.07em;font-weight:850}\n.brand b{color:#7752b8}\nnav{display:flex;gap:10px;align-items:center}\nnav a{font-size:.84rem;color:#5f4b7b;padding:7px 12px;border:1px solid var(--line);border-radius:100px;background:#fff}\nnav a:hover{background:#eee5fb}\n.wrap,main{max-width:1120px;margin:0 auto;padding:30px 24px 90px}\n.hero{position:relative;isolation:isolate;overflow:hidden;margin:12px 0 28px;padding:clamp(28px,5vw,58px);border:1px solid #dfd1f3;border-radius:30px;background:linear-gradient(120deg,#eee3fc,#f8efff 55%,#fff0f6);box-shadow:var(--shadow)}\n.hero:after{content:\"\";position:absolute;z-index:-1;width:280px;height:280px;border-radius:50%;background:linear-gradient(135deg,#d9c6f5,#f1d9ec);right:-75px;top:-110px;opacity:.55}\n.eyebrow,.kicker{font-size:.73rem;font-weight:800;letter-spacing:.18em;color:#77578f;text-transform:uppercase}\n.hero h1{font-size:clamp(2.5rem,7vw,5.2rem);letter-spacing:-.055em;line-height:1.12;margin:12px 0 14px;font-weight:850;color:#69439d}\n.hero p{max-width:660px;color:#625172;margin:10px 0 0;font-size:1.01rem}\n.news{display:grid;grid-template-columns:1fr;gap:20px}\n.story,.glass,.archive{border:1px solid var(--line);background:rgba(255,255,255,.93);border-radius:25px;box-shadow:var(--shadow)}\n.story{padding:clamp(20px,3vw,30px);transition:transform .2s,border-color .2s,box-shadow .2s;overflow-wrap:anywhere}\n.story:hover{transform:translateY(-2px);border-color:#c5addf;box-shadow:0 16px 38px rgba(92,66,139,.12)}\n.story:first-child{background:linear-gradient(120deg,#fff,#f4edff);border-color:#d4bde9}\n.meta{display:flex;flex-wrap:wrap;align-items:center;gap:10px;color:var(--muted);font-size:.78rem}\n.meta time{margin-left:auto;font-variant-numeric:tabular-nums}\n.tag{border:1px solid #d8c2ef;border-radius:100px;background:#eee2fc;padding:3px 11px;color:#65418f;font-weight:750}\n.story:nth-child(3n+2) .tag{background:#ffeaf2;border-color:#efd1df;color:#864a65}\n.story:nth-child(3n) .tag{background:#eaeaff;border-color:#d5d3f3;color:#57548e}\n.story h2{max-width:830px;font-size:clamp(1.14rem,2.6vw,1.55rem);line-height:1.48;letter-spacing:-.02em;margin:17px 0 12px;color:#332745}\n.story p{color:#594d66;margin:11px 0}\n.why{border-left:3px solid #ab82d2;padding:11px 15px;border-radius:0 14px 14px 0;color:#614676!important;background:#f3ecfb}\n.link{display:inline-flex;align-items:center;gap:8px;margin-top:16px;border:1px solid #d5bce9;border-radius:100px;padding:10px 18px;background:linear-gradient(110deg,#e7d8fa,#f6e2f0);color:#55316f;font-weight:800;box-shadow:0 4px 12px rgba(115,71,156,.07)}\n.link:hover{background:#e4d2f4;color:#43205f}\n.archive{margin-top:36px;padding:24px}\n.archive h2{margin:0 0 15px;font-size:1.06rem;letter-spacing:.07em;color:#554068}\n.archive ul{margin:0;padding:0;list-style:none;display:grid;gap:10px}\n.archive li a{display:block;padding:12px 15px;border-radius:14px;background:#f7f2fc;border:1px solid #e7ddf1}\n.archive li a:hover{background:#eee3f8}\nfooter{margin-top:50px;border-top:1px solid var(--line);padding-top:20px;font-size:.78rem;color:var(--muted)}\n.lang-en{display:none}\nhtml[lang=\"en\"] .lang-ja{display:none}\nhtml[lang=\"en\"] .lang-en{display:inline}\nhtml[lang=\"en\"] p.lang-en,html[lang=\"en\"] div.lang-en{display:block}\n.lang-switch{display:inline-flex;align-items:center;gap:3px;padding:4px;border-radius:100px;background:#f1eafa;border:1px solid #d9c6ed;white-space:nowrap}\n.lang-switch button{appearance:none;cursor:pointer;border:0;background:transparent;color:#655373;border-radius:100px;padding:7px 12px;font-family:inherit;font-weight:700;font-size:.79rem;min-width:43px}\n.lang-switch button[aria-pressed=\"true\"]{color:#fff;background:#7750a8;box-shadow:0 3px 8px rgba(104,63,148,.18)}\n.translation-note{font-size:.82rem!important;color:#724960!important;background:#fff0f6;border:1px solid #efd6e2;padding:8px 12px;border-radius:12px}\n.date-navigation{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:12px;margin:0 0 20px;padding:12px 0}\n.date-navigation time{font-weight:750;font-variant-numeric:tabular-nums;color:#654779}\n.date-navigation .date-button{display:inline-flex;justify-content:center;padding:9px 14px;border:1px solid var(--line);border-radius:100px;background:#fff;font-size:.85rem;font-weight:700}\n.date-navigation .date-button:last-child{justify-self:end}\n.date-navigation .date-button:first-child{justify-self:start}\n.date-button[aria-disabled=\"true\"]{opacity:.5;cursor:default}\n.sister-site{display:inline-flex;align-items:center;margin-top:16px;padding:5px 11px;border:1px solid var(--line);border-radius:100px;background:#fff;color:#675476;font-size:.75rem}\n.sister-site:hover{background:#eee4f9}\n@media(min-width:850px){.news .story:first-child{padding:38px 40px}.news .story:first-child h2{font-size:1.95rem}}\n@media(max-width:620px){.top{padding:12px 15px;flex-wrap:wrap}.top nav{margin-left:auto}.wrap,main{padding:20px 14px 70px}.hero{border-radius:24px;padding:26px 22px}.story{border-radius:22px}nav{gap:5px}nav a{padding:6px 9px;font-size:.75rem}.lang-switch button{padding:7px 10px}.meta time{margin-left:0;width:100%}}\n@media(max-width:400px){.date-navigation{gap:6px}.date-navigation .date-button{padding:8px 9px;font-size:.78rem}}\n@media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;transition:none!important;animation:none!important}}\n"
 
 
 def esc(s):
@@ -436,7 +374,7 @@ def page_shell(title, content):
     return ('<!doctype html><html lang="ja"><head><meta charset="utf-8">'
             '<meta name="viewport" content="width=device-width,initial-scale=1">'
             '<meta name="description" content="Daily AI and IT news in Japanese and English">'
-            '<title>' + esc(title) + '</title><style>' + CSS + '</style>'
+            '<title>' + esc(title) + '</title><meta name="theme-color" content="#f7f4ff">'
             '<link rel="stylesheet" href="theme.css?v=' + css_version + '"></head><body>'
             + nav + '<main class="wrap">' + content + '<footer>' + footer +
             '<div><a class="sister-site" href="https://gongonticktack.github.io/stock_daily_reports/">' +
@@ -550,7 +488,7 @@ def main():
     history_path = ROOT / 'data/history.json'
     history = read_json(history_path, {})
     existing_report = read_json(ROOT / 'reports' / f'{today.isoformat()}.json', {})
-    if existing_report.get('items'):
+    if existing_report.get('date') == today.isoformat() and isinstance(existing_report.get('items'), list):
         # Rebuild today's edition without changing the selected stories on code updates.
         items = existing_report['items']
         candidates = []
