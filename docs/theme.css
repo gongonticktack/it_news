@@ -84,3 +84,19 @@ nav a,.date-navigation .date-button,.sister-site{border-color:#dfd4f0}
 nav a:hover,.date-navigation .date-button:hover,.sister-site:hover{color:#452776}
 .date-navigation .date-button{color:#6744ac}
 .archive li a{color:#6744ac}.archive li a:hover{color:#452776}
+
+/* User-selected accent: #9F9BCA. */
+:root{--accent:#9F9BCA;--accent-ink:#211c32}
+.brand b,.hero h1,.eyebrow,.kicker{color:var(--accent)}
+a{color:#bab6e0}a:hover{color:#dedbf2}
+.link,.link:hover,nav a,nav a:hover,.date-navigation .date-button,.date-navigation .date-button:hover,.sister-site,.sister-site:hover,.archive li a,.archive li a:hover{
+  background:var(--accent);border-color:var(--accent);color:var(--accent-ink);box-shadow:0 4px 14px rgba(159,155,202,.14)
+}
+.tag,.story:nth-child(3n+2) .tag,.story:nth-child(3n) .tag{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.lang-switch{background:#2c263a;border-color:#676280}
+.lang-switch button{color:#d6d2e8}
+.lang-switch button[aria-pressed="true"]{background:var(--accent);color:var(--accent-ink);box-shadow:0 3px 10px rgba(159,155,202,.18)}
+.why{border-left-color:var(--accent)}
+.story:hover{border-color:var(--accent)}
+a:focus-visible,button:focus-visible{outline-color:var(--accent)}
+.link:hover,nav a:hover,.date-navigation a.date-button:hover,.sister-site:hover,.archive li a:hover{filter:brightness(1.08)}
