@@ -75,11 +75,11 @@ class NewsTests(unittest.TestCase):
             self.assertIn('2026-10-13', (root / 'docs/index.html').read_text())
             self.assertEqual(json.loads((root / 'reports/2026-10-13.json').read_text())['items'], [])
 
-    def test_theme_has_single_stylesheet_and_light_browser_color(self):
+    def test_theme_has_single_stylesheet_and_dark_browser_color(self):
         page = news.page_shell('IT NEWS', '<p>fixture</p>')
         soup = BeautifulSoup(page, 'html.parser')
         self.assertIsNone(soup.find('style'))
-        self.assertEqual(soup.find('meta', attrs={'name': 'theme-color'})['content'], '#f7f4ff')
+        self.assertEqual(soup.find('meta', attrs={'name': 'theme-color'})['content'], '#161220')
         self.assertEqual(len(soup.select('link[rel="stylesheet"]')), 1)
 
     def test_title_similarity(self):

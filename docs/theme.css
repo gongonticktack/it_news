@@ -61,3 +61,26 @@ html[lang="en"] p.lang-en,html[lang="en"] div.lang-en{display:block}
 @media(max-width:620px){.top{padding:12px 15px;flex-wrap:wrap}.top nav{margin-left:auto}.wrap,main{padding:20px 14px 70px}.hero{border-radius:24px;padding:26px 22px}.story{border-radius:22px}nav{gap:5px}nav a{padding:6px 9px;font-size:.75rem}.lang-switch button{padding:7px 10px}.meta time{margin-left:0;width:100%}}
 @media(max-width:400px){.date-navigation{gap:6px}.date-navigation .date-button{padding:8px 9px;font-size:.78rem}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
+
+/* Dark lavender surfaces; pastel buttons and tags keep their colors. */
+:root{color-scheme:dark;--bg:#161220;--text:#f5efff;--muted:#bbb0ca;--accent:#dbc5f5;--line:#42354f;--shadow:0 12px 32px rgba(0,0,0,.22)}
+body{background:radial-gradient(ellipse at 0 0,#352543 0,transparent 55%),radial-gradient(ellipse at 100% 25%,#302133 0,transparent 50%),var(--bg)}
+a{color:#d5b7f5}a:hover{color:#f0ddff}
+header{background:rgba(26,21,36,.94)}
+.brand{color:#f5efff}.brand b{color:#ddc5f4}
+.hero{border-color:#51405f;background:linear-gradient(120deg,#3b2b4c,#2d223c 55%,#382636)}
+.hero:after{background:linear-gradient(135deg,#9572b9,#b27d9c);opacity:.22}
+.eyebrow,.kicker{color:#cfb7e6}.hero h1{color:#ecdcfc}.hero p{color:#d1c1dd}
+.story,.glass,.archive{background:rgba(37,29,49,.97)}
+.story:hover{border-color:#8f6aaa;box-shadow:0 16px 38px rgba(0,0,0,.28)}
+.story:first-child{background:linear-gradient(120deg,#352841,#2b2139);border-color:#695078}
+.story h2{color:#f4ebff}.story p{color:#d5c9e0}
+.why{background:#392b46;color:#e0cfef!important}
+.archive h2{color:#e1d0ef}
+.translation-note{color:#f1cede!important;background:#412c3b;border-color:#67425b}
+.date-navigation time{color:#dbc5ef}
+/* Freeze colors of navigation, archive, date, and companion-site buttons. */
+nav a,.date-navigation .date-button,.sister-site{border-color:#dfd4f0}
+nav a:hover,.date-navigation .date-button:hover,.sister-site:hover{color:#452776}
+.date-navigation .date-button{color:#6744ac}
+.archive li a{color:#6744ac}.archive li a:hover{color:#452776}
