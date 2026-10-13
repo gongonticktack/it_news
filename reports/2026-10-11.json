@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-11",
+  "items": [
+    {
+      "title": "Deno is joining Cloudflare",
+      "summary": "The Deno team is joining Cloudflare to radically simplify self-hosting Workers and Durable Objects, so developers can use the same primitives in more places.",
+      "url": "https://blog.cloudflare.com/deno-joins-cloudflare",
+      "source": "Cloudflare Blog",
+      "published": "2026-10-09 21:50 JST",
+      "topic": "開発・OSS",
+      "title_ja": "DenoがCloudflareに加わります",
+      "overview": "Denoチームは、セルフホスティングワーカーと耐久性のあるオブジェクトを抜本的に簡素化するためにCloudflareに参加し、開発者がより多くの場所で同じプリミティブを使用できるようにしています。",
+      "title_en": "Deno is joining Cloudflare",
+      "overview_en": "The Deno team is joining Cloudflare to radically simplify self-hosting Workers and Durable Objects, so developers can use the same primitives in more places.",
+      "importance": "開発者が使えるツールや技術の選択肢に関わる可能性があります。"
+    },
+    {
+      "title": "MicrosoftがDecision 1発表、JevにQwenで挑む",
+      "summary": "MicrosoftがDecision 1発表、JevにQwenで挑む Pasquale Pillitteri",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQMlRtbUpmNE5YWEQ2ZVFEcFB6YlhOX0NMa0NaVC13NzhjMm13OTNmQW5mVk1sc1A0cU5DVGxYSHhncWlEQjVOTDB3M2ZBNlFwR2VlbEFYRm9rOWtmeGk1aWdBUnhISHU3WnZvRDBGRmhfVFBPVUtaUHFpdmhkWVNtNVdCTDFmYnVqbkE4",
+      "source": "Pasquale Pillitteri",
+      "published": "2026-10-10 23:50 JST",
+      "topic": "AI・LLM",
+      "title_ja": "MicrosoftがDecision 1発表、JevにQwenで挑む",
+      "overview": "MicrosoftがDecision 1発表、JevにQwenで挑む Pasquale Pillitteri",
+      "title_en": "Microsoft Announces Decision 1, Challenges Jev with Qwen",
+      "overview_en": "Microsoft Announces Decision 1, Pasquale Pillitteri Challenges Jev with Qwen",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "Jev超えの判断特化型AI「Clef」をCloudflareが公開、1件平均0.25秒で判断する爆速「Jeff」など生成AI技術5つを解説（生成AIウィークリー）",
+      "summary": "Jev超えの判断特化型AI「Clef」をCloudflareが公開、1件平均0.25秒で判断する爆速「Jeff」など生成AI技術5つを解説（生成AIウィークリー） テクノエッジ TechnoEdge",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE54c2w0d1lfZnVSN3dIZ1NVUzQ4cEdTYmV2LVFUSXJ3Mk5yeUx4R25MY3ltRHJFZW9pMW16NGZ3aXRBZnJjWUVwekRuOGs4Zm9Rclcwc1FBektGTkNuWk9zcHFOWWN6ODg",
+      "source": "テクノエッジ TechnoEdge",
+      "published": "2026-10-08 12:10 JST",
+      "topic": "AI・LLM",
+      "title_ja": "Jev超えの判断特化型AI「Clef」をCloudflareが公開、1件平均0.25秒で判断する爆速「Jeff」など生成AI技術5つを解説（生成AIウィークリー）",
+      "overview": "Jev超えの判断特化型AI「Clef」をCloudflareが公開、1件平均0.25秒で判断する爆速「Jeff」など生成AI技術5つを解説（生成AIウィークリー） テクノエッジ TechnoEdge",
+      "title_en": "Cloudflare publishes Clef, a specialized AI that exceeds Jev's judgment, and explains five generative AI technologies such as Jeff, which determines the explosion rate in an average of 0.25 seconds per case (Generative AI Weekly)",
+      "overview_en": "Cloudflare publishes Clef, a specialized AI that exceeds Jev's judgment, and explains five generative AI technologies such as Jeff, which determines the explosion rate in an average of 0.25 seconds (Generative AI Weekly) TechnoEdge",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "「Microsoft Edge 155」が公開 ～「JPEG XL」デコードに対応、AIタブ整理機能も強化／大量のセキュリティ修正も",
+      "summary": "「Microsoft Edge 155」が公開 ～「JPEG XL」デコードに対応、AIタブ整理機能も強化／大量のセキュリティ修正も 窓の杜",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5lV3dRUFZVUDdLWERLR2hTY1VPN1lTaGF2MGQ2RWNqNGtkRFl1WDRLamZyY2lIWTJ3RWVONUVqSWFBTmlTaHZBbENRYnQ2MlBiZUUwclNYekdzUlVteFNXdFhRRG5hMXVh",
+      "source": "窓の杜",
+      "published": "2026-10-09 15:44 JST",
+      "topic": "セキュリティ",
+      "title_ja": "「Microsoft Edge 155」が公開 ～「JPEG XL」デコードに対応、AIタブ整理機能も強化／大量のセキュリティ修正も",
+      "overview": "「Microsoft Edge 155」が公開 ～「JPEG XL」デコードに対応、AIタブ整理機能も強化／大量のセキュリティ修正も 窓の杜",
+      "title_en": "\"Microsoft Edge 155\" released ~ \"JPEG XL\" decoding support, AI tab organization function and enhancements/a large number of security fixes",
+      "overview_en": "\"Microsoft Edge 155\" released ~ \"JPEG XL\" decoding support, AI tab organizing function is also enhanced/a large number of security fixes are also in the window",
+      "importance": "システムの安全性や対策の見直しに関わる可能性があります。"
+    },
+    {
+      "title": "FastMetal、Anthropic社の最新小型モデル「Claude Haiku 5.5」を提供開始",
+      "summary": "FastMetal、Anthropic社の最新小型モデル「Claude Haiku 5.5」を提供開始 PR TIMES",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5QSllHTVhiUmhtQXFsRmN3Rk5ib1VQLUdBanlvSFdMU3J4ZE5LTV8wQW91YnNzRXFzaGsxYnRlSmxPbVRyai1zdWluZ1Y5V3VVSi1SMmR2UmtMQWdyOXRhTEFUV0JHekdlY2c",
+      "source": "PR TIMES",
+      "published": "2026-10-09 10:07 JST",
+      "topic": "AI・LLM",
+      "title_ja": "FastMetal、Anthropic社の最新小型モデル「Claude Haiku 5.5」を提供開始",
+      "overview": "FastMetal、Anthropic社の最新小型モデル「Claude Haiku 5.5」を提供開始 PR TIMES",
+      "title_en": "FastMetal launches Anthropic's newest compact model, Claude Haiku 5.5",
+      "overview_en": "FastMetal launches Anthropic's newest compact model, Claude Haiku 5.5 PR times",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    }
+  ],
+  "reconstructed": true,
+  "cutoff": "2026-10-11T07:00:00+09:00",
+  "generated_at": "2026-10-13T22:15:08.978056+09:00"
+}

@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-09",
+  "items": [
+    {
+      "title": "Bridging technical depth and usability: The story behind Radar’s redesign",
+      "summary": "We redesigned Cloudflare Radar to make real-time global traffic and outage data accessible to a wider audience — including journalists, less technical researchers, and everyday users. By introducing an interactive map and standardized components, we simplified navigation while preserving technical depth.",
+      "url": "https://blog.cloudflare.com/radar-redesign",
+      "source": "Cloudflare Blog",
+      "published": "2026-10-08 22:00 JST",
+      "topic": "クラウド",
+      "title_ja": "技術的な深さとユーザビリティの橋渡し：レーダーの再設計の背景にあるストーリー",
+      "overview": "Cloudflare Radarを再設計し、リアルタイムのグローバルトラフィックと停電データに、ジャーナリスト、技術的な研究者、日常的なユーザーなど、幅広いオーディエンスがアクセスできるようにしました。インタラクティブな地図と標準化されたコンポーネントを導入することで、技術的な深さを維持しながらナビゲーションを簡素化しました。",
+      "title_en": "Bridging technical depth and usability: The story behind Radar’s redesign",
+      "overview_en": "We redesigned Cloudflare Radar to make real-time global traffic and outage data accessible to a wider audience — including journalists, less technical researchers, and everyday users. By introducing an interactive map and standardized components, we simplified navigation while preserving technical depth.",
+      "importance": "クラウドサービスの機能や運用方法に関わる可能性があります。"
+    },
+    {
+      "title": "How one bug bounty researcher chooses the features they investigate",
+      "summary": "As we kick off Cybersecurity Awareness Month, the GitHub Bug Bounty team spotlights @vaib25vicky, exploring their methodology, techniques, and experiences hacking on GitHub. The post How one bug bounty researcher chooses the features they investigate appeared first on The GitHub Blog .",
+      "url": "https://github.blog/security/how-one-bug-bounty-researcher-chooses-the-features-they-investigate",
+      "source": "GitHub Blog",
+      "published": "2026-10-09 02:02 JST",
+      "topic": "開発・OSS",
+      "title_ja": "1人のバグ報奨金研究者が調査対象の機能を選択する方法",
+      "overview": "サイバーセキュリティ啓発月間の開始にあたり、GitHubバグバウンティチームは@ vaib 25 vickyにスポットライトを当て、GitHubでのハッキングの方法論、テクニック、経験を探ります。1人のバグ報奨金研究者が調査した機能を選択する方法の投稿は、GitHubブログに最初に掲載されました。",
+      "title_en": "How one bug bounty researcher chooses the features they investigate",
+      "overview_en": "As we kick off Cybersecurity Awareness Month, the GitHub Bug Bounty team spotlights @vaib25vicky, exploring their methodology, techniques, and experiences hacking on GitHub. The post How one bug bounty researcher chooses the features they investigate appeared first on The GitHub Blog .",
+      "importance": "開発者が使えるツールや技術の選択肢に関わる可能性があります。"
+    },
+    {
+      "title": "Google CloudがGeminiを発表、仕事向けのユニバーサルエージェント",
+      "summary": "Google CloudがGeminiを発表、仕事向けのユニバーサルエージェント Unite.AI",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNN3dDZkZBck1PQVQzaVF5LS1fOTl4cm5INmlza3c4MlcweEtNQ0xLNGgtMXJSQ181dDRBNmV4OGlrb05MZ1VkZGtsLUZXNThwZG9meV9pZllIMGpKN21jQnJBNmwwYlNpbllWUHd5SWNycENNRFdaYnVxQ21ZakRDTWhuME5wWWpP",
+      "source": "Unite.AI",
+      "published": "2026-10-08 21:49 JST",
+      "topic": "AI・LLM",
+      "title_ja": "Google CloudがGeminiを発表、仕事向けのユニバーサルエージェント",
+      "overview": "Google CloudがGeminiを発表、仕事向けのユニバーサルエージェント Unite.AI",
+      "title_en": "Google Cloud Announces Gemini, Universal Agent for Work",
+      "overview_en": "Google Cloud Announces Gemini, Universal Agent for Work Unite.AI",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "AWSのマット・ガーマンCEO：エージェントには「30秒未満のアカウント」と「マシンスピードのセキュリティ」が必要",
+      "summary": "AWSのマット・ガーマンCEO：エージェントには「30秒未満のアカウント」と「マシンスピードのセキュリティ」が必要 BigGo ファイナンス",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE00blE1ZGtLV2I4ZjRtRkd5VGt2OWJNU1ZmdmpCM2FQdDFnd1JBclUtaHJNeTU5c1ctbXdEN1FNeXVBbXhUdkJnSU5PdURrR21pcHZrUFhTZERuUQ",
+      "source": "BigGo ファイナンス",
+      "published": "2026-10-09 01:08 JST",
+      "topic": "AI・LLM",
+      "title_ja": "AWSのマット・ガーマンCEO：エージェントには「30秒未満のアカウント」と「マシンスピードのセキュリティ」が必要",
+      "overview": "AWSのマット・ガーマンCEO：エージェントには「30秒未満のアカウント」と「マシンスピードのセキュリティ」が必要 BigGo ファイナンス",
+      "title_en": "AWS CEO Matt German: Agents need “Accounts under 30 seconds” and “Machine Speed Security”",
+      "overview_en": "AWS CEO Matt German: Agents need “accounts under 30 seconds” and “machine speed security” BigGo Finance",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "The model that didn't exist, so you made it yourself",
+      "summary": "",
+      "url": "https://huggingface.co/blog/building-with-ml-intern",
+      "source": "Hugging Face",
+      "published": "2026-10-08 09:00 JST",
+      "topic": "AI・LLM",
+      "title_ja": "存在しなかったモデルなので自分で作った",
+      "overview": "配信元から記事の概要が提供されていません。",
+      "title_en": "The model that didn't exist, so you made it yourself",
+      "overview_en": "No summary was provided by the source.",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    }
+  ],
+  "reconstructed": true,
+  "cutoff": "2026-10-09T07:00:00+09:00",
+  "generated_at": "2026-10-13T22:14:41.042089+09:00"
+}

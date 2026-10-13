@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-01",
+  "items": [
+    {
+      "title": "Celebrating Our Newest AWS Heroes – September 2026",
+      "summary": "Today, we’re excited to introduce the newest members of the AWS Heroes program. AWS Heroes are a vibrant, worldwide group of AWS experts who go above and beyond to share knowledge, mentor others, and build thriving communities. These individuals make a real difference in helping developers and organizations succeed with AWS. This month, we welcome […]",
+      "url": "https://aws.amazon.com/blogs/aws/celebrating-our-newest-aws-heroes-september-2026",
+      "source": "AWS News Blog",
+      "published": "2026-10-01 02:04 JST",
+      "topic": "開発・OSS",
+      "title_ja": "最新のAWSヒーローを祝う– 2026年9月",
+      "overview": "本日は、AWSヒーロープログラムの最新メンバーをご紹介します。AWS Heroesは、知識を共有し、他の人を指導し、繁栄するコミュニティを構築するために、AWSのエキスパートで構成される活気に満ちた世界的なグループです。これらの個人は、AWSで開発者や組織の成功を支援する上で大きな違いをもたらします。今月は、[…]を歓迎します",
+      "title_en": "Celebrating Our Newest AWS Heroes – September 2026",
+      "overview_en": "Today, we’re excited to introduce the newest members of the AWS Heroes program. AWS Heroes are a vibrant, worldwide group of AWS experts who go above and beyond to share knowledge, mentor others, and build thriving communities. These individuals make a real difference in helping developers and organizations succeed with AWS. This month, we welcome […]",
+      "importance": "開発者が使えるツールや技術の選択肢に関わる可能性があります。"
+    },
+    {
+      "title": "How we found 24 Android vulnerabilities using our open source AI security agent",
+      "summary": "A look at the targeted AI taskflows behind these findings, the critical Android bugs they uncovered, and how to run the same open-source agent on your own app. The post How we found 24 Android vulnerabilities using our open source AI security agent appeared first on The GitHub Blog .",
+      "url": "https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent",
+      "source": "GitHub Blog",
+      "published": "2026-09-29 04:00 JST",
+      "topic": "AI・LLM",
+      "title_ja": "オープンソースのAIセキュリティエージェントを使用して24のAndroid脆弱性を発見した方法",
+      "overview": "これらの調査結果の背後にあるターゲットを絞ったAIタスクフロー、発見された重要なAndroidバグ、および自分のアプリで同じオープンソースエージェントを実行する方法を見てみましょう。オープンソースのAIセキュリティエージェントを使用して24件のAndroid脆弱性を発見した方法の投稿は、GitHubブログに最初に掲載されました。",
+      "title_en": "How we found 24 Android vulnerabilities using our open source AI security agent",
+      "overview_en": "A look at the targeted AI taskflows behind these findings, the critical Android bugs they uncovered, and how to run the same open-source agent on your own app. The post How we found 24 Android vulnerabilities using our open source AI security agent appeared first on The GitHub Blog .",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "Developer policy update: Transparency, state policy, and what’s ahead",
+      "summary": "Explore GitHub’s latest transparency data and learn more about policy updates affecting developers and open source. The post Developer policy update: Transparency, state policy, and what’s ahead appeared first on The GitHub Blog .",
+      "url": "https://github.blog/news-insights/policy-news-and-insights/developer-policy-update-transparency-state-policy-and-whats-ahead",
+      "source": "GitHub Blog",
+      "published": "2026-09-30 00:00 JST",
+      "topic": "開発・OSS",
+      "title_ja": "開発者向けポリシーの最新情報：透明性、州のポリシー、今後の展開",
+      "overview": "GitHubの最新の透明性データを確認し、開発者やオープンソースに影響を与えるポリシー更新の詳細をご覧ください。ポストデベロッパーポリシーアップデート：透明性、州ポリシー、今後の展開は、GitHubブログに最初に掲載されました。",
+      "title_en": "Developer policy update: Transparency, state policy, and what’s ahead",
+      "overview_en": "Explore GitHub’s latest transparency data and learn more about policy updates affecting developers and open source. The post Developer policy update: Transparency, state policy, and what’s ahead appeared first on The GitHub Blog .",
+      "importance": "開発者が使えるツールや技術の選択肢に関わる可能性があります。"
+    },
+    {
+      "title": "Amazon S3 Vectors now supports metadata pre-filtering for higher recall on filtered searches",
+      "summary": "Amazon S3 Vectors now supports metadata pre filtering, delivering up to 5x higher recall on filtered searches. Filters evaluate before similarity search so scoped queries return more relevant results. Ideal for RAG, agentic apps, and document search.",
+      "url": "https://aws.amazon.com/blogs/aws/amazon-s3-vectors-now-supports-metadata-pre-filtering-for-higher-recall-on-filtered-searches",
+      "source": "AWS News Blog",
+      "published": "2026-10-01 05:03 JST",
+      "topic": "AI・LLM",
+      "title_ja": "Amazon S 3 Vectorsは、フィルタリングされた検索のリコール率を高めるためにメタデータの事前フィルタリングをサポートするようになりました",
+      "overview": "Amazon S 3 Vectorsはメタデータの事前フィルタリングをサポートし、フィルタリングされた検索で最大5倍のリコールを実現します。フィルタは類似性検索の前に評価されるため、スコープ付きクエリはより関連性の高い結果を返します。RAG、エージェントアプリ、ドキュメント検索に最適です。",
+      "title_en": "Amazon S3 Vectors now supports metadata pre-filtering for higher recall on filtered searches",
+      "overview_en": "Amazon S3 Vectors now supports metadata pre filtering, delivering up to 5x higher recall on filtered searches. Filters evaluate before similarity search so scoped queries return more relevant results. Ideal for RAG, agentic apps, and document search.",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "AWS、AIエージェントを自作できるツール「Strandsハーネス」をオープンソースで公開。特定のLLMに依存せず入れ替え可能、任意のコンテナ環境にデプロイ",
+      "summary": "AWS、AIエージェントを自作できるツール「Strandsハーネス」をオープンソースで公開。特定のLLMに依存せず入れ替え可能、任意のコンテナ環境にデプロイ Publickey",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5pYTdscG5Uc1NEd0VuVi1ReVVEa0theFFubTBoekZkRERIMU1BT1lLZGdfSy1GZElmUTVTUHREamE2Yk40ZjctY2ZveGlyYWtMclVIcjRpNUZzTFN2ZU9tZGlpbVU",
+      "source": "Publickey",
+      "published": "2026-09-29 16:00 JST",
+      "topic": "AI・LLM",
+      "title_ja": "AWS、AIエージェントを自作できるツール「Strandsハーネス」をオープンソースで公開。特定のLLMに依存せず入れ替え可能、任意のコンテナ環境にデプロイ",
+      "overview": "AWS、AIエージェントを自作できるツール「Strandsハーネス」をオープンソースで公開。特定のLLMに依存せず入れ替え可能、任意のコンテナ環境にデプロイ Publickey",
+      "title_en": "AWS releases Strands Harness, an open-source tool that allows users to create their own AI agents. Can be swapped independently of specific LLMs, deployed in any container environment",
+      "overview_en": "AWS releases Strands Harness, an open-source tool that allows users to create their own AI agents. Can be swapped independently of specific LLMs, deploying Publickey to any container environment",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    }
+  ],
+  "reconstructed": true,
+  "cutoff": "2026-10-01T07:00:00+09:00",
+  "generated_at": "2026-10-13T22:12:10.257885+09:00"
+}

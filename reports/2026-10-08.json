@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-08",
+  "items": [
+    {
+      "title": "Building an evidence-grounded agentic security operations harness on Cloudflare",
+      "summary": "Cloudflare Managed Defense uses a team of specialized AI agents built on Workers and global network telemetry to analyze security alerts. By separating deterministic evidence collection from model inference, the system delivers grounded recommendations to Managed Defense Analysts.",
+      "url": "https://blog.cloudflare.com/agentic-security-operations",
+      "source": "Cloudflare Blog",
+      "published": "2026-10-08 01:30 JST",
+      "topic": "AI・LLM",
+      "title_ja": "Cloudflareでエビデンスに基づいたエージェント型セキュリティ運用ハーネスを構築する",
+      "overview": "Cloudflare Managed Defenseは、Workersとグローバルネットワークテレメトリに基づいて構築された専門のAIエージェントチームを使用して、セキュリティアラートを分析します。決定論的な証拠収集をモデル推論から分離することにより、システムはマネージドディフェンスアナリストに根拠のある推奨事項を提供します。",
+      "title_en": "Building an evidence-grounded agentic security operations harness on Cloudflare",
+      "overview_en": "Cloudflare Managed Defense uses a team of specialized AI agents built on Workers and global network telemetry to analyze security alerts. By separating deterministic evidence collection from model inference, the system delivers grounded recommendations to Managed Defense Analysts.",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "Introducing Falcon ASR",
+      "summary": "",
+      "url": "https://huggingface.co/blog/tiiuae/falcon-asr",
+      "source": "Hugging Face",
+      "published": "2026-10-07 22:21 JST",
+      "topic": "IT全般",
+      "title_ja": "Falcon ASRのご紹介",
+      "overview": "配信元から記事の概要が提供されていません。",
+      "title_en": "Introducing Falcon ASR",
+      "overview_en": "No summary was provided by the source.",
+      "importance": "IT分野の最新動向として確認する価値があります。"
+    },
+    {
+      "title": "Introducing Playground: Create and play custom games",
+      "summary": "Overview of Playground",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform",
+      "source": "Google Blog AI",
+      "published": "2026-10-07 21:00 JST",
+      "topic": "IT全般",
+      "title_ja": "プレイグラウンドのご紹介：カスタムゲームの作成とプレイ",
+      "overview": "プレイグラウンドの概要",
+      "title_en": "Introducing Playground: Create and play custom games",
+      "overview_en": "Overview of Playground",
+      "importance": "IT分野の最新動向として確認する価値があります。"
+    },
+    {
+      "title": "Secret protection must scale with software",
+      "summary": "Developers aren’t becoming more careless; they’re being outpaced. The tools that let developers create more software should also take on more of the work of protecting it. The post Secret protection must scale with software appeared first on The GitHub Blog .",
+      "url": "https://github.blog/ai-and-ml/github-copilot/secret-protection-must-scale-with-software",
+      "source": "GitHub Blog",
+      "published": "2026-10-08 02:45 JST",
+      "topic": "開発・OSS",
+      "title_ja": "秘密保護はソフトウェアに合わせて拡張する必要があります",
+      "overview": "開発者は不注意になっているのではなく、追い越されているのです。開発者がより多くのソフトウェアを作成できるようにするツールも、それを保護するためのより多くの作業を引き受ける必要があります。POSTシークレットプロテクションは、GitHubブログで最初に登場したソフトウェアに合わせて拡張する必要があります。",
+      "title_en": "Secret protection must scale with software",
+      "overview_en": "Developers aren’t becoming more careless; they’re being outpaced. The tools that let developers create more software should also take on more of the work of protecting it. The post Secret protection must scale with software appeared first on The GitHub Blog .",
+      "importance": "開発者が使えるツールや技術の選択肢に関わる可能性があります。"
+    },
+    {
+      "title": "Multimodal open d1 decision models for the edge",
+      "summary": "",
+      "url": "https://huggingface.co/blog/LiquidAI/open-d1",
+      "source": "Hugging Face",
+      "published": "2026-10-08 01:54 JST",
+      "topic": "AI・LLM",
+      "title_ja": "エッジのマルチモーダルオープンd 1意思決定モデル",
+      "overview": "配信元から記事の概要が提供されていません。",
+      "title_en": "Multimodal open d1 decision models for the edge",
+      "overview_en": "No summary was provided by the source.",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    }
+  ],
+  "reconstructed": true,
+  "cutoff": "2026-10-08T07:00:00+09:00",
+  "generated_at": "2026-10-13T22:14:19.030343+09:00"
+}

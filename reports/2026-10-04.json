@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-04",
+  "items": [
+    {
+      "title": "Follow the thread: a new dashboard to investigate account abuse",
+      "summary": "Fraudsters are increasingly using AI to bypass stateless security checks. Cloudflare's new Account Abuse Protection dashboard uses stateful analysis and edge-generated Hashed User IDs to help teams investigate and block account abuse.",
+      "url": "https://blog.cloudflare.com/account-abuse-protection-dashboard",
+      "source": "Cloudflare Blog",
+      "published": "2026-10-02 22:00 JST",
+      "topic": "AI・LLM",
+      "title_ja": "スレッドに従い、新しいダッシュボードを使用してアカウントの不正使用を調査します。",
+      "overview": "詐欺師はますますAIを使用してステートレスセキュリティチェックを回避しています。Cloudflareの新しいアカウント不正使用防止ダッシュボードは、ステートフル分析とエッジ生成のハッシュ化されたユーザーIDを使用して、チームがアカウント不正使用を調査してブロックするのに役立ちます。",
+      "title_en": "Follow the thread: a new dashboard to investigate account abuse",
+      "overview_en": "Fraudsters are increasingly using AI to bypass stateless security checks. Cloudflare's new Account Abuse Protection dashboard uses stateful analysis and edge-generated Hashed User IDs to help teams investigate and block account abuse.",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "8 major updates to Cloudflare Observability",
+      "summary": "Cloudflare is launching eight major updates that bring logs, traces, analytics, alerts, dashboards, querying, and telemetry export into one observability platform, with simpler and more predictable pricing.",
+      "url": "https://blog.cloudflare.com/one-observability-platform",
+      "source": "Cloudflare Blog",
+      "published": "2026-10-03 03:00 JST",
+      "topic": "クラウド",
+      "title_ja": "Cloudflare Observabilityの8つの主要なアップデート",
+      "overview": "Cloudflareは、ログ、トレース、分析、アラート、ダッシュボード、クエリ、テレメトリのエクスポートを1つの観測プラットフォームに統合し、よりシンプルで予測可能な価格設定を実現する8つの主要なアップデートをリリースします。",
+      "title_en": "8 major updates to Cloudflare Observability",
+      "overview_en": "Cloudflare is launching eight major updates that bring logs, traces, analytics, alerts, dashboards, querying, and telemetry export into one observability platform, with simpler and more predictable pricing.",
+      "importance": "クラウドサービスの機能や運用方法に関わる可能性があります。"
+    },
+    {
+      "title": "Cloudflareが新モデルClefを公開、意思決定AIでJevに挑む",
+      "summary": "Cloudflareが新モデルClefを公開、意思決定AIでJevに挑む Pasquale Pillitteri",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE42bTA1Qmd6M0hKQmRtXzh1M01yU2pqTHp4UHBlSEQyNjdSUkNOMmJSNWpZcHYybENaTWJoak1fNVN3RnlWU0JXMXlSVmR3bXg2N0JQR1RYMkw2b1Jkb2ZyYkRvTEhrUXhBdDRWZW5aMmpQcGxxNHdFbzByLTA",
+      "source": "Pasquale Pillitteri",
+      "published": "2026-10-02 17:56 JST",
+      "topic": "AI・LLM",
+      "title_ja": "Cloudflareが新モデルClefを公開、意思決定AIでJevに挑む",
+      "overview": "Cloudflareが新モデルClefを公開、意思決定AIでJevに挑む Pasquale Pillitteri",
+      "title_en": "Cloudflare Reveals New Model Clef, Challenges Jev with Decision AI",
+      "overview_en": "Cloudflare Reveals New Model Clef, Pasquale Pillitteri Challenges Jev with Decision AI",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "Google「Gemini 4 Argon」発表 出力上限100万トークン、企業業務の4指標でGPT-6 Astraなど上回る まずはサイバー防御向けに限定提供",
+      "summary": "Google「Gemini 4 Argon」発表 出力上限100万トークン、企業業務の4指標でGPT-6 Astraなど上回る まずはサイバー防御向けに限定提供 Ledge.ai",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0tZC1uajlVWEd2c21DMFo3NWpRaGVyR25MdHZOQURzeDZ4aU5qdTVFcEtBRXNZLUxUQW8zNzRSdmR4RHRkSHQ3ME53RG81YUZhWV95Zmc5ckRrYmM",
+      "source": "Ledge.ai",
+      "published": "2026-10-02 16:00 JST",
+      "topic": "AI・LLM",
+      "title_ja": "Google「Gemini 4 Argon」発表 出力上限100万トークン、企業業務の4指標でGPT-6 Astraなど上回る まずはサイバー防御向けに限定提供",
+      "overview": "Google「Gemini 4 Argon」発表 出力上限100万トークン、企業業務の4指標でGPT-6 Astraなど上回る まずはサイバー防御向けに限定提供 Ledge.ai",
+      "title_en": "Google \"Gemini 4 Argon\" Announces Output Limit of 1 Million Tokens, Exceeding GPT-6 Astra in 4 Indicators of Corporate Operations, etc. First Limited Offer for Cyber Defense",
+      "overview_en": "Google \"Gemini 4 Argon\" Announces Output Limit of 1 Million Tokens, Exceeds GPT-6 Astra in 4 Indicators of Corporate Operations, etc. First, Limited Offer for Cyber Defense Ledge.ai",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "DeepSeek、Huawei Ascend向けAI基盤をオープンソース化。NVIDIA CUDA依存低減へ",
+      "summary": "DeepSeek、Huawei Ascend向けAI基盤をオープンソース化。NVIDIA CUDA依存低減へ マイナビニュース",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1nRjRoRkQ2T00tZG5nQXFxWmFTYXVkWWJpLTB4MmZiMDFNbnl5U3ZHQ3h5RFNmdHN3bHVBelI0eXZCY2F5XzlWbWdlR3N1VnFYTWtmaUdfMEZZRjQ3",
+      "source": "マイナビニュース",
+      "published": "2026-10-02 16:00 JST",
+      "topic": "AI・LLM",
+      "title_ja": "DeepSeek、Huawei Ascend向けAI基盤をオープンソース化。NVIDIA CUDA依存低減へ",
+      "overview": "DeepSeek、Huawei Ascend向けAI基盤をオープンソース化。NVIDIA CUDA依存低減へ マイナビニュース",
+      "title_en": "Open source AI platform for DeepSeek and Huawei Ascend. Reducing NVIDIA CUDA dependency",
+      "overview_en": "Open source AI platform for DeepSeek and Huawei Ascend. MyNavi News for NVIDIA CUDA Dependency Reduction",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    }
+  ],
+  "reconstructed": true,
+  "cutoff": "2026-10-04T07:00:00+09:00",
+  "generated_at": "2026-10-13T22:13:06.556894+09:00"
+}

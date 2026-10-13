@@ -1,4 +1,246 @@
 {
+  "2026-10-01": [
+    {
+      "title": "Celebrating Our Newest AWS Heroes – September 2026",
+      "url": "https://aws.amazon.com/blogs/aws/celebrating-our-newest-aws-heroes-september-2026"
+    },
+    {
+      "title": "How we found 24 Android vulnerabilities using our open source AI security agent",
+      "url": "https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent"
+    },
+    {
+      "title": "Developer policy update: Transparency, state policy, and what’s ahead",
+      "url": "https://github.blog/news-insights/policy-news-and-insights/developer-policy-update-transparency-state-policy-and-whats-ahead"
+    },
+    {
+      "title": "Amazon S3 Vectors now supports metadata pre-filtering for higher recall on filtered searches",
+      "url": "https://aws.amazon.com/blogs/aws/amazon-s3-vectors-now-supports-metadata-pre-filtering-for-higher-recall-on-filtered-searches"
+    },
+    {
+      "title": "AWS、AIエージェントを自作できるツール「Strandsハーネス」をオープンソースで公開。特定のLLMに依存せず入れ替え可能、任意のコンテナ環境にデプロイ",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5pYTdscG5Uc1NEd0VuVi1ReVVEa0theFFubTBoekZkRERIMU1BT1lLZGdfSy1GZElmUTVTUHREamE2Yk40ZjctY2ZveGlyYWtMclVIcjRpNUZzTFN2ZU9tZGlpbVU"
+    }
+  ],
+  "2026-10-02": [
+    {
+      "title": "Announcing AWS Well-Architected Agent, an AI-powered intelligence to optimize your cloud environment (preview)",
+      "url": "https://aws.amazon.com/blogs/aws/announcing-aws-well-architected-agent-an-ai-powered-intelligence-to-optimize-your-cloud-environment-preview"
+    },
+    {
+      "title": "Introducing Clef: our open-source decision models, and new RL fine-tuning platform",
+      "url": "https://blog.cloudflare.com/clef-decision-models"
+    },
+    {
+      "title": "Rubrik、Anthropic「Claude Code」向けにAIエージェントのセキュリティ基盤「Rubrik Agent Cloud」を発表",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBuR3BjT083RktwYVhyLUNteG9PTjNoVHBIVXBfaDRJbkRjMnVzWU5vYzRYcTF0LXJPZFhJMmJFWXBtcnkzMEhYQTNQaw"
+    },
+    {
+      "title": "10 technical talks I’m excited about at GitHub Universe 2026",
+      "url": "https://github.blog/news-insights/company-news/10-technical-talks-im-excited-about-at-github-universe-2026"
+    },
+    {
+      "title": "AeyeScan、生成AIを搭載したモバイルアプリ脆弱性診断機能をリリース",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9CZzJwZXF0ZWF1Tk5sa3V1bmVmb2hJMndRLVg4UWdxazhCTFZOdmtVbWNtYm1LRzB0QlIzVkpYakowVFo4RjhuZzQ0dmgya1hCcGVoaUR1OHpQTU0"
+    }
+  ],
+  "2026-10-03": [
+    {
+      "title": "Introducing Web Search API via AI Gateway",
+      "url": "https://blog.cloudflare.com/introducing-web-search-api"
+    },
+    {
+      "title": "Introducing Cloudflare Traces: follow requests through our entire platform",
+      "url": "https://blog.cloudflare.com/cloudflare-tracing"
+    },
+    {
+      "title": "The latest AI news we announced in September 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026"
+    },
+    {
+      "title": "AI is changing developer work. Here are three skills to strengthen.",
+      "url": "https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out"
+    },
+    {
+      "title": "AutoSynthData: Generating Training Data for Enterprise Agents",
+      "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata"
+    }
+  ],
+  "2026-10-04": [
+    {
+      "title": "Follow the thread: a new dashboard to investigate account abuse",
+      "url": "https://blog.cloudflare.com/account-abuse-protection-dashboard"
+    },
+    {
+      "title": "8 major updates to Cloudflare Observability",
+      "url": "https://blog.cloudflare.com/one-observability-platform"
+    },
+    {
+      "title": "Cloudflareが新モデルClefを公開、意思決定AIでJevに挑む",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE42bTA1Qmd6M0hKQmRtXzh1M01yU2pqTHp4UHBlSEQyNjdSUkNOMmJSNWpZcHYybENaTWJoak1fNVN3RnlWU0JXMXlSVmR3bXg2N0JQR1RYMkw2b1Jkb2ZyYkRvTEhrUXhBdDRWZW5aMmpQcGxxNHdFbzByLTA"
+    },
+    {
+      "title": "Google「Gemini 4 Argon」発表 出力上限100万トークン、企業業務の4指標でGPT-6 Astraなど上回る まずはサイバー防御向けに限定提供",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0tZC1uajlVWEd2c21DMFo3NWpRaGVyR25MdHZOQURzeDZ4aU5qdTVFcEtBRXNZLUxUQW8zNzRSdmR4RHRkSHQ3ME53RG81YUZhWV95Zmc5ckRrYmM"
+    },
+    {
+      "title": "DeepSeek、Huawei Ascend向けAI基盤をオープンソース化。NVIDIA CUDA依存低減へ",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1nRjRoRkQ2T00tZG5nQXFxWmFTYXVkWWJpLTB4MmZiMDFNbnl5U3ZHQ3h5RFNmdHN3bHVBelI0eXZCY2F5XzlWbWdlR3N1VnFYTWtmaUdfMEZZRjQ3"
+    }
+  ],
+  "2026-10-05": [
+    {
+      "title": "Announcing Cloudflare OHTTP Gateway – expanding access to Cloudflare’s privacy-preserving infrastructure",
+      "url": "https://blog.cloudflare.com/announcing-cloudflare-ohttp-gateway"
+    },
+    {
+      "title": "The Agent Said It Was Done. The Database Disagreed.",
+      "url": "https://huggingface.co/blog/microsoft/thinkingbox"
+    },
+    {
+      "title": "Updates on our pledge to make Cloudflare features accessible to everyone",
+      "url": "https://blog.cloudflare.com/enterprise-for-all-update"
+    },
+    {
+      "title": "[写真]AWS Strands Labs、文章を生成せず選択肢を評価する「Strands Decider 2B」を公開",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5LOGkweDFxbnVHdmREWVNuUXZoSGdHUkRXQ2U4b0xSQTFyb2tKMGZzYUxOTWJJeE1vOXk3bG9aOVdXTTdtQm5aMGpfaF8tOC1mOFJVNg"
+    },
+    {
+      "title": "ComfyUIに対話型AIエージェント「Comfy Agent」が登場！「Comfy API」「Comfy Router」で開発者向け基盤も強化",
+      "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxQbmNrRXFydlU3YV95a3dUWktkdERuckROU1R1NGpEekNHaDJxV1dZcEJ6andwdzlvdldvakFMQW14SjJUVVFOSVM5NVZNZlpNXzVGdDM4Rks1cmJoOVdEZWg1RUZpenptWUVJalU0QmlaeTdqLUd2Y1pwSGZnVWNZTFF2UFZrS0RHSDl5a1l5bHRYTnNqUUo5ZkYySW1qck1fdHZTMGR1NThRUkpLZ3k0dnlkMWxySVBOOXp5TTJ2anpKTTZBd250SXF6SFJpQmdadHJkTEJDOHVyLS1DNG9hMVp6SzlfZ2d3OGZJaFU4OXl0QUZwT0RuUE9UdWsyOFRxWldSRmo4STh0U1plRlREX0ZxeWUyLW0yVl9IUGlKZFloSWxOeTVxUFpFTFBPV0twcExqX0hhVlpyWUR3c1p5cUE3eXNmUUU5Uk4zUFJ0SXJCT1NFYmc"
+    }
+  ],
+  "2026-10-06": [
+    {
+      "title": "One year later: the power of 1.1.1.1 interns",
+      "url": "https://blog.cloudflare.com/one-year-later-1111-interns"
+    },
+    {
+      "title": "AWS Weekly Roundup: Amazon Bedrock Managed Agents powered by OpenAI, Q3 service availability updates, Kiro workflows, and more (October 5, 2026)",
+      "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-amazon-bedrock-managed-agents-powered-by-openai-q3-service-availability-updates-kiro-workflows-and-more-october-5-2026"
+    },
+    {
+      "title": "Everything we launched during Birthday Week 2026",
+      "url": "https://blog.cloudflare.com/birthday-week-2026-wrap-up"
+    },
+    {
+      "title": "ReviewBench: An open benchmark for AI code review",
+      "url": "https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review"
+    },
+    {
+      "title": "Meta、AIエージェントMuseをM5Stackやラズパイで使うMuse Gadgets公開 スマート家電連携ハブを無料配布、SDKはオープンソース",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0tR3VwNlZacnluNmNUZnZRb0FjZGpQdzBBblFVTlFXaWg4V2pMVlIwQWdnVlBQX1dEeGY0Y0cxZXZrZFBNSG1scDhDYVBqUy13T2FqaEt4RWtST2RweXoydWR4NExmdVE"
+    }
+  ],
+  "2026-10-07": [
+    {
+      "title": "Building Git infrastructure for agent-scale development",
+      "url": "https://github.blog/engineering/architecture-optimization/building-git-infrastructure-for-agent-scale-development"
+    },
+    {
+      "title": "All the numbers: Amazon Prime Day 2026 powered by AWS",
+      "url": "https://aws.amazon.com/blogs/aws/all-the-numbers-amazon-prime-day-2026-powered-by-aws"
+    },
+    {
+      "title": "The keys to the Internet change on October 11. Are you ready?",
+      "url": "https://blog.cloudflare.com/root-ksk-2024-rollover"
+    },
+    {
+      "title": "Netsujo、AIエージェントの役割・権限を事前検査するOSS「Agent Role Contracts」v0.5.0を正式公開",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5OSTVHZzlLSXNPMFNFbWlMN1pBV05oSEQxZ1ZVODdMVWdCekozc1R4Y1o0NEtYdTBQVWUzVmJXRmdrS3NjdEpEZDVoSG0xT3BSUm1vakotWFFQc2MwXzh0aS1EOFFKYXNNOXc"
+    },
+    {
+      "title": "[AI-Driven Modernization] AIエージェントに規律ある移行作業をさせる「AI Modernization Flow」を公開しました",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOSUN0enMzd1JQSWNpUG5id0RJSi03ejJ4QWRlQy1fUFkyYktzOGh2QUpKR2ZpN19mQTFLZFE0LVQxVVdYZm5ZTG05cGJuZTJaa3R5TW5QVWhYNTd6TE4wYXBXTk1VeGM5cWhTMXMwdHJPMURYYUFlaUtTNGE2QXEzSGd3"
+    }
+  ],
+  "2026-10-08": [
+    {
+      "title": "Building an evidence-grounded agentic security operations harness on Cloudflare",
+      "url": "https://blog.cloudflare.com/agentic-security-operations"
+    },
+    {
+      "title": "Introducing Falcon ASR",
+      "url": "https://huggingface.co/blog/tiiuae/falcon-asr"
+    },
+    {
+      "title": "Introducing Playground: Create and play custom games",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform"
+    },
+    {
+      "title": "Secret protection must scale with software",
+      "url": "https://github.blog/ai-and-ml/github-copilot/secret-protection-must-scale-with-software"
+    },
+    {
+      "title": "Multimodal open d1 decision models for the edge",
+      "url": "https://huggingface.co/blog/LiquidAI/open-d1"
+    }
+  ],
+  "2026-10-09": [
+    {
+      "title": "Bridging technical depth and usability: The story behind Radar’s redesign",
+      "url": "https://blog.cloudflare.com/radar-redesign"
+    },
+    {
+      "title": "How one bug bounty researcher chooses the features they investigate",
+      "url": "https://github.blog/security/how-one-bug-bounty-researcher-chooses-the-features-they-investigate"
+    },
+    {
+      "title": "Google CloudがGeminiを発表、仕事向けのユニバーサルエージェント",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNN3dDZkZBck1PQVQzaVF5LS1fOTl4cm5INmlza3c4MlcweEtNQ0xLNGgtMXJSQ181dDRBNmV4OGlrb05MZ1VkZGtsLUZXNThwZG9meV9pZllIMGpKN21jQnJBNmwwYlNpbllWUHd5SWNycENNRFdaYnVxQ21ZakRDTWhuME5wWWpP"
+    },
+    {
+      "title": "AWSのマット・ガーマンCEO：エージェントには「30秒未満のアカウント」と「マシンスピードのセキュリティ」が必要",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE00blE1ZGtLV2I4ZjRtRkd5VGt2OWJNU1ZmdmpCM2FQdDFnd1JBclUtaHJNeTU5c1ctbXdEN1FNeXVBbXhUdkJnSU5PdURrR21pcHZrUFhTZERuUQ"
+    },
+    {
+      "title": "The model that didn't exist, so you made it yourself",
+      "url": "https://huggingface.co/blog/building-with-ml-intern"
+    }
+  ],
+  "2026-10-10": [
+    {
+      "title": "Introducing Clef-omni with full multimodality, plus a faster Clef and a cheaper Clef-flash",
+      "url": "https://blog.cloudflare.com/clef-faster-cheaper-multimodal"
+    },
+    {
+      "title": "Introducing on-demand CPU and memory profiling with flamegraphs for Workers and Durable Objects",
+      "url": "https://blog.cloudflare.com/workers-on-demand-profiling"
+    },
+    {
+      "title": "Hack the World: Why hackathons are still the best place to learn to build",
+      "url": "https://github.blog/developer-skills/career-growth/hack-the-world-why-hackathons-are-still-the-best-place-to-learn-to-build"
+    },
+    {
+      "title": "Impactful scheduling for GPU clusters",
+      "url": "https://huggingface.co/blog/allenai/impactful-scheduling"
+    },
+    {
+      "title": "オープンソースAIエージェント「Hermes Agent」のNous Research、NVIDIAなどから9,000万ドルを調達",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0tOEcxSlhLbE1HQUpvRFMxX3YzWmtYbXhEcDR4NjJEYk5vLTUtM3R5UnhWTmhib0g0elBnb0FZcnVIcVRXcGk3Rm1JeUhudDN6Q1dUa21Ha3FmYTFiN2tjVFJ5dDFtR3dycWZtSFZFc3Y3LVZmUlhxdVYwaHZINlU"
+    }
+  ],
+  "2026-10-11": [
+    {
+      "title": "Deno is joining Cloudflare",
+      "url": "https://blog.cloudflare.com/deno-joins-cloudflare"
+    },
+    {
+      "title": "MicrosoftがDecision 1発表、JevにQwenで挑む",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQMlRtbUpmNE5YWEQ2ZVFEcFB6YlhOX0NMa0NaVC13NzhjMm13OTNmQW5mVk1sc1A0cU5DVGxYSHhncWlEQjVOTDB3M2ZBNlFwR2VlbEFYRm9rOWtmeGk1aWdBUnhISHU3WnZvRDBGRmhfVFBPVUtaUHFpdmhkWVNtNVdCTDFmYnVqbkE4"
+    },
+    {
+      "title": "Jev超えの判断特化型AI「Clef」をCloudflareが公開、1件平均0.25秒で判断する爆速「Jeff」など生成AI技術5つを解説（生成AIウィークリー）",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE54c2w0d1lfZnVSN3dIZ1NVUzQ4cEdTYmV2LVFUSXJ3Mk5yeUx4R25MY3ltRHJFZW9pMW16NGZ3aXRBZnJjWUVwekRuOGs4Zm9Rclcwc1FBektGTkNuWk9zcHFOWWN6ODg"
+    },
+    {
+      "title": "「Microsoft Edge 155」が公開 ～「JPEG XL」デコードに対応、AIタブ整理機能も強化／大量のセキュリティ修正も",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5lV3dRUFZVUDdLWERLR2hTY1VPN1lTaGF2MGQ2RWNqNGtkRFl1WDRLamZyY2lIWTJ3RWVONUVqSWFBTmlTaHZBbENRYnQ2MlBiZUUwclNYekdzUlVteFNXdFhRRG5hMXVh"
+    },
+    {
+      "title": "FastMetal、Anthropic社の最新小型モデル「Claude Haiku 5.5」を提供開始",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5QSllHTVhiUmhtQXFsRmN3Rk5ib1VQLUdBanlvSFdMU3J4ZE5LTV8wQW91YnNzRXFzaGsxYnRlSmxPbVRyai1zdWluZ1Y5V3VVSi1SMmR2UmtMQWdyOXRhTEFUV0JHekdlY2c"
+    }
+  ],
   "2026-10-12": [
     {
       "title": "Introducing Clef-omni with full multimodality, plus a faster Clef and a cheaper Clef-flash",

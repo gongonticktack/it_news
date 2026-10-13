@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-03",
+  "items": [
+    {
+      "title": "Introducing Web Search API via AI Gateway",
+      "summary": "Cloudflare AI Gateway now supports native web search API integration in partnership with Ceramic.ai, Exa, and Linkup. Developers can now inject real-time web context into model inference calls via AI Gateway, REST APIs, or Workers bindings.",
+      "url": "https://blog.cloudflare.com/introducing-web-search-api",
+      "source": "Cloudflare Blog",
+      "published": "2026-10-02 22:28 JST",
+      "topic": "AI・LLM",
+      "title_ja": "AIゲートウェイを介したWeb検索APIの導入",
+      "overview": "Cloudflare AI Gatewayは、Ceramic.ai、Exa、Linkupとの提携により、ネイティブのWeb検索API統合をサポートするようになりました。開発者は、AIゲートウェイ、REST API、またはワーカーバインディングを介して、モデル推論呼び出しにリアルタイムのWebコンテキストを注入できるようになりました。",
+      "title_en": "Introducing Web Search API via AI Gateway",
+      "overview_en": "Cloudflare AI Gateway now supports native web search API integration in partnership with Ceramic.ai, Exa, and Linkup. Developers can now inject real-time web context into model inference calls via AI Gateway, REST APIs, or Workers bindings.",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "Introducing Cloudflare Traces: follow requests through our entire platform",
+      "summary": "Cloudflare Traces shows how a request moves through security rules, transformations, cache, routing, Workers, and your origin, then follows it across services running anywhere in your stack.",
+      "url": "https://blog.cloudflare.com/cloudflare-tracing",
+      "source": "Cloudflare Blog",
+      "published": "2026-10-02 22:00 JST",
+      "topic": "開発・OSS",
+      "title_ja": "Cloudflare Tracesのご紹介：プラットフォーム全体でリクエストに従ってください",
+      "overview": "Cloudflareトレースは、要求がセキュリティルール、変換、キャッシュ、ルーティング、ワーカー、および元をどのように移動し、スタック内の任意の場所で実行されているサービスにわたってそれに従うかを示します。",
+      "title_en": "Introducing Cloudflare Traces: follow requests through our entire platform",
+      "overview_en": "Cloudflare Traces shows how a request moves through security rules, transformations, cache, routing, Workers, and your origin, then follows it across services running anywhere in your stack.",
+      "importance": "開発者が使えるツールや技術の選択肢に関わる可能性があります。"
+    },
+    {
+      "title": "The latest AI news we announced in September 2026",
+      "summary": "A video showing the September AI updates",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026",
+      "source": "Google Blog AI",
+      "published": "2026-10-03 00:00 JST",
+      "topic": "AI・LLM",
+      "title_ja": "2026年9月に発表した最新のAIニュース",
+      "overview": "9月のAIアップデートの動画",
+      "title_en": "The latest AI news we announced in September 2026",
+      "overview_en": "A video showing the September AI updates",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "AI is changing developer work. Here are three skills to strengthen.",
+      "summary": "Learn to direct AI agents, critically review their output, and keep technical judgment at the center of your workflow. The post AI is changing developer work. Here are three skills to strengthen. appeared first on The GitHub Blog .",
+      "url": "https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out",
+      "source": "GitHub Blog",
+      "published": "2026-10-03 00:00 JST",
+      "topic": "AI・LLM",
+      "title_ja": "AIは開発者の仕事を変えています。ここでは、強化すべき3つのスキルをご紹介します。",
+      "overview": "AIエージェントを指揮し、そのアウトプットを批判的にレビューし、ワークフローの中心に技術的判断を置くことを学びます。POST AIは開発者の仕事を変えています。強化すべき3つのスキルをご紹介します。はGitHubブログで最初に紹介されました。",
+      "title_en": "AI is changing developer work. Here are three skills to strengthen.",
+      "overview_en": "Learn to direct AI agents, critically review their output, and keep technical judgment at the center of your workflow. The post AI is changing developer work. Here are three skills to strengthen. appeared first on The GitHub Blog .",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "AutoSynthData: Generating Training Data for Enterprise Agents",
+      "summary": "",
+      "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
+      "source": "Hugging Face",
+      "published": "2026-10-02 13:01 JST",
+      "topic": "AI・LLM",
+      "title_ja": "AutoSynthData ：エンタープライズエージェントのトレーニングデータの生成",
+      "overview": "配信元から記事の概要が提供されていません。",
+      "title_en": "AutoSynthData: Generating Training Data for Enterprise Agents",
+      "overview_en": "No summary was provided by the source.",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    }
+  ],
+  "reconstructed": true,
+  "cutoff": "2026-10-03T07:00:00+09:00",
+  "generated_at": "2026-10-13T22:12:47.092617+09:00"
+}

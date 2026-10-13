@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-06",
+  "items": [
+    {
+      "title": "One year later: the power of 1.1.1.1 interns",
+      "summary": "A year after announcing our goal to hire 1,111 interns, more than 750 early-career builders have shipped real products across 48 teams at Cloudflare. From Birthday Week launches to post-quantum security, our interns prove that AI amplifies human potential instead of replacing it.",
+      "url": "https://blog.cloudflare.com/one-year-later-1111-interns",
+      "source": "Cloudflare Blog",
+      "published": "2026-10-05 22:00 JST",
+      "topic": "AI・LLM",
+      "title_ja": "1年後： 1.1.1.1インターンの力",
+      "overview": "1111人のインターンを雇用するという目標を発表してから1年後、750人以上のアーリーキャリアビルダーがCloudflareの48チームに実際の製品を出荷しました。誕生日ウィークの立ち上げからポスト量子セキュリティまで、私たちのインターンは、AIが置き換えるのではなく、人間の可能性を増幅させることを証明しています。",
+      "title_en": "One year later: the power of 1.1.1.1 interns",
+      "overview_en": "A year after announcing our goal to hire 1,111 interns, more than 750 early-career builders have shipped real products across 48 teams at Cloudflare. From Birthday Week launches to post-quantum security, our interns prove that AI amplifies human potential instead of replacing it.",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "AWS Weekly Roundup: Amazon Bedrock Managed Agents powered by OpenAI, Q3 service availability updates, Kiro workflows, and more (October 5, 2026)",
+      "summary": "Last week, we announced a public preview of Amazon Bedrock Managed Agents powered by OpenAI, built on a customized version of OpenAI’s Agents API engineered to be AWS-native and integrated with AWS resources. You can now build agents optimized for OpenAI models that run entirely inside AWS with the identities, permissions, and governance controls you […]",
+      "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-amazon-bedrock-managed-agents-powered-by-openai-q3-service-availability-updates-kiro-workflows-and-more-october-5-2026",
+      "source": "AWS News Blog",
+      "published": "2026-10-06 00:41 JST",
+      "topic": "AI・LLM",
+      "title_ja": "AWS Weekly Roundup: Amazon Bedrock Managed Agents powered by OpenAI、Q 3サービス可用性の更新、KIROワークフローなど(2026年10月5日)",
+      "overview": "先週、AWSネイティブでAWSリソースと統合されるように設計されたOpenAIのエージェントAPIのカスタマイズされたバージョンを基に構築された、OpenAIを搭載したAmazon Bedrock Managed Agentsのパブリックプレビューを発表しました。これで、完全にAWS内で実行されるOpenAIモデルに最適化されたエージェントを構築し、ID、権限、およびガバナンスを制御できるようになりました[…]",
+      "title_en": "AWS Weekly Roundup: Amazon Bedrock Managed Agents powered by OpenAI, Q3 service availability updates, Kiro workflows, and more (October 5, 2026)",
+      "overview_en": "Last week, we announced a public preview of Amazon Bedrock Managed Agents powered by OpenAI, built on a customized version of OpenAI’s Agents API engineered to be AWS-native and integrated with AWS resources. You can now build agents optimized for OpenAI models that run entirely inside AWS with the identities, permissions, and governance controls you […]",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "Everything we launched during Birthday Week 2026",
+      "summary": "We celebrated our 16th birthday with 46 announcements across open source, post-quantum security, AI agents, and developer platform upgrades. Here’s a day-by-day roundup of everything we shipped.",
+      "url": "https://blog.cloudflare.com/birthday-week-2026-wrap-up",
+      "source": "Cloudflare Blog",
+      "published": "2026-10-05 22:00 JST",
+      "topic": "AI・LLM",
+      "title_ja": "2026年のバースデーウィーク中に発表したものすべて",
+      "overview": "オープンソース、ポスト量子セキュリティ、AIエージェント、開発者プラットフォームのアップグレードに関する46の発表で、16歳の誕生日を祝いました。こちらは、当社が出荷したすべての情報を日々まとめたものです。",
+      "title_en": "Everything we launched during Birthday Week 2026",
+      "overview_en": "We celebrated our 16th birthday with 46 announcements across open source, post-quantum security, AI agents, and developer platform upgrades. Here’s a day-by-day roundup of everything we shipped.",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "ReviewBench: An open benchmark for AI code review",
+      "summary": "We’re launching ReviewBench, a benchmark for code review agents built on representative GitHub pull requests, multi-source ground truth, calibrated evaluation, and production-aligned metrics. The post ReviewBench: An open benchmark for AI code review appeared first on The GitHub Blog .",
+      "url": "https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review",
+      "source": "GitHub Blog",
+      "published": "2026-10-06 00:59 JST",
+      "topic": "AI・LLM",
+      "title_ja": "ReviewBench ： AIコードレビューのオープンベンチマーク",
+      "overview": "代表的なGitHubプルリクエスト、マルチソースのグラウンドトゥルース、調整された評価、プロダクションに合わせた指標に基づいて構築されたコードレビューエージェントのベンチマークであるReviewBenchを開始します。ReviewBench ： AIコードレビューのオープンベンチマークは、The GitHub Blogに最初に掲載されました。",
+      "title_en": "ReviewBench: An open benchmark for AI code review",
+      "overview_en": "We’re launching ReviewBench, a benchmark for code review agents built on representative GitHub pull requests, multi-source ground truth, calibrated evaluation, and production-aligned metrics. The post ReviewBench: An open benchmark for AI code review appeared first on The GitHub Blog .",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "Meta、AIエージェントMuseをM5Stackやラズパイで使うMuse Gadgets公開 スマート家電連携ハブを無料配布、SDKはオープンソース",
+      "summary": "Meta、AIエージェントMuseをM5Stackやラズパイで使うMuse Gadgets公開 スマート家電連携ハブを無料配布、SDKはオープンソース テクノエッジ TechnoEdge",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0tR3VwNlZacnluNmNUZnZRb0FjZGpQdzBBblFVTlFXaWg4V2pMVlIwQWdnVlBQX1dEeGY0Y0cxZXZrZFBNSG1scDhDYVBqUy13T2FqaEt4RWtST2RweXoydWR4NExmdVE",
+      "source": "テクノエッジ TechnoEdge",
+      "published": "2026-10-05 18:27 JST",
+      "topic": "AI・LLM",
+      "title_ja": "Meta、AIエージェントMuseをM5Stackやラズパイで使うMuse Gadgets公開 スマート家電連携ハブを無料配布、SDKはオープンソース",
+      "overview": "Meta、AIエージェントMuseをM5Stackやラズパイで使うMuse Gadgets公開 スマート家電連携ハブを無料配布、SDKはオープンソース テクノエッジ TechnoEdge",
+      "title_en": "Free distribution of Muse Gadgets public smart home appliance integration hub using Muse, an AI agent, on M5Stack and Razpi, SDK is open source",
+      "overview_en": "Free distribution of Muse Gadgets public smart home appliance integration hub using Muse, an AI agent for M5 Stack and Razpi, SDK is open source TechnoEdge",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    }
+  ],
+  "reconstructed": true,
+  "cutoff": "2026-10-06T07:00:00+09:00",
+  "generated_at": "2026-10-13T22:13:42.324262+09:00"
+}

@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-07",
+  "items": [
+    {
+      "title": "Building Git infrastructure for agent-scale development",
+      "summary": "We're rebuilding GitHub's Git infrastructure while GitHub keeps running, creating a foundation for agent-scale software development. The post Building Git infrastructure for agent-scale development appeared first on The GitHub Blog .",
+      "url": "https://github.blog/engineering/architecture-optimization/building-git-infrastructure-for-agent-scale-development",
+      "source": "GitHub Blog",
+      "published": "2026-10-07 05:57 JST",
+      "topic": "AI・LLM",
+      "title_ja": "エージェント規模の開発のためのGitインフラストラクチャの構築",
+      "overview": "GitHubのGitインフラストラクチャを再構築していますが、GitHubは引き続き実行され、エージェント規模のソフトウェア開発の基盤を構築しています。エージェント規模の開発のためのBuilding Gitインフラストラクチャの投稿は、GitHubブログに最初に掲載されました。",
+      "title_en": "Building Git infrastructure for agent-scale development",
+      "overview_en": "We're rebuilding GitHub's Git infrastructure while GitHub keeps running, creating a foundation for agent-scale software development. The post Building Git infrastructure for agent-scale development appeared first on The GitHub Blog .",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "All the numbers: Amazon Prime Day 2026 powered by AWS",
+      "summary": "Amazon Prime Day 2026 was exclusively for Prime members and ran June 23–26, 2026 with millions of deals across more than 35 categories. As part of our annual tradition of sharing how AWS powered Prime Day (2016, 2017, 2019, 2020, 2021, 2022, 2023, 2024, and 2025), I want to share the services and chart-topping metrics […]",
+      "url": "https://aws.amazon.com/blogs/aws/all-the-numbers-amazon-prime-day-2026-powered-by-aws",
+      "source": "AWS News Blog",
+      "published": "2026-10-07 01:09 JST",
+      "topic": "開発・OSS",
+      "title_ja": "すべての数字： Amazon Prime Day 2026 powered by AWS",
+      "overview": "Amazonプライムデー2026はプライム会員専用で、2026年6月23日から26日にかけて、35以上のカテゴリーで数百万件の取引が行われました。AWSがプライムデー（ 2016年、2017年、2019年、2020年、2021年、2022年、2023年、2024年、2025年）にどのように貢献したかを共有するという毎年恒例の伝統の一環として、サービスとチャートトップの指標を共有したいと思います[…]",
+      "title_en": "All the numbers: Amazon Prime Day 2026 powered by AWS",
+      "overview_en": "Amazon Prime Day 2026 was exclusively for Prime members and ran June 23–26, 2026 with millions of deals across more than 35 categories. As part of our annual tradition of sharing how AWS powered Prime Day (2016, 2017, 2019, 2020, 2021, 2022, 2023, 2024, and 2025), I want to share the services and chart-topping metrics […]",
+      "importance": "開発者が使えるツールや技術の選択肢に関わる可能性があります。"
+    },
+    {
+      "title": "The keys to the Internet change on October 11. Are you ready?",
+      "summary": "On October 11, 2026, the DNS root switches to a new key-signing key (KSK-2024). Learn what this means for you, and how RFC 8509 trust anchor sentinels allow you to test whether your DNS resolver is ready for the rollover.",
+      "url": "https://blog.cloudflare.com/root-ksk-2024-rollover",
+      "source": "Cloudflare Blog",
+      "published": "2026-10-07 02:50 JST",
+      "topic": "開発・OSS",
+      "title_ja": "インターネットへの鍵は10月11日に変わります。準備はいいですか？",
+      "overview": "2026年10月11日、DNSルートは新しいキー署名キー（ KSK -2024 ）に切り替わります。これがあなたにとって何を意味するのか、そしてRFC 8509がアンカーセンチネルを信頼することで、DNSリゾルバがロールオーバーの準備ができているかどうかをテストする方法を学びます。",
+      "title_en": "The keys to the Internet change on October 11. Are you ready?",
+      "overview_en": "On October 11, 2026, the DNS root switches to a new key-signing key (KSK-2024). Learn what this means for you, and how RFC 8509 trust anchor sentinels allow you to test whether your DNS resolver is ready for the rollover.",
+      "importance": "開発者が使えるツールや技術の選択肢に関わる可能性があります。"
+    },
+    {
+      "title": "Netsujo、AIエージェントの役割・権限を事前検査するOSS「Agent Role Contracts」v0.5.0を正式公開",
+      "summary": "Netsujo、AIエージェントの役割・権限を事前検査するOSS「Agent Role Contracts」v0.5.0を正式公開 PR TIMES",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5OSTVHZzlLSXNPMFNFbWlMN1pBV05oSEQxZ1ZVODdMVWdCekozc1R4Y1o0NEtYdTBQVWUzVmJXRmdrS3NjdEpEZDVoSG0xT3BSUm1vakotWFFQc2MwXzh0aS1EOFFKYXNNOXc",
+      "source": "PR TIMES",
+      "published": "2026-10-06 14:45 JST",
+      "topic": "AI・LLM",
+      "title_ja": "Netsujo、AIエージェントの役割・権限を事前検査するOSS「Agent Role Contracts」v0.5.0を正式公開",
+      "overview": "Netsujo、AIエージェントの役割・権限を事前検査するOSS「Agent Role Contracts」v0.5.0を正式公開 PR TIMES",
+      "title_en": "Netsujo Announces OSS 'Agent Role Contracts' v0.5.0 to Pre-Check Roles and Permissions of AI Agents",
+      "overview_en": "Netsujo Officially Publishes OSS \"Agent Role Contracts\" v0.5.0 to Pre-check Roles and Permissions of AI Agents PR times",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "[AI-Driven Modernization] AIエージェントに規律ある移行作業をさせる「AI Modernization Flow」を公開しました",
+      "summary": "[AI-Driven Modernization] AIエージェントに規律ある移行作業をさせる「AI Modernization Flow」を公開しました Amazon Web Services (AWS)",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOSUN0enMzd1JQSWNpUG5id0RJSi03ejJ4QWRlQy1fUFkyYktzOGh2QUpKR2ZpN19mQTFLZFE0LVQxVVdYZm5ZTG05cGJuZTJaa3R5TW5QVWhYNTd6TE4wYXBXTk1VeGM5cWhTMXMwdHJPMURYYUFlaUtTNGE2QXEzSGd3",
+      "source": "Amazon Web Services (AWS)",
+      "published": "2026-10-06 07:08 JST",
+      "topic": "AI・LLM",
+      "title_ja": "[AI-Driven Modernization] AIエージェントに規律ある移行作業をさせる「AI Modernization Flow」を公開しました",
+      "overview": "[AI-Driven Modernization] AIエージェントに規律ある移行作業をさせる「AI Modernization Flow」を公開しました Amazon Web Services (AWS)",
+      "title_en": "[AI-Driven Modernization] Launched AI Modernization Flow, which enables AI agents to perform disciplined migration tasks",
+      "overview_en": "[AI-Driven Modernization] We published the AI Modernization Flow, which enables AI agents to perform disciplined migration tasks Amazon Web Services (AWS)",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    }
+  ],
+  "reconstructed": true,
+  "cutoff": "2026-10-07T07:00:00+09:00",
+  "generated_at": "2026-10-13T22:14:02.796927+09:00"
+}

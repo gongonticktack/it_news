@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-10",
+  "items": [
+    {
+      "title": "Introducing Clef-omni with full multimodality, plus a faster Clef and a cheaper Clef-flash",
+      "summary": "We are expanding the Clef decision model family with Clef-omni, natively processing audio, video, images, and text in a single pipeline. We’ve also lowered Clef-flash pricing and boosted Clef inference speeds by up to 2.0x.",
+      "url": "https://blog.cloudflare.com/clef-faster-cheaper-multimodal",
+      "source": "Cloudflare Blog",
+      "published": "2026-10-10 03:27 JST",
+      "topic": "AI・LLM",
+      "title_ja": "マルチモーダル対応の「Clef-omni」を発表、既存モデルの高速化と低価格版も提供",
+      "overview": "Clefの意思決定モデル群に、音声・動画・画像・テキストを単一の処理系で扱う「Clef-omni」が加わりました。Clef-flashの料金引き下げと、推論速度の最大2倍への改善も発表されています。",
+      "title_en": "Introducing Clef-omni with full multimodality, plus a faster Clef and a cheaper Clef-flash",
+      "overview_en": "We are expanding the Clef decision model family with Clef-omni, natively processing audio, video, images, and text in a single pipeline. We’ve also lowered Clef-flash pricing and boosted Clef inference speeds by up to 2.0x.",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "Introducing on-demand CPU and memory profiling with flamegraphs for Workers and Durable Objects",
+      "summary": "On-demand CPU and memory profiling for Cloudflare Workers and Durable Objects is now available. Now you can generate interactive flamegraphs directly in production to quickly track down memory leaks and performance bottlenecks.",
+      "url": "https://blog.cloudflare.com/workers-on-demand-profiling",
+      "source": "Cloudflare Blog",
+      "published": "2026-10-09 22:00 JST",
+      "topic": "クラウド",
+      "title_ja": "Cloudflare WorkersとDurable ObjectsにCPU・メモリのオンデマンド解析機能を追加",
+      "overview": "Cloudflare WorkersとDurable Objectsで、CPUとメモリの使用状況を本番環境から直接解析できるようになりました。対話型フレームグラフを生成し、メモリリークや性能上のボトルネックの特定を支援します。",
+      "title_en": "Introducing on-demand CPU and memory profiling with flamegraphs for Workers and Durable Objects",
+      "overview_en": "On-demand CPU and memory profiling for Cloudflare Workers and Durable Objects is now available. Now you can generate interactive flamegraphs directly in production to quickly track down memory leaks and performance bottlenecks.",
+      "importance": "クラウドサービスの機能や運用方法に関わる可能性があります。"
+    },
+    {
+      "title": "Hack the World: Why hackathons are still the best place to learn to build",
+      "summary": "The barriers to building software have collapsed. Today, anyone can build. Hackathons are a great place to start learning. The post Hack the World: Why hackathons are still the best place to learn to build appeared first on The GitHub Blog .",
+      "url": "https://github.blog/developer-skills/career-growth/hack-the-world-why-hackathons-are-still-the-best-place-to-learn-to-build",
+      "source": "GitHub Blog",
+      "published": "2026-10-10 01:00 JST",
+      "topic": "開発・OSS",
+      "title_ja": "「Hack the World」：開発を学ぶ場としてハッカソンが今も有効な理由",
+      "overview": "ソフトウェア開発を始めるための障壁が下がるなか、ハッカソンは実践的な開発を学ぶ入り口として有効だとするGitHub Blogの記事です。",
+      "title_en": "Hack the World: Why hackathons are still the best place to learn to build",
+      "overview_en": "The barriers to building software have collapsed. Today, anyone can build. Hackathons are a great place to start learning. The post Hack the World: Why hackathons are still the best place to learn to build appeared first on The GitHub Blog .",
+      "importance": "開発者が使えるツールや技術の選択肢に関わる可能性があります。"
+    },
+    {
+      "title": "Impactful scheduling for GPU clusters",
+      "summary": "",
+      "url": "https://huggingface.co/blog/allenai/impactful-scheduling",
+      "source": "Hugging Face",
+      "published": "2026-10-10 00:20 JST",
+      "topic": "3D・ロボット",
+      "title_ja": "GPUクラスタのインパクトのあるスケジューリング",
+      "overview": "配信元から記事の概要が提供されていません。",
+      "title_en": "Impactful scheduling for GPU clusters",
+      "overview_en": "No summary was provided by the source.",
+      "importance": "画像処理・3D・ロボティクスの技術動向を知る手掛かりになります。"
+    },
+    {
+      "title": "オープンソースAIエージェント「Hermes Agent」のNous Research、NVIDIAなどから9,000万ドルを調達",
+      "summary": "オープンソースAIエージェント「Hermes Agent」のNous Research、NVIDIAなどから9,000万ドルを調達 BRIDGE（ブリッジ）",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0tOEcxSlhLbE1HQUpvRFMxX3YzWmtYbXhEcDR4NjJEYk5vLTUtM3R5UnhWTmhib0g0elBnb0FZcnVIcVRXcGk3Rm1JeUhudDN6Q1dUa21Ha3FmYTFiN2tjVFJ5dDFtR3dycWZtSFZFc3Y3LVZmUlhxdVYwaHZINlU",
+      "source": "BRIDGE（ブリッジ）",
+      "published": "2026-10-09 16:37 JST",
+      "topic": "AI・LLM",
+      "title_ja": "オープンソースAIエージェント「Hermes Agent」のNous Research、NVIDIAなどから9,000万ドルを調達",
+      "overview": "オープンソースAIエージェント「Hermes Agent」のNous Research、NVIDIAなどから9,000万ドルを調達 BRIDGE（ブリッジ）",
+      "title_en": "$90m raised from Nous Research, NVIDIA, and others for open source AI agent Hermes Agent",
+      "overview_en": "Bridge raises $90m from Nous Research, NVIDIA, open source AI agent Hermes Agent, and more",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    }
+  ],
+  "reconstructed": true,
+  "cutoff": "2026-10-10T07:00:00+09:00",
+  "generated_at": "2026-10-13T22:14:49.466420+09:00"
+}
