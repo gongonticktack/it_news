@@ -72,8 +72,13 @@ def fetch_feed(url: str):
         return []
 
 
-def news_url(query: str):
-    return 'https://news.google.com/rss/search?' + urlencode({'q': query + ' when:7d', 'hl': 'ja', 'gl': 'JP', 'ceid': 'JP:ja'})
+def news_url(query: str, now=None):
+    if now is not None and now.astimezone(JST).date() < datetime.now(JST).date():
+        day = now.astimezone(JST).date()
+        query += f' after:{(day-timedelta(days=7)).isoformat()} before:{(day+timedelta(days=1)).isoformat()}'
+    else:
+        query += ' when:7d'
+    return 'https://news.google.com/rss/search?' + urlencode({'q': query, 'hl': 'ja', 'gl': 'JP', 'ceid': 'JP:ja'})
 
 
 def score(item, now):
@@ -109,7 +114,7 @@ def similar(a, b):
 def gather(config, now):
     candidates = []
     sources = [(f['name'], f['url'], int(f.get('priority', 2)), True) for f in config['feeds']]
-    sources += [('Googleニュース', news_url(q), 2, False) for q in config['google_news_queries']]
+    sources += [('Googleニュース', news_url(q, now), 2, False) for q in config['google_news_queries']]
     for source, url, priority, official in sources:
         entries = fetch_feed(url)
         LOG.info('%s: %s items', source, len(entries))
@@ -118,7 +123,7 @@ def gather(config, now):
             if not dt:
                 continue
             age = now - dt
-            if age < timedelta(hours=-2) or age > timedelta(days=7):
+            if age < timedelta(0) or age > timedelta(days=7):
                 continue
             title = clean_text(entry.get('title', ''), 220)
             link = canonical_url(entry.get('link', ''))
@@ -433,7 +438,7 @@ def date_navigation(day, days):
                    '翌日 →', 'Next →', 'next') + '</nav>')
 
 
-def render_day(day, items, archive_days=None):
+def render_day(day, items, archive_days=None, *, reconstructed=False):
     headline = ('<section class="hero"><div class="eyebrow">DAILY TECHNOLOGY BRIEFING</div>'
                 '<h1 class="gradient-text">IT NEWS.</h1><p>' + esc(day) + ' ｜ ' +
                 bilingual(f'AI・ITニュース {len(items)}件', f'{len(items)} AI & technology stories') +
@@ -442,7 +447,10 @@ def render_day(day, items, archive_days=None):
                (''.join(story_html(x, i) for i, x in enumerate(items, 1)) or
                 '<div class="story">' + bilingual('新しいニュースを取得できませんでした。', 'No news available.') + '</div>') +
                '</section>')
-    return page_shell(f'IT NEWS｜{day}', date_navigation(day, archive_days or [day]) + headline + stories)
+    notice = ('<p class="translation-note">' + bilingual(
+        '過去分の再構成：対象日の朝7時までに公開された記事から後日作成しています。当時の配信内容の復元ではありません。取得できた記事が少ない場合は件数を減らしています。',
+        'Retrospective edition: reconstructed later from articles published before 07:00 JST on this date. This is not a recovery of an original mailing; fewer stories may be available.') + '</p>') if reconstructed else ''
+    return page_shell(f'IT NEWS｜{day}', date_navigation(day, archive_days or [day]) + headline + notice + stories)
 
 
 def render_index(day, items, archive_days):
@@ -472,8 +480,9 @@ def build_site():
     if not (docs / 'theme.css').exists():
         (docs / 'theme.css').write_text(CSS, encoding='utf-8')
     for path in paths:
-        items = read_json(path, {})['items']
-        (docs / (path.stem + '.html')).write_text(render_day(path.stem, items, days), encoding='utf-8')
+        edition = read_json(path, {})
+        items = edition['items']
+        (docs / (path.stem + '.html')).write_text(render_day(path.stem, items, days, reconstructed=edition.get('reconstructed', False)), encoding='utf-8')
         if path == paths[0]:
             (docs / 'index.html').write_text(render_index(path.stem, items, days), encoding='utf-8')
 
@@ -482,6 +491,9 @@ def main():
     logging.basicConfig(level=logging.INFO, format='%(levelname)s %(message)s')
     now = datetime.now(JST)
     today = date.fromisoformat(os.environ['REPORT_DATE']) if os.getenv('REPORT_DATE') else now.date()
+    historical = today < now.date()
+    if historical:
+        now = datetime.combine(today, datetime.min.time(), JST).replace(hour=7)
     config = read_json(ROOT / 'config/sources.json', {})
     if not config.get('feeds'):
         raise RuntimeError('Missing config/sources.json')
@@ -495,9 +507,10 @@ def main():
         LOG.info('Reusing %s existing stories for %s', len(items), today)
     else:
         candidates = gather(config, now)
-        if not candidates:
+        if not candidates and not historical:
             raise RuntimeError('All news feeds failed or contained no dated recent entries; refusing to overwrite site')
-        items = ai_enrich(select(candidates, history, today, now))
+        selected = select(candidates, history, today, now)
+        items = selected if historical else ai_enrich(selected)
     items = localize_items(items)
     fallback_importance = {
         'AI・LLM': 'AIモデルの性能・利用方法や導入判断に関わる可能性があります。',
@@ -517,7 +530,11 @@ def main():
     (ROOT / 'reports').mkdir(exist_ok=True)
     (ROOT / 'data').mkdir(exist_ok=True)
     day = today.isoformat()
-    (ROOT / 'reports' / f'{day}.json').write_text(json.dumps({'date': day, 'items': items}, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+    edition = {'date': day, 'items': items}
+    if historical:
+        edition.update({'reconstructed': True, 'cutoff': now.isoformat(),
+                        'generated_at': datetime.now(JST).isoformat()})
+    (ROOT / 'reports' / f'{day}.json').write_text(json.dumps(edition, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     history[day] = [{'title': x['title'], 'url': x['url']} for x in items]
     history = {k: v for k, v in history.items() if (today - date.fromisoformat(k)).days <= 30}
     history_path.write_text(json.dumps(dict(sorted(history.items())), ensure_ascii=False, indent=2) + '\n', encoding='utf-8')

@@ -82,6 +82,31 @@ class NewsTests(unittest.TestCase):
         self.assertEqual(soup.find('meta', attrs={'name': 'theme-color'})['content'], '#161220')
         self.assertEqual(len(soup.select('link[rel="stylesheet"]')), 1)
 
+
+    def test_historical_search_has_date_bounds_and_no_current_when_filter(self):
+        from urllib.parse import urlparse, parse_qs
+        now = datetime(2026,10,1,7,tzinfo=news.JST)
+        query = parse_qs(urlparse(news.news_url('AI model', now)).query)['q'][0]
+        self.assertIn('after:2026-09-24', query)
+        self.assertIn('before:2026-10-02', query)
+        self.assertNotIn('when:7d', query)
+
+    def test_historical_gather_excludes_articles_after_morning_cutoff(self):
+        now = datetime(2026,10,1,7,tzinfo=news.JST)
+        def entry(hours):
+            return {'title': 'AI model release', 'link': f'https://example.com/{hours}',
+                    'summary': 'A new model', 'published_parsed':
+                    (now+timedelta(hours=hours)).astimezone(timezone.utc).timetuple()}
+        with patch.object(news, 'fetch_feed', return_value=[entry(-1),entry(1)]):
+            result = news.gather({'feeds':[{'name':'Official','url':'https://example.com/feed'}],
+                                  'google_news_queries':[]}, now)
+        self.assertEqual([x['url'] for x in result], ['https://example.com/-1'])
+
+    def test_historical_pages_are_marked_as_reconstructed(self):
+        page = news.render_day('2026-10-01', [], reconstructed=True)
+        self.assertIn('過去分の再構成', page)
+        self.assertIn('Retrospective edition', page)
+
     def test_title_similarity(self):
         self.assertTrue(news.similar('OpenAI releases a new model', 'OpenAI releases a new model - News'))
         self.assertFalse(news.similar('Cloudflare security update', 'New robotics hardware'))

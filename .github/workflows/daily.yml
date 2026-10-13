@@ -28,7 +28,7 @@ concurrency:
 jobs:
   publish:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 45
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -41,6 +41,8 @@ jobs:
       - run: pip install -r requirements.txt
       - name: Test bilingual news rendering
         run: python -m unittest discover -s tests -v
+      - name: Reconstruct requested historical editions
+        run: python scripts/backfill.py
       - name: Check today's edition
         id: edition
         run: |
