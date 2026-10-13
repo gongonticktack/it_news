@@ -1,3 +1,5 @@
+🌐 **Webアプリ：[IT NEWSを開く](https://gongonticktack.github.io/it_news/)**
+
 # IT NEWS — AI・ITニュースの日刊サイト
 
 ## 概要
