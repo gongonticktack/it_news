@@ -372,16 +372,12 @@ def page_shell(title, content):
            '<button type="button" data-set-lang="ja" aria-pressed="true" lang="ja">日本語</button>'
            '<button type="button" data-set-lang="en" aria-pressed="false" lang="en">EN</button>'
            '</div></div></header>')
-    footer = bilingual(
-        'RSSの見出し・概要をもとに編集。元記事を必ずご確認ください。GitHub Actionsの起動時刻は前後することがあります。',
-        'Edited from RSS headlines and summaries. Please verify the original sources. GitHub Actions may run later than scheduled.'
-    )
     return ('<!doctype html><html lang="ja"><head><meta charset="utf-8">'
             '<meta name="viewport" content="width=device-width,initial-scale=1">'
             '<meta name="description" content="Daily AI and IT news in Japanese and English">'
             '<title>' + esc(title) + '</title><meta name="theme-color" content="#161220">'
             '<link rel="stylesheet" href="theme.css?v=' + css_version + '"></head><body>'
-            + nav + '<main class="wrap">' + content + '<footer>' + footer +
+            + nav + '<main class="wrap">' + content + '<footer>' +
             '<div><a class="sister-site" href="https://gongonticktack.github.io/stock_daily_reports/">' +
             bilingual('株式NEWS を読む ↗', 'Visit STOCK NEWS ↗') + '</a></div></footer>'
             '</main>' + script + '</body></html>')
@@ -447,10 +443,7 @@ def render_day(day, items, archive_days=None, *, reconstructed=False):
                (''.join(story_html(x, i) for i, x in enumerate(items, 1)) or
                 '<div class="story">' + bilingual('新しいニュースを取得できませんでした。', 'No news available.') + '</div>') +
                '</section>')
-    notice = ('<p class="translation-note">' + bilingual(
-        '過去分の再構成：対象日の朝7時までに公開された記事から後日作成しています。当時の配信内容の復元ではありません。取得できた記事が少ない場合は件数を減らしています。',
-        'Retrospective edition: reconstructed later from articles published before 07:00 JST on this date. This is not a recovery of an original mailing; fewer stories may be available.') + '</p>') if reconstructed else ''
-    return page_shell(f'IT NEWS｜{day}', date_navigation(day, archive_days or [day]) + headline + notice + stories)
+    return page_shell(f'IT NEWS｜{day}', date_navigation(day, archive_days or [day]) + headline + stories)
 
 
 def render_index(day, items, archive_days):

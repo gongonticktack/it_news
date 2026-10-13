@@ -102,10 +102,10 @@ class NewsTests(unittest.TestCase):
                                   'google_news_queries':[]}, now)
         self.assertEqual([x['url'] for x in result], ['https://example.com/-1'])
 
-    def test_historical_pages_are_marked_as_reconstructed(self):
+    def test_historical_page_omits_editorial_notices(self):
         page = news.render_day('2026-10-01', [], reconstructed=True)
-        self.assertIn('過去分の再構成', page)
-        self.assertIn('Retrospective edition', page)
+        self.assertNotIn('過去分の再構成', page)
+        self.assertNotIn('Retrospective edition', page)
 
     def test_title_similarity(self):
         self.assertTrue(news.similar('OpenAI releases a new model', 'OpenAI releases a new model - News'))
