@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-15",
+  "items": [
+    {
+      "title": "Yandex outage: Data shows that instead of going dark, malicious bots went on the move",
+      "summary": "When strikes hit Yandex data centers, many assumed Russian bot operations went dark. Cloudflare data reveals that while search crawling stopped, malicious bots simply migrated to other networks.",
+      "url": "https://blog.cloudflare.com/yandex-outage",
+      "source": "Cloudflare Blog",
+      "published": "2026-10-15 05:24 JST",
+      "topic": "クラウド",
+      "title_ja": "Yandexの機能停止：データによると、悪意のあるボットが暗くなるのではなく、移動していることが示されています",
+      "overview": "ストライキがYandexのデータセンターを襲ったとき、多くの人はロシアのボット操作が暗くなったと想定していました。Cloudflareのデータによると、検索クロールは停止しましたが、悪意のあるボットは単に他のネットワークに移行しました。",
+      "title_en": "Yandex outage: Data shows that instead of going dark, malicious bots went on the move",
+      "overview_en": "When strikes hit Yandex data centers, many assumed Russian bot operations went dark. Cloudflare data reveals that while search crawling stopped, malicious bots simply migrated to other networks.",
+      "importance": "クラウドサービスの機能や運用方法に関わる可能性があります。"
+    },
+    {
+      "title": "GitHub availability report: September 2026",
+      "summary": "In September, we experienced two incidents that resulted in degraded performance across GitHub services. The post GitHub availability report: September 2026 appeared first on The GitHub Blog .",
+      "url": "https://github.blog/news-insights/company-news/github-availability-report-september-2026",
+      "source": "GitHub Blog",
+      "published": "2026-10-15 05:01 JST",
+      "topic": "開発・OSS",
+      "title_ja": "GitHub可用性レポート： 2026年9月",
+      "overview": "9月には、GitHubサービス全体のパフォーマンスが低下する2つのインシデントが発生しました。投稿GitHub可用性レポート： 2026年9月は、GitHubブログで最初に登場しました。",
+      "title_en": "GitHub availability report: September 2026",
+      "overview_en": "In September, we experienced two incidents that resulted in degraded performance across GitHub services. The post GitHub availability report: September 2026 appeared first on The GitHub Blog .",
+      "importance": "開発者が使えるツールや技術の選択肢に関わる可能性があります。"
+    },
+    {
+      "title": "Inside Hyperdrive: How we solved a rare Hyperdrive MySQL caching bug",
+      "summary": "While adding MySQL support to Hyperdrive, we found a subtle protocol bug when caching query results. Here is how we tracked down a 0.001% rate error and made Hyperdrive MySQL generally available.",
+      "url": "https://blog.cloudflare.com/hyperdrive-mysql",
+      "source": "Cloudflare Blog",
+      "published": "2026-10-14 22:00 JST",
+      "topic": "IT全般",
+      "title_ja": "Hyperdriveの内部：希少なHyperdrive MySQLキャッシュバグの解決方法",
+      "overview": "HyperdriveにMySQLサポートを追加する際、クエリ結果をキャッシュする際に微妙なプロトコルバグが見つかりました。ここでは、0.001 ％のレートエラーを追跡し、Hyperdrive MySQLを一般に利用できるようにしました。",
+      "title_en": "Inside Hyperdrive: How we solved a rare Hyperdrive MySQL caching bug",
+      "overview_en": "While adding MySQL support to Hyperdrive, we found a subtle protocol bug when caching query results. Here is how we tracked down a 0.001% rate error and made Hyperdrive MySQL generally available.",
+      "importance": "IT分野の最新動向として確認する価値があります。"
+    },
+    {
+      "title": "Amazon S3 is now available on the Vercel Marketplace and v0 by Vercel",
+      "summary": "You can now migrate existing Apache Hive datasets in Amazon S3 to fully managed Apache Iceberg tables in Amazon S3 Tables, with no pipelines to build or compute to provision, while production workloads keep running.",
+      "url": "https://aws.amazon.com/blogs/aws/amazon-s3-vercel-marketplace-v0",
+      "source": "AWS News Blog",
+      "published": "2026-10-15 04:30 JST",
+      "topic": "3D・ロボット",
+      "title_ja": "Amazon S 3がVercel Marketplaceとv 0 by Vercelで利用可能になりました",
+      "overview": "Amazon S 3の既存のApache HiveデータセットをAmazon S 3テーブルの完全に管理されたApache Icebergテーブルに移行できるようになりました。本番ワークロードが実行されている間、構築するパイプラインやプロビジョニングするコンピューティングはありません。",
+      "title_en": "Amazon S3 is now available on the Vercel Marketplace and v0 by Vercel",
+      "overview_en": "You can now migrate existing Apache Hive datasets in Amazon S3 to fully managed Apache Iceberg tables in Amazon S3 Tables, with no pipelines to build or compute to provision, while production workloads keep running.",
+      "importance": "画像処理・3D・ロボティクスの技術動向を知る手掛かりになります。"
+    },
+    {
+      "title": "From 2,500 requests to 24: Rebuilding star history without the stargazers",
+      "summary": "Our new repo star history API now provides trends without returning individual identities or requiring unbounded database work. These are the engineering tradeoffs we made. The post From 2,500 requests to 24: Rebuilding star history without the stargazers appeared first on The GitHub Blog .",
+      "url": "https://github.blog/engineering/architecture-optimization/from-2500-requests-to-24-rebuilding-star-history-without-the-stargazers",
+      "source": "GitHub Blog",
+      "published": "2026-10-15 04:11 JST",
+      "topic": "開発・OSS",
+      "title_ja": "2,500件から24件まで：スターゲイザーなしでスターの歴史を再構築",
+      "overview": "当社の新しいリポジトリスター履歴APIは、個々のアイデンティティを返したり、無制限のデータベース作業を必要としたりすることなく、トレンドを提供します。これが私たちが行ったエンジニアリングのトレードオフです。投稿「From 2,500 requests to 24: Rebuilding star history without the stargazers」は、GitHubブログに最初に掲載されました。",
+      "title_en": "From 2,500 requests to 24: Rebuilding star history without the stargazers",
+      "overview_en": "Our new repo star history API now provides trends without returning individual identities or requiring unbounded database work. These are the engineering tradeoffs we made. The post From 2,500 requests to 24: Rebuilding star history without the stargazers appeared first on The GitHub Blog .",
+      "importance": "開発者が使えるツールや技術の選択肢に関わる可能性があります。"
+    }
+  ]
+}

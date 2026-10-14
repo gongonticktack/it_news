@@ -306,5 +306,27 @@
       "title": "Under the hood, off the hot path: How D1 scales to millions of databases",
       "url": "https://blog.cloudflare.com/d1-control-plane"
     }
+  ],
+  "2026-10-15": [
+    {
+      "title": "Yandex outage: Data shows that instead of going dark, malicious bots went on the move",
+      "url": "https://blog.cloudflare.com/yandex-outage"
+    },
+    {
+      "title": "GitHub availability report: September 2026",
+      "url": "https://github.blog/news-insights/company-news/github-availability-report-september-2026"
+    },
+    {
+      "title": "Inside Hyperdrive: How we solved a rare Hyperdrive MySQL caching bug",
+      "url": "https://blog.cloudflare.com/hyperdrive-mysql"
+    },
+    {
+      "title": "Amazon S3 is now available on the Vercel Marketplace and v0 by Vercel",
+      "url": "https://aws.amazon.com/blogs/aws/amazon-s3-vercel-marketplace-v0"
+    },
+    {
+      "title": "From 2,500 requests to 24: Rebuilding star history without the stargazers",
+      "url": "https://github.blog/engineering/architecture-optimization/from-2500-requests-to-24-rebuilding-star-history-without-the-stargazers"
+    }
   ]
 }
