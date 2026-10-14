@@ -1,0 +1,71 @@
+{
+  "date": "2026-10-14",
+  "items": [
+    {
+      "title": "GitHub’s model for secret detection: Finding more secrets with less noise",
+      "summary": "GitHub’s context-aware secret classifier improves detection quality, raises weighted acceptance by 11.5%, and reduces median scan execution time by 86%. The post GitHub’s model for secret detection: Finding more secrets with less noise appeared first on The GitHub Blog .",
+      "url": "https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise",
+      "source": "GitHub Blog",
+      "published": "2026-10-14 02:56 JST",
+      "topic": "AI・LLM",
+      "title_ja": "秘密検出のためのGitHubのモデル：ノイズの少ないより多くの秘密を見つける",
+      "overview": "GitHubのコンテキストアウェアシークレット分類子は、検出品質を向上させ、重み付け受け入れを11.5 ％向上させ、スキャン実行時間の中央値を86 ％短縮します。秘密検出のためのGitHubモデルの投稿：ノイズの少ないより多くの秘密を見つけることは、最初にGitHubブログに登場しました。",
+      "title_en": "GitHub’s model for secret detection: Finding more secrets with less noise",
+      "overview_en": "GitHub’s context-aware secret classifier improves detection quality, raises weighted acceptance by 11.5%, and reduces median scan execution time by 86%. The post GitHub’s model for secret detection: Finding more secrets with less noise appeared first on The GitHub Blog .",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "AWS Weekly Roundup: Prime Day 2026 by the numbers, Claude Haiku 5.5, Amazon Nova 2.5 Sonic, and more (October 13, 2026)",
+      "summary": "Some numbers are hard to picture until you sit with them for a moment. Last week we published the Prime Day 2026 metrics, and the one that stuck with me is 2.3 quadrillion: the daily requests Amazon ElastiCache peaked at during the event. Prime Day ran back in June, so this post always lands as […]",
+      "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-prime-day-2026-by-the-numbers-claude-haiku-5-5-amazon-nova-2-5-sonic-and-more-october-13-2026",
+      "source": "AWS News Blog",
+      "published": "2026-10-14 00:59 JST",
+      "topic": "AI・LLM",
+      "title_ja": "AWS Weekly Roundup: Prime Day 2026 by the numbers、Claude Haiku 5.5、Amazon Nova 2.5 Sonicなど（ 2026年10月13日）",
+      "overview": "数字の中には、しばらく一緒に座るまで想像しにくいものもあります。先週、2026年プライムデイの指標を発表しましたが、私の印象に残ったのは2.3千兆です。イベント中にAmazon ElastiCacheの毎日のリクエストがピークに達しました。プライムデーは6月に開催されたため、この投稿は常に[…]",
+      "title_en": "AWS Weekly Roundup: Prime Day 2026 by the numbers, Claude Haiku 5.5, Amazon Nova 2.5 Sonic, and more (October 13, 2026)",
+      "overview_en": "Some numbers are hard to picture until you sit with them for a moment. Last week we published the Prime Day 2026 metrics, and the one that stuck with me is 2.3 quadrillion: the daily requests Amazon ElastiCache peaked at during the event. Prime Day ran back in June, so this post always lands as […]",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "Kikuviが提供するAIエージェント向けクラウド基盤「Subako」、管理画面とSDKをリリース",
+      "summary": "Kikuviが提供するAIエージェント向けクラウド基盤「Subako」、管理画面とSDKをリリース ニュースメディアVOIX",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5MQ1BHX0pZMVM2NjEwTktXVkxTckpJMHRzal9qWUk1RENrNkJTY2FwZXB1WHdBOERlNm4zVlIyVnNxeTRYekMydWpfRVZmeTBsNEQwOFktbHh2Qi1HaXFVWFE4TXJQd0wzZlpmdV91Zw",
+      "source": "ニュースメディアVOIX",
+      "published": "2026-10-13 10:43 JST",
+      "topic": "AI・LLM",
+      "title_ja": "Kikuviが提供するAIエージェント向けクラウド基盤「Subako」、管理画面とSDKをリリース",
+      "overview": "Kikuviが提供するAIエージェント向けクラウド基盤「Subako」、管理画面とSDKをリリース ニュースメディアVOIX",
+      "title_en": "Subako, the cloud platform for AI agents provided by Kikuvi, releases the dashboard and SDK",
+      "overview_en": "Kikuvi Announces Subako Cloud Platform, Admin Panel and SDK for AI Agents News Media Voix",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
+      "summary": "",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+      "source": "Hugging Face",
+      "published": "2026-10-14 02:05 JST",
+      "topic": "AI・LLM",
+      "title_ja": "LFM2.5-24B-A2Bでデバイス上で高速なプライベートエージェントを実行",
+      "overview": "配信元から記事の概要が提供されていません。",
+      "title_en": "Run fast, private agents on-device with LFM2.5-24B-A2B",
+      "overview_en": "No summary was provided by the source.",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "Under the hood, off the hot path: How D1 scales to millions of databases",
+      "summary": "A deep dive into how D1 architected its control plane to scale and manage millions of databases, while keeping data plane query operations at the edge. We share guiding principles on how to build on the Developer Platform effectively.",
+      "url": "https://blog.cloudflare.com/d1-control-plane",
+      "source": "Cloudflare Blog",
+      "published": "2026-10-14 01:20 JST",
+      "topic": "開発・OSS",
+      "title_ja": "Under the hood, off the hot path: How D1 scales to millions of databases",
+      "overview": "データプレーンクエリ操作をエッジに保持しながら、何百万ものデータベースを拡張および管理するために、D 1がコントロールプレーンをどのように設計したかを深く掘り下げます。開発者プラットフォームを効果的に構築する方法に関する指針を共有しています。",
+      "title_en": "Under the hood, off the hot path: How D1 scales to millions of databases",
+      "overview_en": "A deep dive into how D1 architected its control plane to scale and manage millions of databases, while keeping data plane query operations at the edge. We share guiding principles on how to build on the Developer Platform effectively.",
+      "translation_note": "自動翻訳に失敗したため、見出しは英語の原文を表示しています。",
+      "importance": "開発者が使えるツールや技術の選択肢に関わる可能性があります。"
+    }
+  ]
+}
