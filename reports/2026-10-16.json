@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-16",
+  "items": [
+    {
+      "title": "Deploy with Void",
+      "summary": "Introducing Void: an open-source SDK, CLI, and self-hosted platform for building full-stack Vite apps and deploying them to Cloudflare.",
+      "url": "https://blog.cloudflare.com/deploy-with-void",
+      "source": "Cloudflare Blog",
+      "published": "2026-10-15 23:00 JST",
+      "topic": "開発・OSS",
+      "title_ja": "Voidでデプロイ",
+      "overview": "Voidのご紹介：フルスタックのViteアプリを構築し、CloudflareにデプロイするためのオープンソースのSDK、CLI、およびセルフホストプラットフォーム。",
+      "title_en": "Deploy with Void",
+      "overview_en": "Introducing Void: an open-source SDK, CLI, and self-hosted platform for building full-stack Vite apps and deploying them to Cloudflare.",
+      "importance": "開発者が使えるツールや技術の選択肢に関わる可能性があります。"
+    },
+    {
+      "title": "The next developer interface is ambient intelligence",
+      "summary": "AI, agents, voice, and physical controls are shifting software development from operating tools to expressing intent—and helping developers stay focused on building. The post The next developer interface is ambient intelligence appeared first on The GitHub Blog .",
+      "url": "https://github.blog/news-insights/company-news/the-next-developer-interface-is-ambient-intelligence",
+      "source": "GitHub Blog",
+      "published": "2026-10-16 04:39 JST",
+      "topic": "AI・LLM",
+      "title_ja": "次の開発者インターフェースはアンビエントインテリジェンスです",
+      "overview": "AI、エージェント、音声、および物理的な制御は、ソフトウェア開発を操作ツールから意図を表現するものにシフトし、開発者が構築に集中できるようにしています。投稿次の開発者インターフェースは、GitHubブログで最初に登場したアンビエントインテリジェンスです。",
+      "title_en": "The next developer interface is ambient intelligence",
+      "overview_en": "AI, agents, voice, and physical controls are shifting software development from operating tools to expressing intent—and helping developers stay focused on building. The post The next developer interface is ambient intelligence appeared first on The GitHub Blog .",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "A fully programmable secure web gateway",
+      "summary": "Cloudflare Gateway and Data Loss Prevention have inherited the flexibility and power of Cloudflare Workers through our full-stack integration with the Cloudflare Developer platform.",
+      "url": "https://blog.cloudflare.com/programmable-gateway-dlp",
+      "source": "Cloudflare Blog",
+      "published": "2026-10-16 02:11 JST",
+      "topic": "開発・OSS",
+      "title_ja": "完全にプログラム可能なセキュアWebゲートウェイ",
+      "overview": "Cloudflareゲートウェイとデータ損失防止は、Cloudflare開発者プラットフォームとのフルスタック統合を通じて、Cloudflareワーカーの柔軟性とパワーを継承しています。",
+      "title_en": "A fully programmable secure web gateway",
+      "overview_en": "Cloudflare Gateway and Data Loss Prevention have inherited the flexibility and power of Cloudflare Workers through our full-stack integration with the Cloudflare Developer platform.",
+      "importance": "開発者が使えるツールや技術の選択肢に関わる可能性があります。"
+    },
+    {
+      "title": "Staying Evergreen: How we automated secure access and repo hygiene in a shared org",
+      "summary": "Put native GitHub features to work to review outside collaborator access and archive stale repositories. The post Staying Evergreen: How we automated secure access and repo hygiene in a shared org appeared first on The GitHub Blog .",
+      "url": "https://github.blog/engineering/platform-security/staying-evergreen-how-we-automated-secure-access-and-repo-hygiene-in-a-shared-org",
+      "source": "GitHub Blog",
+      "published": "2026-10-16 03:00 JST",
+      "topic": "開発・OSS",
+      "title_ja": "ステイ・エバーグリーン：共有組織で安全なアクセスとリポジトリの衛生を自動化する方法",
+      "overview": "GitHubのネイティブ機能を活用して、外部コラボレーターのアクセスを確認し、古いリポジトリをアーカイブします。「Staying Evergreen: How we automated secure access and repo hygiene in a shared org」という記事は、The GitHub Blogに最初に掲載されました。",
+      "title_en": "Staying Evergreen: How we automated secure access and repo hygiene in a shared org",
+      "overview_en": "Put native GitHub features to work to review outside collaborator access and archive stale repositories. The post Staying Evergreen: How we automated secure access and repo hygiene in a shared org appeared first on The GitHub Blog .",
+      "importance": "開発者が使えるツールや技術の選択肢に関わる可能性があります。"
+    },
+    {
+      "title": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
+      "summary": "",
+      "url": "https://huggingface.co/blog/meta-muse-spark-open",
+      "source": "Hugging Face",
+      "published": "2026-10-15 09:00 JST",
+      "topic": "AI・LLM",
+      "title_ja": "Welcome Muse Sparkオープン： Metaのオープンウェイトフロンティアマルチモーダル混合エキスパートモデル",
+      "overview": "配信元から記事の概要が提供されていません。",
+      "title_en": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
+      "overview_en": "No summary was provided by the source.",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    }
+  ]
+}
