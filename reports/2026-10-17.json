@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-17",
+  "items": [
+    {
+      "title": "Continuous accountability for Verified bots",
+      "summary": "Identity alone doesn't guarantee a bot will behave responsibly. We are introducing a system to continuously evaluate whether Verified bots honor site preferences, like robots.txt and HTTP 429s, ensuring they remain accountable over time.",
+      "url": "https://blog.cloudflare.com/verified-bots-accountability",
+      "source": "Cloudflare Blog",
+      "published": "2026-10-16 22:00 JST",
+      "topic": "3D・ロボット",
+      "title_ja": "検証済みボットの継続的な説明責任",
+      "overview": "IDだけでは、ボットが責任を持って行動することを保証するものではありません。私たちは、検証済みボットがrobots.txtやHTTP 429sなどのサイトの設定を尊重しているかどうかを継続的に評価するシステムを導入し、時間の経過とともに責任を負うようにしています。",
+      "title_en": "Continuous accountability for Verified bots",
+      "overview_en": "Identity alone doesn't guarantee a bot will behave responsibly. We are introducing a system to continuously evaluate whether Verified bots honor site preferences, like robots.txt and HTTP 429s, ensuring they remain accountable over time.",
+      "importance": "画像処理・3D・ロボティクスの技術動向を知る手掛かりになります。"
+    },
+    {
+      "title": "Cloudflare and OpenAI: Making AI discovery better for everyone",
+      "summary": "How Cloudflare and OpenAI are working together to help AI find useful content, keep up with changes, and make fewer wasted requests — making the experience better for users and website owners alike.",
+      "url": "https://blog.cloudflare.com/cloudflare-openai-discovery-agentic-web",
+      "source": "Cloudflare Blog",
+      "published": "2026-10-15 22:00 JST",
+      "topic": "AI・LLM",
+      "title_ja": "CloudflareとOpenAI ： AIディスカバリーをすべての人にとってより良いものに",
+      "overview": "CloudflareとOpenAIがどのように連携して、AIが有用なコンテンツを見つけ、変更に対応し、無駄なリクエストを減らすのに役立っているか—ユーザーとウェブサイトの所有者にとって同様にエクスペリエンスを向上させます。",
+      "title_en": "Cloudflare and OpenAI: Making AI discovery better for everyone",
+      "overview_en": "How Cloudflare and OpenAI are working together to help AI find useful content, keep up with changes, and make fewer wasted requests — making the experience better for users and website owners alike.",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "Keeper SecurityがTenableとの連携を発表 クラウドリスクの迅速な是正環境を実現",
+      "summary": "Keeper SecurityがTenableとの連携を発表 クラウドリスクの迅速な是正環境を実現 ニュースメディアVOIX",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBRWWZvdjhfbWQ4ZEp3TGtaa1N0bXo2MTE0VDl3MlhCVXpQRkhPeWhvYlNrZl9KVVZKNGtTSzI2YjJ0eGJiV3MwMXZncW1RY0xzY0NnRkVuUUx3a1ZscHhtLWxDRENTS2hTdTFSOTJ0RjdXZVk",
+      "source": "ニュースメディアVOIX",
+      "published": "2026-10-16 17:35 JST",
+      "topic": "クラウド",
+      "title_ja": "Keeper SecurityがTenableとの連携を発表 クラウドリスクの迅速な是正環境を実現",
+      "overview": "Keeper SecurityがTenableとの連携を発表 クラウドリスクの迅速な是正環境を実現 ニュースメディアVOIX",
+      "title_en": "Keeper Security Announces Integration with Tenable for Rapid Cloud Risk Remediation",
+      "overview_en": "Keeper Security Announces Collaboration with Tenable Enabling Rapid Correction of Cloud Risk News Media Voix",
+      "importance": "クラウドサービスの機能や運用方法に関わる可能性があります。"
+    },
+    {
+      "title": "Welcome Beam: a 501B open model you can own, customize, and scale",
+      "summary": "",
+      "url": "https://huggingface.co/blog/reflection-beam",
+      "source": "Hugging Face",
+      "published": "2026-10-16 09:00 JST",
+      "topic": "AI・LLM",
+      "title_ja": "ウェルカムビーム：所有、カスタマイズ、拡張できる501 Bオープンモデル",
+      "overview": "配信元から記事の概要が提供されていません。",
+      "title_en": "Welcome Beam: a 501B open model you can own, customize, and scale",
+      "overview_en": "No summary was provided by the source.",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "Perplexity、AIエージェントの実行基盤「SPACE」をオープンソース化：安全性の検証結果も公開",
+      "summary": "Perplexity、AIエージェントの実行基盤「SPACE」をオープンソース化：安全性の検証結果も公開 XenoSpectrum",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5hM2I5bVpqTlVxRmV2Qll4LThVei1tZVF6ck5iMzRLRk13RmJsc1JTUWhTcldfMlRCNGx2MmdKVzMydGRjQ180cHBsdzZ3MGNHLUVKZzJHZ3BsbUxQbEtXZmdpamNQc3p3ZTZZQ2lmOUZ2TUdQWmJ3",
+      "source": "XenoSpectrum",
+      "published": "2026-10-16 10:53 JST",
+      "topic": "AI・LLM",
+      "title_ja": "Perplexity、AIエージェントの実行基盤「SPACE」をオープンソース化：安全性の検証結果も公開",
+      "overview": "Perplexity、AIエージェントの実行基盤「SPACE」をオープンソース化：安全性の検証結果も公開 XenoSpectrum",
+      "title_en": "Perplexity opens up AI agent execution platform \"space\": safety verification results also published",
+      "overview_en": "Perplexity opens up AI agent execution infrastructure 'space': safety verification results also published XenoSpectrum",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    }
+  ]
+}

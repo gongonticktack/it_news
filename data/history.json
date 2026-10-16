@@ -350,5 +350,27 @@
       "title": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
       "url": "https://huggingface.co/blog/meta-muse-spark-open"
     }
+  ],
+  "2026-10-17": [
+    {
+      "title": "Continuous accountability for Verified bots",
+      "url": "https://blog.cloudflare.com/verified-bots-accountability"
+    },
+    {
+      "title": "Cloudflare and OpenAI: Making AI discovery better for everyone",
+      "url": "https://blog.cloudflare.com/cloudflare-openai-discovery-agentic-web"
+    },
+    {
+      "title": "Keeper SecurityがTenableとの連携を発表 クラウドリスクの迅速な是正環境を実現",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBRWWZvdjhfbWQ4ZEp3TGtaa1N0bXo2MTE0VDl3MlhCVXpQRkhPeWhvYlNrZl9KVVZKNGtTSzI2YjJ0eGJiV3MwMXZncW1RY0xzY0NnRkVuUUx3a1ZscHhtLWxDRENTS2hTdTFSOTJ0RjdXZVk"
+    },
+    {
+      "title": "Welcome Beam: a 501B open model you can own, customize, and scale",
+      "url": "https://huggingface.co/blog/reflection-beam"
+    },
+    {
+      "title": "Perplexity、AIエージェントの実行基盤「SPACE」をオープンソース化：安全性の検証結果も公開",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5hM2I5bVpqTlVxRmV2Qll4LThVei1tZVF6ck5iMzRLRk13RmJsc1JTUWhTcldfMlRCNGx2MmdKVzMydGRjQ180cHBsdzZ3MGNHLUVKZzJHZ3BsbUxQbEtXZmdpamNQc3p3ZTZZQ2lmOUZ2TUdQWmJ3"
+    }
   ]
 }
