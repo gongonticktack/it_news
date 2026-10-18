@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-19",
+  "items": [
+    {
+      "title": "GoogleがAndroid向けオープンソースAIエージェント「Artemis」を公開",
+      "summary": "GoogleがAndroid向けオープンソースAIエージェント「Artemis」を公開 Pasquale Pillitteri",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNWWkxRUJta2FrOXhyUndpNzc1QTFtTndoQUZReEZaemYzN294ZkZ1RDJqa0pELWxRbDhqbWdyc2hIU05LS2VFLVlPcHlNMVF0cGFSb1RkeXdYZWpDNVMzNjN2X2RzeGlQel9ZSXVkM2phd3pjSmpDRXV4UUhQNzFTLWlfRmVUVU53cGQtbC10OVVUYXMx",
+      "source": "Pasquale Pillitteri",
+      "published": "2026-10-19 05:29 JST",
+      "topic": "AI・LLM",
+      "title_ja": "GoogleがAndroid向けオープンソースAIエージェント「Artemis」を公開",
+      "overview": "GoogleがAndroid向けオープンソースAIエージェント「Artemis」を公開 Pasquale Pillitteri",
+      "title_en": "Google launches Artemis, an open source AI agent for Android",
+      "overview_en": "Google launches Artemis, an open source AI agent for Android Pasquale Pillitteri",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "MetaのWebXR開発ツール「IWSDK」がAIエージェント対応、Niantic、3Dガウシアン・スプラッティング形式「SPZ 4」を公開 ほか",
+      "summary": "MetaのWebXR開発ツール「IWSDK」がAIエージェント対応、Niantic、3Dガウシアン・スプラッティング形式「SPZ 4」を公開 ほか ThinkIT",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9XZmRYcFFfMkJhUEFITXRhQ05oVjVabzl6Qzd1MEE3REotRmRTTUNuVzZVVDRjOHZwaHFxU2N5VkZnZWJueVk2d0VPdw",
+      "source": "ThinkIT",
+      "published": "2026-10-17 07:02 JST",
+      "topic": "AI・LLM",
+      "title_ja": "MetaのWebXR開発ツール「IWSDK」がAIエージェント対応、Niantic、3Dガウシアン・スプラッティング形式「SPZ 4」を公開 ほか",
+      "overview": "MetaのWebXR開発ツール「IWSDK」がAIエージェント対応、Niantic、3Dガウシアン・スプラッティング形式「SPZ 4」を公開 ほか ThinkIT",
+      "title_en": "Meta's WebXR development tool \"IWSDK\" supports AI agents, Niantic, 3D Gaussian splatting format \"SPZ4\" and more",
+      "overview_en": "Meta's WebXR development tool \"IWSDK\" supports AI agents, Niantic, 3D Gaussian splatting format \"SPZ4\" and ThinkIT",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "GoogleがHarness2を公開、自ら改善するAIエージェント",
+      "summary": "GoogleがHarness2を公開、自ら改善するAIエージェント Pasquale Pillitteri",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNTU5aMDY4RW0tS0FhdEdweWluRldzbkJKMGpsNFhfWUhEYlZTa28wY0VoQjJZb3Vfa3pyVjViYS0xSzFFOEVIbTJKajFvSXJ2S2twYTNzRDU5cktxeG8yandvbDZuX2l2Rm9zU3dIcjQxOEtnT0ZOUXJMU3BiRkZYTnVwbUFyV083aVE",
+      "source": "Pasquale Pillitteri",
+      "published": "2026-10-19 04:31 JST",
+      "topic": "AI・LLM",
+      "title_ja": "GoogleがHarness2を公開、自ら改善するAIエージェント",
+      "overview": "GoogleがHarness2を公開、自ら改善するAIエージェント Pasquale Pillitteri",
+      "title_en": "Google launches Harness2, an AI agent that improves on its own",
+      "overview_en": "Pasquale Pillitteri, an AI agent that Google exposes and improves Harness2",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "OrcaRouter、DeepSeek V4.1 Flashの無料版「V4.1 Flash Free」を提供開始",
+      "summary": "OrcaRouter、DeepSeek V4.1 Flashの無料版「V4.1 Flash Free」を提供開始 PR TIMES",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5OSXFfbDM2OWIzdjJ6NTdzZHpKQ3NxVmJqcjNENDZ3M3hGZVVqa1JfQ3A5RmFQWDJqS1ZCRjZzME5tUzV1YzlzNG9ubkt0empKX0RBSDVQdnVFcVh5OUdlN1ZHbmhwZjlxQVE",
+      "source": "PR TIMES",
+      "published": "2026-10-18 21:40 JST",
+      "topic": "AI・LLM",
+      "title_ja": "OrcaRouter、DeepSeek V4.1 Flashの無料版「V4.1 Flash Free」を提供開始",
+      "overview": "OrcaRouter、DeepSeek V4.1 Flashの無料版「V4.1 Flash Free」を提供開始 PR TIMES",
+      "title_en": "OrcaRouter launches V4.1 Flash Free, a free version of DeepSeek V4.1 Flash",
+      "overview_en": "OrcaRouter Launches' V4.1 Flash Free 'Free Version of DeepSeek V4.1 Flash PR times",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "完璧なAIはいらない？「弱いロボット」の可能性と、名鉄グループが築いた生成AIの”土壌”",
+      "summary": "完璧なAIはいらない？「弱いロボット」の可能性と、名鉄グループが築いた生成AIの”土壌” ThinkIT",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE01dUF5R0VPT3pNNTVSTjVhejZWMkR5U1dXeVAzZXFKX0pSQXA1Uk9YVFVCQXd1Zkp6cEVzazJROTdxLU1JUnBvcl9DYw",
+      "source": "ThinkIT",
+      "published": "2026-10-18 19:35 JST",
+      "topic": "AI・LLM",
+      "title_ja": "完璧なAIはいらない？「弱いロボット」の可能性と、名鉄グループが築いた生成AIの”土壌”",
+      "overview": "完璧なAIはいらない？「弱いロボット」の可能性と、名鉄グループが築いた生成AIの”土壌” ThinkIT",
+      "title_en": "Don't you need the perfect AI? The possibility of \"weak robots\" and the \"soil\" of generative AI built by the Meitetsu Group",
+      "overview_en": "Don't you need the perfect AI? The possibility of \"weak robots\" and the \"soil\" ThinkIT of generative AI built by the Meitetsu Group",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    }
+  ]
+}
