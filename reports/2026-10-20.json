@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-20",
+  "items": [
+    {
+      "title": "Introducing Clairic, a new System One class of extraction models",
+      "summary": "Clairic is a new model from Cloudflare that is a System One extraction modeI, capable of extracting, computing, estimating, and forecasting data from unstructured inputs.",
+      "url": "https://blog.cloudflare.com/clairic-extraction-model",
+      "source": "Cloudflare Blog",
+      "published": "2026-10-20 02:48 JST",
+      "topic": "AI・LLM",
+      "title_ja": "新しいSystem Oneクラスの抽出モデルであるClairicのご紹介",
+      "overview": "Clairicは、非構造化入力からデータを抽出、計算、推定、予測することができるSystem One抽出モードIであるCloudflareの新しいモデルです。",
+      "title_en": "Introducing Clairic, a new System One class of extraction models",
+      "overview_en": "Clairic is a new model from Cloudflare that is a System One extraction modeI, capable of extracting, computing, estimating, and forecasting data from unstructured inputs.",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "How to continue a GitHub Copilot app session in VS Code",
+      "summary": "Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context. The post How to continue a GitHub Copilot app session in VS Code appeared first on The GitHub Blog .",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code",
+      "source": "GitHub Blog",
+      "published": "2026-10-20 03:47 JST",
+      "topic": "AI・LLM",
+      "title_ja": "VS CodeでGitHub Copilotアプリセッションを続行する方法",
+      "overview": "会話、コードの変更、作業コンテキストを失うことなく、エージェントセッションをGitHub CopilotアプリからVS Codeに移動する方法について説明します。VS CodeでGitHub Copilotアプリセッションを続行する方法の投稿は、GitHubブログに最初に掲載されました。",
+      "title_en": "How to continue a GitHub Copilot app session in VS Code",
+      "overview_en": "Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context. The post How to continue a GitHub Copilot app session in VS Code appeared first on The GitHub Blog .",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "AWS Weekly Roundup: AWS Lambda Web Functions, Amazon S3 on the Vercel Marketplace, and more (October 19, 2026)",
+      "summary": "Nothing last week added a new kind of compute. What it did instead was shorten the distance between the code you already have and that code being live. AWS Lambda learned to run a plain HTTP server with no adapter in front of it, and Amazon S3 became something you can provision from inside the […]",
+      "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-lambda-web-functions-amazon-s3-on-the-vercel-marketplace-and-more-october-19-2026",
+      "source": "AWS News Blog",
+      "published": "2026-10-20 00:34 JST",
+      "topic": "クラウド",
+      "title_ja": "AWS Weekly Roundup ： AWS Lambda Web Functions、Vercel MarketplaceのAmazon S 3など（ 2026年10月19日）",
+      "overview": "先週、新しい種類のコンピューティングは追加されませんでした。代わりに、既存のコードとそのコードが稼働している間の距離を短縮しました。AWS Lambdaは、前面にアダプターがないプレーンHTTPサーバーを実行することを学び、Amazon S 3はプロビジョニングできるものになりました[…]",
+      "title_en": "AWS Weekly Roundup: AWS Lambda Web Functions, Amazon S3 on the Vercel Marketplace, and more (October 19, 2026)",
+      "overview_en": "Nothing last week added a new kind of compute. What it did instead was shorten the distance between the code you already have and that code being live. AWS Lambda learned to run a plain HTTP server with no adapter in front of it, and Amazon S3 became something you can provision from inside the […]",
+      "importance": "クラウドサービスの機能や運用方法に関わる可能性があります。"
+    },
+    {
+      "title": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
+      "summary": "",
+      "url": "https://huggingface.co/blog/hf-torchneuron",
+      "source": "Hugging Face",
+      "published": "2026-10-19 09:00 JST",
+      "topic": "AI・LLM",
+      "title_ja": "TorchNeuron ： AWS TrainiumでのHFモデルの実行がこれまで以上に簡単になりました",
+      "overview": "配信元から記事の概要が提供されていません。",
+      "title_en": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
+      "overview_en": "No summary was provided by the source.",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "Cutting our inference bill by 68% by being obsessive about optimization",
+      "summary": "When our AI code reviewer's cost per run doubled, we dug into the token usage to find out why. Learn how we used prompt caching and intelligent model routing to slash our inference bill by 68% while speeding up reviews.",
+      "url": "https://blog.cloudflare.com/obsessive-inference-optimization",
+      "source": "Cloudflare Blog",
+      "published": "2026-10-20 04:12 JST",
+      "topic": "AI・LLM",
+      "title_ja": "最適化にこだわることで、推論費用を68 ％削減",
+      "overview": "実行あたりのAIコードレビュアーのコストが2倍になったとき、トークンの使用状況を掘り下げて理由を調べました。プロンプトキャッシュとインテリジェントモデルルーティングを使用して、レビューを高速化しながら推論請求書を68 ％削減した方法をご紹介します。",
+      "title_en": "Cutting our inference bill by 68% by being obsessive about optimization",
+      "overview_en": "When our AI code reviewer's cost per run doubled, we dug into the token usage to find out why. Learn how we used prompt caching and intelligent model routing to slash our inference bill by 68% while speeding up reviews.",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    }
+  ]
+}
