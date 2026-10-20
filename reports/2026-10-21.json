@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-21",
+  "items": [
+    {
+      "title": "Introducing tsrs: A port of TypeScript to Rust",
+      "summary": "Cloudflare is collaborating on tsrs, a Rust port of TypeScript that is up to 8x faster and uses 70% less memory.",
+      "url": "https://blog.cloudflare.com/typescript-rust-port",
+      "source": "Cloudflare Blog",
+      "published": "2026-10-20 22:00 JST",
+      "topic": "開発・OSS",
+      "title_ja": "TSRSの紹介： RustへのTypeScriptの移植",
+      "overview": "Cloudflareは、最大8倍高速でメモリ使用量が70 ％削減されたTypeScriptのRustポートであるtsrsでコラボレーションしています。",
+      "title_en": "Introducing tsrs: A port of TypeScript to Rust",
+      "overview_en": "Cloudflare is collaborating on tsrs, a Rust port of TypeScript that is up to 8x faster and uses 70% less memory.",
+      "importance": "開発者が使えるツールや技術の選択肢に関わる可能性があります。"
+    },
+    {
+      "title": "Introducing Amazon ECS Gateway: A fully-managed ingress solution for ECS services",
+      "summary": "Try Amazon ECS Gateway, a new account-level resource that simplifies ingress networking for containerized workloads by dynamically provisioning and managing the necessary infrastructure on your behalf, with all resources created directly in your account.",
+      "url": "https://aws.amazon.com/blogs/aws/introducing-amazon-ecs-gateway-a-fully-managed-ingress-solution-for-ecs-services",
+      "source": "AWS News Blog",
+      "published": "2026-10-21 02:03 JST",
+      "topic": "3D・ロボット",
+      "title_ja": "Amazon ECSゲートウェイのご紹介： ECSサービスのための完全に管理された入力ソリューション",
+      "overview": "Amazon ECS Gatewayは、アカウントに直接作成されたすべてのリソースを使用して、必要なインフラストラクチャを動的にプロビジョニングおよび管理することで、コンテナ化されたワークロードの入力ネットワークを簡素化する新しいアカウントレベルリソースです。",
+      "title_en": "Introducing Amazon ECS Gateway: A fully-managed ingress solution for ECS services",
+      "overview_en": "Try Amazon ECS Gateway, a new account-level resource that simplifies ingress networking for containerized workloads by dynamically provisioning and managing the necessary infrastructure on your behalf, with all resources created directly in your account.",
+      "importance": "画像処理・3D・ロボティクスの技術動向を知る手掛かりになります。"
+    },
+    {
+      "title": "8 eMudhra certificates are compromised. Here's what you need to know",
+      "summary": "Following the discovery that eight eMudhra intermediate certificates use weak keys, Cloudflare is deploying mitigations and releasing client updates. We explain the impact, our response, and what customers and developers should do next.",
+      "url": "https://blog.cloudflare.com/emudhra-certificate-compromise",
+      "source": "Cloudflare Blog",
+      "published": "2026-10-21 07:20 JST",
+      "topic": "開発・OSS",
+      "title_ja": "8つのeMudhra証明書が侵害されています。知っておくべきことをご案内します",
+      "overview": "8つのeMudhra中間証明書が弱いキーを使用していることが判明した後、Cloudflareは軽減策を展開し、クライアントの更新をリリースしています。影響、当社の対応、顧客と開発者が次にすべきことを説明します。",
+      "title_en": "8 eMudhra certificates are compromised. Here's what you need to know",
+      "overview_en": "Following the discovery that eight eMudhra intermediate certificates use weak keys, Cloudflare is deploying mitigations and releasing client updates. We explain the impact, our response, and what customers and developers should do next.",
+      "importance": "開発者が使えるツールや技術の選択肢に関わる可能性があります。"
+    },
+    {
+      "title": "NVIDIA Cosmos3-H-Dreams: Bringing Clinical Surgery to Life Through Generative Simulation",
+      "summary": "",
+      "url": "https://huggingface.co/blog/nvidia/cosmos3-h-dreams",
+      "source": "Hugging Face",
+      "published": "2026-10-21 03:17 JST",
+      "topic": "3D・ロボット",
+      "title_ja": "NVIDIA Cosmos 3 - H - Dreams ：ジェネレーティブシミュレーションで臨床手術を実現",
+      "overview": "配信元から記事の概要が提供されていません。",
+      "title_en": "NVIDIA Cosmos3-H-Dreams: Bringing Clinical Surgery to Life Through Generative Simulation",
+      "overview_en": "No summary was provided by the source.",
+      "importance": "画像処理・3D・ロボティクスの技術動向を知る手掛かりになります。"
+    },
+    {
+      "title": "FairStress: A deeper evaluation of fairness in LLM decision-making",
+      "summary": "",
+      "url": "https://huggingface.co/blog/allenai/fairstress",
+      "source": "Hugging Face",
+      "published": "2026-10-21 01:09 JST",
+      "topic": "AI・LLM",
+      "title_ja": "FairStress ： LLMの意思決定における公平性のより深い評価",
+      "overview": "配信元から記事の概要が提供されていません。",
+      "title_en": "FairStress: A deeper evaluation of fairness in LLM decision-making",
+      "overview_en": "No summary was provided by the source.",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    }
+  ]
+}
