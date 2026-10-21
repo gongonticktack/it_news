@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-22",
+  "items": [
+    {
+      "title": "The bridge to agent-scale Git infrastructure",
+      "summary": "We moved a copy of 99.99999% of GitHub's repositories to Azure. Here's how per-reference quorums will bring over the rest, and how object storage lets reads scale independently. The post The bridge to agent-scale Git infrastructure appeared first on The GitHub Blog .",
+      "url": "https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure",
+      "source": "GitHub Blog",
+      "published": "2026-10-22 01:00 JST",
+      "topic": "AI・LLM",
+      "title_ja": "エージェントスケールのGitインフラストラクチャへのブリッジ",
+      "overview": "GitHubのリポジトリの99.99999%のコピーをAzureに移動しました。ここでは、リファレンスごとのクォーラムが残りのクォーラムをどのように引き継ぎ、オブジェクトストレージが読み取りを独立してスケーリングできるようにするかを説明します。エージェント規模のGitインフラストラクチャへのブリッジは、GitHubブログに最初に掲載されました。",
+      "title_en": "The bridge to agent-scale Git infrastructure",
+      "overview_en": "We moved a copy of 99.99999% of GitHub's repositories to Azure. Here's how per-reference quorums will bring over the rest, and how object storage lets reads scale independently. The post The bridge to agent-scale Git infrastructure appeared first on The GitHub Blog .",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "How Commerce.com and Cloudflare are getting storefronts ready for AI agents",
+      "summary": "Almost 100,000 Commerce.com domains now give AI agents real shopping tools through WebMCP on Cloudflare. Here's how we turned it on across every store at once, while keeping each merchant in control.",
+      "url": "https://blog.cloudflare.com/webmcp-commerce",
+      "source": "Cloudflare Blog",
+      "published": "2026-10-21 22:00 JST",
+      "topic": "AI・LLM",
+      "title_ja": "Commerce.comとCloudflareがAIエージェントのためにストアフロントを準備している方法",
+      "overview": "現在、ほぼ100,000のCommerce.comドメインが、Cloudflare上のWebMCPを通じてAIエージェントに実際のショッピングツールを提供しています。各販売業者を管理しながら、すべての店舗で一度にオンにする方法をご紹介します。",
+      "title_en": "How Commerce.com and Cloudflare are getting storefronts ready for AI agents",
+      "overview_en": "Almost 100,000 Commerce.com domains now give AI agents real shopping tools through WebMCP on Cloudflare. Here's how we turned it on across every store at once, while keeping each merchant in control.",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "Introducing full transaction detection for Cloudflare WAF",
+      "summary": "Cloudflare's web application firewall can now correlate an HTTP request with its response. Full transaction detection helps every customer find successful exploits, data exposure, and risky misconfigurations that request-only inspection can miss.",
+      "url": "https://blog.cloudflare.com/full-transaction-waf",
+      "source": "Cloudflare Blog",
+      "published": "2026-10-21 23:10 JST",
+      "topic": "クラウド",
+      "title_ja": "Cloudflare WAFの完全なトランザクション検出のご紹介",
+      "overview": "CloudflareのWebアプリケーションファイアウォールは、HTTP要求とその応答を関連付けることができるようになりました。完全なトランザクション検出は、すべての顧客が成功したエクスプロイト、データの暴露、および要求のみの検査で見逃す可能性のある危険な誤設定を見つけるのに役立ちます。",
+      "title_en": "Introducing full transaction detection for Cloudflare WAF",
+      "overview_en": "Cloudflare's web application firewall can now correlate an HTTP request with its response. Full transaction detection helps every customer find successful exploits, data exposure, and risky misconfigurations that request-only inspection can miss.",
+      "importance": "クラウドサービスの機能や運用方法に関わる可能性があります。"
+    },
+    {
+      "title": "NVIDIA Kumo Relational Outperforms Supervised Machine Learning on Relational Data, No Training Required",
+      "summary": "",
+      "url": "https://huggingface.co/blog/nvidia/kumo-relational",
+      "source": "Hugging Face",
+      "published": "2026-10-22 03:26 JST",
+      "topic": "3D・ロボット",
+      "title_ja": "NVIDIA Kumoリレーショナルは、リレーショナルデータで教師付き機械学習に勝る、トレーニングは必要ありません",
+      "overview": "配信元から記事の概要が提供されていません。",
+      "title_en": "NVIDIA Kumo Relational Outperforms Supervised Machine Learning on Relational Data, No Training Required",
+      "overview_en": "No summary was provided by the source.",
+      "importance": "画像処理・3D・ロボティクスの技術動向を知る手掛かりになります。"
+    },
+    {
+      "title": "Profiling TorchNeuron (Part 1): System-level profiling on AWS Trainium.",
+      "summary": "",
+      "url": "https://huggingface.co/blog/amazon/profiling-torchneuron-part-1",
+      "source": "Hugging Face",
+      "published": "2026-10-22 01:04 JST",
+      "topic": "クラウド",
+      "title_ja": "TorchNeuronのプロファイリング（パート1 ） ： AWS Trainiumでのシステムレベルのプロファイリング。",
+      "overview": "配信元から記事の概要が提供されていません。",
+      "title_en": "Profiling TorchNeuron (Part 1): System-level profiling on AWS Trainium.",
+      "overview_en": "No summary was provided by the source.",
+      "importance": "クラウドサービスの機能や運用方法に関わる可能性があります。"
+    }
+  ]
+}
