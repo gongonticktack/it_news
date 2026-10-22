@@ -482,5 +482,27 @@
       "title": "Profiling TorchNeuron (Part 1): System-level profiling on AWS Trainium.",
       "url": "https://huggingface.co/blog/amazon/profiling-torchneuron-part-1"
     }
+  ],
+  "2026-10-23": [
+    {
+      "title": "AWS Continuum for code vulnerabilities is now generally available",
+      "url": "https://aws.amazon.com/blogs/aws/aws-continuum-for-code-vulnerabilities-is-now-generally-available"
+    },
+    {
+      "title": "Localizing compliance at scale: achieving South Korea’s ISMS certification",
+      "url": "https://blog.cloudflare.com/k-isms"
+    },
+    {
+      "title": "How bug bounty sharpens one researcher’s security skills",
+      "url": "https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills"
+    },
+    {
+      "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
+      "url": "https://huggingface.co/blog/microsoft/thinkingbox-training"
+    },
+    {
+      "title": "Cloudflare deploys protections against php2shell vulnerability",
+      "url": "https://blog.cloudflare.com/php-vulnerabilities-waf-protection"
+    }
   ]
 }

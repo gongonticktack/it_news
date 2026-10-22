@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-23",
+  "items": [
+    {
+      "title": "AWS Continuum for code vulnerabilities is now generally available",
+      "summary": "AWS Continuum for code vulnerabilities is a new security service that uses AI to automatically find, validate, and prioritize code vulnerabilities in your environment, then delivers ready-to-review fixes as pull requests replacing what previously took hours of manual investigation and days of cross-team coordination.",
+      "url": "https://aws.amazon.com/blogs/aws/aws-continuum-for-code-vulnerabilities-is-now-generally-available",
+      "source": "AWS News Blog",
+      "published": "2026-10-23 05:33 JST",
+      "topic": "AI・LLM",
+      "title_ja": "コードの脆弱性のためのAWS Continuumが一般公開されました",
+      "overview": "AWS Continuum for Codeの脆弱性は、AIを使用して環境内のコードの脆弱性を自動的に検出、検証、優先順位付けする新しいセキュリティサービスです。その後、手動調査に何時間もかかったものとチーム間の調整に何日もかかるものを置き換えるプルリクエストとして、レビュー可能な修正を提供します。",
+      "title_en": "AWS Continuum for code vulnerabilities is now generally available",
+      "overview_en": "AWS Continuum for code vulnerabilities is a new security service that uses AI to automatically find, validate, and prioritize code vulnerabilities in your environment, then delivers ready-to-review fixes as pull requests replacing what previously took hours of manual investigation and days of cross-team coordination.",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "Localizing compliance at scale: achieving South Korea’s ISMS certification",
+      "summary": "Cloudflare has achieved South Korea's ISMS certification following an audit across 80 controls. Learn how we localized user consent flows, adapted social sign-up paths at the edge, and validated our global security program.",
+      "url": "https://blog.cloudflare.com/k-isms",
+      "source": "Cloudflare Blog",
+      "published": "2026-10-22 22:00 JST",
+      "topic": "開発・OSS",
+      "title_ja": "コンプライアンスの大規模なローカライズ：韓国のISMS認証取得",
+      "overview": "Cloudflareは、80のコントロールにわたる監査の結果、韓国のISMS認証を取得しました。ユーザーの同意フローをローカライズし、エッジでソーシャルサインアップパスを適応させ、グローバルセキュリティプログラムを検証した方法をご紹介します。",
+      "title_en": "Localizing compliance at scale: achieving South Korea’s ISMS certification",
+      "overview_en": "Cloudflare has achieved South Korea's ISMS certification following an audit across 80 controls. Learn how we localized user consent flows, adapted social sign-up paths at the edge, and validated our global security program.",
+      "importance": "開発者が使えるツールや技術の選択肢に関わる可能性があります。"
+    },
+    {
+      "title": "How bug bounty sharpens one researcher’s security skills",
+      "summary": "As Cybersecurity Awareness Month continues, the GitHub Bug Bounty team spotlights @r31n, diving into their research approach, favorite bug classes, and advice for aspiring hackers. The post How bug bounty sharpens one researcher’s security skills appeared first on The GitHub Blog .",
+      "url": "https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills",
+      "source": "GitHub Blog",
+      "published": "2026-10-23 02:21 JST",
+      "topic": "開発・OSS",
+      "title_ja": "バグ報奨金が研究者のセキュリティスキルをどのように磨くか",
+      "overview": "サイバーセキュリティ啓発月間が続くにつれて、GitHub Bug Bountyチームは@ r 31 nにスポットライトを当て、彼らの研究アプローチ、お気に入りのバグクラス、そして有望なハッカーへのアドバイスを紹介します。「How bug bounty sharpens one researcher's security skills」という記事が最初にGitHubブログに掲載されました。",
+      "title_en": "How bug bounty sharpens one researcher’s security skills",
+      "overview_en": "As Cybersecurity Awareness Month continues, the GitHub Bug Bounty team spotlights @r31n, diving into their research approach, favorite bug classes, and advice for aspiring hackers. The post How bug bounty sharpens one researcher’s security skills appeared first on The GitHub Blog .",
+      "importance": "開発者が使えるツールや技術の選択肢に関わる可能性があります。"
+    },
+    {
+      "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
+      "summary": "",
+      "url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
+      "source": "Hugging Face",
+      "published": "2026-10-23 07:24 JST",
+      "topic": "AI・LLM",
+      "title_ja": "データベースグレーディングをRL報酬に変える： ThinkingBoxを使用したポストトレーニングエージェント",
+      "overview": "配信元から記事の概要が提供されていません。",
+      "title_en": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
+      "overview_en": "No summary was provided by the source.",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "Cloudflare deploys protections against php2shell vulnerability",
+      "summary": "Cloudflare has deployed default web application firewall (WAF) protections for newly disclosed PHP vulnerabilities before public disclosure. The rules use request and response signals to stop exploit attempts and prevent exposed data from reaching attackers.",
+      "url": "https://blog.cloudflare.com/php-vulnerabilities-waf-protection",
+      "source": "Cloudflare Blog",
+      "published": "2026-10-21 22:56 JST",
+      "topic": "クラウド",
+      "title_ja": "Cloudflareはphp 2 shellの脆弱性に対する保護を展開します",
+      "overview": "Cloudflareは、公開前に新たに開示されたPHPの脆弱性に対して、デフォルトのWebアプリケーションファイアウォール（ WAF ）保護を展開しています。ルールは、要求および応答シグナルを使用して、エクスプロイトの試みを停止し、公開されたデータが攻撃者に到達するのを防ぎます。",
+      "title_en": "Cloudflare deploys protections against php2shell vulnerability",
+      "overview_en": "Cloudflare has deployed default web application firewall (WAF) protections for newly disclosed PHP vulnerabilities before public disclosure. The rules use request and response signals to stop exploit attempts and prevent exposed data from reaching attackers.",
+      "importance": "クラウドサービスの機能や運用方法に関わる可能性があります。"
+    }
+  ]
+}
