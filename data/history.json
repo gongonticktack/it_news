@@ -504,5 +504,27 @@
       "title": "Cloudflare deploys protections against php2shell vulnerability",
       "url": "https://blog.cloudflare.com/php-vulnerabilities-waf-protection"
     }
+  ],
+  "2026-10-24": [
+    {
+      "title": "Does Your Model Run on AWS Trainium? Look It Up",
+      "url": "https://huggingface.co/blog/torch-neuronx-model-support"
+    },
+    {
+      "title": "Bringing post-quantum cryptography to geographically fenced key management",
+      "url": "https://blog.cloudflare.com/post-quantum-geo-key-manager"
+    },
+    {
+      "title": "「MCP ツールボックス」Java SDK v1.0 のご紹介: 企業向けのエージェント型データアクセス",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNcEtHNnZXZVNhYnlBbmdPQy1LV0R0Q2R4Mzl3elZpaDluaElzUktLaXlCT0U5R2VfOS00aUFTOFVVNnRQZjdUb2c0dEtaVklMbTkwNlhqeXEyRUE0cWZva1drZnV2eEItZENtQ21ISllPX01NTEpWRnJtVGoxdHpJMllDX1NXcFIybDdUNkFRQUZJVnRtbzZfRzN2b21KQnVPaWdJbzBRVWdHSFdPWmxnSVdIMnNUNDJLd1ZxR0IxNlFGS1JHTi01eHRTUmp6WHFGaGtTOFh3"
+    },
+    {
+      "title": "Origin Range Requests: Serving large files without range-request tuning",
+      "url": "https://blog.cloudflare.com/origin-range-requests"
+    },
+    {
+      "title": "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape",
+      "url": "https://huggingface.co/blog/allenai/litpivot"
+    }
   ]
 }

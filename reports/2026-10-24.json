@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-24",
+  "items": [
+    {
+      "title": "Does Your Model Run on AWS Trainium? Look It Up",
+      "summary": "",
+      "url": "https://huggingface.co/blog/torch-neuronx-model-support",
+      "source": "Hugging Face",
+      "published": "2026-10-23 09:00 JST",
+      "topic": "AI・LLM",
+      "title_ja": "お使いのモデルはAWS Trainiumで実行されていますか？調べる",
+      "overview": "配信元から記事の概要が提供されていません。",
+      "title_en": "Does Your Model Run on AWS Trainium? Look It Up",
+      "overview_en": "No summary was provided by the source.",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "Bringing post-quantum cryptography to geographically fenced key management",
+      "summary": "Cloudflare's new post-quantum GeoKey Manager protects geographically fenced decryption keys from harvest now, decrypt later attacks. Learn how we redesigned our cryptography stack to support strict data sovereignty in a post-quantum world.",
+      "url": "https://blog.cloudflare.com/post-quantum-geo-key-manager",
+      "source": "Cloudflare Blog",
+      "published": "2026-10-24 03:06 JST",
+      "topic": "クラウド",
+      "title_ja": "地理的にフェンスされたキー管理にポスト量子暗号をもたらす",
+      "overview": "Cloudflareの新しいポスト量子GeoKey Managerは、地理的にフェンスされた復号化キーを今すぐ収穫から保護し、後で攻撃を復号化します。ポスト量子の世界で厳格なデータ主権をサポートするために、暗号スタックを再設計した方法をご覧ください。",
+      "title_en": "Bringing post-quantum cryptography to geographically fenced key management",
+      "overview_en": "Cloudflare's new post-quantum GeoKey Manager protects geographically fenced decryption keys from harvest now, decrypt later attacks. Learn how we redesigned our cryptography stack to support strict data sovereignty in a post-quantum world.",
+      "importance": "クラウドサービスの機能や運用方法に関わる可能性があります。"
+    },
+    {
+      "title": "「MCP ツールボックス」Java SDK v1.0 のご紹介: 企業向けのエージェント型データアクセス",
+      "summary": "「MCP ツールボックス」Java SDK v1.0 のご紹介: 企業向けのエージェント型データアクセス Google Cloud",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNcEtHNnZXZVNhYnlBbmdPQy1LV0R0Q2R4Mzl3elZpaDluaElzUktLaXlCT0U5R2VfOS00aUFTOFVVNnRQZjdUb2c0dEtaVklMbTkwNlhqeXEyRUE0cWZva1drZnV2eEItZENtQ21ISllPX01NTEpWRnJtVGoxdHpJMllDX1NXcFIybDdUNkFRQUZJVnRtbzZfRzN2b21KQnVPaWdJbzBRVWdHSFdPWmxnSVdIMnNUNDJLd1ZxR0IxNlFGS1JHTi01eHRTUmp6WHFGaGtTOFh3",
+      "source": "Google Cloud",
+      "published": "2026-10-23 13:29 JST",
+      "topic": "AI・LLM",
+      "title_ja": "「MCP ツールボックス」Java SDK v1.0 のご紹介: 企業向けのエージェント型データアクセス",
+      "overview": "「MCP ツールボックス」Java SDK v1.0 のご紹介: 企業向けのエージェント型データアクセス Google Cloud",
+      "title_en": "Introducing the MCP Toolbox Java SDK v1.0: Agent-Based Data Access for Enterprises",
+      "overview_en": "Introducing the MCP Toolbox Java SDK v1.0: Agent-Based Data Access for Enterprises Google Cloud",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "Origin Range Requests: Serving large files without range-request tuning",
+      "summary": "Naive byte-range caching can waste gigabytes of origin bandwidth on small requests. We rebuilt our cache architecture in Pingora to coordinate partial fetches automatically, cutting R2 p99 latency in half.",
+      "url": "https://blog.cloudflare.com/origin-range-requests",
+      "source": "Cloudflare Blog",
+      "published": "2026-10-24 03:22 JST",
+      "topic": "IT全般",
+      "title_ja": "オリジンレンジリクエスト：レンジリクエストチューニングなしで大きなファイルを提供する",
+      "overview": "ナイーブバイトレンジキャッシングは、小さな要求で起源帯域幅のギガバイトを浪費する可能性があります。Pingoraでキャッシュアーキテクチャを再構築して、部分的なフェッチを自動的に調整し、R 2 p 99のレイテンシを半分に削減しました。",
+      "title_en": "Origin Range Requests: Serving large files without range-request tuning",
+      "overview_en": "Naive byte-range caching can waste gigabytes of origin bandwidth on small requests. We rebuilt our cache architecture in Pingora to coordinate partial fetches automatically, cutting R2 p99 latency in half.",
+      "importance": "IT分野の最新動向として確認する価値があります。"
+    },
+    {
+      "title": "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape",
+      "summary": "",
+      "url": "https://huggingface.co/blog/allenai/litpivot",
+      "source": "Hugging Face",
+      "published": "2026-10-24 01:15 JST",
+      "topic": "IT全般",
+      "title_ja": "LitPivot ：文学の風景の中で動的な文脈化を通じて研究アイデアを開発する",
+      "overview": "配信元から記事の概要が提供されていません。",
+      "title_en": "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape",
+      "overview_en": "No summary was provided by the source.",
+      "importance": "IT分野の最新動向として確認する価値があります。"
+    }
+  ]
+}
