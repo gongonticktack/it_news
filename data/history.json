@@ -526,5 +526,27 @@
       "title": "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape",
       "url": "https://huggingface.co/blog/allenai/litpivot"
     }
+  ],
+  "2026-10-25": [
+    {
+      "title": "Anthropicが常時稼働するエージェント「Claude Duet」を発表／AMDとIntelが協業 PyTorchのx86 CPU最適化を「oneDNN」に一本化",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9VcnBQdV9uM2l5cEVaVTNzNUx6MjlSVjdDRE1yMmR2WW5pZWNSX2RMcm9PbkFQeGJQclhoWHRoT0RCd1V6c29qVzBIWjgxYzdzX2laUUh4WlB6OWVoUVhsSkdRUWlOX05CV3VsLXJmclhQSU1iaEHSAXZBVV95cUxPVXJwUHVfbjNpeXBFWlUzczVMejI5UlY3Q0RNcjJkdlluaWVjUl9kTHJvT25BUHhiUHJYaFh0aE9EQndVenNvalcwSFo4MWM3c19pWlFIeFpQejllaFFYbEpHUVFpTl9OQld1bC1yZnJYUElNYmhB"
+    },
+    {
+      "title": "Cloudflare の security-audit スキルをプロジェクトで使う方法",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOVFJYQjJBQ0RVRXRDWHl4RlVVRHRWRmxrdUZkLW1LQjFWYjBlMS1GMUl5bkl2dmNYZG5CTDY4bk5UWlRQTjNiT2Y0M2Ewd0ZnQ0ZyVGk2WTctUDhwd0hZTHl1WE1hYkxwV1dZUU5pSTUyRTE1U2VnX3dMX0ZIejN3VTFVTEE3Rl9CUHRrYUpaYw"
+    },
+    {
+      "title": "Nemotron 3.5 Bolt E4B登場、ロボットとゲーム向けAI",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdU1ESFhUQ09VN2ZfRV9Oc3VWamhIYUsxbVhKNmZNRVFiWEU0Y2JrZUJUTGFra0w2aWUtQjRwbGE5UE9WOVFuTXVsM1g5UVNZY3Z3V1VGNk56T2oxU0dtamo1WTFCSGNkREkwclJidzd1d0F5X2tlQlZ3aTdYVlRDOTVLZ1pDSU5xWVRiZURB"
+    },
+    {
+      "title": "Ensemble forecasting with IBM Granite time-series models",
+      "url": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1"
+    },
+    {
+      "title": "Patch the Planet：エージェントによる重大な脆弱性の発見と世界規模の対応連携",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNG5ZbDgzV19jVlhvYzVWZnVCYWhGcTR3U01OT0tFZFp6QnVrdE5PWEdmN3VqalMyZGdlTHZ3bGhBMDRXWTZxS1A3ME9MaDFYOGhxVmQ2V1RaMmR2ZlBmQnRUV2RWcENPTF80di1telVsdURDM0lOcTIzc09NVkZhWVdpb01oaDkycEE"
+    }
   ]
 }

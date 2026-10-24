@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-25",
+  "items": [
+    {
+      "title": "Anthropicが常時稼働するエージェント「Claude Duet」を発表／AMDとIntelが協業 PyTorchのx86 CPU最適化を「oneDNN」に一本化",
+      "summary": "Anthropicが常時稼働するエージェント「Claude Duet」を発表／AMDとIntelが協業 PyTorchのx86 CPU最適化を「oneDNN」に一本化 Infoseek",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9VcnBQdV9uM2l5cEVaVTNzNUx6MjlSVjdDRE1yMmR2WW5pZWNSX2RMcm9PbkFQeGJQclhoWHRoT0RCd1V6c29qVzBIWjgxYzdzX2laUUh4WlB6OWVoUVhsSkdRUWlOX05CV3VsLXJmclhQSU1iaEHSAXZBVV95cUxPVXJwUHVfbjNpeXBFWlUzczVMejI5UlY3Q0RNcjJkdlluaWVjUl9kTHJvT25BUHhiUHJYaFh0aE9EQndVenNvalcwSFo4MWM3c19pWlFIeFpQejllaFFYbEpHUVFpTl9OQld1bC1yZnJYUElNYmhB",
+      "source": "Infoseek",
+      "published": "2026-10-25 06:05 JST",
+      "topic": "AI・LLM",
+      "title_ja": "Anthropicが常時稼働するエージェント「Claude Duet」を発表／AMDとIntelが協業 PyTorchのx86 CPU最適化を「oneDNN」に一本化",
+      "overview": "Anthropicが常時稼働するエージェント「Claude Duet」を発表／AMDとIntelが協業 PyTorchのx86 CPU最適化を「oneDNN」に一本化 Infoseek",
+      "title_en": "Anthropic Announces Claude Duet, a Always-On Agent; AMD and Intel Collaborate to Bring PyTorch's x86 CPU Optimization to OneDNN",
+      "overview_en": "Anthropic Announces Claude Duet, a Always-On Agent; AMD and Intel Collaborate to Unify PyTorch's x86 CPU Optimization into “oneDNN” Infoseek",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "Cloudflare の security-audit スキルをプロジェクトで使う方法",
+      "summary": "Cloudflare の security-audit スキルをプロジェクトで使う方法 Pasquale Pillitteri",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOVFJYQjJBQ0RVRXRDWHl4RlVVRHRWRmxrdUZkLW1LQjFWYjBlMS1GMUl5bkl2dmNYZG5CTDY4bk5UWlRQTjNiT2Y0M2Ewd0ZnQ0ZyVGk2WTctUDhwd0hZTHl1WE1hYkxwV1dZUU5pSTUyRTE1U2VnX3dMX0ZIejN3VTFVTEE3Rl9CUHRrYUpaYw",
+      "source": "Pasquale Pillitteri",
+      "published": "2026-10-25 03:08 JST",
+      "topic": "クラウド",
+      "title_ja": "Cloudflare の security-audit スキルをプロジェクトで使う方法",
+      "overview": "Cloudflare の security-audit スキルをプロジェクトで使う方法 Pasquale Pillitteri",
+      "title_en": "How to use Cloudflare's security-audit skills in your project",
+      "overview_en": "How to use Cloudflare's security-audit skills in your project Pasquale Pillitteri",
+      "importance": "クラウドサービスの機能や運用方法に関わる可能性があります。"
+    },
+    {
+      "title": "Nemotron 3.5 Bolt E4B登場、ロボットとゲーム向けAI",
+      "summary": "Nemotron 3.5 Bolt E4B登場、ロボットとゲーム向けAI Pasquale Pillitteri",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdU1ESFhUQ09VN2ZfRV9Oc3VWamhIYUsxbVhKNmZNRVFiWEU0Y2JrZUJUTGFra0w2aWUtQjRwbGE5UE9WOVFuTXVsM1g5UVNZY3Z3V1VGNk56T2oxU0dtamo1WTFCSGNkREkwclJidzd1d0F5X2tlQlZ3aTdYVlRDOTVLZ1pDSU5xWVRiZURB",
+      "source": "Pasquale Pillitteri",
+      "published": "2026-10-24 19:10 JST",
+      "topic": "AI・LLM",
+      "title_ja": "Nemotron 3.5 Bolt E4B登場、ロボットとゲーム向けAI",
+      "overview": "Nemotron 3.5 Bolt E4B登場、ロボットとゲーム向けAI Pasquale Pillitteri",
+      "title_en": "Nemotron 3.5 Bolt E4B, AI for Robots and Games",
+      "overview_en": "Nemotron 3.5 Bolt E4B, AI Pasquale Pillitteri for Robots and Games",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "Ensemble forecasting with IBM Granite time-series models",
+      "summary": "",
+      "url": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
+      "source": "Hugging Face",
+      "published": "2026-10-22 16:51 JST",
+      "topic": "AI・LLM",
+      "title_ja": "IBM Granite時系列モデルによるアンサンブル予測",
+      "overview": "配信元から記事の概要が提供されていません。",
+      "title_en": "Ensemble forecasting with IBM Granite time-series models",
+      "overview_en": "No summary was provided by the source.",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "Patch the Planet：エージェントによる重大な脆弱性の発見と世界規模の対応連携",
+      "summary": "Patch the Planet：エージェントによる重大な脆弱性の発見と世界規模の対応連携 OpenAI",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNG5ZbDgzV19jVlhvYzVWZnVCYWhGcTR3U01OT0tFZFp6QnVrdE5PWEdmN3VqalMyZGdlTHZ3bGhBMDRXWTZxS1A3ME9MaDFYOGhxVmQ2V1RaMmR2ZlBmQnRUV2RWcENPTF80di1telVsdURDM0lOcTIzc09NVkZhWVdpb01oaDkycEE",
+      "source": "OpenAI",
+      "published": "2026-10-22 08:56 JST",
+      "topic": "AI・LLM",
+      "title_ja": "Patch the Planet：エージェントによる重大な脆弱性の発見と世界規模の対応連携",
+      "overview": "Patch the Planet：エージェントによる重大な脆弱性の発見と世界規模の対応連携 OpenAI",
+      "title_en": "Patch the Planet: Agent Discovery of Critical Vulnerabilities and Global Response Alignment",
+      "overview_en": "Patch the Planet: Agent Discovery of Critical Vulnerabilities and Global Response Collaboration OpenAI",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    }
+  ]
+}
