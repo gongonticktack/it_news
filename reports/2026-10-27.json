@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-27",
+  "items": [
+    {
+      "title": "AWS Weekly Roundup: Amazon Polly Generative engine, TorchNeuron for Trainium, and more (October 26, 2026)",
+      "summary": "A few weeks ago I presented to a small group of commercial and technology leaders from Brazilian agribusiness at the AWS office in São Paulo. My talk ran through where generative AI fits across the different stages of an agribusiness operation, and the point I kept returning to is that the markets we call traditional […]",
+      "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-amazon-polly-generative-engine-torchneuron-for-trainium-and-more-october-26-2026",
+      "source": "AWS News Blog",
+      "published": "2026-10-27 00:02 JST",
+      "topic": "AI・LLM",
+      "title_ja": "AWS Weekly Roundup ： Amazon Polly Generativeエンジン、Trainium用TorchNeuronなど（ 2026年10月26日）",
+      "overview": "数週間前、サンパウロのAWSオフィスで、ブラジルのアグリビジネスの商業およびテクノロジーリーダーの小グループにプレゼンテーションを行いました。私の講演では、ジェネレーティブAIがアグリビジネス運用のさまざまな段階に適合し、私が戻ってきたポイントは、私たちが伝統的な[...]と呼ぶ市場です。",
+      "title_en": "AWS Weekly Roundup: Amazon Polly Generative engine, TorchNeuron for Trainium, and more (October 26, 2026)",
+      "overview_en": "A few weeks ago I presented to a small group of commercial and technology leaders from Brazilian agribusiness at the AWS office in São Paulo. My talk ran through where generative AI fits across the different stages of an agribusiness operation, and the point I kept returning to is that the markets we call traditional […]",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model, and our remediation with SGLang",
+      "summary": "A configuration mismatch in GLM 5.3 on Workers AI triggered an SGLang bug that exposed KV cache pages across requests. Here is how we addressed the issue.",
+      "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation",
+      "source": "Cloudflare Blog",
+      "published": "2026-10-27 07:01 JST",
+      "topic": "AI・LLM",
+      "title_ja": "GLM-5.3 Workers AIモデルでのKVキャッシュエクスポージャーのクロスリクエスト、およびSGLangによる修復",
+      "overview": "Workers AIのGLM 5.3の設定の不一致により、SGLangバグが発生し、リクエスト間でKVキャッシュページが公開されました。問題への対処方法は次のとおりです。",
+      "title_en": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model, and our remediation with SGLang",
+      "overview_en": "A configuration mismatch in GLM 5.3 on Workers AI triggered an SGLang bug that exposed KV cache pages across requests. Here is how we addressed the issue.",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "Our newest AI Quest: Mapping the human brain",
+      "summary": "An illustration of a planet rotating to show various cartoon figures waving. At the top is the text \"AI Quests\"",
+      "url": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks",
+      "source": "Google Blog AI",
+      "published": "2026-10-27 01:00 JST",
+      "topic": "AI・LLM",
+      "title_ja": "最新のAIクエスト：人間の脳のマッピング",
+      "overview": "さまざまな漫画の人物が手を振っているのを示すために回転している惑星のイラスト。上部には「AIクエスト」というテキストが表示されます",
+      "title_en": "Our newest AI Quest: Mapping the human brain",
+      "overview_en": "An illustration of a planet rotating to show various cartoon figures waving. At the top is the text \"AI Quests\"",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "GPT-6.1 Terra - OpenAIの新モデルの特徴・一度に読める量・提供範囲と注意点",
+      "summary": "GPT-6.1 Terra - OpenAIの新モデルの特徴・一度に読める量・提供範囲と注意点 TECH NOISY",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE54dHVjNEVwdV9JZU5NeUd3N3R6RG5aeG01dkNhZm01SWpqVEFHTjZvSXgxNEJRM3p2aVJZenNaV2sxTUFrMkJSVi1HdnVpUzdlVkFyLUpYallNRkw1NmJLNllpbTg5b2s",
+      "source": "TECH NOISY",
+      "published": "2026-10-27 09:20 JST",
+      "topic": "AI・LLM",
+      "title_ja": "GPT-6.1 Terra - OpenAIの新モデルの特徴・一度に読める量・提供範囲と注意点",
+      "overview": "GPT-6.1 Terra - OpenAIの新モデルの特徴・一度に読める量・提供範囲と注意点 TECH NOISY",
+      "title_en": "GPT-6.1 Features of the new Terra-OpenAI model · Amount to read at a time · Scope of provision and precautions",
+      "overview_en": "GPT-6.1 Features of the new Terra-OpenAI model · Amount to read at a time · Scope of provision and precautions tech noisy",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "NvidiaのHuang氏、ソフト料金は1GPU年2000ドルと発表",
+      "summary": "NvidiaのHuang氏、ソフト料金は1GPU年2000ドルと発表 Pasquale Pillitteri",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQekpQTVFqTEdBbDZaNjlocjFLaTVDaGFVeDhWNF9YZFVlVDJxV2ZnS0hBMEtZRG44ZGtENTJ3c3VhdTlOMm9OUTc1RDg0SXRPMmFMaXNrUDhWYjlfbEV5Y1hFUmpyVGxjeVhmX0pQRFg4S1FhVUJqQ0ZIQ2ZqS3VLNG4xTFZxSTJ1LVFF",
+      "source": "Pasquale Pillitteri",
+      "published": "2026-10-26 17:42 JST",
+      "topic": "3D・ロボット",
+      "title_ja": "NvidiaのHuang氏、ソフト料金は1GPU年2000ドルと発表",
+      "overview": "NvidiaのHuang氏、ソフト料金は1GPU年2000ドルと発表 Pasquale Pillitteri",
+      "title_en": "Nvidia's Huang announces $2,000 per GPU per year for software",
+      "overview_en": "Nvidia's Huang Unveils Pasquale Pillitteri at $2,000/GPU/Year",
+      "importance": "画像処理・3D・ロボティクスの技術動向を知る手掛かりになります。"
+    }
+  ]
+}

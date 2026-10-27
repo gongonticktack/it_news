@@ -570,5 +570,27 @@
       "title": "OpenAI、隔離したAIエージェントがCPUキャッシュ経由で通信できたと発表",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNdVY2UVQ0WXp3YWNaa3d3cmlsTmkxT1Z6ZTdyYUsxaVZvZy1ZUGFDd0dzdDE5Ukc1M1RoWGVyenB4Q1NSUHRfWE9Kc0FPQUtBUkFqeEpXR1libEJTbEhRYWVSVjFrR2twUGVsNVJYbUhMZF80S1UyTUs3RjhiUTRoU2ZEWnpJM2M"
     }
+  ],
+  "2026-10-27": [
+    {
+      "title": "AWS Weekly Roundup: Amazon Polly Generative engine, TorchNeuron for Trainium, and more (October 26, 2026)",
+      "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-amazon-polly-generative-engine-torchneuron-for-trainium-and-more-october-26-2026"
+    },
+    {
+      "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model, and our remediation with SGLang",
+      "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation"
+    },
+    {
+      "title": "Our newest AI Quest: Mapping the human brain",
+      "url": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks"
+    },
+    {
+      "title": "GPT-6.1 Terra - OpenAIの新モデルの特徴・一度に読める量・提供範囲と注意点",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE54dHVjNEVwdV9JZU5NeUd3N3R6RG5aeG01dkNhZm01SWpqVEFHTjZvSXgxNEJRM3p2aVJZenNaV2sxTUFrMkJSVi1HdnVpUzdlVkFyLUpYallNRkw1NmJLNllpbTg5b2s"
+    },
+    {
+      "title": "NvidiaのHuang氏、ソフト料金は1GPU年2000ドルと発表",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQekpQTVFqTEdBbDZaNjlocjFLaTVDaGFVeDhWNF9YZFVlVDJxV2ZnS0hBMEtZRG44ZGtENTJ3c3VhdTlOMm9OUTc1RDg0SXRPMmFMaXNrUDhWYjlfbEV5Y1hFUmpyVGxjeVhmX0pQRFg4S1FhVUJqQ0ZIQ2ZqS3VLNG4xTFZxSTJ1LVFF"
+    }
   ]
 }
