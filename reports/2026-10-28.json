@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-28",
+  "items": [
+    {
+      "title": "Introducing the Cloudflare PHP Capture the Flag challenge",
+      "summary": "We are launching a PHP Capture the Flag challenge integrated with our Bug Bounty program to test our WAF protections. Security researchers are invited to bypass our defenses and capture the flag to help make the Internet safer.",
+      "url": "https://blog.cloudflare.com/php-ctf",
+      "source": "Cloudflare Blog",
+      "published": "2026-10-27 22:00 JST",
+      "topic": "クラウド",
+      "title_ja": "Cloudflare PHP Capture the Flagチャレンジの紹介",
+      "overview": "WAF保護をテストするために、バグバウンティプログラムと統合されたPHP Capture the Flagチャレンジを開始します。セキュリティ研究者は、インターネットをより安全にするために、当社の防御をバイパスし、フラグをキャプチャするよう招待されています。",
+      "title_en": "Introducing the Cloudflare PHP Capture the Flag challenge",
+      "overview_en": "We are launching a PHP Capture the Flag challenge integrated with our Bug Bounty program to test our WAF protections. Security researchers are invited to bypass our defenses and capture the flag to help make the Internet safer.",
+      "importance": "クラウドサービスの機能や運用方法に関わる可能性があります。"
+    },
+    {
+      "title": "Can we trust LLMs to judge whether a research idea is novel?",
+      "summary": "",
+      "url": "https://huggingface.co/blog/allenai/novelty-bench",
+      "source": "Hugging Face",
+      "published": "2026-10-28 01:12 JST",
+      "topic": "AI・LLM",
+      "title_ja": "研究アイデアが新規かどうかを判断するLLMを信頼できますか？",
+      "overview": "配信元から記事の概要が提供されていません。",
+      "title_en": "Can we trust LLMs to judge whether a research idea is novel?",
+      "overview_en": "No summary was provided by the source.",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "OrcaRouter、ローカルGPUをセキュアな共有AI APIに変える新機能「Orca Connect」の提供を開始",
+      "summary": "OrcaRouter、ローカルGPUをセキュアな共有AI APIに変える新機能「Orca Connect」の提供を開始 www.tv-tokyo.co.jp",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBUUlVSbEtHemY0c25BdUJuTUVKMDV4XzdWQ1JfSjZFdVZwWk9vYkRsQXFFQjEzb2k2TktNNjZXdktuNExKVmZIcnNvR2pqVl84Nk1nOVdhZ3Jydi1OMzdGUDEwdHBiZnpfX012T3d3",
+      "source": "www.tv-tokyo.co.jp",
+      "published": "2026-10-28 04:20 JST",
+      "topic": "AI・LLM",
+      "title_ja": "OrcaRouter、ローカルGPUをセキュアな共有AI APIに変える新機能「Orca Connect」の提供を開始",
+      "overview": "OrcaRouter、ローカルGPUをセキュアな共有AI APIに変える新機能「Orca Connect」の提供を開始 www.tv-tokyo.co.jp",
+      "title_en": "OrcaRouter launches Orca Connect, a new feature that turns local GPUs into secure shared AI APIs",
+      "overview_en": "OrcaRouter launches Orca Connect, a new feature that turns local GPUs into secure shared AI APIs www.tv-tokyo.co.jp",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "Rubrik、Anthropic「Claude Code」向けにAIエージェントのセキュリティ基盤「Rubrik Agent Cloud」を発表",
+      "summary": "Rubrik、Anthropic「Claude Code」向けにAIエージェントのセキュリティ基盤「Rubrik Agent Cloud」を発表 ThinkIT",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBuR3BjT083RktwYVhyLUNteG9PTjNoVHBIVXBfaDRJbkRjMnVzWU5vYzRYcTF0LXJPZFhJMmJFWXBtcnkzMEhYQTNQaw",
+      "source": "ThinkIT",
+      "published": "2026-10-27 06:48 JST",
+      "topic": "AI・LLM",
+      "title_ja": "Rubrik、Anthropic「Claude Code」向けにAIエージェントのセキュリティ基盤「Rubrik Agent Cloud」を発表",
+      "overview": "Rubrik、Anthropic「Claude Code」向けにAIエージェントのセキュリティ基盤「Rubrik Agent Cloud」を発表 ThinkIT",
+      "title_en": "Rubrik Announces Rubrik Agent Cloud, AI Agent Security Platform for Anthropic Claude Code",
+      "overview_en": "Rubrik Announces AI Agent Security Platform \"Rubrik Agent Cloud\" for Anthropic \"Claude Code\" ThinkIT",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "Build specialized multimodal models with LFM3",
+      "summary": "",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm3",
+      "source": "Hugging Face",
+      "published": "2026-10-28 02:16 JST",
+      "topic": "AI・LLM",
+      "title_ja": "LFM 3で特殊なマルチモーダルモデルを構築",
+      "overview": "配信元から記事の概要が提供されていません。",
+      "title_en": "Build specialized multimodal models with LFM3",
+      "overview_en": "No summary was provided by the source.",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    }
+  ]
+}

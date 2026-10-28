@@ -592,5 +592,27 @@
       "title": "NvidiaのHuang氏、ソフト料金は1GPU年2000ドルと発表",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQekpQTVFqTEdBbDZaNjlocjFLaTVDaGFVeDhWNF9YZFVlVDJxV2ZnS0hBMEtZRG44ZGtENTJ3c3VhdTlOMm9OUTc1RDg0SXRPMmFMaXNrUDhWYjlfbEV5Y1hFUmpyVGxjeVhmX0pQRFg4S1FhVUJqQ0ZIQ2ZqS3VLNG4xTFZxSTJ1LVFF"
     }
+  ],
+  "2026-10-28": [
+    {
+      "title": "Introducing the Cloudflare PHP Capture the Flag challenge",
+      "url": "https://blog.cloudflare.com/php-ctf"
+    },
+    {
+      "title": "Can we trust LLMs to judge whether a research idea is novel?",
+      "url": "https://huggingface.co/blog/allenai/novelty-bench"
+    },
+    {
+      "title": "OrcaRouter、ローカルGPUをセキュアな共有AI APIに変える新機能「Orca Connect」の提供を開始",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBUUlVSbEtHemY0c25BdUJuTUVKMDV4XzdWQ1JfSjZFdVZwWk9vYkRsQXFFQjEzb2k2TktNNjZXdktuNExKVmZIcnNvR2pqVl84Nk1nOVdhZ3Jydi1OMzdGUDEwdHBiZnpfX012T3d3"
+    },
+    {
+      "title": "Rubrik、Anthropic「Claude Code」向けにAIエージェントのセキュリティ基盤「Rubrik Agent Cloud」を発表",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBuR3BjT083RktwYVhyLUNteG9PTjNoVHBIVXBfaDRJbkRjMnVzWU5vYzRYcTF0LXJPZFhJMmJFWXBtcnkzMEhYQTNQaw"
+    },
+    {
+      "title": "Build specialized multimodal models with LFM3",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm3"
+    }
   ]
 }
