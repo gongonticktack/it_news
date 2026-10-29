@@ -614,5 +614,27 @@
       "title": "Build specialized multimodal models with LFM3",
       "url": "https://huggingface.co/blog/LiquidAI/lfm3"
     }
+  ],
+  "2026-10-29": [
+    {
+      "title": "GitHub Universe 2026: Evolving every layer of the stack",
+      "url": "https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack"
+    },
+    {
+      "title": "Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents",
+      "url": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents"
+    },
+    {
+      "title": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary"
+    },
+    {
+      "title": "NVIDIA、Metaに30億ドル出資へ AIモデル「Muse」で協業拡大を発表",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE43X2VuaUtkdDB3U2FzQkI0Z3RRNHBTVExUU0xvMFlUa2xCc3FqWTVHZENXRzJQcTlkWkVpcDFJR3M4RWNoRVhnTC1GUHo3VFZkVkJjMkpFMmZGTUsySUdyU19HdHExQ3ZERDI3d3o0SlJod0k2"
+    },
+    {
+      "title": "What took the Internet offline in Q3 2026",
+      "url": "https://blog.cloudflare.com/q3-2026-internet-disruption-summary"
+    }
   ]
 }

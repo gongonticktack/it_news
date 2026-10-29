@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-29",
+  "items": [
+    {
+      "title": "GitHub Universe 2026: Evolving every layer of the stack",
+      "summary": "Today, we laid out our vision for GitHub as the most comprehensive, end-to-end software delivery system in the world. The post GitHub Universe 2026: Evolving every layer of the stack appeared first on The GitHub Blog .",
+      "url": "https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack",
+      "source": "GitHub Blog",
+      "published": "2026-10-29 01:09 JST",
+      "topic": "開発・OSS",
+      "title_ja": "GitHub Universe 2026 ：スタックのすべてのレイヤーを進化させる",
+      "overview": "今日、私たちはGitHubを世界で最も包括的なエンドツーエンドのソフトウェアデリバリーシステムとしてのビジョンを示しました。GitHub Universe 2026 ：スタックのすべてのレイヤーを進化させるポストは、GitHubブログに最初に掲載されました。",
+      "title_en": "GitHub Universe 2026: Evolving every layer of the stack",
+      "overview_en": "Today, we laid out our vision for GitHub as the most comprehensive, end-to-end software delivery system in the world. The post GitHub Universe 2026: Evolving every layer of the stack appeared first on The GitHub Blog .",
+      "importance": "開発者が使えるツールや技術の選択肢に関わる可能性があります。"
+    },
+    {
+      "title": "Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents",
+      "summary": "See how a record year of growth reached every industry, every field, and every kind of builder in the 2026 Octoverse report. The post Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents appeared first on The GitHub Blog .",
+      "url": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents",
+      "source": "GitHub Blog",
+      "published": "2026-10-29 01:07 JST",
+      "topic": "AI・LLM",
+      "title_ja": "Octoverse ：開発者がエージェントと共に構築する中で、2026年にコミットし、プッシュし、新たな高値に達する",
+      "overview": "2026年のOctoverseレポートで、記録的な成長の年があらゆる業界、あらゆる分野、あらゆる種類のビルダーにどのように到達したかをご覧ください。The post Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents appeared first on The GitHub Blog.",
+      "title_en": "Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents",
+      "overview_en": "See how a record year of growth reached every industry, every field, and every kind of builder in the 2026 Octoverse report. The post Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents appeared first on The GitHub Blog .",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
+      "summary": "",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+      "source": "Hugging Face",
+      "published": "2026-10-28 23:58 JST",
+      "topic": "3D・ロボット",
+      "title_ja": "NVIDIA Nemotron 3.5文字起こしとグラナリーv 2 ：プロンプトと適応が可能なインテリジェントな多言語文字起こし",
+      "overview": "配信元から記事の概要が提供されていません。",
+      "title_en": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
+      "overview_en": "No summary was provided by the source.",
+      "importance": "画像処理・3D・ロボティクスの技術動向を知る手掛かりになります。"
+    },
+    {
+      "title": "NVIDIA、Metaに30億ドル出資へ AIモデル「Muse」で協業拡大を発表",
+      "summary": "NVIDIA、Metaに30億ドル出資へ AIモデル「Muse」で協業拡大を発表 Mogura VR",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE43X2VuaUtkdDB3U2FzQkI0Z3RRNHBTVExUU0xvMFlUa2xCc3FqWTVHZENXRzJQcTlkWkVpcDFJR3M4RWNoRVhnTC1GUHo3VFZkVkJjMkpFMmZGTUsySUdyU19HdHExQ3ZERDI3d3o0SlJod0k2",
+      "source": "Mogura VR",
+      "published": "2026-10-28 15:35 JST",
+      "topic": "AI・LLM",
+      "title_ja": "NVIDIA、Metaに30億ドル出資へ AIモデル「Muse」で協業拡大を発表",
+      "overview": "NVIDIA、Metaに30億ドル出資へ AIモデル「Muse」で協業拡大を発表 Mogura VR",
+      "title_en": "NVIDIA Invests $3 Billion in Meta, Expands Collaboration with AI Model 'Muse'",
+      "overview_en": "NVIDIA Announces $3 Billion Investment in Meta, Expands Collaboration with AI Model “Muse” Mogura VR",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "What took the Internet offline in Q3 2026",
+      "summary": "An examination of global Internet disruptions observed by Cloudflare Radar during the third quarter of 2026. This review analyzes how power failures, natural disasters, and government shutdowns impacted network connectivity and traffic.",
+      "url": "https://blog.cloudflare.com/q3-2026-internet-disruption-summary",
+      "source": "Cloudflare Blog",
+      "published": "2026-10-27 22:00 JST",
+      "topic": "クラウド",
+      "title_ja": "2026年第3四半期にインターネットをオフラインにした理由",
+      "overview": "2026年第3四半期にCloudflare Radarによって観察された世界的なインターネット障害の調査。このレビューでは、停電、自然災害、政府のシャットダウンがネットワーク接続とトラフィックにどのように影響したかを分析します。",
+      "title_en": "What took the Internet offline in Q3 2026",
+      "overview_en": "An examination of global Internet disruptions observed by Cloudflare Radar during the third quarter of 2026. This review analyzes how power failures, natural disasters, and government shutdowns impacted network connectivity and traffic.",
+      "importance": "クラウドサービスの機能や運用方法に関わる可能性があります。"
+    }
+  ]
+}
