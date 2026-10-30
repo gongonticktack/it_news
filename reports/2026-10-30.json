@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-30",
+  "items": [
+    {
+      "title": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
+      "summary": "",
+      "url": "https://huggingface.co/blog/anydecisionmodel",
+      "source": "Hugging Face",
+      "published": "2026-10-29 09:00 JST",
+      "topic": "AI・LLM",
+      "title_ja": "AnySpeechRecognizerとAnyDecisionModelのご紹介： Appleプラットフォーム上のスピーチと意思決定のためのオープンモデル",
+      "overview": "配信元から記事の概要が提供されていません。",
+      "title_en": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
+      "overview_en": "No summary was provided by the source.",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "Granite Switch 4.1.1 — Update models like you update software",
+      "summary": "",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+      "source": "Hugging Face",
+      "published": "2026-10-29 22:37 JST",
+      "topic": "AI・LLM",
+      "title_ja": "Granite Switch 4.1.1 —ソフトウェアをアップデートするようにモデルをアップデートする",
+      "overview": "配信元から記事の概要が提供されていません。",
+      "title_en": "Granite Switch 4.1.1 — Update models like you update software",
+      "overview_en": "No summary was provided by the source.",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "Cloudflare DDoS Threat Report 2026 Q3: More swarms, fewer giants",
+      "summary": "Cloudflare mitigated over 8,200 DDoS attacks per hour in Q3 2026 as attackers shifted to shorter, high-frequency strikes. Explore the latest threat data, including the collapse of CLDAP vectors and the impact of recent botnet takedowns.",
+      "url": "https://blog.cloudflare.com/ddos-threat-report-2026-q3",
+      "source": "Cloudflare Blog",
+      "published": "2026-10-29 21:55 JST",
+      "topic": "クラウド",
+      "title_ja": "Cloudflare DDoS脅威レポート2026 Q 3 ：より多くの群れ、より少ない巨人",
+      "overview": "Cloudflareは、攻撃者がより短く、高頻度のストライキに移行したため、2026年第3四半期に1時間あたり8,200件以上のDDoS攻撃を軽減しました。CLDAPベクトルの崩壊や最近のボットネットのテイクダウンの影響など、最新の脅威データをご覧ください。",
+      "title_en": "Cloudflare DDoS Threat Report 2026 Q3: More swarms, fewer giants",
+      "overview_en": "Cloudflare mitigated over 8,200 DDoS attacks per hour in Q3 2026 as attackers shifted to shorter, high-frequency strikes. Explore the latest threat data, including the collapse of CLDAP vectors and the impact of recent botnet takedowns.",
+      "importance": "クラウドサービスの機能や運用方法に関わる可能性があります。"
+    }
+  ]
+}

@@ -636,5 +636,19 @@
       "title": "What took the Internet offline in Q3 2026",
       "url": "https://blog.cloudflare.com/q3-2026-internet-disruption-summary"
     }
+  ],
+  "2026-10-30": [
+    {
+      "title": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
+      "url": "https://huggingface.co/blog/anydecisionmodel"
+    },
+    {
+      "title": "Granite Switch 4.1.1 — Update models like you update software",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1"
+    },
+    {
+      "title": "Cloudflare DDoS Threat Report 2026 Q3: More swarms, fewer giants",
+      "url": "https://blog.cloudflare.com/ddos-threat-report-2026-q3"
+    }
   ]
 }
