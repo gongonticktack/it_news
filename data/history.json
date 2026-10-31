@@ -650,5 +650,27 @@
       "title": "Cloudflare DDoS Threat Report 2026 Q3: More swarms, fewer giants",
       "url": "https://blog.cloudflare.com/ddos-threat-report-2026-q3"
     }
+  ],
+  "2026-10-31": [
+    {
+      "title": "Cloudflare services for private origins is now generally available",
+      "url": "https://blog.cloudflare.com/private-origins-public-to-private"
+    },
+    {
+      "title": "4 real? Tracking exploitation and patching of eMudhra’s weak keys",
+      "url": "https://blog.cloudflare.com/emudhra-patching"
+    },
+    {
+      "title": "NVIDIAら37社が「Open Secure AI Alliance」設立――AIエージェントのセキュリティは重みの非公開では守れない",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9mY3BaT1FHNjNMQjhnVExqV0FJSDFRNmlDOG5MWFptUl9yemppZkVDOUtqZllhR1RXdWtDbW5SUGtrWTZnYlhqNTF5bw"
+    },
+    {
+      "title": "HPEとNVIDIAが共同で企業向けにセキュアなエージェント型AIソリューションを提供開始",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBFSnAxT3RqOV9keTd6Mko2Nno5ZjhBR2JlQTVBcmZQQVotZ0ZLd2xWemM3SVpGdkpReDRFeVM2dkF4VkU2c1ZCNGIyQWlVSzRDNmFiQUhQVzdpUGJadXJac0pXX19tMS15eUN3"
+    },
+    {
+      "title": "Gemini Enterprise app（ビジネス向け Gemini）とは？機能・料金・AI developer tools と最新動向【2026 年 10 月版】",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE45OGlvVzd0ckc1MV8xM1FWVlZWeWZkTWtzSFJValhnLXFyc0wzaWQxTDdDUHhhRnVXZERmN3JaZjlkeFpDX1VSWFpQMGNTcnM"
+    }
   ]
 }

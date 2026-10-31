@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-31",
+  "items": [
+    {
+      "title": "Cloudflare services for private origins is now generally available",
+      "summary": "Public traffic to private origins, with WAF, bot management, caching, and Workers, is now available to every customer with Cloudflare One connectivity.",
+      "url": "https://blog.cloudflare.com/private-origins-public-to-private",
+      "source": "Cloudflare Blog",
+      "published": "2026-10-30 23:23 JST",
+      "topic": "クラウド",
+      "title_ja": "プライベートオリジン向けのCloudflareサービスが一般公開されました",
+      "overview": "WAF、ボット管理、キャッシュ、ワーカーを使用したプライベートオリジンへのパブリックトラフィックは、Cloudflare One接続を使用するすべての顧客が利用できるようになりました。",
+      "title_en": "Cloudflare services for private origins is now generally available",
+      "overview_en": "Public traffic to private origins, with WAF, bot management, caching, and Workers, is now available to every customer with Cloudflare One connectivity.",
+      "importance": "クラウドサービスの機能や運用方法に関わる可能性があります。"
+    },
+    {
+      "title": "4 real? Tracking exploitation and patching of eMudhra’s weak keys",
+      "summary": "Four, just four: that’s the key to break into any unpatched connection on the Internet that is using eMudhra certificates. Here’s how we quickly patched Cloudflare, what evidence we can see of attempted exploitation, and how much of the rest of the Internet remains exposed.",
+      "url": "https://blog.cloudflare.com/emudhra-patching",
+      "source": "Cloudflare Blog",
+      "published": "2026-10-31 02:38 JST",
+      "topic": "クラウド",
+      "title_ja": "4つの現実？ eMudhraの弱いキーの悪用とパッチ適用の追跡",
+      "overview": "4つ、ちょうど4つ：これは、eMudhra証明書を使用しているインターネット上のパッチが適用されていない接続に侵入するための鍵です。ここでは、Cloudflareにすばやくパッチを適用した方法、悪用未遂の証拠、およびインターネットの残りの部分がどれだけ公開されているかを説明します。",
+      "title_en": "4 real? Tracking exploitation and patching of eMudhra’s weak keys",
+      "overview_en": "Four, just four: that’s the key to break into any unpatched connection on the Internet that is using eMudhra certificates. Here’s how we quickly patched Cloudflare, what evidence we can see of attempted exploitation, and how much of the rest of the Internet remains exposed.",
+      "importance": "クラウドサービスの機能や運用方法に関わる可能性があります。"
+    },
+    {
+      "title": "NVIDIAら37社が「Open Secure AI Alliance」設立――AIエージェントのセキュリティは重みの非公開では守れない",
+      "summary": "NVIDIAら37社が「Open Secure AI Alliance」設立――AIエージェントのセキュリティは重みの非公開では守れない ThinkIT",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9mY3BaT1FHNjNMQjhnVExqV0FJSDFRNmlDOG5MWFptUl9yemppZkVDOUtqZllhR1RXdWtDbW5SUGtrWTZnYlhqNTF5bw",
+      "source": "ThinkIT",
+      "published": "2026-10-29 19:57 JST",
+      "topic": "AI・LLM",
+      "title_ja": "NVIDIAら37社が「Open Secure AI Alliance」設立――AIエージェントのセキュリティは重みの非公開では守れない",
+      "overview": "NVIDIAら37社が「Open Secure AI Alliance」設立――AIエージェントのセキュリティは重みの非公開では守れない ThinkIT",
+      "title_en": "NVIDIA and 37 other companies set up the Open Secure AI Alliance - AI agent security can not be protected by private weight",
+      "overview_en": "NVIDIA and 37 other companies established the Open Secure AI Alliance - ThinkIT can't protect the security of AI agents without disclosing the weight",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "HPEとNVIDIAが共同で企業向けにセキュアなエージェント型AIソリューションを提供開始",
+      "summary": "HPEとNVIDIAが共同で企業向けにセキュアなエージェント型AIソリューションを提供開始 ニュースメディアVOIX",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBFSnAxT3RqOV9keTd6Mko2Nno5ZjhBR2JlQTVBcmZQQVotZ0ZLd2xWemM3SVpGdkpReDRFeVM2dkF4VkU2c1ZCNGIyQWlVSzRDNmFiQUhQVzdpUGJadXJac0pXX19tMS15eUN3",
+      "source": "ニュースメディアVOIX",
+      "published": "2026-10-30 15:55 JST",
+      "topic": "AI・LLM",
+      "title_ja": "HPEとNVIDIAが共同で企業向けにセキュアなエージェント型AIソリューションを提供開始",
+      "overview": "HPEとNVIDIAが共同で企業向けにセキュアなエージェント型AIソリューションを提供開始 ニュースメディアVOIX",
+      "title_en": "HPE and NVIDIA Partner to Deliver Secure Agent-Driven AI Solutions for Enterprises",
+      "overview_en": "HPE and NVIDIA Collaborate to Deliver Secure Agent-AI Solutions for Enterprises News Media Voix",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "Gemini Enterprise app（ビジネス向け Gemini）とは？機能・料金・AI developer tools と最新動向【2026 年 10 月版】",
+      "summary": "Gemini Enterprise app（ビジネス向け Gemini）とは？機能・料金・AI developer tools と最新動向【2026 年 10 月版】 クラウドエース株式会社",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE45OGlvVzd0ckc1MV8xM1FWVlZWeWZkTWtzSFJValhnLXFyc0wzaWQxTDdDUHhhRnVXZERmN3JaZjlkeFpDX1VSWFpQMGNTcnM",
+      "source": "クラウドエース株式会社",
+      "published": "2026-10-30 15:00 JST",
+      "topic": "AI・LLM",
+      "title_ja": "Gemini Enterprise app（ビジネス向け Gemini）とは？機能・料金・AI developer tools と最新動向【2026 年 10 月版】",
+      "overview": "Gemini Enterprise app（ビジネス向け Gemini）とは？機能・料金・AI developer tools と最新動向【2026 年 10 月版】 クラウドエース株式会社",
+      "title_en": "What is the Gemini Enterprise app? Features, Pricing, AI developer tools and latest trends [October 2026 edition]",
+      "overview_en": "What is the Gemini Enterprise app? Features, fees, AI developer tools and latest trends [October 2026 edition] Cloud Ace Co., Ltd.",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    }
+  ]
+}
