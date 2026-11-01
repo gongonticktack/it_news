@@ -1,26 +1,4 @@
 {
-  "2026-10-01": [
-    {
-      "title": "Celebrating Our Newest AWS Heroes – September 2026",
-      "url": "https://aws.amazon.com/blogs/aws/celebrating-our-newest-aws-heroes-september-2026"
-    },
-    {
-      "title": "How we found 24 Android vulnerabilities using our open source AI security agent",
-      "url": "https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent"
-    },
-    {
-      "title": "Developer policy update: Transparency, state policy, and what’s ahead",
-      "url": "https://github.blog/news-insights/policy-news-and-insights/developer-policy-update-transparency-state-policy-and-whats-ahead"
-    },
-    {
-      "title": "Amazon S3 Vectors now supports metadata pre-filtering for higher recall on filtered searches",
-      "url": "https://aws.amazon.com/blogs/aws/amazon-s3-vectors-now-supports-metadata-pre-filtering-for-higher-recall-on-filtered-searches"
-    },
-    {
-      "title": "AWS、AIエージェントを自作できるツール「Strandsハーネス」をオープンソースで公開。特定のLLMに依存せず入れ替え可能、任意のコンテナ環境にデプロイ",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5pYTdscG5Uc1NEd0VuVi1ReVVEa0theFFubTBoekZkRERIMU1BT1lLZGdfSy1GZElmUTVTUHREamE2Yk40ZjctY2ZveGlyYWtMclVIcjRpNUZzTFN2ZU9tZGlpbVU"
-    }
-  ],
   "2026-10-02": [
     {
       "title": "Announcing AWS Well-Architected Agent, an AI-powered intelligence to optimize your cloud environment (preview)",
@@ -671,6 +649,28 @@
     {
       "title": "Gemini Enterprise app（ビジネス向け Gemini）とは？機能・料金・AI developer tools と最新動向【2026 年 10 月版】",
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE45OGlvVzd0ckc1MV8xM1FWVlZWeWZkTWtzSFJValhnLXFyc0wzaWQxTDdDUHhhRnVXZERmN3JaZjlkeFpDX1VSWFpQMGNTcnM"
+    }
+  ],
+  "2026-11-01": [
+    {
+      "title": "「GitHub Universe 2026」開幕、最適モデル自動選択機能「Copilot Fusion」のGAを発表 高速化した新Gitアーキテクチャも来年提供へ",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1jbHJ2M0pfeVBUX05tLWdMLXYwaTZSOTZPdWE0b0stRnhHaWxwR2ZHN2paRTFELV9lZWpTdmEyM3RxT1J3aTZPRWZRdElULVBLRTA3R2tZRFZZaGZUT2F4bVBVRy1jT0Zi"
+    },
+    {
+      "title": "SFX v3 - ElevenLabs の効果音生成新モデルの変更点・料金・利用条件と限定提供の注意点",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBfa3JVYnNYZEpsV1hLcVpEQjJJZVY1TkItZ0tvcVh2eTRGaXQtOEk0eUM2djNJQmdFRTZzYjdRUzlmQzd2QkRuMHdRTlo1Z25FU3AySm5lRUEyNzZCSzg4ZVBPSmU3eURVd0dpTA"
+    },
+    {
+      "title": "nemotron-halloween",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-halloween"
+    },
+    {
+      "title": "日本の組織を狙うサイバー攻撃、44のAIエージェントで偵察から情報窃取まで自動化",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1iejFEMmJVYko4SjRQU0stVlZtM0dlNG5fVUNCdHdoNTc5clI2UWVrWWduaktjdm9zTnItVU9FNVNzVmN5U1FMeXRYRHhwenJTeFZwX0h6T24wWHdfMFBqZmVtazhMZWht"
+    },
+    {
+      "title": "Gemini 4 Carbon - Google が発表した最上位モデルの提供範囲・料金・強みの要点",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9kQjFYdlk1dWU0eEt4WGRjWGs1UlBwN09uYkIyZjJZUi1OMW4wdUtvdlFEbGpuM1N4NFFHLTlrRENaOFlfYmRPUzA0Wjg3RGVyZVhUai1HN2xtNGJIUFZWQl9NckY5dHExZVVZUg"
     }
   ]
 }

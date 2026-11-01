@@ -1,0 +1,71 @@
+{
+  "date": "2026-11-01",
+  "items": [
+    {
+      "title": "「GitHub Universe 2026」開幕、最適モデル自動選択機能「Copilot Fusion」のGAを発表 高速化した新Gitアーキテクチャも来年提供へ",
+      "summary": "「GitHub Universe 2026」開幕、最適モデル自動選択機能「Copilot Fusion」のGAを発表 高速化した新Gitアーキテクチャも来年提供へ クラウド Watch",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1jbHJ2M0pfeVBUX05tLWdMLXYwaTZSOTZPdWE0b0stRnhHaWxwR2ZHN2paRTFELV9lZWpTdmEyM3RxT1J3aTZPRWZRdElULVBLRTA3R2tZRFZZaGZUT2F4bVBVRy1jT0Zi",
+      "source": "クラウド Watch",
+      "published": "2026-10-29 14:07 JST",
+      "topic": "AI・LLM",
+      "title_ja": "「GitHub Universe 2026」開幕、最適モデル自動選択機能「Copilot Fusion」のGAを発表 高速化した新Gitアーキテクチャも来年提供へ",
+      "overview": "「GitHub Universe 2026」開幕、最適モデル自動選択機能「Copilot Fusion」のGAを発表 高速化した新Gitアーキテクチャも来年提供へ クラウド Watch",
+      "title_en": "\"GitHub Universe 2026\" opens, GA of the best model automatic selection function \"Copilot Fusion\" is announced, and the new and faster Git architecture will also be available next year",
+      "overview_en": "\"GitHub Universe 2026\" opens, launches GA for \"Copilot Fusion\" automatic selection of optimal models, accelerated new Git architecture will also be available next year Cloud Watch",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "SFX v3 - ElevenLabs の効果音生成新モデルの変更点・料金・利用条件と限定提供の注意点",
+      "summary": "SFX v3 - ElevenLabs の効果音生成新モデルの変更点・料金・利用条件と限定提供の注意点 TECH NOISY",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBfa3JVYnNYZEpsV1hLcVpEQjJJZVY1TkItZ0tvcVh2eTRGaXQtOEk0eUM2djNJQmdFRTZzYjdRUzlmQzd2QkRuMHdRTlo1Z25FU3AySm5lRUEyNzZCSzg4ZVBPSmU3eURVd0dpTA",
+      "source": "TECH NOISY",
+      "published": "2026-10-31 20:04 JST",
+      "topic": "AI・LLM",
+      "title_ja": "SFX v3 - ElevenLabs の効果音生成新モデルの変更点・料金・利用条件と限定提供の注意点",
+      "overview": "SFX v3 - ElevenLabs の効果音生成新モデルの変更点・料金・利用条件と限定提供の注意点 TECH NOISY",
+      "title_en": "SFX v3 - ElevenLabs Sound Effect Generation New Model Changes, Prices, Terms of Use and Limited Provision Notes",
+      "overview_en": "SFX v3 - ElevenLabs Sound Effect Generation New Model Changes, Prices, Terms of Use and Limited Provision Notes tech noise",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "nemotron-halloween",
+      "summary": "",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-halloween",
+      "source": "Hugging Face",
+      "published": "2026-10-31 02:57 JST",
+      "topic": "IT全般",
+      "title_ja": "nemotron-halloween",
+      "overview": "配信元から記事の概要が提供されていません。",
+      "title_en": "nemotron-halloween",
+      "overview_en": "No summary was provided by the source.",
+      "translation_note": "自動翻訳に失敗したため、見出しは英語の原文を表示しています。",
+      "importance": "IT分野の最新動向として確認する価値があります。"
+    },
+    {
+      "title": "日本の組織を狙うサイバー攻撃、44のAIエージェントで偵察から情報窃取まで自動化",
+      "summary": "日本の組織を狙うサイバー攻撃、44のAIエージェントで偵察から情報窃取まで自動化 マイナビニュース",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1iejFEMmJVYko4SjRQU0stVlZtM0dlNG5fVUNCdHdoNTc5clI2UWVrWWduaktjdm9zTnItVU9FNVNzVmN5U1FMeXRYRHhwenJTeFZwX0h6T24wWHdfMFBqZmVtazhMZWht",
+      "source": "マイナビニュース",
+      "published": "2026-10-31 09:04 JST",
+      "topic": "AI・LLM",
+      "title_ja": "日本の組織を狙うサイバー攻撃、44のAIエージェントで偵察から情報窃取まで自動化",
+      "overview": "日本の組織を狙うサイバー攻撃、44のAIエージェントで偵察から情報窃取まで自動化 マイナビニュース",
+      "title_en": "Cyberattacks targeting Japanese organizations, automated from reconnaissance to information theft with 44 AI agents",
+      "overview_en": "Cyberattacks targeting Japanese organizations, automated from reconnaissance to information theft with 44 AI agents My Navigation News",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "Gemini 4 Carbon - Google が発表した最上位モデルの提供範囲・料金・強みの要点",
+      "summary": "Gemini 4 Carbon - Google が発表した最上位モデルの提供範囲・料金・強みの要点 TECH NOISY",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9kQjFYdlk1dWU0eEt4WGRjWGs1UlBwN09uYkIyZjJZUi1OMW4wdUtvdlFEbGpuM1N4NFFHLTlrRENaOFlfYmRPUzA0Wjg3RGVyZVhUai1HN2xtNGJIUFZWQl9NckY5dHExZVVZUg",
+      "source": "TECH NOISY",
+      "published": "2026-10-31 01:38 JST",
+      "topic": "AI・LLM",
+      "title_ja": "Gemini 4 Carbon - Google が発表した最上位モデルの提供範囲・料金・強みの要点",
+      "overview": "Gemini 4 Carbon - Google が発表した最上位モデルの提供範囲・料金・強みの要点 TECH NOISY",
+      "title_en": "Gemini4Carbon - Google announces top-of-the-line model offering range, pricing and strengths highlights",
+      "overview_en": "Gemini4Carbon - Google Announces Top Model Offering Scope, Price and Strength Highlights tech noisy",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    }
+  ]
+}
