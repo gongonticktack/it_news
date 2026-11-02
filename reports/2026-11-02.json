@@ -1,0 +1,70 @@
+{
+  "date": "2026-11-02",
+  "items": [
+    {
+      "title": "Forex Robotics、サーバ向け脆弱性対策ツール「kevward」をOSS公開 ― AIエージェントと共につくる防御",
+      "summary": "Forex Robotics、サーバ向け脆弱性対策ツール「kevward」をOSS公開 ― AIエージェントと共につくる防御 PR TIMES",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5HRWkzNFJiVzJRU0tQbnRWZDVMR0tQalU2U1pmVWFqclA1Q0FpM3NaUTFHSlE3eDRndFFKY0h4QmJDM2UxMjZoc1E1MHpVTExFaXQzMDVMUExhNTdMMUVFNDB6c3RPekgtNmc",
+      "source": "PR TIMES",
+      "published": "2026-11-02 00:00 JST",
+      "topic": "AI・LLM",
+      "title_ja": "Forex Robotics、サーバ向け脆弱性対策ツール「kevward」をOSS公開 ― AIエージェントと共につくる防御",
+      "overview": "Forex Robotics、サーバ向け脆弱性対策ツール「kevward」をOSS公開 ― AIエージェントと共につくる防御 PR TIMES",
+      "title_en": "Forex Robotics Launches OSS 'kevward' Vulnerability Tool for Servers - Defending Together with AI Agents",
+      "overview_en": "Forex Robotics Launches OSS 'kevward' Vulnerability Tool for Servers - Defensive PR times with AI Agents",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "Game Off 2026: The theme is SHIFT",
+      "summary": "GitHub’s annual month-long game jam is back for its 14th year! This November, make a game inspired by the theme SHIFT. Change gears, swap perspectives, bend reality, or just press a certain key. The post Game Off 2026: The theme is SHIFT appeared first on The GitHub Blog .",
+      "url": "https://github.blog/open-source/gaming/game-off-2026-the-theme-is-shift",
+      "source": "GitHub Blog",
+      "published": "2026-11-02 06:36 JST",
+      "topic": "開発・OSS",
+      "title_ja": "2026年ゲームオフ：テーマはシフト",
+      "overview": "GitHubの毎年恒例の1か月間のゲームジャムが14周年を迎えました！今年の11月は、テーマシフトにインスパイアされたゲームを作りましょう。ギアを変えたり、視点を入れ替えたり、現実を曲げたり、特定のキーを押すだけです。Game Off 2026: The theme is SHIFTの投稿は、The GitHub Blogに最初に掲載されました。",
+      "title_en": "Game Off 2026: The theme is SHIFT",
+      "overview_en": "GitHub’s annual month-long game jam is back for its 14th year! This November, make a game inspired by the theme SHIFT. Change gears, swap perspectives, bend reality, or just press a certain key. The post Game Off 2026: The theme is SHIFT appeared first on The GitHub Blog .",
+      "importance": "開発者が使えるツールや技術の選択肢に関わる可能性があります。"
+    },
+    {
+      "title": "住宅購入AIフレームワークをGitHubで無料公開。850人の不動産エージェント知見をオープンソース化",
+      "summary": "住宅購入AIフレームワークをGitHubで無料公開。850人の不動産エージェント知見をオープンソース化 ASCII.jp",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1Gb0hGU0JrTVA2MzJHZ2xjWElKaEVhNy1BMWhHZ1RqZEFTRjlHRDExSGN4R1JCd2o0TG1TSzIwckNDcHdub3ZUdjdIdnNZWlhoSEJXZQ",
+      "source": "ASCII.jp",
+      "published": "2026-11-02 07:00 JST",
+      "topic": "AI・LLM",
+      "title_ja": "住宅購入AIフレームワークをGitHubで無料公開。850人の不動産エージェント知見をオープンソース化",
+      "overview": "住宅購入AIフレームワークをGitHubで無料公開。850人の不動産エージェント知見をオープンソース化 ASCII.jp",
+      "title_en": "Open sourcing 850 real estate agent insights with a free AI framework for home purchases on GitHub",
+      "overview_en": "Free release of AI framework for home purchases on GitHub; open sourcing of 850 real estate agent insights ASCII.jp",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "FastMetal、「Gemini 4 Argon」「GPT-6.1 Terra」など新モデル6種を提供開始",
+      "summary": "FastMetal、「Gemini 4 Argon」「GPT-6.1 Terra」など新モデル6種を提供開始 PR TIMES",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4xNVMxRE9MZFFSNnJDTTBXV0tvV2x1RGdwUGJMTW1PXzVfaWU3S3RQOVRlZC1mSjFlemhYWjVyMjQteVgwcTZYMzlWUWRZc3Q3X2J0RzhtN3oyQ3V1YzM0Q3k4MHRrSXVCY1E",
+      "source": "PR TIMES",
+      "published": "2026-11-02 09:03 JST",
+      "topic": "AI・LLM",
+      "title_ja": "FastMetal、「Gemini 4 Argon」「GPT-6.1 Terra」など新モデル6種を提供開始",
+      "overview": "FastMetal、「Gemini 4 Argon」「GPT-6.1 Terra」など新モデル6種を提供開始 PR TIMES",
+      "title_en": "Launched 6 new models including FastMetal, Gemini 4 Argon and GPT-6.1 Terra",
+      "overview_en": "Launched 6 new models including FastMetal, \"Gemini 4 Argon\" and \"GPT-6.1 Terra\" PR times",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "[2026 K-オープンソースAX] 科学技術情報通信部「AIインフラ・モデル・活用の競争力強化で3強入りを目指す」",
+      "summary": "[2026 K-オープンソースAX] 科学技術情報通信部「AIインフラ・モデル・活用の競争力強化で3強入りを目指す」 KORIT",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOTXpoU2RFRkZBRGZBS0s4OGQxZjZkcmNkN1BLUEltak91QmlmX1JXa0g0anNCcUpnRi1URDNlVXRXakFnZWhhcmgzQ1VpTGlhN1NrdkpKQnRZdV9UeFA2T1ZCVVZKbVJNREFpeVpfLW52M1RWZzBsTmRBRjRvSDRMUTFxcGdKdw",
+      "source": "KORIT",
+      "published": "2026-11-02 09:11 JST",
+      "topic": "AI・LLM",
+      "title_ja": "[2026 K-オープンソースAX] 科学技術情報通信部「AIインフラ・モデル・活用の競争力強化で3強入りを目指す」",
+      "overview": "[2026 K-オープンソースAX] 科学技術情報通信部「AIインフラ・モデル・活用の競争力強化で3強入りを目指す」 KORIT",
+      "title_en": "[2026K-Open Source AX] Science, Technology and Information Communication Department \"Aiming to Enter the Top 3 by Strengthening the Competitiveness of AI Infrastructure Models and Utilization\"",
+      "overview_en": "[2026K-Open Source AX] Science, Technology and Information Communication Department \"Aiming to Enter the Top 3 by Strengthening the Competitiveness of AI Infrastructure Models and Utilization\" KORIT",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    }
+  ]
+}

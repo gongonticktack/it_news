@@ -1,26 +1,4 @@
 {
-  "2026-10-02": [
-    {
-      "title": "Announcing AWS Well-Architected Agent, an AI-powered intelligence to optimize your cloud environment (preview)",
-      "url": "https://aws.amazon.com/blogs/aws/announcing-aws-well-architected-agent-an-ai-powered-intelligence-to-optimize-your-cloud-environment-preview"
-    },
-    {
-      "title": "Introducing Clef: our open-source decision models, and new RL fine-tuning platform",
-      "url": "https://blog.cloudflare.com/clef-decision-models"
-    },
-    {
-      "title": "Rubrik、Anthropic「Claude Code」向けにAIエージェントのセキュリティ基盤「Rubrik Agent Cloud」を発表",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBuR3BjT083RktwYVhyLUNteG9PTjNoVHBIVXBfaDRJbkRjMnVzWU5vYzRYcTF0LXJPZFhJMmJFWXBtcnkzMEhYQTNQaw"
-    },
-    {
-      "title": "10 technical talks I’m excited about at GitHub Universe 2026",
-      "url": "https://github.blog/news-insights/company-news/10-technical-talks-im-excited-about-at-github-universe-2026"
-    },
-    {
-      "title": "AeyeScan、生成AIを搭載したモバイルアプリ脆弱性診断機能をリリース",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9CZzJwZXF0ZWF1Tk5sa3V1bmVmb2hJMndRLVg4UWdxazhCTFZOdmtVbWNtYm1LRzB0QlIzVkpYakowVFo4RjhuZzQ0dmgya1hCcGVoaUR1OHpQTU0"
-    }
-  ],
   "2026-10-03": [
     {
       "title": "Introducing Web Search API via AI Gateway",
@@ -671,6 +649,28 @@
     {
       "title": "Gemini 4 Carbon - Google が発表した最上位モデルの提供範囲・料金・強みの要点",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9kQjFYdlk1dWU0eEt4WGRjWGs1UlBwN09uYkIyZjJZUi1OMW4wdUtvdlFEbGpuM1N4NFFHLTlrRENaOFlfYmRPUzA0Wjg3RGVyZVhUai1HN2xtNGJIUFZWQl9NckY5dHExZVVZUg"
+    }
+  ],
+  "2026-11-02": [
+    {
+      "title": "Forex Robotics、サーバ向け脆弱性対策ツール「kevward」をOSS公開 ― AIエージェントと共につくる防御",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5HRWkzNFJiVzJRU0tQbnRWZDVMR0tQalU2U1pmVWFqclA1Q0FpM3NaUTFHSlE3eDRndFFKY0h4QmJDM2UxMjZoc1E1MHpVTExFaXQzMDVMUExhNTdMMUVFNDB6c3RPekgtNmc"
+    },
+    {
+      "title": "Game Off 2026: The theme is SHIFT",
+      "url": "https://github.blog/open-source/gaming/game-off-2026-the-theme-is-shift"
+    },
+    {
+      "title": "住宅購入AIフレームワークをGitHubで無料公開。850人の不動産エージェント知見をオープンソース化",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1Gb0hGU0JrTVA2MzJHZ2xjWElKaEVhNy1BMWhHZ1RqZEFTRjlHRDExSGN4R1JCd2o0TG1TSzIwckNDcHdub3ZUdjdIdnNZWlhoSEJXZQ"
+    },
+    {
+      "title": "FastMetal、「Gemini 4 Argon」「GPT-6.1 Terra」など新モデル6種を提供開始",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4xNVMxRE9MZFFSNnJDTTBXV0tvV2x1RGdwUGJMTW1PXzVfaWU3S3RQOVRlZC1mSjFlemhYWjVyMjQteVgwcTZYMzlWUWRZc3Q3X2J0RzhtN3oyQ3V1YzM0Q3k4MHRrSXVCY1E"
+    },
+    {
+      "title": "[2026 K-オープンソースAX] 科学技術情報通信部「AIインフラ・モデル・活用の競争力強化で3強入りを目指す」",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOTXpoU2RFRkZBRGZBS0s4OGQxZjZkcmNkN1BLUEltak91QmlmX1JXa0g0anNCcUpnRi1URDNlVXRXakFnZWhhcmgzQ1VpTGlhN1NrdkpKQnRZdV9UeFA2T1ZCVVZKbVJNREFpeVpfLW52M1RWZzBsTmRBRjRvSDRMUTFxcGdKdw"
     }
   ]
 }
