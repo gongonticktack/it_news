@@ -1,26 +1,4 @@
 {
-  "2026-10-03": [
-    {
-      "title": "Introducing Web Search API via AI Gateway",
-      "url": "https://blog.cloudflare.com/introducing-web-search-api"
-    },
-    {
-      "title": "Introducing Cloudflare Traces: follow requests through our entire platform",
-      "url": "https://blog.cloudflare.com/cloudflare-tracing"
-    },
-    {
-      "title": "The latest AI news we announced in September 2026",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026"
-    },
-    {
-      "title": "AI is changing developer work. Here are three skills to strengthen.",
-      "url": "https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out"
-    },
-    {
-      "title": "AutoSynthData: Generating Training Data for Enterprise Agents",
-      "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata"
-    }
-  ],
   "2026-10-04": [
     {
       "title": "Follow the thread: a new dashboard to investigate account abuse",
@@ -671,6 +649,28 @@
     {
       "title": "[2026 K-オープンソースAX] 科学技術情報通信部「AIインフラ・モデル・活用の競争力強化で3強入りを目指す」",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOTXpoU2RFRkZBRGZBS0s4OGQxZjZkcmNkN1BLUEltak91QmlmX1JXa0g0anNCcUpnRi1URDNlVXRXakFnZWhhcmgzQ1VpTGlhN1NrdkpKQnRZdV9UeFA2T1ZCVVZKbVJNREFpeVpfLW52M1RWZzBsTmRBRjRvSDRMUTFxcGdKdw"
+    }
+  ],
+  "2026-11-03": [
+    {
+      "title": "AWS Weekly Roundup: GPT-6.1 Terra on Bedrock, Step Functions as agent tools, and more (November 2, 2026)",
+      "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-gpt-6-1-terra-on-bedrock-step-functions-as-agent-tools-and-more-november-2-2026"
+    },
+    {
+      "title": "The latest AI news we announced in October 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026"
+    },
+    {
+      "title": "オープンソースの人工知能(AI)ハッキングツールが実際のサイバー攻撃に活用され、AIがハッキング速度をどれだけ引き上げたかを示す事例が出た。 オープンソースAIハッキングツール「サイバーストライクAI..",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9idzJSeE5GN1RUTXAtbW5jVlQ4Z0FDekNjSGdoQjZQMFVpVWRRclBUR0tWb2RpemFqSGVYMzhoNnVqSjdscndSelEwOA"
+    },
+    {
+      "title": "MetaのWebXR開発ツール「IWSDK」がAIエージェント対応、Niantic、3Dガウシアン・スプラッティング形式「SPZ 4」を公開 ほか",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9XZmRYcFFfMkJhUEFITXRhQ05oVjVabzl6Qzd1MEE3REotRmRTTUNuVzZVVDRjOHZwaHFxU2N5VkZnZWJueVk2d0VPdw"
+    },
+    {
+      "title": "「Visual Studio Code」v1.144が公開、複数のAIモデルを賢く使い分ける「GitHub Copilot Fusion」も一般提供",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE04ODBFMEdMczdjQUJxbUs1Nkk4VkxJbGFDWVJIOWVqSEhNdzRDYWlxT2JFcHIweTN2T0xObkhpVFFFcHdZbW1na3VadzZ5djhDNzQteHdoVHVpTUFXNFZabXlBNTNUSWNR"
     }
   ]
 }

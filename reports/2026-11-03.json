@@ -1,0 +1,70 @@
+{
+  "date": "2026-11-03",
+  "items": [
+    {
+      "title": "AWS Weekly Roundup: GPT-6.1 Terra on Bedrock, Step Functions as agent tools, and more (November 2, 2026)",
+      "summary": "The agentic launches that stayed with me last week had nothing to do with how capable a model is. They were about reach. AWS Step Functions, which already orchestrates over 220 AWS services, can now be handed to an agent as a tool, so workflows teams already trust became callable without a rewrite. In the […]",
+      "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-gpt-6-1-terra-on-bedrock-step-functions-as-agent-tools-and-more-november-2-2026",
+      "source": "AWS News Blog",
+      "published": "2026-11-03 01:45 JST",
+      "topic": "AI・LLM",
+      "title_ja": "AWS Weekly Roundup: GPT-6.1 Terra on Bedrock、エージェントツールとしてのステップ機能など（ 2026年11月2日）",
+      "overview": "先週私と一緒にいたエージェントの立ち上げは、モデルの能力とは何の関係もありませんでした。彼らは手の届くところにいた。すでに220を超えるAWSサービスをオーケストレーションしているAWS Step Functionsは、ツールとしてエージェントに引き渡すことができるため、すでに信頼されているワークフローチームは書き換えなしで呼び出すことができます。[…]で",
+      "title_en": "AWS Weekly Roundup: GPT-6.1 Terra on Bedrock, Step Functions as agent tools, and more (November 2, 2026)",
+      "overview_en": "The agentic launches that stayed with me last week had nothing to do with how capable a model is. They were about reach. AWS Step Functions, which already orchestrates over 220 AWS services, can now be handed to an agent as a tool, so workflows teams already trust became callable without a rewrite. In the […]",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "The latest AI news we announced in October 2026",
+      "summary": "Animated carousel of images from AI posts in October",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026",
+      "source": "Google Blog AI",
+      "published": "2026-11-03 02:45 JST",
+      "topic": "AI・LLM",
+      "title_ja": "2026年10月に発表した最新のAIニュース",
+      "overview": "10月のAI投稿の画像のアニメーションカルーセル",
+      "title_en": "The latest AI news we announced in October 2026",
+      "overview_en": "Animated carousel of images from AI posts in October",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "オープンソースの人工知能(AI)ハッキングツールが実際のサイバー攻撃に活用され、AIがハッキング速度をどれだけ引き上げたかを示す事例が出た。 オープンソースAIハッキングツール「サイバーストライクAI..",
+      "summary": "オープンソースの人工知能(AI)ハッキングツールが実際のサイバー攻撃に活用され、AIがハッキング速度をどれだけ引き上げたかを示す事例が出た。 オープンソースAIハッキングツール「サイバーストライクAI.. 매일경제",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9idzJSeE5GN1RUTXAtbW5jVlQ4Z0FDekNjSGdoQjZQMFVpVWRRclBUR0tWb2RpemFqSGVYMzhoNnVqSjdscndSelEwOA",
+      "source": "매일경제",
+      "published": "2026-11-03 11:21 JST",
+      "topic": "AI・LLM",
+      "title_ja": "オープンソースの人工知能(AI)ハッキングツールが実際のサイバー攻撃に活用され、AIがハッキング速度をどれだけ引き上げたかを示す事例が出た。 オープンソースAIハッキングツール「サイバーストライクAI..",
+      "overview": "オープンソースの人工知能(AI)ハッキングツールが実際のサイバー攻撃に活用され、AIがハッキング速度をどれだけ引き上げたかを示す事例が出た。 オープンソースAIハッキングツール「サイバーストライクAI.. 매일경제",
+      "title_en": "Open-source artificial intelligence (AI) hacking tools have been used in actual cyberattacks, and there are examples of how AI has increased the speed of hacking. Open source AI hacking tool \"Cyberstrike AI..",
+      "overview_en": "Open-source artificial intelligence (AI) hacking tools have been used in actual cyberattacks, and there are examples of how AI has increased the speed of hacking. Open source AI hacking tool \"Cyberstrike AI..\"",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "MetaのWebXR開発ツール「IWSDK」がAIエージェント対応、Niantic、3Dガウシアン・スプラッティング形式「SPZ 4」を公開 ほか",
+      "summary": "MetaのWebXR開発ツール「IWSDK」がAIエージェント対応、Niantic、3Dガウシアン・スプラッティング形式「SPZ 4」を公開 ほか ThinkIT",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9XZmRYcFFfMkJhUEFITXRhQ05oVjVabzl6Qzd1MEE3REotRmRTTUNuVzZVVDRjOHZwaHFxU2N5VkZnZWJueVk2d0VPdw",
+      "source": "ThinkIT",
+      "published": "2026-11-01 23:57 JST",
+      "topic": "AI・LLM",
+      "title_ja": "MetaのWebXR開発ツール「IWSDK」がAIエージェント対応、Niantic、3Dガウシアン・スプラッティング形式「SPZ 4」を公開 ほか",
+      "overview": "MetaのWebXR開発ツール「IWSDK」がAIエージェント対応、Niantic、3Dガウシアン・スプラッティング形式「SPZ 4」を公開 ほか ThinkIT",
+      "title_en": "Meta's WebXR development tool \"IWSDK\" supports AI agents, Niantic, 3D Gaussian splatting format \"SPZ4\" and more",
+      "overview_en": "Meta's WebXR development tool \"IWSDK\" supports AI agents, Niantic, 3D Gaussian splatting format \"SPZ4\" and ThinkIT",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "「Visual Studio Code」v1.144が公開、複数のAIモデルを賢く使い分ける「GitHub Copilot Fusion」も一般提供",
+      "summary": "「Visual Studio Code」v1.144が公開、複数のAIモデルを賢く使い分ける「GitHub Copilot Fusion」も一般提供 窓の杜",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE04ODBFMEdMczdjQUJxbUs1Nkk4VkxJbGFDWVJIOWVqSEhNdzRDYWlxT2JFcHIweTN2T0xObkhpVFFFcHdZbW1na3VadzZ5djhDNzQteHdoVHVpTUFXNFZabXlBNTNUSWNR",
+      "source": "窓の杜",
+      "published": "2026-11-02 18:37 JST",
+      "topic": "AI・LLM",
+      "title_ja": "「Visual Studio Code」v1.144が公開、複数のAIモデルを賢く使い分ける「GitHub Copilot Fusion」も一般提供",
+      "overview": "「Visual Studio Code」v1.144が公開、複数のAIモデルを賢く使い分ける「GitHub Copilot Fusion」も一般提供 窓の杜",
+      "title_en": "Visual Studio Code v1.144 has been released, and GitHub Copilot Fusion, which cleverly uses multiple AI models, is also available to the public.",
+      "overview_en": "Visual Studio Code v1.144 has been released, and GitHub Copilot Fusion, which cleverly uses multiple AI models, is also available for public use.",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    }
+  ]
+}
