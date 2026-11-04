@@ -1,0 +1,70 @@
+{
+  "date": "2026-11-04",
+  "items": [
+    {
+      "title": "Introducing Zero Wire, a hub for investigating critical Internet vulnerabilities",
+      "summary": "Zero Wire on Cloudflare Radar pairs plain-language briefings with global attack telemetry and remediation steps. Triage critical CVEs faster and decide how to protect your infrastructure.",
+      "url": "https://blog.cloudflare.com/zero-wire",
+      "source": "Cloudflare Blog",
+      "published": "2026-11-03 23:00 JST",
+      "topic": "クラウド",
+      "title_ja": "インターネットの重大な脆弱性を調査するためのハブであるZero Wireのご紹介",
+      "overview": "Zero Wire on Cloudflare Radarは、平易な言語のブリーフィングとグローバルな攻撃テレメトリと修復ステップを組み合わせています。重要なCVEをより迅速にトリアージし、インフラストラクチャを保護する方法を決定します。",
+      "title_en": "Introducing Zero Wire, a hub for investigating critical Internet vulnerabilities",
+      "overview_en": "Zero Wire on Cloudflare Radar pairs plain-language briefings with global attack telemetry and remediation steps. Triage critical CVEs faster and decide how to protect your infrastructure.",
+      "importance": "クラウドサービスの機能や運用方法に関わる可能性があります。"
+    },
+    {
+      "title": "StateBench: Testing how language models track state changes over long documents",
+      "summary": "",
+      "url": "https://huggingface.co/blog/allenai/statebench",
+      "source": "Hugging Face",
+      "published": "2026-11-04 02:15 JST",
+      "topic": "AI・LLM",
+      "title_ja": "StateBench ：言語モデルが長いドキュメントで状態の変化を追跡する方法をテストする",
+      "overview": "配信元から記事の概要が提供されていません。",
+      "title_en": "StateBench: Testing how language models track state changes over long documents",
+      "overview_en": "No summary was provided by the source.",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "Palette: teaching a small model to build decks in your design language",
+      "summary": "",
+      "url": "https://huggingface.co/blog/ibm-research/palette-deck-building",
+      "source": "Hugging Face",
+      "published": "2026-11-04 01:35 JST",
+      "topic": "AI・LLM",
+      "title_ja": "パレット：デザイン言語でデッキを構築するための小さなモデルの指導",
+      "overview": "配信元から記事の概要が提供されていません。",
+      "title_en": "Palette: teaching a small model to build decks in your design language",
+      "overview_en": "No summary was provided by the source.",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "Arnis turns any place on Earth into a Minecraft world",
+      "summary": "Louis Erbkamm built the first prototype in his free time. Now GitHub Copilot helps him maintain it alone. The post Arnis turns any place on Earth into a Minecraft world appeared first on The GitHub Blog .",
+      "url": "https://github.blog/open-source/maintainers/arnis-turns-any-place-on-earth-into-a-minecraft-world",
+      "source": "GitHub Blog",
+      "published": "2026-11-04 01:00 JST",
+      "topic": "開発・OSS",
+      "title_ja": "Arnisは地球上のあらゆる場所をMinecraftの世界に変えます",
+      "overview": "ルイ・エルブカムは自由な時間に最初のプロトタイプを作った。これで、GitHub Copilotは彼が単独でそれを維持するのを助けます。Arnisが地球上のあらゆる場所をMinecraftの世界に変えるという投稿は、GitHubブログで最初に登場しました。",
+      "title_en": "Arnis turns any place on Earth into a Minecraft world",
+      "overview_en": "Louis Erbkamm built the first prototype in his free time. Now GitHub Copilot helps him maintain it alone. The post Arnis turns any place on Earth into a Minecraft world appeared first on The GitHub Blog .",
+      "importance": "開発者が使えるツールや技術の選択肢に関わる可能性があります。"
+    },
+    {
+      "title": "Apple Intelligenceが中国で提供開始、ChatGPTの代わりにQwenを採用",
+      "summary": "Apple Intelligenceが中国で提供開始、ChatGPTの代わりにQwenを採用 Pasquale Pillitteri",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQcnFXemcxQXk3WWE4VzNPNnlsRDdCeDFHQk5CY3VvS01vUVJPWTFRSFRBd0Ftbm1JcTlJVFlzZ1p3MW93WURpOENGVnJmb0dIckUwdV8xZ1AzZmFwNE5ORDlidXNTZGhfODVHVHZUX1BMS3FlZWIxVXI5Qlhnc3J3ZlcwdzUyOHc1",
+      "source": "Pasquale Pillitteri",
+      "published": "2026-11-04 06:04 JST",
+      "topic": "AI・LLM",
+      "title_ja": "Apple Intelligenceが中国で提供開始、ChatGPTの代わりにQwenを採用",
+      "overview": "Apple Intelligenceが中国で提供開始、ChatGPTの代わりにQwenを採用 Pasquale Pillitteri",
+      "title_en": "Apple Intelligence launches in China, adopts Qwen instead of ChatGPT",
+      "overview_en": "Apple Intelligence launches in China, adopts Qwen instead of ChatGPT Pasquale Pillitteri",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    }
+  ]
+}
