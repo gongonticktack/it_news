@@ -1,0 +1,70 @@
+{
+  "date": "2026-11-05",
+  "items": [
+    {
+      "title": "See the agents, set the terms: new visibility and control for personal agents",
+      "summary": "Personal AI agents have changed how users interact with the web, blurring the lines between automated and human traffic. Learn how Cloudflare gives site owners visibility and control to manage personal agent access.",
+      "url": "https://blog.cloudflare.com/personal-agents-visibility-control",
+      "source": "Cloudflare Blog",
+      "published": "2026-11-04 23:00 JST",
+      "topic": "AI・LLM",
+      "title_ja": "エージェントを確認し、条件を設定：パーソナルエージェントの新しい可視性と制御",
+      "overview": "パーソナルAIエージェントは、ユーザーがウェブと対話する方法を変更し、自動化されたトラフィックと人間のトラフィックの境界線を曖昧にしました。Cloudflareがサイト所有者に個人的なエージェントアクセスを管理するための可視性と制御を提供する方法について説明します。",
+      "title_en": "See the agents, set the terms: new visibility and control for personal agents",
+      "overview_en": "Personal AI agents have changed how users interact with the web, blurring the lines between automated and human traffic. Learn how Cloudflare gives site owners visibility and control to manage personal agent access.",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "Amazon S3 Tables now offer managed migration of Apache Hive tables to Apache Iceberg",
+      "summary": "You can now migrate existing Apache Hive datasets in Amazon S3 to fully managed Apache Iceberg tables in Amazon S3 Tables, with no pipelines to build or compute to provision, while production workloads keep running.",
+      "url": "https://aws.amazon.com/blogs/aws/amazon-s3-tables-now-offer-managed-migration-of-apache-hive-tables-to-apache-iceberg",
+      "source": "AWS News Blog",
+      "published": "2026-11-05 08:34 JST",
+      "topic": "3D・ロボット",
+      "title_ja": "Amazon S 3テーブルは、Apache HiveテーブルのApache Icebergへの管理された移行を提供します",
+      "overview": "Amazon S 3の既存のApache HiveデータセットをAmazon S 3テーブルの完全に管理されたApache Icebergテーブルに移行できるようになりました。本番ワークロードが実行されている間、構築するパイプラインやプロビジョニングするコンピューティングはありません。",
+      "title_en": "Amazon S3 Tables now offer managed migration of Apache Hive tables to Apache Iceberg",
+      "overview_en": "You can now migrate existing Apache Hive datasets in Amazon S3 to fully managed Apache Iceberg tables in Amazon S3 Tables, with no pipelines to build or compute to provision, while production workloads keep running.",
+      "importance": "画像処理・3D・ロボティクスの技術動向を知る手掛かりになります。"
+    },
+    {
+      "title": "【GitHub Universe 2026】AIエージェント急増に伴うGitインフラ全面刷新の舞台裏と、人とAIが対等に協調する開発の未来",
+      "summary": "【GitHub Universe 2026】AIエージェント急増に伴うGitインフラ全面刷新の舞台裏と、人とAIが対等に協調する開発の未来 クラウド Watch",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5SOXRwZGVSZnBEd0FoMk1TcUZzTXhNVE5LV3NQNEN1d2RPOUptOV9aWFNrQ3E3cFBmdV81OWNDTTFFUlN6RFJQT3hEZTlzUXZRZzZoYmVTM0Rpb2Q1b0tGa0xuYWdqdjg1",
+      "source": "クラウド Watch",
+      "published": "2026-11-05 06:15 JST",
+      "topic": "AI・LLM",
+      "title_ja": "【GitHub Universe 2026】AIエージェント急増に伴うGitインフラ全面刷新の舞台裏と、人とAIが対等に協調する開発の未来",
+      "overview": "【GitHub Universe 2026】AIエージェント急増に伴うGitインフラ全面刷新の舞台裏と、人とAIが対等に協調する開発の未来 クラウド Watch",
+      "title_en": "[GitHub Universe 2026] Behind the scenes of the complete renovation of Git infrastructure due to the proliferation of AI agents and the future of development where people and AI work together on an equal footing",
+      "overview_en": "[GitHub Universe 2026] Behind the scenes of the total renovation of Git infrastructure due to the proliferation of AI agents and the future of development where people and AI work together on an equal footing Cloud Watch",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "Sysdig、エンドポイントからクラウドまでエージェントの動作を統制するAI Defenseを発表",
+      "summary": "Sysdig、エンドポイントからクラウドまでエージェントの動作を統制するAI Defenseを発表 Unite.AI",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB2cG9fYzgza2o0VFNDdjVJZExheVcwUXpMMXZlaHpkYWZMMWJFVkFwSFZTNHRBRTRDc3hPWEJaZ2NUcWF4bm1vS2dRTjZ6cjQxb3oxRnI3NnBDUl9LLWxJQkl6TEJwV1M5OUxNVWtiNzk0N00",
+      "source": "Unite.AI",
+      "published": "2026-11-04 23:00 JST",
+      "topic": "AI・LLM",
+      "title_ja": "Sysdig、エンドポイントからクラウドまでエージェントの動作を統制するAI Defenseを発表",
+      "overview": "Sysdig、エンドポイントからクラウドまでエージェントの動作を統制するAI Defenseを発表 Unite.AI",
+      "title_en": "Sysdig Announces AI Defense to Control Agent Behavior from Endpoint to Cloud",
+      "overview_en": "Sysdig Announces AI Defense to Control Agent Behavior from Endpoint to Cloud Unite.AI",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "NVIDIA、雑音や音割れを補正する音声AI「NemotronLabs RE-USE」を公開 約960万パラメーターで商用利用にも対応",
+      "summary": "NVIDIA、雑音や音割れを補正する音声AI「NemotronLabs RE-USE」を公開 約960万パラメーターで商用利用にも対応 Ledge.ai",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB5Yk8tTGF3WWlVQlBGMmVRUUNILXVwV2NXVktyT2hhQjJSbmFmZnpiNWpfZDRkaWwwbWx5OWEzSGZEYUl1RG81aUZtekJETEtxWERpdEc4Umg1V3pxdnF0WVNWT1VXR0lIaURSdU83ZWxTdlZCMmhVSlFRUQ",
+      "source": "Ledge.ai",
+      "published": "2026-11-05 10:01 JST",
+      "topic": "3D・ロボット",
+      "title_ja": "NVIDIA、雑音や音割れを補正する音声AI「NemotronLabs RE-USE」を公開 約960万パラメーターで商用利用にも対応",
+      "overview": "NVIDIA、雑音や音割れを補正する音声AI「NemotronLabs RE-USE」を公開 約960万パラメーターで商用利用にも対応 Ledge.ai",
+      "title_en": "NVIDIA Releases NemotronLabs Re-use, a Voice AI that Corrects Noise and Cracking, with Approximately 9.6 Million Parameters for Commercial Use",
+      "overview_en": "NVIDIA Releases NemotronLabs Re-use, a Voice AI that Corrects Noise and Cracking, with Approximately 9.6 Million Parameters for Commercial Use Ledge.ai",
+      "importance": "画像処理・3D・ロボティクスの技術動向を知る手掛かりになります。"
+    }
+  ]
+}

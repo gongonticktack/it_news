@@ -1,26 +1,4 @@
 {
-  "2026-10-05": [
-    {
-      "title": "Announcing Cloudflare OHTTP Gateway – expanding access to Cloudflare’s privacy-preserving infrastructure",
-      "url": "https://blog.cloudflare.com/announcing-cloudflare-ohttp-gateway"
-    },
-    {
-      "title": "The Agent Said It Was Done. The Database Disagreed.",
-      "url": "https://huggingface.co/blog/microsoft/thinkingbox"
-    },
-    {
-      "title": "Updates on our pledge to make Cloudflare features accessible to everyone",
-      "url": "https://blog.cloudflare.com/enterprise-for-all-update"
-    },
-    {
-      "title": "[写真]AWS Strands Labs、文章を生成せず選択肢を評価する「Strands Decider 2B」を公開",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5LOGkweDFxbnVHdmREWVNuUXZoSGdHUkRXQ2U4b0xSQTFyb2tKMGZzYUxOTWJJeE1vOXk3bG9aOVdXTTdtQm5aMGpfaF8tOC1mOFJVNg"
-    },
-    {
-      "title": "ComfyUIに対話型AIエージェント「Comfy Agent」が登場！「Comfy API」「Comfy Router」で開発者向け基盤も強化",
-      "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxQbmNrRXFydlU3YV95a3dUWktkdERuckROU1R1NGpEekNHaDJxV1dZcEJ6andwdzlvdldvakFMQW14SjJUVVFOSVM5NVZNZlpNXzVGdDM4Rks1cmJoOVdEZWg1RUZpenptWUVJalU0QmlaeTdqLUd2Y1pwSGZnVWNZTFF2UFZrS0RHSDl5a1l5bHRYTnNqUUo5ZkYySW1qck1fdHZTMGR1NThRUkpLZ3k0dnlkMWxySVBOOXp5TTJ2anpKTTZBd250SXF6SFJpQmdadHJkTEJDOHVyLS1DNG9hMVp6SzlfZ2d3OGZJaFU4OXl0QUZwT0RuUE9UdWsyOFRxWldSRmo4STh0U1plRlREX0ZxeWUyLW0yVl9IUGlKZFloSWxOeTVxUFpFTFBPV0twcExqX0hhVlpyWUR3c1p5cUE3eXNmUUU5Uk4zUFJ0SXJCT1NFYmc"
-    }
-  ],
   "2026-10-06": [
     {
       "title": "One year later: the power of 1.1.1.1 interns",
@@ -671,6 +649,28 @@
     {
       "title": "Apple Intelligenceが中国で提供開始、ChatGPTの代わりにQwenを採用",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQcnFXemcxQXk3WWE4VzNPNnlsRDdCeDFHQk5CY3VvS01vUVJPWTFRSFRBd0Ftbm1JcTlJVFlzZ1p3MW93WURpOENGVnJmb0dIckUwdV8xZ1AzZmFwNE5ORDlidXNTZGhfODVHVHZUX1BMS3FlZWIxVXI5Qlhnc3J3ZlcwdzUyOHc1"
+    }
+  ],
+  "2026-11-05": [
+    {
+      "title": "See the agents, set the terms: new visibility and control for personal agents",
+      "url": "https://blog.cloudflare.com/personal-agents-visibility-control"
+    },
+    {
+      "title": "Amazon S3 Tables now offer managed migration of Apache Hive tables to Apache Iceberg",
+      "url": "https://aws.amazon.com/blogs/aws/amazon-s3-tables-now-offer-managed-migration-of-apache-hive-tables-to-apache-iceberg"
+    },
+    {
+      "title": "【GitHub Universe 2026】AIエージェント急増に伴うGitインフラ全面刷新の舞台裏と、人とAIが対等に協調する開発の未来",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5SOXRwZGVSZnBEd0FoMk1TcUZzTXhNVE5LV3NQNEN1d2RPOUptOV9aWFNrQ3E3cFBmdV81OWNDTTFFUlN6RFJQT3hEZTlzUXZRZzZoYmVTM0Rpb2Q1b0tGa0xuYWdqdjg1"
+    },
+    {
+      "title": "Sysdig、エンドポイントからクラウドまでエージェントの動作を統制するAI Defenseを発表",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB2cG9fYzgza2o0VFNDdjVJZExheVcwUXpMMXZlaHpkYWZMMWJFVkFwSFZTNHRBRTRDc3hPWEJaZ2NUcWF4bm1vS2dRTjZ6cjQxb3oxRnI3NnBDUl9LLWxJQkl6TEJwV1M5OUxNVWtiNzk0N00"
+    },
+    {
+      "title": "NVIDIA、雑音や音割れを補正する音声AI「NemotronLabs RE-USE」を公開 約960万パラメーターで商用利用にも対応",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB5Yk8tTGF3WWlVQlBGMmVRUUNILXVwV2NXVktyT2hhQjJSbmFmZnpiNWpfZDRkaWwwbWx5OWEzSGZEYUl1RG81aUZtekJETEtxWERpdEc4Umg1V3pxdnF0WVNWT1VXR0lIaURSdU83ZWxTdlZCMmhVSlFRUQ"
     }
   ]
 }
