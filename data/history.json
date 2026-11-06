@@ -1,26 +1,4 @@
 {
-  "2026-10-06": [
-    {
-      "title": "One year later: the power of 1.1.1.1 interns",
-      "url": "https://blog.cloudflare.com/one-year-later-1111-interns"
-    },
-    {
-      "title": "AWS Weekly Roundup: Amazon Bedrock Managed Agents powered by OpenAI, Q3 service availability updates, Kiro workflows, and more (October 5, 2026)",
-      "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-amazon-bedrock-managed-agents-powered-by-openai-q3-service-availability-updates-kiro-workflows-and-more-october-5-2026"
-    },
-    {
-      "title": "Everything we launched during Birthday Week 2026",
-      "url": "https://blog.cloudflare.com/birthday-week-2026-wrap-up"
-    },
-    {
-      "title": "ReviewBench: An open benchmark for AI code review",
-      "url": "https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review"
-    },
-    {
-      "title": "Meta、AIエージェントMuseをM5Stackやラズパイで使うMuse Gadgets公開 スマート家電連携ハブを無料配布、SDKはオープンソース",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0tR3VwNlZacnluNmNUZnZRb0FjZGpQdzBBblFVTlFXaWg4V2pMVlIwQWdnVlBQX1dEeGY0Y0cxZXZrZFBNSG1scDhDYVBqUy13T2FqaEt4RWtST2RweXoydWR4NExmdVE"
-    }
-  ],
   "2026-10-07": [
     {
       "title": "Building Git infrastructure for agent-scale development",
@@ -671,6 +649,28 @@
     {
       "title": "NVIDIA、雑音や音割れを補正する音声AI「NemotronLabs RE-USE」を公開 約960万パラメーターで商用利用にも対応",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB5Yk8tTGF3WWlVQlBGMmVRUUNILXVwV2NXVktyT2hhQjJSbmFmZnpiNWpfZDRkaWwwbWx5OWEzSGZEYUl1RG81aUZtekJETEtxWERpdEc4Umg1V3pxdnF0WVNWT1VXR0lIaURSdU83ZWxTdlZCMmhVSlFRUQ"
+    }
+  ],
+  "2026-11-06": [
+    {
+      "title": "Agents aren’t humans (but they kinda are)",
+      "url": "https://blog.cloudflare.com/trusted-agent-delegation"
+    },
+    {
+      "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash"
+    },
+    {
+      "title": "Inside GitHub’s new Git storage architecture",
+      "url": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture"
+    },
+    {
+      "title": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
+      "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation"
+    },
+    {
+      "title": "Accessibility statements now have a home on GitHub",
+      "url": "https://github.blog/open-source/maintainers/accessibility-statements-now-have-a-home-on-github"
     }
   ]
 }

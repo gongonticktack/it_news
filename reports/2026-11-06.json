@@ -1,0 +1,70 @@
+{
+  "date": "2026-11-06",
+  "items": [
+    {
+      "title": "Agents aren’t humans (but they kinda are)",
+      "summary": "AI agents act for millions, but servers see intermediaries that strip user visibility. This post defines the problem space and introduces a collaborative approach to safely identifying, allowing, and managing this automated traffic.",
+      "url": "https://blog.cloudflare.com/trusted-agent-delegation",
+      "source": "Cloudflare Blog",
+      "published": "2026-11-06 02:03 JST",
+      "topic": "AI・LLM",
+      "title_ja": "エージェントは人間ではありません（しかし、彼らはある程度そうです）",
+      "overview": "AIエージェントは何百万ものために行動しますが、サーバーはユーザーの可視性を奪う仲介者を見ます。この記事では、問題領域を定義し、この自動化されたトラフィックを安全に識別、許可、管理するためのコラボレーションアプローチを紹介します。",
+      "title_en": "Agents aren’t humans (but they kinda are)",
+      "overview_en": "AI agents act for millions, but servers see intermediaries that strip user visibility. This post defines the problem space and introduces a collaborative approach to safely identifying, allowing, and managing this automated traffic.",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+      "summary": "Text \"Gemini Introducing Gemini Omni 1.2 Flash\" surroudned by images of a beehive, animals in conversation, a squid, and a woman walking down a street",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash",
+      "source": "Google Blog AI",
+      "published": "2026-11-06 02:00 JST",
+      "topic": "AI・LLM",
+      "title_ja": "Gemini Omni 1.2フラッシュ：より長いクリップで高速でコスト効率に優れています",
+      "overview": "テキスト「Gemini Introducing Gemini Omni 1.2 Flash」には、蜂の巣、会話中の動物、イカ、そして通りを歩く女性の画像が飾られています",
+      "title_en": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+      "overview_en": "Text \"Gemini Introducing Gemini Omni 1.2 Flash\" surroudned by images of a beehive, animals in conversation, a squid, and a woman walking down a street",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "Inside GitHub’s new Git storage architecture",
+      "summary": "GitHub's new Git storage architecture is built so thousands of agents can push to a single repository at once. Here's how it works. The post Inside GitHub’s new Git storage architecture appeared first on The GitHub Blog .",
+      "url": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture",
+      "source": "GitHub Blog",
+      "published": "2026-11-06 05:23 JST",
+      "topic": "AI・LLM",
+      "title_ja": "GitHubの新しいGitストレージアーキテクチャの内部",
+      "overview": "GitHubの新しいGitストレージアーキテクチャは、何千ものエージェントが一度に単一のリポジトリにプッシュできるように構築されています。その仕組みをご紹介します。Inside GitHubの新しいGitストレージアーキテクチャの投稿は、The GitHub Blogに最初に掲載されました。",
+      "title_en": "Inside GitHub’s new Git storage architecture",
+      "overview_en": "GitHub's new Git storage architecture is built so thousands of agents can push to a single repository at once. Here's how it works. The post Inside GitHub’s new Git storage architecture appeared first on The GitHub Blog .",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
+      "summary": "",
+      "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+      "source": "Hugging Face",
+      "published": "2026-11-06 04:35 JST",
+      "topic": "AI・LLM",
+      "title_ja": "インタラクティブな世界シミュレーションのための新しいNVIDIA Cosmos 3オープンモデル",
+      "overview": "配信元から記事の概要が提供されていません。",
+      "title_en": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
+      "overview_en": "No summary was provided by the source.",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "Accessibility statements now have a home on GitHub",
+      "summary": "GitHub now highlights ACCESSIBILITY.md files and helps maintainers document accessibility goals, known barriers, supported environments, contributor expectations, and reporting processes. The post Accessibility statements now have a home on GitHub appeared first on The GitHub Blog .",
+      "url": "https://github.blog/open-source/maintainers/accessibility-statements-now-have-a-home-on-github",
+      "source": "GitHub Blog",
+      "published": "2026-11-06 01:00 JST",
+      "topic": "開発・OSS",
+      "title_ja": "アクセシビリティステートメントがGitHubに公開されるようになりました",
+      "overview": "GitHubは、ACCESSIBILITY.mdファイルを強調表示し、メンテナーがアクセシビリティの目標、既知の障壁、サポートされている環境、貢献者の期待、およびレポートプロセスを文書化するのに役立ちます。アクセシビリティステートメントの投稿は、GitHubブログで最初に登場しました。",
+      "title_en": "Accessibility statements now have a home on GitHub",
+      "overview_en": "GitHub now highlights ACCESSIBILITY.md files and helps maintainers document accessibility goals, known barriers, supported environments, contributor expectations, and reporting processes. The post Accessibility statements now have a home on GitHub appeared first on The GitHub Blog .",
+      "importance": "開発者が使えるツールや技術の選択肢に関わる可能性があります。"
+    }
+  ]
+}
