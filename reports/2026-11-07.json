@@ -1,0 +1,70 @@
+{
+  "date": "2026-11-07",
+  "items": [
+    {
+      "title": "Beyond code generation: A developer’s guide to agentic engineering",
+      "summary": "Writing code got faster. The work around it didn't. See how you can plan, write code, review changes, and investigate production issues with GitHub Copilot, and what work still needs your judgment. The post Beyond code generation: A developer’s guide to agentic engineering appeared first on The GitHub Blog .",
+      "url": "https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering",
+      "source": "GitHub Blog",
+      "published": "2026-11-07 07:15 JST",
+      "topic": "AI・LLM",
+      "title_ja": "コード生成を超えて：エージェントエンジニアリングの開発者ガイド",
+      "overview": "コードの書き込みが速くなりました。それを取り巻く作業はそうではありませんでした。GitHub Copilotを使用して計画、コードの記述、変更のレビュー、運用上の問題の調査を行う方法、およびどの作業がまだあなたの判断を必要としているかをご覧ください。Beyond code generation: A developer's guide to agentic engineeringの記事は、The GitHub Blogに最初に掲載されました。",
+      "title_en": "Beyond code generation: A developer’s guide to agentic engineering",
+      "overview_en": "Writing code got faster. The work around it didn't. See how you can plan, write code, review changes, and investigate production issues with GitHub Copilot, and what work still needs your judgment. The post Beyond code generation: A developer’s guide to agentic engineering appeared first on The GitHub Blog .",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "ToyBlocks: A controlled world for robot learning and evaluation",
+      "summary": "",
+      "url": "https://huggingface.co/blog/allenai/toyblocks",
+      "source": "Hugging Face",
+      "published": "2026-11-06 23:00 JST",
+      "topic": "3D・ロボット",
+      "title_ja": "ToyBlocks ：ロボット学習と評価のための制御された世界",
+      "overview": "配信元から記事の概要が提供されていません。",
+      "title_en": "ToyBlocks: A controlled world for robot learning and evaluation",
+      "overview_en": "No summary was provided by the source.",
+      "importance": "画像処理・3D・ロボティクスの技術動向を知る手掛かりになります。"
+    },
+    {
+      "title": "OpenAIが新モデル「GPT-6 Cyber」発表 Firefoxの未知の脆弱性検知",
+      "summary": "OpenAIが新モデル「GPT-6 Cyber」発表 Firefoxの未知の脆弱性検知 日経クロステック",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5zUGI5MldISi16X2ZkWmV1V0JWRmN4cUpERkd4YkdhWlNDUDRzZnVENmFzQ3ZIM0hTT1U2VEl4bm1tWHpKTW8xZ1FvNVN6S1htcjNwdGVDRUR4ZTVi",
+      "source": "日経クロステック",
+      "published": "2026-11-06 17:00 JST",
+      "topic": "AI・LLM",
+      "title_ja": "OpenAIが新モデル「GPT-6 Cyber」発表 Firefoxの未知の脆弱性検知",
+      "overview": "OpenAIが新モデル「GPT-6 Cyber」発表 Firefoxの未知の脆弱性検知 日経クロステック",
+      "title_en": "OpenAI Announces New GPT-6 Cyber Model, Firefox Unknown Vulnerability Detection",
+      "overview_en": "OpenAI Announces New GPT-6 Cyber Model, Firefox Unknown Vulnerability Detection Nikkei CrossTech",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "The post-quantum future of web privacy",
+      "summary": "Cryptographic protocols like Privacy Pass help keep web sites safe from abuse while keeping their users private. This post looks at the quantum threat to these protocols, and some new post-quantum cryptography that may help close the gap.",
+      "url": "https://blog.cloudflare.com/vole-mole",
+      "source": "Cloudflare Blog",
+      "published": "2026-11-06 23:00 JST",
+      "topic": "IT全般",
+      "title_ja": "ポスト量子のウェブプライバシーの未来",
+      "overview": "プライバシーパスのような暗号プロトコルは、Webサイトを悪用されないようにしながら、ユーザーのプライバシーを保護するのに役立ちます。この記事では、これらのプロトコルに対する量子の脅威と、ギャップを埋めるのに役立つ可能性のある新しいポスト量子暗号について説明します。",
+      "title_en": "The post-quantum future of web privacy",
+      "overview_en": "Cryptographic protocols like Privacy Pass help keep web sites safe from abuse while keeping their users private. This post looks at the quantum threat to these protocols, and some new post-quantum cryptography that may help close the gap.",
+      "importance": "IT分野の最新動向として確認する価値があります。"
+    },
+    {
+      "title": "A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.",
+      "summary": "",
+      "url": "https://huggingface.co/blog/phonon-tts",
+      "source": "Hugging Face",
+      "published": "2026-11-05 09:00 JST",
+      "topic": "IT全般",
+      "title_ja": "Phonon TTSを詳しく見てみましょう。ベンチマークを上回る高品質のオンデバイススピーチの開始。",
+      "overview": "配信元から記事の概要が提供されていません。",
+      "title_en": "A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.",
+      "overview_en": "No summary was provided by the source.",
+      "importance": "IT分野の最新動向として確認する価値があります。"
+    }
+  ]
+}

@@ -1,26 +1,4 @@
 {
-  "2026-10-07": [
-    {
-      "title": "Building Git infrastructure for agent-scale development",
-      "url": "https://github.blog/engineering/architecture-optimization/building-git-infrastructure-for-agent-scale-development"
-    },
-    {
-      "title": "All the numbers: Amazon Prime Day 2026 powered by AWS",
-      "url": "https://aws.amazon.com/blogs/aws/all-the-numbers-amazon-prime-day-2026-powered-by-aws"
-    },
-    {
-      "title": "The keys to the Internet change on October 11. Are you ready?",
-      "url": "https://blog.cloudflare.com/root-ksk-2024-rollover"
-    },
-    {
-      "title": "Netsujo、AIエージェントの役割・権限を事前検査するOSS「Agent Role Contracts」v0.5.0を正式公開",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5OSTVHZzlLSXNPMFNFbWlMN1pBV05oSEQxZ1ZVODdMVWdCekozc1R4Y1o0NEtYdTBQVWUzVmJXRmdrS3NjdEpEZDVoSG0xT3BSUm1vakotWFFQc2MwXzh0aS1EOFFKYXNNOXc"
-    },
-    {
-      "title": "[AI-Driven Modernization] AIエージェントに規律ある移行作業をさせる「AI Modernization Flow」を公開しました",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOSUN0enMzd1JQSWNpUG5id0RJSi03ejJ4QWRlQy1fUFkyYktzOGh2QUpKR2ZpN19mQTFLZFE0LVQxVVdYZm5ZTG05cGJuZTJaa3R5TW5QVWhYNTd6TE4wYXBXTk1VeGM5cWhTMXMwdHJPMURYYUFlaUtTNGE2QXEzSGd3"
-    }
-  ],
   "2026-10-08": [
     {
       "title": "Building an evidence-grounded agentic security operations harness on Cloudflare",
@@ -671,6 +649,28 @@
     {
       "title": "Accessibility statements now have a home on GitHub",
       "url": "https://github.blog/open-source/maintainers/accessibility-statements-now-have-a-home-on-github"
+    }
+  ],
+  "2026-11-07": [
+    {
+      "title": "Beyond code generation: A developer’s guide to agentic engineering",
+      "url": "https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering"
+    },
+    {
+      "title": "ToyBlocks: A controlled world for robot learning and evaluation",
+      "url": "https://huggingface.co/blog/allenai/toyblocks"
+    },
+    {
+      "title": "OpenAIが新モデル「GPT-6 Cyber」発表 Firefoxの未知の脆弱性検知",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5zUGI5MldISi16X2ZkWmV1V0JWRmN4cUpERkd4YkdhWlNDUDRzZnVENmFzQ3ZIM0hTT1U2VEl4bm1tWHpKTW8xZ1FvNVN6S1htcjNwdGVDRUR4ZTVi"
+    },
+    {
+      "title": "The post-quantum future of web privacy",
+      "url": "https://blog.cloudflare.com/vole-mole"
+    },
+    {
+      "title": "A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.",
+      "url": "https://huggingface.co/blog/phonon-tts"
     }
   ]
 }
