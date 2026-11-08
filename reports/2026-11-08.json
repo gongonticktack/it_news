@@ -1,0 +1,70 @@
+{
+  "date": "2026-11-08",
+  "items": [
+    {
+      "title": "Claude Code クラウド、依存関係とAPIキーの自動セットアップを発表",
+      "summary": "Claude Code クラウド、依存関係とAPIキーの自動セットアップを発表 Pasquale Pillitteri",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPYlFCSWRLdmZBN3lRWU5KV3ZBY1VOeWluUnRpVW5DWmpGQTdJdDlNS1BhNjNhX3QzVUNFMFczdFhGa0lTdGxqeWdnTHZYeWpXWEdYQnctWFVWOTlvU3VzOG8weHZYQWNOZHd0M1lVSkRoRmd0cUh1cjBDb2NlazRYQkF3UVI3NEx5X1JfQW1oVQ",
+      "source": "Pasquale Pillitteri",
+      "published": "2026-11-07 18:51 JST",
+      "topic": "AI・LLM",
+      "title_ja": "Claude Code クラウド、依存関係とAPIキーの自動セットアップを発表",
+      "overview": "Claude Code クラウド、依存関係とAPIキーの自動セットアップを発表 Pasquale Pillitteri",
+      "title_en": "Claude Code Cloud Announces Automatic Dependency and API Key Setup",
+      "overview_en": "Claude Code Cloud Announces Automatic Dependency and API Key Setup Pasquale Pillitteri",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "グーグル、脆弱性修正AI「CodeMender」を機能拡張 Gemini 4 Argon搭載で防御を自動化",
+      "summary": "グーグル、脆弱性修正AI「CodeMender」を機能拡張 Gemini 4 Argon搭載で防御を自動化 BigGo ファイナンス",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4wZHFlWUluSGlLcXdUR3JKdkxucEFGMUR4Nk1oWktrT1p1WkhrVVNpNGRxd1ZWN3pYVkt1VGxyOXRmcmpYaUpESmZtWmtvc0ZUTmxlWURHUmZNajNfcTVjQ1Y0VDhIcm92SXpsNnkwanJQNDI0",
+      "source": "BigGo ファイナンス",
+      "published": "2026-11-07 09:35 JST",
+      "topic": "AI・LLM",
+      "title_ja": "グーグル、脆弱性修正AI「CodeMender」を機能拡張 Gemini 4 Argon搭載で防御を自動化",
+      "overview": "グーグル、脆弱性修正AI「CodeMender」を機能拡張 Gemini 4 Argon搭載で防御を自動化 BigGo ファイナンス",
+      "title_en": "Google extends CodeMender vulnerability fixing AI to automate defenses with Gemini 4 Argon",
+      "overview_en": "Google extends CodeMender vulnerability fixing AI with Gemini 4 Argon to automate defenses BigGo Finance",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "ChatGPT Images 2.6 - GIF作成・参照画像の保存とAPI新モデルFlare/Sunburst",
+      "summary": "ChatGPT Images 2.6 - GIF作成・参照画像の保存とAPI新モデルFlare/Sunburst TECH NOISY",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA5ZkdPUl9TWEFXa2k3ZVdpVUxvVEpINndURHFzQ0hCVWQwcDFkdVZ5NTlzeEJjTWwtV1I2NFVLdE1jZmliS2FkNV9CNkc2WVhqQ3BzaFVVb1gzd1ExMFl5U0hYQXNxc1MwTVhNSWZJeVBCRF9GU3dLMmIzSU9LeVE",
+      "source": "TECH NOISY",
+      "published": "2026-11-05 19:46 JST",
+      "topic": "AI・LLM",
+      "title_ja": "ChatGPT Images 2.6 - GIF作成・参照画像の保存とAPI新モデルFlare/Sunburst",
+      "overview": "ChatGPT Images 2.6 - GIF作成・参照画像の保存とAPI新モデルFlare/Sunburst TECH NOISY",
+      "title_en": "ChatGPT Images 2.6 - Creating GIFs, Saving Reference Images and APIs New Model Flare/Sunburst",
+      "overview_en": "ChatGPT Images 2.6 - Creating GIFs, Saving Reference Images and APIs New Model Flare/Sunburst tech noisy",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "おすすめAI画像生成API 10選 (11月 2026)",
+      "summary": "おすすめAI画像生成API 10選 (11月 2026) Unite.AI",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5kZzB4cnl5bjhCb3FXTHJmeWR2ZG04QTNrTnN3UDVuUnJUUTZVT244d3R1OEVYSm5jc1NzU3pBNnZPU3MycVYybGdvNGItcFE1OUU0TkRBSzZoVlE2VW5WMGFQZnE",
+      "source": "Unite.AI",
+      "published": "2026-11-07 00:30 JST",
+      "topic": "開発・OSS",
+      "title_ja": "おすすめAI画像生成API 10選 (11月 2026)",
+      "overview": "おすすめAI画像生成API 10選 (11月 2026) Unite.AI",
+      "title_en": "10 Recommended AI Image Generation APIs (November 2026)",
+      "overview_en": "10 Recommended AI Image Generation APIs (November 2026) Unite.AI",
+      "importance": "開発者が使えるツールや技術の選択肢に関わる可能性があります。"
+    },
+    {
+      "title": "Egyptian and Nigerian English join the Open ASR Leaderboard",
+      "summary": "",
+      "url": "https://huggingface.co/blog/open-asr-leaderboard-liva",
+      "source": "Hugging Face",
+      "published": "2026-11-06 09:00 JST",
+      "topic": "IT全般",
+      "title_ja": "エジプトとナイジェリアの英語がオープンASRランキングに参加",
+      "overview": "配信元から記事の概要が提供されていません。",
+      "title_en": "Egyptian and Nigerian English join the Open ASR Leaderboard",
+      "overview_en": "No summary was provided by the source.",
+      "importance": "IT分野の最新動向として確認する価値があります。"
+    }
+  ]
+}
