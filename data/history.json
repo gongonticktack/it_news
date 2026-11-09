@@ -1,26 +1,4 @@
 {
-  "2026-10-09": [
-    {
-      "title": "Bridging technical depth and usability: The story behind Radar’s redesign",
-      "url": "https://blog.cloudflare.com/radar-redesign"
-    },
-    {
-      "title": "How one bug bounty researcher chooses the features they investigate",
-      "url": "https://github.blog/security/how-one-bug-bounty-researcher-chooses-the-features-they-investigate"
-    },
-    {
-      "title": "Google CloudがGeminiを発表、仕事向けのユニバーサルエージェント",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNN3dDZkZBck1PQVQzaVF5LS1fOTl4cm5INmlza3c4MlcweEtNQ0xLNGgtMXJSQ181dDRBNmV4OGlrb05MZ1VkZGtsLUZXNThwZG9meV9pZllIMGpKN21jQnJBNmwwYlNpbllWUHd5SWNycENNRFdaYnVxQ21ZakRDTWhuME5wWWpP"
-    },
-    {
-      "title": "AWSのマット・ガーマンCEO：エージェントには「30秒未満のアカウント」と「マシンスピードのセキュリティ」が必要",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE00blE1ZGtLV2I4ZjRtRkd5VGt2OWJNU1ZmdmpCM2FQdDFnd1JBclUtaHJNeTU5c1ctbXdEN1FNeXVBbXhUdkJnSU5PdURrR21pcHZrUFhTZERuUQ"
-    },
-    {
-      "title": "The model that didn't exist, so you made it yourself",
-      "url": "https://huggingface.co/blog/building-with-ml-intern"
-    }
-  ],
   "2026-10-10": [
     {
       "title": "Introducing Clef-omni with full multimodality, plus a faster Clef and a cheaper Clef-flash",
@@ -671,6 +649,28 @@
     {
       "title": "Egyptian and Nigerian English join the Open ASR Leaderboard",
       "url": "https://huggingface.co/blog/open-asr-leaderboard-liva"
+    }
+  ],
+  "2026-11-09": [
+    {
+      "title": "超低コストで効率的な学習に成功した画像生成AIモデル「P-JiT」、オープンウェイトで公開中",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE40SDh2Z3BEbkt5QVNyaEdRbjBHRzFGS05CVk1UeTZsQVQ4eUE4aEkwb0lGY2FJbGtmQ2M1MU92dHFSY1FfQVhZNUFuTWxjcDBZcF9mR0tnVQ"
+    },
+    {
+      "title": "コード非公開のWebサイト・アプリ・ゲームを解析し、AIが類似版を生成する無料ツール「Craft Anything」（生成AIクローズアップ）",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5ENHNrNm41QkpyMkZxNEVRX1VBdGFpQVBGWnJaT3Z5eGFwRlpVdHpEdWR0b3FCT0o4T3BmbzZvdUdRem1vWHhubTYtWldMWlRjMGVWLUh6WF94Q045aDJvYlJxZVJHX2M"
+    },
+    {
+      "title": "先週の米国AI株急落の本質を解明：短期の株価調整と「インダストリアルAI」創薬/製造業/ロボティクスが生み出す中長期AI需要の巨大成長：経営者が読むNVIDIAのフィジカルAI / ADAS業界日報 by 今泉大輔",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9mT3NnWlBWSHcwR2FHMGpPYVJrNTdWalZpaWk3RW5TblRiMlJzeVRMX2EtV3VnaVRHelFPTUUyb2M1b0UwMUk4UW4xMWozbm9yNDI3VU9EVDdaV2dGbHRqZ21IWGJ2QQ"
+    },
+    {
+      "title": "Nvidia「AIデーソウル」開幕…Samsung・SK・LG、フィジカルAI技術を一斉公開",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5LTEVnQjg2OXpTUU4yYmdjY3k4Wm9oTVNDZTZ5QnF6Y3BHaDdxdm9raXpjalA0clJJT0VJbTV3eUlCWElhSWNQZ0JWLW1kWXVfZE1Gc0RidlBZemFRN3hzZmV3c0NEYm9rZ0ozNU5JaHNNTTlP"
+    },
+    {
+      "title": "シューティングゲーム『DOOM』の床に描いた数字を読み取る ゲームの仕掛けでAIを動かすオープンソースプロジェクト「Doomformer」公開",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5RbFY3YTFoVWlvX2FBZjFwb3lUYlR0TmNqNzRKNklvWmR5X1h3N01ESjBqN1lsWDJWbUJWdFdJTWJLcUpRTmU5SGVpYnVwN1pCME4wQ0pRREtfZ3ZNMVQxag"
     }
   ]
 }
