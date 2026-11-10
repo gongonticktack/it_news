@@ -1,26 +1,4 @@
 {
-  "2026-10-10": [
-    {
-      "title": "Introducing Clef-omni with full multimodality, plus a faster Clef and a cheaper Clef-flash",
-      "url": "https://blog.cloudflare.com/clef-faster-cheaper-multimodal"
-    },
-    {
-      "title": "Introducing on-demand CPU and memory profiling with flamegraphs for Workers and Durable Objects",
-      "url": "https://blog.cloudflare.com/workers-on-demand-profiling"
-    },
-    {
-      "title": "Hack the World: Why hackathons are still the best place to learn to build",
-      "url": "https://github.blog/developer-skills/career-growth/hack-the-world-why-hackathons-are-still-the-best-place-to-learn-to-build"
-    },
-    {
-      "title": "Impactful scheduling for GPU clusters",
-      "url": "https://huggingface.co/blog/allenai/impactful-scheduling"
-    },
-    {
-      "title": "オープンソースAIエージェント「Hermes Agent」のNous Research、NVIDIAなどから9,000万ドルを調達",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0tOEcxSlhLbE1HQUpvRFMxX3YzWmtYbXhEcDR4NjJEYk5vLTUtM3R5UnhWTmhib0g0elBnb0FZcnVIcVRXcGk3Rm1JeUhudDN6Q1dUa21Ha3FmYTFiN2tjVFJ5dDFtR3dycWZtSFZFc3Y3LVZmUlhxdVYwaHZINlU"
-    }
-  ],
   "2026-10-11": [
     {
       "title": "Deno is joining Cloudflare",
@@ -671,6 +649,28 @@
     {
       "title": "シューティングゲーム『DOOM』の床に描いた数字を読み取る ゲームの仕掛けでAIを動かすオープンソースプロジェクト「Doomformer」公開",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5RbFY3YTFoVWlvX2FBZjFwb3lUYlR0TmNqNzRKNklvWmR5X1h3N01ESjBqN1lsWDJWbUJWdFdJTWJLcUpRTmU5SGVpYnVwN1pCME4wQ0pRREtfZ3ZNMVQxag"
+    }
+  ],
+  "2026-11-10": [
+    {
+      "title": "Launching the Vite Ecosystem Fund",
+      "url": "https://blog.cloudflare.com/launching-vite-ecosystem-fund"
+    },
+    {
+      "title": "AWS Weekly Roundup: AgentCore Runtime V2, Amazon DynamoDB bulk put items, and more (November 9, 2026)",
+      "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-agentcore-runtime-v2-amazon-dynamodb-bulk-put-items-and-more-november-9-2026"
+    },
+    {
+      "title": "「Claude Fable 5.2」「Mythos 5.2」発表 性能と速度を向上、API料金は20％引き下げ",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBxT285b2VMY3NseERRRGhLNy1ROGdxWG9hRmx5SF96bF9OOW1VYVYwUmVfY3ZCXzhNT3BmSkc1d0dVd0xwcFFaUWxXMjhnVElVT1NFS3cyS21JWk9IM3EtOWJiUHBRak96dzNHNnVJdnQ4ak1IQlhBSVBPSQ"
+    },
+    {
+      "title": "Claude Codeにより、公開されているGitHubリポジトリ上で数千件の認証情報が流出しました",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPcWNYSi04d3gwcEoxcEVSdUFadXIyVmhVUGxzUW5hOHpMZENQOU90ajNZMUxtd3ZjYWI3UFBVcmdzS1lnTzVqTHR2VHh4bG5BR09ETWlmQ3lpbmM2T0Nubms2aFNCMDNUMldleDFycTZyYVQ0QjVNY3NPZDNSUVVlRFdYM1o3Z0d5Qlo5aFM1M3J4dkxCdjhsYlFPT0thdVd4VEdvV01Qd25DajJKTEdVREZrMVl3MVZuS1FOWFcxSmh2cFJnVVpPcHo2ejE1UGZsNmd6cXd6SThDOUdvVXc"
+    },
+    {
+      "title": "AMS Trusted Remediator でコスト最適化とセキュリティ修復を自動化する",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOLVVCUHhzaExidDBXZ3R6bDZ5UHFUV2c4a3AxdzNyVHdxSzgyNFRiRWFsNndYblNCNWl0b2xRemhLYm5ORU12UTlqYUhnOXlfY1NKTTNzRXJhWVc2aUtwanJsWlV3Y0tLYUtCWGI0d0VSUUliakVfZDhPSDE0VGRPUTR3eVNabE1GenlGaWdBbFAtSjdQT01iZmtKVzV2UDliOHROWlBiNWRtLWdIZUFYY0F6WQ"
     }
   ]
 }

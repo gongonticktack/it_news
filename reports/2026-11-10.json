@@ -1,0 +1,70 @@
+{
+  "date": "2026-11-10",
+  "items": [
+    {
+      "title": "Launching the Vite Ecosystem Fund",
+      "summary": "Cloudflare is distributing the first $301,300 of the Vite Ecosystem Fund to open source projects and maintainers. The recipients were chosen by a panel of Vite stack core team members, including maintainers not employed by Cloudflare.",
+      "url": "https://blog.cloudflare.com/launching-vite-ecosystem-fund",
+      "source": "Cloudflare Blog",
+      "published": "2026-11-09 22:00 JST",
+      "topic": "開発・OSS",
+      "title_ja": "VITEエコシステム基金の立ち上げ",
+      "overview": "Cloudflareは、VITEエコシステム基金の最初の301,300 $をオープンソースプロジェクトとメンテナに配布しています。受信者は、Cloudflareに雇用されていないメンテナーを含むVITEスタックのコアチームメンバーのパネルによって選択されました。",
+      "title_en": "Launching the Vite Ecosystem Fund",
+      "overview_en": "Cloudflare is distributing the first $301,300 of the Vite Ecosystem Fund to open source projects and maintainers. The recipients were chosen by a panel of Vite stack core team members, including maintainers not employed by Cloudflare.",
+      "importance": "開発者が使えるツールや技術の選択肢に関わる可能性があります。"
+    },
+    {
+      "title": "AWS Weekly Roundup: AgentCore Runtime V2, Amazon DynamoDB bulk put items, and more (November 9, 2026)",
+      "summary": "Most of the cost of adopting something new isn’t the new thing, it’s the move. Moving a Hive table to Apache Iceberg has typically meant weeks of engineering work. Last week, Amazon S3 Tables turned that into three steps: start, sync as often as you need, complete. The source stays writable except for a few […]",
+      "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-agentcore-runtime-v2-amazon-dynamodb-bulk-put-items-and-more-november-9-2026",
+      "source": "AWS News Blog",
+      "published": "2026-11-10 02:55 JST",
+      "topic": "AI・LLM",
+      "title_ja": "AWS Weekly Roundup: AgentCore Runtime V 2、Amazon DynamoDBバルクパットアイテムなど(2026年11月9日)",
+      "overview": "新しいものを採用するためのコストのほとんどは、新しいものではなく、動きです。HiveテーブルをApache Icebergに移動することは、通常、数週間のエンジニアリング作業を意味します。先週、Amazon S 3 Tablesはそれを3つのステップに変えました。開始、必要に応じて頻繁に同期、完了です。ソースは、いくつかの[…]を除いて書き込み可能なままです",
+      "title_en": "AWS Weekly Roundup: AgentCore Runtime V2, Amazon DynamoDB bulk put items, and more (November 9, 2026)",
+      "overview_en": "Most of the cost of adopting something new isn’t the new thing, it’s the move. Moving a Hive table to Apache Iceberg has typically meant weeks of engineering work. Last week, Amazon S3 Tables turned that into three steps: start, sync as often as you need, complete. The source stays writable except for a few […]",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "「Claude Fable 5.2」「Mythos 5.2」発表 性能と速度を向上、API料金は20％引き下げ",
+      "summary": "「Claude Fable 5.2」「Mythos 5.2」発表 性能と速度を向上、API料金は20％引き下げ ニコニコニュース",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBxT285b2VMY3NseERRRGhLNy1ROGdxWG9hRmx5SF96bF9OOW1VYVYwUmVfY3ZCXzhNT3BmSkc1d0dVd0xwcFFaUWxXMjhnVElVT1NFS3cyS21JWk9IM3EtOWJiUHBRak96dzNHNnVJdnQ4ak1IQlhBSVBPSQ",
+      "source": "ニコニコニュース",
+      "published": "2026-11-10 08:27 JST",
+      "topic": "AI・LLM",
+      "title_ja": "「Claude Fable 5.2」「Mythos 5.2」発表 性能と速度を向上、API料金は20％引き下げ",
+      "overview": "「Claude Fable 5.2」「Mythos 5.2」発表 性能と速度を向上、API料金は20％引き下げ ニコニコニュース",
+      "title_en": "Improved performance and speed for Claude Fable 5.2 and Mythos 5.2 launches, reduced API fees by 20%",
+      "overview_en": "Claude Fable 5.2 and Mythos 5.2 Launch Performance and Speed Improvements, API Pricing Reduced by 20%",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "Claude Codeにより、公開されているGitHubリポジトリ上で数千件の認証情報が流出しました",
+      "summary": "Claude Codeにより、公開されているGitHubリポジトリ上で数千件の認証情報が流出しました news.lavx.hu",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPcWNYSi04d3gwcEoxcEVSdUFadXIyVmhVUGxzUW5hOHpMZENQOU90ajNZMUxtd3ZjYWI3UFBVcmdzS1lnTzVqTHR2VHh4bG5BR09ETWlmQ3lpbmM2T0Nubms2aFNCMDNUMldleDFycTZyYVQ0QjVNY3NPZDNSUVVlRFdYM1o3Z0d5Qlo5aFM1M3J4dkxCdjhsYlFPT0thdVd4VEdvV01Qd25DajJKTEdVREZrMVl3MVZuS1FOWFcxSmh2cFJnVVpPcHo2ejE1UGZsNmd6cXd6SThDOUdvVXc",
+      "source": "news.lavx.hu",
+      "published": "2026-11-10 05:12 JST",
+      "topic": "AI・LLM",
+      "title_ja": "Claude Codeにより、公開されているGitHubリポジトリ上で数千件の認証情報が流出しました",
+      "overview": "Claude Codeにより、公開されているGitHubリポジトリ上で数千件の認証情報が流出しました news.lavx.hu",
+      "title_en": "Claude Code exposed thousands of credentials on a public GitHub repository",
+      "overview_en": "Claude Code exposed thousands of credentials on a public GitHub repository news.lavx.hu",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "AMS Trusted Remediator でコスト最適化とセキュリティ修復を自動化する",
+      "summary": "AMS Trusted Remediator でコスト最適化とセキュリティ修復を自動化する Amazon Web Services (AWS)",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOLVVCUHhzaExidDBXZ3R6bDZ5UHFUV2c4a3AxdzNyVHdxSzgyNFRiRWFsNndYblNCNWl0b2xRemhLYm5ORU12UTlqYUhnOXlfY1NKTTNzRXJhWVc2aUtwanJsWlV3Y0tLYUtCWGI0d0VSUUliakVfZDhPSDE0VGRPUTR3eVNabE1GenlGaWdBbFAtSjdQT01iZmtKVzV2UDliOHROWlBiNWRtLWdIZUFYY0F6WQ",
+      "source": "Amazon Web Services (AWS)",
+      "published": "2026-11-10 11:02 JST",
+      "topic": "開発・OSS",
+      "title_ja": "AMS Trusted Remediator でコスト最適化とセキュリティ修復を自動化する",
+      "overview": "AMS Trusted Remediator でコスト最適化とセキュリティ修復を自動化する Amazon Web Services (AWS)",
+      "title_en": "Automate cost optimization and security remediation with AMS Trusted Remediator",
+      "overview_en": "Amazon Web Services (AWS) automates cost optimization and security remediation with AMS Trusted Remediator",
+      "importance": "開発者が使えるツールや技術の選択肢に関わる可能性があります。"
+    }
+  ]
+}
