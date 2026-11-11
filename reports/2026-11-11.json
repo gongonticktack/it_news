@@ -1,0 +1,70 @@
+{
+  "date": "2026-11-11",
+  "items": [
+    {
+      "title": "Git security vulnerabilities announced",
+      "summary": "Git is releasing updates addressing six security vulnerabilities affecting recursive clones, reference handling, merges, binary patches, and imports. Here is what users need to know. The post Git security vulnerabilities announced appeared first on The GitHub Blog .",
+      "url": "https://github.blog/open-source/git/git-security-vulnerabilities-announced-7",
+      "source": "GitHub Blog",
+      "published": "2026-11-11 03:00 JST",
+      "topic": "開発・OSS",
+      "title_ja": "Gitのセキュリティ脆弱性が発表されました",
+      "overview": "Gitは、再帰的クローン、リファレンス処理、マージ、バイナリパッチ、およびインポートに影響を与える6つのセキュリティ脆弱性に対処する更新プログラムをリリースしています。ユーザーが知っておくべきことは次のとおりです。発表されたGitセキュリティ脆弱性の投稿は、GitHubブログに最初に掲載されました。",
+      "title_en": "Git security vulnerabilities announced",
+      "overview_en": "Git is releasing updates addressing six security vulnerabilities affecting recursive clones, reference handling, merges, binary patches, and imports. Here is what users need to know. The post Git security vulnerabilities announced appeared first on The GitHub Blog .",
+      "importance": "開発者が使えるツールや技術の選択肢に関わる可能性があります。"
+    },
+    {
+      "title": "Google Cloud launches Gemini for healthcare.",
+      "summary": "Google Cloud launches Gemini for healthcare to unify clinical data and automate workflows. Reduce administrative burnout. See how it works.",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare",
+      "source": "Google Blog AI",
+      "published": "2026-11-10 22:00 JST",
+      "topic": "AI・LLM",
+      "title_ja": "Google Cloudがヘルスケア向けにGeminiを発表。",
+      "overview": "Google Cloudは、臨床データを統合し、ワークフローを自動化するためのヘルスケア向けのGeminiを発表しました。管理上の燃え尽き症候群を減らしましょう。その仕組みをご覧ください。",
+      "title_en": "Google Cloud launches Gemini for healthcare.",
+      "overview_en": "Google Cloud launches Gemini for healthcare to unify clinical data and automate workflows. Reduce administrative burnout. See how it works.",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "Gemini Intelligence: New features, on more devices",
+      "summary": "A man speaks into a phone. Text on the screen reads 'Gemini Intelligence'",
+      "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices",
+      "source": "Google Blog AI",
+      "published": "2026-11-11 04:00 JST",
+      "topic": "AI・LLM",
+      "title_ja": "ジェミニインテリジェンス：新機能、より多くのデバイスで",
+      "overview": "男性が電話に向かって話しかける。画面上のテキストには「ジェミニ・インテリジェンス」と書かれています",
+      "title_en": "Gemini Intelligence: New features, on more devices",
+      "overview_en": "A man speaks into a phone. Text on the screen reads 'Gemini Intelligence'",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "Google Cloud、AIエージェント向けセキュリティを強化 脆弱性修正AI「CodeMender」を拡張、認証・データ保護機能も拡充",
+      "summary": "Google Cloud、AIエージェント向けセキュリティを強化 脆弱性修正AI「CodeMender」を拡張、認証・データ保護機能も拡充 Ledge.ai",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA0S0IwUFdYZjJQM3hiUUwtRkZZbjY0RGFuOEcwMWktUkNPMlZkN1hXTHVTSm1KMW54WE03T0hwUW1wMkhwZHBEblNOMUV0Q0hxb2kwYkxiQkNIRWJMVXRqSTZQMTRRQnpKLUtCTExnam5nUHNwU0E",
+      "source": "Ledge.ai",
+      "published": "2026-11-11 10:00 JST",
+      "topic": "AI・LLM",
+      "title_ja": "Google Cloud、AIエージェント向けセキュリティを強化 脆弱性修正AI「CodeMender」を拡張、認証・データ保護機能も拡充",
+      "overview": "Google Cloud、AIエージェント向けセキュリティを強化 脆弱性修正AI「CodeMender」を拡張、認証・データ保護機能も拡充 Ledge.ai",
+      "title_en": "Google Cloud Strengthens Security for AI Agents Vulnerability Fixes Expanded AI \"CodeMender\" and Expanded Authentication and Data Protection Features",
+      "overview_en": "Google Cloud Strengthens Security for AI Agents Vulnerability Fix Expanded AI \"CodeMender\" and Expanded Authentication and Data Protection Features Ledge.ai",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "Pay for Hugging Face Hub with your Google Cloud Account",
+      "summary": "",
+      "url": "https://huggingface.co/blog/hub-gcp-marketplace",
+      "source": "Hugging Face",
+      "published": "2026-11-10 09:00 JST",
+      "topic": "クラウド",
+      "title_ja": "Googleクラウドアカウントでハグフェイスハブの料金を支払う",
+      "overview": "配信元から記事の概要が提供されていません。",
+      "title_en": "Pay for Hugging Face Hub with your Google Cloud Account",
+      "overview_en": "No summary was provided by the source.",
+      "importance": "クラウドサービスの機能や運用方法に関わる可能性があります。"
+    }
+  ]
+}
