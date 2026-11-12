@@ -1,26 +1,4 @@
 {
-  "2026-10-12": [
-    {
-      "title": "Introducing Clef-omni with full multimodality, plus a faster Clef and a cheaper Clef-flash",
-      "url": "https://blog.cloudflare.com/clef-faster-cheaper-multimodal"
-    },
-    {
-      "title": "NVIDIAら37社が「Open Secure AI Alliance」設立――AIエージェントのセキュリティは重みの非公開では守れない",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9mY3BaT1FHNjNMQjhnVExqV0FJSDFRNmlDOG5MWFptUl9yemppZkVDOUtqZllhR1RXdWtDbW5SUGtrWTZnYlhqNTF5bw"
-    },
-    {
-      "title": "Introducing on-demand CPU and memory profiling with flamegraphs for Workers and Durable Objects",
-      "url": "https://blog.cloudflare.com/workers-on-demand-profiling"
-    },
-    {
-      "title": "Roblox新AI技術「Roblox Reality」を発表、Google Earthに新機能、独自の3Dマップ作成が可能 ほか",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1USkRucHhnT0FuSlhheEwxS1hXcnIxT1U5R0o2aVUzOWdkRndJQWhvTkFFWmNnWWl2QVR6YmVvbWVfbkd1eFhNYUpubw"
-    },
-    {
-      "title": "Hack the World: Why hackathons are still the best place to learn to build",
-      "url": "https://github.blog/developer-skills/career-growth/hack-the-world-why-hackathons-are-still-the-best-place-to-learn-to-build"
-    }
-  ],
   "2026-10-13": [
     {
       "title": "Announcing AWS Lambda Web Functions",
@@ -671,6 +649,28 @@
     {
       "title": "Pay for Hugging Face Hub with your Google Cloud Account",
       "url": "https://huggingface.co/blog/hub-gcp-marketplace"
+    }
+  ],
+  "2026-11-12": [
+    {
+      "title": "Test your applications against AWS locally with AWS Emulator",
+      "url": "https://aws.amazon.com/blogs/aws/test-your-applications-against-aws-locally-with-aws-emulator"
+    },
+    {
+      "title": "Amazon、AWSのAPIを手元で再現する「AWS Emulator」を無償公開 コードはすべてAIエージェントが記述",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1aWjZla1RqNTdBSEFJM0wxZmJ4XzB6RG90UERGQzlFUlVRbC1lbDg5dGt0MGFSSjFsNFhDZGVqV051YWxGVVlCRHc2cVlMdTRpU0g3bWNXbHVSRk1zcHJ6TnhMSVhNUUxxaHRzVFpNbTd4SVVtby1n0gF8QVVfeXFMTU41dlZQODMwdlUxR0dIdEt0eEoyYkhmUHNtOWs5YTFRX192bVVqblo5aWlCX1FiNFhSN2dtZDZFelJrZkZTRjNVZkpMZFRCUU1HTHd6WEpXeTRXaGJhUkw3bExBeWJSNEtlT0l1NDA4cGxxdEpHVnpvMFhoWQ"
+    },
+    {
+      "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api"
+    },
+    {
+      "title": "Choosing QuePaxa, an unusual consensus algorithm",
+      "url": "https://blog.cloudflare.com/choosing-quepaxa"
+    },
+    {
+      "title": "AWS、ローカルで数百のサービスを再現するOSS「AWS Emulator」公開",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZWlVdENiVFJROXBMejRjT0l5RDd2STJLZzMyNmlZVUpUSGVXSm5WOVhza0JNbDkxM01MTlBRcEN1eWttN2diUklFWlZiY3NNUVBmMnViMGFwWVltTk5lVF9aVlhWNEVWN3VOMjlaRGcyM0xFUzc5MTdUbG0weHIydGVoSXJqNmRTQlViaDRoWkphX0FCWEtuTTByUE1kdEt5ZDcySFZyNVpWWEU1RFE"
     }
   ]
 }

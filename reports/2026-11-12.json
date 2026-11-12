@@ -1,0 +1,70 @@
+{
+  "date": "2026-11-12",
+  "items": [
+    {
+      "title": "Test your applications against AWS locally with AWS Emulator",
+      "summary": "AWS Emulator is a free, open-source local emulator in Rust that lets developers test applications against nearly every AWS service on their own machine using the same CLI and SDK commands, with fidelity measured against real AWS behavior.",
+      "url": "https://aws.amazon.com/blogs/aws/test-your-applications-against-aws-locally-with-aws-emulator",
+      "source": "AWS News Blog",
+      "published": "2026-11-12 04:00 JST",
+      "topic": "開発・OSS",
+      "title_ja": "AWS Emulatorを使用して、AWSに対してローカルでアプリケーションをテストする",
+      "overview": "AWS Emulatorは、Rustで開発された無料のオープンソースローカルエミュレーターです。開発者は、同じCLIおよびSDKコマンドを使用して、実際のAWSの動作と比較して忠実度が測定されたほぼすべてのAWSサービスに対して、自分のマシンでアプリケーションをテストできます。",
+      "title_en": "Test your applications against AWS locally with AWS Emulator",
+      "overview_en": "AWS Emulator is a free, open-source local emulator in Rust that lets developers test applications against nearly every AWS service on their own machine using the same CLI and SDK commands, with fidelity measured against real AWS behavior.",
+      "importance": "開発者が使えるツールや技術の選択肢に関わる可能性があります。"
+    },
+    {
+      "title": "Amazon、AWSのAPIを手元で再現する「AWS Emulator」を無償公開 コードはすべてAIエージェントが記述",
+      "summary": "Amazon、AWSのAPIを手元で再現する「AWS Emulator」を無償公開 コードはすべてAIエージェントが記述 Infoseek",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1aWjZla1RqNTdBSEFJM0wxZmJ4XzB6RG90UERGQzlFUlVRbC1lbDg5dGt0MGFSSjFsNFhDZGVqV051YWxGVVlCRHc2cVlMdTRpU0g3bWNXbHVSRk1zcHJ6TnhMSVhNUUxxaHRzVFpNbTd4SVVtby1n0gF8QVVfeXFMTU41dlZQODMwdlUxR0dIdEt0eEoyYkhmUHNtOWs5YTFRX192bVVqblo5aWlCX1FiNFhSN2dtZDZFelJrZkZTRjNVZkpMZFRCUU1HTHd6WEpXeTRXaGJhUkw3bExBeWJSNEtlT0l1NDA4cGxxdEpHVnpvMFhoWQ",
+      "source": "Infoseek",
+      "published": "2026-11-12 10:01 JST",
+      "topic": "AI・LLM",
+      "title_ja": "Amazon、AWSのAPIを手元で再現する「AWS Emulator」を無償公開 コードはすべてAIエージェントが記述",
+      "overview": "Amazon、AWSのAPIを手元で再現する「AWS Emulator」を無償公開 コードはすべてAIエージェントが記述 Infoseek",
+      "title_en": "Amazon releases \"AWS Emulator\", which reproduces AWS APIs locally, for free. All code is written by AI agents.",
+      "overview_en": "Amazon releases \"AWS Emulator\", which reproduces AWS APIs locally, for free. All code written by AI agents. Infoseek",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+      "summary": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions.",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api",
+      "source": "Google Blog AI",
+      "published": "2026-11-12 03:00 JST",
+      "topic": "AI・LLM",
+      "title_ja": "Gemini Decisions API：迅速で調整されたマルチモーダルな意思決定",
+      "overview": "最先端のGemini Decisionモデルを搭載したGemini Decisions APIをご紹介します。このAPIは、迅速かつ調整されたマルチモーダルな意思決定を可能にします。",
+      "title_en": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+      "overview_en": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions.",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "Choosing QuePaxa, an unusual consensus algorithm",
+      "summary": "Cloudflare is building an experimental consensus service using a never-before-deployed consensus algorithm, QuePaxa. In this post we explain how QuePaxa works and why we chose it.",
+      "url": "https://blog.cloudflare.com/choosing-quepaxa",
+      "source": "Cloudflare Blog",
+      "published": "2026-11-11 23:24 JST",
+      "topic": "クラウド",
+      "title_ja": "珍しいコンセンサスアルゴリズムであるQuePaxaの選択",
+      "overview": "Cloudflareは、これまで導入されたことのないコンセンサスアルゴリズムであるQuePaxaを使用した実験的なコンセンサスサービスを構築しています。この記事では、QuePaxaの仕組みと、当社がQuePaxaを選んだ理由を説明します。",
+      "title_en": "Choosing QuePaxa, an unusual consensus algorithm",
+      "overview_en": "Cloudflare is building an experimental consensus service using a never-before-deployed consensus algorithm, QuePaxa. In this post we explain how QuePaxa works and why we chose it.",
+      "importance": "クラウドサービスの機能や運用方法に関わる可能性があります。"
+    },
+    {
+      "title": "AWS、ローカルで数百のサービスを再現するOSS「AWS Emulator」公開",
+      "summary": "AWS、ローカルで数百のサービスを再現するOSS「AWS Emulator」公開 디지털투데이",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZWlVdENiVFJROXBMejRjT0l5RDd2STJLZzMyNmlZVUpUSGVXSm5WOVhza0JNbDkxM01MTlBRcEN1eWttN2diUklFWlZiY3NNUVBmMnViMGFwWVltTk5lVF9aVlhWNEVWN3VOMjlaRGcyM0xFUzc5MTdUbG0weHIydGVoSXJqNmRTQlViaDRoWkphX0FCWEtuTTByUE1kdEt5ZDcySFZyNVpWWEU1RFE",
+      "source": "디지털투데이",
+      "published": "2026-11-12 05:52 JST",
+      "topic": "開発・OSS",
+      "title_ja": "AWS、ローカルで数百のサービスを再現するOSS「AWS Emulator」公開",
+      "overview": "AWS、ローカルで数百のサービスを再現するOSS「AWS Emulator」公開 디지털투데이",
+      "title_en": "AWS releases \"AWS Emulator\", an OSS that replicates hundreds of services locally",
+      "overview_en": "AWS releases \"AWS Emulator\", an OSS that replicates hundreds of services locally – Digital Today",
+      "importance": "開発者が使えるツールや技術の選択肢に関わる可能性があります。"
+    }
+  ]
+}
