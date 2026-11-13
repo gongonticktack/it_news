@@ -1,0 +1,70 @@
+{
+  "date": "2026-11-13",
+  "items": [
+    {
+      "title": "Build once, run on any agent: A practical guide to agent skills",
+      "summary": "Agent skills capture repeatable engineering work in files teams can review and reuse, while tools, project context, and permissions remain specific to the host that runs them. The post Build once, run on any agent: A practical guide to agent skills appeared first on The GitHub Blog .",
+      "url": "https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills",
+      "source": "GitHub Blog",
+      "published": "2026-11-13 07:54 JST",
+      "topic": "AI・LLM",
+      "title_ja": "一度構築すれば、どのエージェントでも実行可能：エージェントスキルの実践ガイド",
+      "overview": "エージェントスキルは、チームがレビューおよび再利用できるファイルに反復可能なエンジニアリング作業を記録します。一方、ツール、プロジェクトコンテキスト、および権限は、それらを実行するホストに固有のままとなります。記事「一度ビルドして、どのエージェントでも実行：エージェントスキルの実践ガイド」は、The GitHub Blogに最初に掲載されました。",
+      "title_en": "Build once, run on any agent: A practical guide to agent skills",
+      "overview_en": "Agent skills capture repeatable engineering work in files teams can review and reuse, while tools, project context, and permissions remain specific to the host that runs them. The post Build once, run on any agent: A practical guide to agent skills appeared first on The GitHub Blog .",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "The Definitive Fine-Tuning Guide for 3D Generation Models",
+      "summary": "",
+      "url": "https://huggingface.co/blog/3d-lora-finetuning",
+      "source": "Hugging Face",
+      "published": "2026-11-12 09:00 JST",
+      "topic": "AI・LLM",
+      "title_ja": "3D生成モデルのための決定版ファインチューニングガイド",
+      "overview": "配信元から記事の概要が提供されていません。",
+      "title_en": "The Definitive Fine-Tuning Guide for 3D Generation Models",
+      "overview_en": "No summary was provided by the source.",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "GitHub availability report: October 2026",
+      "summary": "In October, we experienced eight incidents that resulted in degraded performance across GitHub services. The post GitHub availability report: October 2026 appeared first on The GitHub Blog .",
+      "url": "https://github.blog/news-insights/company-news/github-availability-report-october-2026",
+      "source": "GitHub Blog",
+      "published": "2026-11-13 09:20 JST",
+      "topic": "開発・OSS",
+      "title_ja": "GitHub稼働状況レポート：2026年10月",
+      "overview": "10月には、GitHubのサービス全体でパフォーマンスの低下につながるインシデントが8件発生しました。記事「GitHub可用性レポート：2026年10月」は、The GitHub Blogに最初に掲載されました。",
+      "title_en": "GitHub availability report: October 2026",
+      "overview_en": "In October, we experienced eight incidents that resulted in degraded performance across GitHub services. The post GitHub availability report: October 2026 appeared first on The GitHub Blog .",
+      "importance": "開発者が使えるツールや技術の選択肢に関わる可能性があります。"
+    },
+    {
+      "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
+      "summary": "",
+      "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+      "source": "Hugging Face",
+      "published": "2026-11-13 04:07 JST",
+      "topic": "AI・LLM",
+      "title_ja": "LLMON：LLMネイティブマークアップ言語がGranite 4.1 3Bおよび8Bに登場",
+      "overview": "配信元から記事の概要が提供されていません。",
+      "title_en": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
+      "overview_en": "No summary was provided by the source.",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
+      "summary": "Rotating carousel of cards with text \"Gemini 4 Hydrogen\" \"Now in Google Search\" and examples from the Google Search UI",
+      "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade",
+      "source": "Google Blog AI",
+      "published": "2026-11-13 03:00 JST",
+      "topic": "AI・LLM",
+      "title_ja": "Google検索がGemini 4 Hydrogenで大幅にアップグレード",
+      "overview": "「Gemini 4 Hydrogen」「Google検索で利用可能になりました」というテキストと、Google検索UIの例が記載されたカードの回転カルーセル",
+      "title_en": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
+      "overview_en": "Rotating carousel of cards with text \"Gemini 4 Hydrogen\" \"Now in Google Search\" and examples from the Google Search UI",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    }
+  ]
+}

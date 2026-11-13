@@ -1,26 +1,4 @@
 {
-  "2026-10-13": [
-    {
-      "title": "Announcing AWS Lambda Web Functions",
-      "url": "https://aws.amazon.com/blogs/aws/announcing-aws-lambda-web-functions-for-fast-consistent-web-app-performance-anywhere"
-    },
-    {
-      "title": "GitHub Copilot app for Beginners: How to teach Copilot about your codebase",
-      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase"
-    },
-    {
-      "title": "Filter, reshape, and redact logs before export with Transformers",
-      "url": "https://blog.cloudflare.com/transformers-on-logpush"
-    },
-    {
-      "title": "なんでもリバースエンジニアリング。ソースコード非公開のアプリをAIに解析させ、類似機能を作らせるオープンソースツール「REA」（生成AIクローズアップ）",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9hMzZDWmhxMXRFSUd6RkstZ1EzR3o0WGIxbFJzeGFNd3pqb3lVTG56dm94SUxaZGhtMnoyOUtqUkdFREhuX3MybE9hN1drMG5ZeDR6ZlJiNFhVXzdNUy1peE9nWmFKLTA"
-    },
-    {
-      "title": "Metaの新モデル「Muse Wonder」が最上位にランクイン：Claude・GPT比較で見える実力と制約",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFA0aGxHN0JnNVRTYk9BLVFSMHhHQkFIOHFPSlc2R2VLSXFvdl9CbmdwUWV5eXo2S29Dd2UzdHIwMDYxVmQtemxKUkh5djJWMll1VHFZZDlNRU9yVWppVUN3cmNDMzNRcEdlUnZiZkZLWV9udw"
-    }
-  ],
   "2026-10-14": [
     {
       "title": "GitHub’s model for secret detection: Finding more secrets with less noise",
@@ -671,6 +649,28 @@
     {
       "title": "AWS、ローカルで数百のサービスを再現するOSS「AWS Emulator」公開",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZWlVdENiVFJROXBMejRjT0l5RDd2STJLZzMyNmlZVUpUSGVXSm5WOVhza0JNbDkxM01MTlBRcEN1eWttN2diUklFWlZiY3NNUVBmMnViMGFwWVltTk5lVF9aVlhWNEVWN3VOMjlaRGcyM0xFUzc5MTdUbG0weHIydGVoSXJqNmRTQlViaDRoWkphX0FCWEtuTTByUE1kdEt5ZDcySFZyNVpWWEU1RFE"
+    }
+  ],
+  "2026-11-13": [
+    {
+      "title": "Build once, run on any agent: A practical guide to agent skills",
+      "url": "https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills"
+    },
+    {
+      "title": "The Definitive Fine-Tuning Guide for 3D Generation Models",
+      "url": "https://huggingface.co/blog/3d-lora-finetuning"
+    },
+    {
+      "title": "GitHub availability report: October 2026",
+      "url": "https://github.blog/news-insights/company-news/github-availability-report-october-2026"
+    },
+    {
+      "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
+      "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite"
+    },
+    {
+      "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
+      "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade"
     }
   ]
 }
