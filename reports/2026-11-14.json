@@ -1,0 +1,70 @@
+{
+  "date": "2026-11-14",
+  "items": [
+    {
+      "title": "Kitesurf is now open source",
+      "summary": "Kitesurf, our experimental browser engine for AI agents, is now open source. Inspect the code, run it locally, or deploy your own instance on Cloudflare Workers.",
+      "url": "https://blog.cloudflare.com/kitesurf-open-source",
+      "source": "Cloudflare Blog",
+      "published": "2026-11-14 05:20 JST",
+      "topic": "AI・LLM",
+      "title_ja": "Kitesurfがオープンソースになりました",
+      "overview": "AIエージェント向けの実験的なブラウザエンジンであるKitesurfが、オープンソースになりました。コードを検査したり、ローカルで実行したり、Cloudflare Workersに独自のインスタンスをデプロイしたりできます。",
+      "title_en": "Kitesurf is now open source",
+      "overview_en": "Kitesurf, our experimental browser engine for AI agents, is now open source. Inspect the code, run it locally, or deploy your own instance on Cloudflare Workers.",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "Adapting to AI penetration testing orchestrators: The Modern Security Model",
+      "summary": "AI-orchestrated penetration testing platforms like ARTEX have become increasingly powerful tools enabling effective attacks on exposed infrastructure. Here we share Cloudflare’s observations and recommended countermeasures.",
+      "url": "https://blog.cloudflare.com/adapting-to-ai-penetration-testing-orchestrators",
+      "source": "Cloudflare Blog",
+      "published": "2026-11-14 04:26 JST",
+      "topic": "AI・LLM",
+      "title_ja": "AIペネトレーションテストオーケストレーターへの適応：最新のセキュリティモデル",
+      "overview": "ARTEXのようなAIが主導する侵入テストプラットフォームは、ますます強力なツールとなり、脆弱なインフラストラクチャに対する効果的な攻撃を可能にしています。ここでは、Cloudflareの観察結果と推奨される対策をご紹介します。",
+      "title_en": "Adapting to AI penetration testing orchestrators: The Modern Security Model",
+      "overview_en": "AI-orchestrated penetration testing platforms like ARTEX have become increasingly powerful tools enabling effective attacks on exposed infrastructure. Here we share Cloudflare’s observations and recommended countermeasures.",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+      "summary": "",
+      "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+      "source": "Hugging Face",
+      "published": "2026-11-14 03:00 JST",
+      "topic": "3D・ロボット",
+      "title_ja": "SimReadyアセットを使用してロボットのピックアンドプレイスシミュレーションを構築する",
+      "overview": "配信元から記事の概要が提供されていません。",
+      "title_en": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+      "overview_en": "No summary was provided by the source.",
+      "importance": "画像処理・3D・ロボティクスの技術動向を知る手掛かりになります。"
+    },
+    {
+      "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+      "summary": "",
+      "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+      "source": "Hugging Face",
+      "published": "2026-11-13 23:05 JST",
+      "topic": "AI・LLM",
+      "title_ja": "llama.cpp v1.0.0：ローカルAIエコシステムのより強固な基盤",
+      "overview": "配信元から記事の概要が提供されていません。",
+      "title_en": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+      "overview_en": "No summary was provided by the source.",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "NVIDIAのジェン·ソンファン最高経営者(CEO)の辞任発表に政府が緊急会議を開き、国内グラフィック処理装置(GPU)の供給と人工知能(AI)インフラ構築に及ぼす影響を点検した。 NVIDIAと従来..",
+      "summary": "NVIDIAのジェン·ソンファン最高経営者(CEO)の辞任発表に政府が緊急会議を開き、国内グラフィック処理装置(GPU)の供給と人工知能(AI)インフラ構築に及ぼす影響を点検した。 NVIDIAと従来.. 매일경제",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBFQmVuYTUyWkpDTW41MlNMeGhJN0NSNWVnQ3lXbktCTGVSdzd1bzg3Xy1zVThGenBZRXZfMVJKMWpENkhzZUdINloxNA",
+      "source": "매일경제",
+      "published": "2026-11-13 17:52 JST",
+      "topic": "AI・LLM",
+      "title_ja": "NVIDIAのジェン·ソンファン最高経営者(CEO)の辞任発表に政府が緊急会議を開き、国内グラフィック処理装置(GPU)の供給と人工知能(AI)インフラ構築に及ぼす影響を点検した。 NVIDIAと従来..",
+      "overview": "NVIDIAのジェン·ソンファン最高経営者(CEO)の辞任発表に政府が緊急会議を開き、国内グラフィック処理装置(GPU)の供給と人工知能(AI)インフラ構築に及ぼす影響を点検した。 NVIDIAと従来.. 매일경제",
+      "title_en": "Following the announcement of NVIDIA CEO Jensen Huang's resignation, the government held an emergency meeting to assess the impact on the domestic supply of graphics processing units (GPUs) and the development of artificial intelligence (AI) infrastructure. NVIDIA and...",
+      "overview_en": "Following the announcement of the resignation of NVIDIA's CEO, Jensen Huang, the government held an emergency meeting to assess the impact on the supply of domestic graphics processing units (GPUs) and the development of artificial intelligence (AI) infrastructure. NVIDIA and previously... 매일경제",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    }
+  ]
+}
