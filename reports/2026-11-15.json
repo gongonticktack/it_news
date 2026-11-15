@@ -1,0 +1,70 @@
+{
+  "date": "2026-11-15",
+  "items": [
+    {
+      "title": "Introducing Spend Management: Spending limits and alerts for Cloudflare",
+      "summary": "Spend Management adds opt-in spending caps for Cloudflare Workers and Durable Objects, and more products soon. Here is how we built the metering pipeline that turns usage into runtime decisions.",
+      "url": "https://blog.cloudflare.com/spend-management",
+      "source": "Cloudflare Blog",
+      "published": "2026-11-13 23:00 JST",
+      "topic": "クラウド",
+      "title_ja": "支出管理の導入：Cloudflareの支出制限とアラート",
+      "overview": "Spend Managementは、Cloudflare WorkersおよびDurable Objects、そしてまもなく他の製品にもオプトイン型の支出上限を追加します。ここでは、使用状況をランタイムの意思決定に変換する計測パイプラインを構築した方法をご紹介します。",
+      "title_en": "Introducing Spend Management: Spending limits and alerts for Cloudflare",
+      "overview_en": "Spend Management adds opt-in spending caps for Cloudflare Workers and Durable Objects, and more products soon. Here is how we built the metering pipeline that turns usage into runtime decisions.",
+      "importance": "クラウドサービスの機能や運用方法に関わる可能性があります。"
+    },
+    {
+      "title": "Runway、動画で学んだ物体の動きをロボット制御に生かすAIモデル「Praxis-1」を公開 ウェイトとコードは商用利用可能",
+      "summary": "Runway、動画で学んだ物体の動きをロボット制御に生かすAIモデル「Praxis-1」を公開 ウェイトとコードは商用利用可能 Ledge.ai",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBCeDM4b1I0WEFqVnp3WF9pS01QNGU2SFZWZlhZbk54bng2dzFFMzFqMEJhV0FRQ2h4cUk2UHVrcWhadjZLVFZXajQyeWMwdGpmVlcw",
+      "source": "Ledge.ai",
+      "published": "2026-11-15 08:56 JST",
+      "topic": "AI・LLM",
+      "title_ja": "Runway、動画で学んだ物体の動きをロボット制御に生かすAIモデル「Praxis-1」を公開 ウェイトとコードは商用利用可能",
+      "overview": "Runway、動画で学んだ物体の動きをロボット制御に生かすAIモデル「Praxis-1」を公開 ウェイトとコードは商用利用可能 Ledge.ai",
+      "title_en": "Runway releases \"Praxis-1\", an AI model that applies the movement of objects learned from videos to robot control. Weights and code are available for commercial use.",
+      "overview_en": "Runway releases \"Praxis-1\", an AI model that applies object movements learned from videos to robot control. Weights and code are available for commercial use. Ledge.ai",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "DeepSeekがアプリの機能をAPIに公開、chat-demoもリリース",
+      "summary": "DeepSeekがアプリの機能をAPIに公開、chat-demoもリリース Pasquale Pillitteri",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNcjRWQzhYY1hOVjNqU3JiQWpXUUxnUUQzTlN6aVFfWTNhLXh3Rzgta1puZjVnTXlUUFJiZkxIcGUtdVo5ZzFfcmdFdU5NazhsbW1xNGlvbmFjOHhycEh2LTJWSXl2WUFOTGxOeHNtVXpQOXBJZkUyci1lLTIwWUJ4dFVzNUx5U0lYQUlVWVRVM2xqMTQ",
+      "source": "Pasquale Pillitteri",
+      "published": "2026-11-15 01:41 JST",
+      "topic": "AI・LLM",
+      "title_ja": "DeepSeekがアプリの機能をAPIに公開、chat-demoもリリース",
+      "overview": "DeepSeekがアプリの機能をAPIに公開、chat-demoもリリース Pasquale Pillitteri",
+      "title_en": "DeepSeek makes app features available via API and releases chat-demo",
+      "overview_en": "DeepSeek makes app features available via API and releases chat-demo Pasquale Pillitteri",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "Rubrik、Anthropic「Claude Code」向けにAIエージェントのセキュリティ基盤「Rubrik Agent Cloud」を発表",
+      "summary": "Rubrik、Anthropic「Claude Code」向けにAIエージェントのセキュリティ基盤「Rubrik Agent Cloud」を発表 ThinkIT",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBuR3BjT083RktwYVhyLUNteG9PTjNoVHBIVXBfaDRJbkRjMnVzWU5vYzRYcTF0LXJPZFhJMmJFWXBtcnkzMEhYQTNQaw",
+      "source": "ThinkIT",
+      "published": "2026-11-13 15:15 JST",
+      "topic": "AI・LLM",
+      "title_ja": "Rubrik、Anthropic「Claude Code」向けにAIエージェントのセキュリティ基盤「Rubrik Agent Cloud」を発表",
+      "overview": "Rubrik、Anthropic「Claude Code」向けにAIエージェントのセキュリティ基盤「Rubrik Agent Cloud」を発表 ThinkIT",
+      "title_en": "Rubrik announces \"Rubrik Agent Cloud\", an AI agent security platform for Anthropic's \"Claude Code\"",
+      "overview_en": "Rubrik announces \"Rubrik Agent Cloud\", an AI agent security platform for Anthropic's \"Claude Code\" – ThinkIT",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "NVIDIAら37社が「Open Secure AI Alliance」設立――AIエージェントのセキュリティは重みの非公開では守れない",
+      "summary": "NVIDIAら37社が「Open Secure AI Alliance」設立――AIエージェントのセキュリティは重みの非公開では守れない ThinkIT",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9mY3BaT1FHNjNMQjhnVExqV0FJSDFRNmlDOG5MWFptUl9yemppZkVDOUtqZllhR1RXdWtDbW5SUGtrWTZnYlhqNTF5bw",
+      "source": "ThinkIT",
+      "published": "2026-11-13 12:38 JST",
+      "topic": "AI・LLM",
+      "title_ja": "NVIDIAら37社が「Open Secure AI Alliance」設立――AIエージェントのセキュリティは重みの非公開では守れない",
+      "overview": "NVIDIAら37社が「Open Secure AI Alliance」設立――AIエージェントのセキュリティは重みの非公開では守れない ThinkIT",
+      "title_en": "NVIDIA and 36 other companies establish the 'Open Secure AI Alliance' – AI agent security cannot be protected by keeping it confidential",
+      "overview_en": "NVIDIA and 36 other companies establish the \"Open Secure AI Alliance\" – AI agent security cannot be protected by keeping it confidential ThinkIT",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    }
+  ]
+}

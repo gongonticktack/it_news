@@ -1,26 +1,4 @@
 {
-  "2026-10-15": [
-    {
-      "title": "Yandex outage: Data shows that instead of going dark, malicious bots went on the move",
-      "url": "https://blog.cloudflare.com/yandex-outage"
-    },
-    {
-      "title": "GitHub availability report: September 2026",
-      "url": "https://github.blog/news-insights/company-news/github-availability-report-september-2026"
-    },
-    {
-      "title": "Inside Hyperdrive: How we solved a rare Hyperdrive MySQL caching bug",
-      "url": "https://blog.cloudflare.com/hyperdrive-mysql"
-    },
-    {
-      "title": "Amazon S3 is now available on the Vercel Marketplace and v0 by Vercel",
-      "url": "https://aws.amazon.com/blogs/aws/amazon-s3-vercel-marketplace-v0"
-    },
-    {
-      "title": "From 2,500 requests to 24: Rebuilding star history without the stargazers",
-      "url": "https://github.blog/engineering/architecture-optimization/from-2500-requests-to-24-rebuilding-star-history-without-the-stargazers"
-    }
-  ],
   "2026-10-16": [
     {
       "title": "Deploy with Void",
@@ -671,6 +649,28 @@
     {
       "title": "NVIDIAのジェン·ソンファン最高経営者(CEO)の辞任発表に政府が緊急会議を開き、国内グラフィック処理装置(GPU)の供給と人工知能(AI)インフラ構築に及ぼす影響を点検した。 NVIDIAと従来..",
       "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBFQmVuYTUyWkpDTW41MlNMeGhJN0NSNWVnQ3lXbktCTGVSdzd1bzg3Xy1zVThGenBZRXZfMVJKMWpENkhzZUdINloxNA"
+    }
+  ],
+  "2026-11-15": [
+    {
+      "title": "Introducing Spend Management: Spending limits and alerts for Cloudflare",
+      "url": "https://blog.cloudflare.com/spend-management"
+    },
+    {
+      "title": "Runway、動画で学んだ物体の動きをロボット制御に生かすAIモデル「Praxis-1」を公開 ウェイトとコードは商用利用可能",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBCeDM4b1I0WEFqVnp3WF9pS01QNGU2SFZWZlhZbk54bng2dzFFMzFqMEJhV0FRQ2h4cUk2UHVrcWhadjZLVFZXajQyeWMwdGpmVlcw"
+    },
+    {
+      "title": "DeepSeekがアプリの機能をAPIに公開、chat-demoもリリース",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNcjRWQzhYY1hOVjNqU3JiQWpXUUxnUUQzTlN6aVFfWTNhLXh3Rzgta1puZjVnTXlUUFJiZkxIcGUtdVo5ZzFfcmdFdU5NazhsbW1xNGlvbmFjOHhycEh2LTJWSXl2WUFOTGxOeHNtVXpQOXBJZkUyci1lLTIwWUJ4dFVzNUx5U0lYQUlVWVRVM2xqMTQ"
+    },
+    {
+      "title": "Rubrik、Anthropic「Claude Code」向けにAIエージェントのセキュリティ基盤「Rubrik Agent Cloud」を発表",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBuR3BjT083RktwYVhyLUNteG9PTjNoVHBIVXBfaDRJbkRjMnVzWU5vYzRYcTF0LXJPZFhJMmJFWXBtcnkzMEhYQTNQaw"
+    },
+    {
+      "title": "NVIDIAら37社が「Open Secure AI Alliance」設立――AIエージェントのセキュリティは重みの非公開では守れない",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9mY3BaT1FHNjNMQjhnVExqV0FJSDFRNmlDOG5MWFptUl9yemppZkVDOUtqZllhR1RXdWtDbW5SUGtrWTZnYlhqNTF5bw"
     }
   ]
 }
