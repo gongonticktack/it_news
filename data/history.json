@@ -1,26 +1,4 @@
 {
-  "2026-10-16": [
-    {
-      "title": "Deploy with Void",
-      "url": "https://blog.cloudflare.com/deploy-with-void"
-    },
-    {
-      "title": "The next developer interface is ambient intelligence",
-      "url": "https://github.blog/news-insights/company-news/the-next-developer-interface-is-ambient-intelligence"
-    },
-    {
-      "title": "A fully programmable secure web gateway",
-      "url": "https://blog.cloudflare.com/programmable-gateway-dlp"
-    },
-    {
-      "title": "Staying Evergreen: How we automated secure access and repo hygiene in a shared org",
-      "url": "https://github.blog/engineering/platform-security/staying-evergreen-how-we-automated-secure-access-and-repo-hygiene-in-a-shared-org"
-    },
-    {
-      "title": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
-      "url": "https://huggingface.co/blog/meta-muse-spark-open"
-    }
-  ],
   "2026-10-17": [
     {
       "title": "Continuous accountability for Verified bots",
@@ -671,6 +649,28 @@
     {
       "title": "NVIDIAら37社が「Open Secure AI Alliance」設立――AIエージェントのセキュリティは重みの非公開では守れない",
       "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9mY3BaT1FHNjNMQjhnVExqV0FJSDFRNmlDOG5MWFptUl9yemppZkVDOUtqZllhR1RXdWtDbW5SUGtrWTZnYlhqNTF5bw"
+    }
+  ],
+  "2026-11-16": [
+    {
+      "title": "CloudflareがKitesurfをオープンソース化、自己配備に必要な認証と実行環境",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9adGVmeGRubmJUMVBwS2FPdk9sS2F0RWZMTTZmQ3prSEZjbGFPbW1leVd1QjlUc3h0QS04Y3k5dXpPQ091aVdxTUx0bUVuZ05CWTh1eFhkZ2hSWUd1Mmp1YXRpSm1rYW5jSFVJcFZBTHNiMms2ZHFlNUxR"
+    },
+    {
+      "title": "【1/2】OpenAI音声AI革命とDeepSeek新アーキテクチャ発表【聞くAI業界ニュース】 Melania Trump (18kQn5kKhP)",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9CNHNZYmVpUkxCWEtCeE55eTZiLVQxRnN5Yy14THVCZmc5cmswT3kybE1udEw4T3lOWl8wd3hTTlY3cWpldUV2ZFZWVmpkQXZBMF8yWmNsdU9HMG85NlV3dnQwMlhjT05zd01r"
+    },
+    {
+      "title": "テンセント「HY-World 2.0」オープンソース公開、スター・ウォーズ新作映画の撮影でApple Vision Proを活用 ほか",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5sY2ktNEF1TVdYZ0RtaENETUo4ZnN6dUdmRG5VYVVnQmRuTWs2MmthOUxidmIwcG10cW9mMGc1Mks0TUJrRnc5SnRqMA"
+    },
+    {
+      "title": "Plannotator、24時間で860スターを獲得し、GitHubトレンドで急上昇",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE90OVBBLVl1Y0pzS0NiMmhYa3dOemJRRGpqTFBiNWVzV19GV2xUTFpzV0txN1VYbHNuaDByd2N5THFfOGRTNElrSi1jdEc5QTVYRXJXWU9fZVRKZ01lZUVqenBPaE9zYUtEbjRJOVJSRWhTX3dyUHVB"
+    },
+    {
+      "title": "XYBench: Helping with the problem behind the question",
+      "url": "https://huggingface.co/blog/allenai/xybench"
     }
   ]
 }
