@@ -1,26 +1,4 @@
 {
-  "2026-10-17": [
-    {
-      "title": "Continuous accountability for Verified bots",
-      "url": "https://blog.cloudflare.com/verified-bots-accountability"
-    },
-    {
-      "title": "Cloudflare and OpenAI: Making AI discovery better for everyone",
-      "url": "https://blog.cloudflare.com/cloudflare-openai-discovery-agentic-web"
-    },
-    {
-      "title": "Keeper SecurityがTenableとの連携を発表 クラウドリスクの迅速な是正環境を実現",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBRWWZvdjhfbWQ4ZEp3TGtaa1N0bXo2MTE0VDl3MlhCVXpQRkhPeWhvYlNrZl9KVVZKNGtTSzI2YjJ0eGJiV3MwMXZncW1RY0xzY0NnRkVuUUx3a1ZscHhtLWxDRENTS2hTdTFSOTJ0RjdXZVk"
-    },
-    {
-      "title": "Welcome Beam: a 501B open model you can own, customize, and scale",
-      "url": "https://huggingface.co/blog/reflection-beam"
-    },
-    {
-      "title": "Perplexity、AIエージェントの実行基盤「SPACE」をオープンソース化：安全性の検証結果も公開",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5hM2I5bVpqTlVxRmV2Qll4LThVei1tZVF6ck5iMzRLRk13RmJsc1JTUWhTcldfMlRCNGx2MmdKVzMydGRjQ180cHBsdzZ3MGNHLUVKZzJHZ3BsbUxQbEtXZmdpamNQc3p3ZTZZQ2lmOUZ2TUdQWmJ3"
-    }
-  ],
   "2026-10-18": [
     {
       "title": "AI最新ニュースまとめ｜Gemini agentがGeminiとClaudeを動的選択、AGENTIC STARのパートナーアライアンス開始、AnthropicがOSS脆弱性検査を発表【2026/10/9-10/15】",
@@ -671,6 +649,28 @@
     {
       "title": "XYBench: Helping with the problem behind the question",
       "url": "https://huggingface.co/blog/allenai/xybench"
+    }
+  ],
+  "2026-11-17": [
+    {
+      "title": "AWS Weekly Roundup: AWS Nitro Sandboxes, AWS Emulator, and more (November 16, 2026)",
+      "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-nitro-sandboxes-aws-emulator-and-more-november-16-2026"
+    },
+    {
+      "title": "Hugging Face and OpenRouter join forces to make open-weight models easy to run",
+      "url": "https://huggingface.co/blog/openrouter"
+    },
+    {
+      "title": "韓国LG Uplus、ネットワーク・セキュリティ統合クラウドプラットフォーム「U+SASE」を正式リリース",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1ubG0zb1k5MmtOLWp2NXlMLUk3UDdCbGwyY05WbkJqeVhyYlJGTUVlLWtiTk9HaHF6b0gydWhCRThuTFF3dVczaFFGcl82RVk5eDlpYkprNjVjRkNSM1lHaEl2b1J1cXFvRGlNYlBqNnBRaU1h"
+    },
+    {
+      "title": "GoogleがロボットAI「Gemini Robotics 2.5」発表 メルセデス工場の部品仕分けで成功率96％",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8xZk0xV2VudXlnYzZmU1pUWnAzT3ZQN3ZKQUliNGtWRFhKekE3VnB5cDdYTGxuQ2d5T2pwSGx5VjBJZWh0eGFxZU80VVhYRTc5UHUzQVhRSXp1bDdadlBF"
+    },
+    {
+      "title": "台帳の更新作業から、2線担当者を解放。2線の匠クラウド、リスクチェックの回答を管理台帳へ自動で反映する新機能をリリース",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1pbGFnWnM5UDhwVXRZSk01Mm1hd2dqSDU3Njh3N29LYjVWSDdETjQ3RXJvWW9BVDFpUDQ0QV81RFBqMTJBNER0bkFjWWw5UERTOEllaHlpNE5KYml6dk45clplQ1ROLXZWZy05U2J5Z0xadw"
     }
   ]
 }

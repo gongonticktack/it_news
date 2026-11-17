@@ -1,0 +1,70 @@
+{
+  "date": "2026-11-17",
+  "items": [
+    {
+      "title": "AWS Weekly Roundup: AWS Nitro Sandboxes, AWS Emulator, and more (November 16, 2026)",
+      "summary": "A second delivery of the same message can reveal more about an application than its happy-path demo. I like tools that make those cases easier to investigate while a change is still small. Last week’s launch of AWS Emulator brings part of that work onto your own machine: developers and coding agents can exercise AWS […]",
+      "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-nitro-sandboxes-aws-emulator-and-more-november-16-2026",
+      "source": "AWS News Blog",
+      "published": "2026-11-17 02:55 JST",
+      "topic": "AI・LLM",
+      "title_ja": "AWSウィークリーラウンドアップ：AWS Nitroサンドボックス、AWSエミュレーターなど（2026年11月16日）",
+      "overview": "同じメッセージを2回目に配信することで、ハッピーパスのデモよりもアプリケーションに関する多くの情報が得られます。変更がまだ小規模なうちに、そのようなケースを調査しやすくしてくれるツールが好きです。先週リリースされたAWS Emulatorにより、その作業の一部を自分のマシンで行えるようになりました。デベロッパーやコーディングエージェントはAWS […]を実行できます。",
+      "title_en": "AWS Weekly Roundup: AWS Nitro Sandboxes, AWS Emulator, and more (November 16, 2026)",
+      "overview_en": "A second delivery of the same message can reveal more about an application than its happy-path demo. I like tools that make those cases easier to investigate while a change is still small. Last week’s launch of AWS Emulator brings part of that work onto your own machine: developers and coding agents can exercise AWS […]",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "Hugging Face and OpenRouter join forces to make open-weight models easy to run",
+      "summary": "",
+      "url": "https://huggingface.co/blog/openrouter",
+      "source": "Hugging Face",
+      "published": "2026-11-16 09:00 JST",
+      "topic": "AI・LLM",
+      "title_ja": "Hugging FaceとOpenRouterが提携し、オープンウェイトモデルの実行を容易に",
+      "overview": "配信元から記事の概要が提供されていません。",
+      "title_en": "Hugging Face and OpenRouter join forces to make open-weight models easy to run",
+      "overview_en": "No summary was provided by the source.",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "韓国LG Uplus、ネットワーク・セキュリティ統合クラウドプラットフォーム「U+SASE」を正式リリース",
+      "summary": "韓国LG Uplus、ネットワーク・セキュリティ統合クラウドプラットフォーム「U+SASE」を正式リリース BigGo ファイナンス",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1ubG0zb1k5MmtOLWp2NXlMLUk3UDdCbGwyY05WbkJqeVhyYlJGTUVlLWtiTk9HaHF6b0gydWhCRThuTFF3dVczaFFGcl82RVk5eDlpYkprNjVjRkNSM1lHaEl2b1J1cXFvRGlNYlBqNnBRaU1h",
+      "source": "BigGo ファイナンス",
+      "published": "2026-11-16 12:06 JST",
+      "topic": "クラウド",
+      "title_ja": "韓国LG Uplus、ネットワーク・セキュリティ統合クラウドプラットフォーム「U+SASE」を正式リリース",
+      "overview": "韓国LG Uplus、ネットワーク・セキュリティ統合クラウドプラットフォーム「U+SASE」を正式リリース BigGo ファイナンス",
+      "title_en": "South Korea's LG Uplus officially launches \"U+SASE\", an integrated cloud platform for network security",
+      "overview_en": "South Korea's LG Uplus officially launches \"U+SASE\", an integrated cloud platform for network security BigGo Finance",
+      "importance": "クラウドサービスの機能や運用方法に関わる可能性があります。"
+    },
+    {
+      "title": "GoogleがロボットAI「Gemini Robotics 2.5」発表 メルセデス工場の部品仕分けで成功率96％",
+      "summary": "GoogleがロボットAI「Gemini Robotics 2.5」発表 メルセデス工場の部品仕分けで成功率96％ PlusWeb3",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8xZk0xV2VudXlnYzZmU1pUWnAzT3ZQN3ZKQUliNGtWRFhKekE3VnB5cDdYTGxuQ2d5T2pwSGx5VjBJZWh0eGFxZU80VVhYRTc5UHUzQVhRSXp1bDdadlBF",
+      "source": "PlusWeb3",
+      "published": "2026-11-16 10:30 JST",
+      "topic": "AI・LLM",
+      "title_ja": "GoogleがロボットAI「Gemini Robotics 2.5」発表 メルセデス工場の部品仕分けで成功率96％",
+      "overview": "GoogleがロボットAI「Gemini Robotics 2.5」発表 メルセデス工場の部品仕分けで成功率96％ PlusWeb3",
+      "title_en": "Google announces the robot AI \"Gemini Robotics 2.5\", which achieves a 96% success rate in sorting parts at a Mercedes factory",
+      "overview_en": "Google announces robot AI \"Gemini Robotics 2.5\", achieving a 96% success rate in sorting parts at a Mercedes factory – PlusWeb3",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "台帳の更新作業から、2線担当者を解放。2線の匠クラウド、リスクチェックの回答を管理台帳へ自動で反映する新機能をリリース",
+      "summary": "台帳の更新作業から、2線担当者を解放。2線の匠クラウド、リスクチェックの回答を管理台帳へ自動で反映する新機能をリリース Infoseek",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1pbGFnWnM5UDhwVXRZSk01Mm1hd2dqSDU3Njh3N29LYjVWSDdETjQ3RXJvWW9BVDFpUDQ0QV81RFBqMTJBNER0bkFjWWw5UERTOEllaHlpNE5KYml6dk45clplQ1ROLXZWZy05U2J5Z0xadw",
+      "source": "Infoseek",
+      "published": "2026-11-17 11:15 JST",
+      "topic": "クラウド",
+      "title_ja": "台帳の更新作業から、2線担当者を解放。2線の匠クラウド、リスクチェックの回答を管理台帳へ自動で反映する新機能をリリース",
+      "overview": "台帳の更新作業から、2線担当者を解放。2線の匠クラウド、リスクチェックの回答を管理台帳へ自動で反映する新機能をリリース Infoseek",
+      "title_en": "Freeing second-line staff from the task of updating ledgers. Takumi Cloud for second-line functions releases a new feature that automatically reflects risk check responses in the management ledger",
+      "overview_en": "Freeing second-line staff from the task of updating ledgers. Infoseek releases a new feature for 2-Line Takumi Cloud that automatically reflects risk check responses in the management ledger",
+      "importance": "クラウドサービスの機能や運用方法に関わる可能性があります。"
+    }
+  ]
+}
