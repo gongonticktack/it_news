@@ -1,0 +1,70 @@
+{
+  "date": "2026-11-18",
+  "items": [
+    {
+      "title": "Maintainers don’t need more AI bug reports. They need fixes.",
+      "summary": "In the Codename MDASH pilot, GitHub and Microsoft turned thousands of raw AI findings into 99 checked, private reports with suggested fixes for six widely used open source projects. Maintainers have already fixed more than half. The post Maintainers don’t need more AI bug reports. They need fixes. appeared first on The GitHub Blog .",
+      "url": "https://github.blog/open-source/maintainers/maintainers-dont-need-more-ai-bug-reports-they-need-fixes",
+      "source": "GitHub Blog",
+      "published": "2026-11-18 03:29 JST",
+      "topic": "AI・LLM",
+      "title_ja": "メンテナーが必要としているのは、AIによるバグレポートの増加ではなく、修正です。",
+      "overview": "Codename MDASHのパイロット版では、GitHubとMicrosoftが数千件の生のAI検出結果を99件の確認済みの非公開レポートに変換し、広く使用されている6つのオープンソースプロジェクトに対する修正案を提示しました。メンテナーはすでに半数以上のバグを修正しています。記事「メンテナーが必要としているのは、AIによるバグレポートの増加ではなく、修正が必要です。はThe GitHub Blogに最初に掲載されました。",
+      "title_en": "Maintainers don’t need more AI bug reports. They need fixes.",
+      "overview_en": "In the Codename MDASH pilot, GitHub and Microsoft turned thousands of raw AI findings into 99 checked, private reports with suggested fixes for six widely used open source projects. Maintainers have already fixed more than half. The post Maintainers don’t need more AI bug reports. They need fixes. appeared first on The GitHub Blog .",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "Building the Agent Host Protocol for sessions that continue across devices",
+      "summary": "Discover how we built the open Agent Host Protocol to keep your agent sessions accessible across editors, apps, phones, and the cloud. The post Building the Agent Host Protocol for sessions that continue across devices appeared first on The GitHub Blog .",
+      "url": "https://github.blog/engineering/engineering-principles/building-the-agent-host-protocol-for-sessions-that-continue-across-devices",
+      "source": "GitHub Blog",
+      "published": "2026-11-18 03:20 JST",
+      "topic": "AI・LLM",
+      "title_ja": "デバイス間で継続するセッション用のエージェントホストプロトコルの構築",
+      "overview": "エディター、アプリ、スマートフォン、クラウド間でエージェントセッションにアクセスできるようにするために、オープンなエージェントホストプロトコルをどのように構築したかをご覧ください。記事「デバイス間で継続するセッションのためのAgent Hostプロトコルの構築」は、The GitHub Blogに最初に掲載されました。",
+      "title_en": "Building the Agent Host Protocol for sessions that continue across devices",
+      "overview_en": "Discover how we built the open Agent Host Protocol to keep your agent sessions accessible across editors, apps, phones, and the cloud. The post Building the Agent Host Protocol for sessions that continue across devices appeared first on The GitHub Blog .",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "OVHcloudがオープンモデル「Olala mini」を発表、8GBのGPUで動作",
+      "summary": "OVHcloudがオープンモデル「Olala mini」を発表、8GBのGPUで動作 Pasquale Pillitteri",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQaDJMZXh2V2ZxTDdJbWx6SHMyYUpkU2ZtQnI4ZFB5MXVwZUxCOW90SEJaanZ2Q0hoc2ZaZWtFb2g2Ry02RVI0N2w3ZUJlSFdSN1NGNVhrMlE1ci00MGdjU0dROU5jcHlsV0h2aGdzVUJ6bGlnZy02RGRGaXFOZTV3bEZPbWt6dEszT2c",
+      "source": "Pasquale Pillitteri",
+      "published": "2026-11-18 02:32 JST",
+      "topic": "AI・LLM",
+      "title_ja": "OVHcloudがオープンモデル「Olala mini」を発表、8GBのGPUで動作",
+      "overview": "OVHcloudがオープンモデル「Olala mini」を発表、8GBのGPUで動作 Pasquale Pillitteri",
+      "title_en": "OVHcloud announces the open model \"Olala mini\", which runs on an 8 GB GPU",
+      "overview_en": "OVHcloud announces the open model \"Olala mini\", which runs on an 8 GB GPU Pasquale Pillitteri",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "NVIDIAが小型AIスパコンDGX Sparkを4台つなげてメモリ容量512GBを実現する「DGX Spark Developer Kit」を発表、最大700Bのモデルを実行可能",
+      "summary": "NVIDIAが小型AIスパコンDGX Sparkを4台つなげてメモリ容量512GBを実現する「DGX Spark Developer Kit」を発表、最大700Bのモデルを実行可能 au Webポータル",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE82WEN0dllWNWVNa0duZmx0S01laW1Ub3I2dl9JWWZtWGxnbHptb0tYZmwwbW9hU2FzdEVmQmtyMG9NUE9Nam1GczRZNkJkcEN4VVY3MkgxamZEUEgycmR5blJBanNjUm9ianY1LTFR",
+      "source": "au Webポータル",
+      "published": "2026-11-17 12:37 JST",
+      "topic": "AI・LLM",
+      "title_ja": "NVIDIAが小型AIスパコンDGX Sparkを4台つなげてメモリ容量512GBを実現する「DGX Spark Developer Kit」を発表、最大700Bのモデルを実行可能",
+      "overview": "NVIDIAが小型AIスパコンDGX Sparkを4台つなげてメモリ容量512GBを実現する「DGX Spark Developer Kit」を発表、最大700Bのモデルを実行可能 au Webポータル",
+      "title_en": "NVIDIA announces the \"DGX Spark Developer Kit\", which connects four DGX Spark compact AI supercomputers to achieve a memory capacity of 512 GB, enabling the execution of models up to 700B.",
+      "overview_en": "NVIDIA announces the \"DGX Spark Developer Kit\", which connects four DGX Spark compact AI supercomputers to achieve a memory capacity of 512 GB, capable of running models up to 700B au Web portal",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "Four Continents, Four New AWS Heroes: Closing Out 2026",
+      "summary": "As AWS re:Invent is around the corner, we’re proud to recognize a new group of AWS Heroes. Every Hero finds their own way to give back, whether through sharing what they know, bringing people together, or building tools that help others succeed. What they have in common is a genuine commitment to supporting the builders […]",
+      "url": "https://aws.amazon.com/blogs/aws/four-continents-four-new-aws-heroes-closing-out-2026",
+      "source": "AWS News Blog",
+      "published": "2026-11-18 02:06 JST",
+      "topic": "クラウド",
+      "title_ja": "4つの大陸、4人の新しいAWSヒーロー：2026年の締めくくり",
+      "overview": "AWS re:Inventが間近に迫る中、私たちは新しいAWSヒーローのグループを表彰できることを誇りに思います。ヒーローはそれぞれ、自分の知識を共有したり、人々をつなげたり、他者の成功を支援するツールを構築したりするなど、独自の形で貢献しています。共通しているのは、ビルダーを支援するという真摯な姿勢です […]",
+      "title_en": "Four Continents, Four New AWS Heroes: Closing Out 2026",
+      "overview_en": "As AWS re:Invent is around the corner, we’re proud to recognize a new group of AWS Heroes. Every Hero finds their own way to give back, whether through sharing what they know, bringing people together, or building tools that help others succeed. What they have in common is a genuine commitment to supporting the builders […]",
+      "importance": "クラウドサービスの機能や運用方法に関わる可能性があります。"
+    }
+  ]
+}
