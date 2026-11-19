@@ -1,0 +1,70 @@
+{
+  "date": "2026-11-19",
+  "items": [
+    {
+      "title": "AWS Lambda now supports GPU instances for Event Functions on Lambda Managed Instances",
+      "summary": "AWS Lambda now supports GPU instances (G-series) for Event Functions running on Lambda Managed Instances, enabling serverless GPU workloads like machine learning inference, media processing, and rendering. Lambda handles all infrastructure tasks, including instance lifecycle, driver management, and auto scaling, while maximizing GPU utilization across concurrent requests with standard EC2 pricing plus a management fee",
+      "url": "https://aws.amazon.com/blogs/aws/aws-lambda-now-supports-gpu-instances-for-event-functions-on-lambda-managed-instances",
+      "source": "AWS News Blog",
+      "published": "2026-11-19 04:39 JST",
+      "topic": "開発・OSS",
+      "title_ja": "AWS Lambdaが、Lambdaマネージドインスタンス上のイベント関数のGPUインスタンスをサポート",
+      "overview": "AWS Lambdaは、Lambdaマネージドインスタンスで実行されるイベント関数向けにGPUインスタンス（Gシリーズ）をサポートするようになりました。これにより、機械学習推論、メディア処理、レンダリングなどのサーバーレスGPUワークロードが可能になります。Lambdaは、インスタンスのライフサイクル、ドライバー管理、Auto Scalingなどのすべてのインフラストラクチャタスクを処理し、標準のEC2料金と管理手数料で、同時リクエストにおけるGPUの使用率を最大化します。",
+      "title_en": "AWS Lambda now supports GPU instances for Event Functions on Lambda Managed Instances",
+      "overview_en": "AWS Lambda now supports GPU instances (G-series) for Event Functions running on Lambda Managed Instances, enabling serverless GPU workloads like machine learning inference, media processing, and rendering. Lambda handles all infrastructure tasks, including instance lifecycle, driver management, and auto scaling, while maximizing GPU utilization across concurrent requests with standard EC2 pricing plus a management fee",
+      "importance": "開発者が使えるツールや技術の選択肢に関わる可能性があります。"
+    },
+    {
+      "title": "An updated Clairic and Clairic-flash are now open-weight, from the new Workers AI Superintelligence team",
+      "summary": "Add your teaser here. It should complement the headline, not repeat it. Teaser cannot be longer than 240 characters. The Blog Review Gem will suggest an excerpt. Clairic graduates from preview, while Clairic-flash joins the repertoire on Workers AI. We’re doing an open-weight release for both extraction models.",
+      "url": "https://blog.cloudflare.com/open-clairic",
+      "source": "Cloudflare Blog",
+      "published": "2026-11-19 07:00 JST",
+      "topic": "AI・LLM",
+      "title_ja": "Workers AI Superintelligenceチームによる、更新されたClairicとClairic-flashがオープンウェイトになりました",
+      "overview": "ここにティーザーを追加してください。見出しを補完するものであり、見出しを繰り返すものであってはなりません。ティザーは240文字以内にする必要があります。ブログレビューGemが抜粋を提案します。Clairicがプレビューから卒業し、Clairic-flashがWorkers AIのラインナップに加わります。両方の抽出モデルについて、オープンウェイトリリースを行います。",
+      "title_en": "An updated Clairic and Clairic-flash are now open-weight, from the new Workers AI Superintelligence team",
+      "overview_en": "Add your teaser here. It should complement the headline, not repeat it. Teaser cannot be longer than 240 characters. The Blog Review Gem will suggest an excerpt. Clairic graduates from preview, while Clairic-flash joins the repertoire on Workers AI. We’re doing an open-weight release for both extraction models.",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "How Cloudflare WAF helps protect against Java4Shell (CVE-2026-114938)",
+      "summary": "Java4Shell is a critical memory-corruption flaw in OpenJDK's Base64 decoder that can lead to remote code execution. Cloudflare has released six WAF managed rules for paid plans that logs matching requests by default. Patch your Java runtimes now.",
+      "url": "https://blog.cloudflare.com/java4shell-waf-protection",
+      "source": "Cloudflare Blog",
+      "published": "2026-11-18 23:52 JST",
+      "topic": "クラウド",
+      "title_ja": "Cloudflare WAFがJava4Shell（CVE-2026-114938）からの保護にどのように役立つか",
+      "overview": "Java4Shellは、OpenJDKのBase64デコーダーに存在する重大なメモリ破壊の脆弱性であり、リモートコード実行につながる可能性があります。Cloudflareは、有料プラン向けに6つのWAFマネージドルールをリリースしました。このルールでは、デフォルトで一致するリクエストがログに記録されます。今すぐJavaランタイムにパッチを適用してください。",
+      "title_en": "How Cloudflare WAF helps protect against Java4Shell (CVE-2026-114938)",
+      "overview_en": "Java4Shell is a critical memory-corruption flaw in OpenJDK's Base64 decoder that can lead to remote code execution. Cloudflare has released six WAF managed rules for paid plans that logs matching requests by default. Patch your Java runtimes now.",
+      "importance": "クラウドサービスの機能や運用方法に関わる可能性があります。"
+    },
+    {
+      "title": "The Gemini app is now available on lower-memory Android devices.",
+      "summary": "The Google Gemini app now supports lower-memory Android devices. Access Gemini Live and custom image creation on your phone. Download the app today.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices",
+      "source": "Google Blog AI",
+      "published": "2026-11-19 02:00 JST",
+      "topic": "AI・LLM",
+      "title_ja": "Geminiアプリが、メモリ容量の少ないAndroidデバイスでも利用できるようになりました。",
+      "overview": "Google Geminiアプリが、メモリ容量の少ないAndroidデバイスにも対応しました。Gemini Liveとカスタム画像作成にスマートフォンからアクセスできます。今すぐアプリをダウンロードしましょう。",
+      "title_en": "The Gemini app is now available on lower-memory Android devices.",
+      "overview_en": "The Google Gemini app now supports lower-memory Android devices. Access Gemini Live and custom image creation on your phone. Download the app today.",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "AWS、エージェントサンドボックス「Strands Box」を発表：信頼できないなら、箱に閉じ込めよ",
+      "summary": "AWS、エージェントサンドボックス「Strands Box」を発表：信頼できないなら、箱に閉じ込めよ BigGo ファイナンス",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE82ZlR0WnhaTFlhOGJTcElmX2RpaHJiTUxMNjJ3SFRVYk9iVU9IMjlpMEhJaTFDWDN5M3RkOXllSzZfMGdxVTZCa2JZcEFsbjA0Ui1iajE5VzMwRkhaVEY5R1hvcXVod1dIbWxJcFBJOG9TenM5",
+      "source": "BigGo ファイナンス",
+      "published": "2026-11-19 08:35 JST",
+      "topic": "AI・LLM",
+      "title_ja": "AWS、エージェントサンドボックス「Strands Box」を発表：信頼できないなら、箱に閉じ込めよ",
+      "overview": "AWS、エージェントサンドボックス「Strands Box」を発表：信頼できないなら、箱に閉じ込めよ BigGo ファイナンス",
+      "title_en": "AWS announces the agent sandbox \"Strands Box\": If you can't trust it, lock it in a box",
+      "overview_en": "AWS announces the agent sandbox \"Strands Box\": If you can't trust it, lock it in a box BigGo Finance",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    }
+  ]
+}
