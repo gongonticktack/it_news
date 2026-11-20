@@ -1,0 +1,70 @@
+{
+  "date": "2026-11-20",
+  "items": [
+    {
+      "title": "Introducing Tool Retrieval in the Gemini API",
+      "summary": "Gemini spark on a space background",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval",
+      "source": "Google Blog AI",
+      "published": "2026-11-20 03:00 JST",
+      "topic": "AI・LLM",
+      "title_ja": "Gemini APIのツール検索機能のご紹介",
+      "overview": "宇宙を背景にした双子座の火花",
+      "title_en": "Introducing Tool Retrieval in the Gemini API",
+      "overview_en": "Gemini spark on a space background",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "Internet traffic and attacks during the 2026 U.S. midterm elections",
+      "summary": "On November 3, 2026 U.S. voters headed to the polls. Here’s what Cloudflare data across more than 1,400 protected sites tells us about Election Day Internet traffic and cyberattacks.",
+      "url": "https://blog.cloudflare.com/internet-traffic-2026-us-election",
+      "source": "Cloudflare Blog",
+      "published": "2026-11-19 23:00 JST",
+      "topic": "開発・OSS",
+      "title_ja": "2026年米国中間選挙中のインターネットトラフィックと攻撃",
+      "overview": "2026年11月3日、米国の有権者が投票に向かいました。1,400以上の保護されたサイトにおけるCloudflareのデータから、選挙日のインターネットトラフィックとサイバー攻撃について明らかになったことをご紹介します。",
+      "title_en": "Internet traffic and attacks during the 2026 U.S. midterm elections",
+      "overview_en": "On November 3, 2026 U.S. voters headed to the polls. Here’s what Cloudflare data across more than 1,400 protected sites tells us about Election Day Internet traffic and cyberattacks.",
+      "importance": "開発者が使えるツールや技術の選択肢に関わる可能性があります。"
+    },
+    {
+      "title": "The best things in open source are built together",
+      "summary": "Introducing Replica and the Open Source Accessibility Framework, new open source projects for collaboration and inclusion. The post The best things in open source are built together appeared first on The GitHub Blog .",
+      "url": "https://github.blog/open-source/maintainers/the-best-things-in-open-source-are-built-together",
+      "source": "GitHub Blog",
+      "published": "2026-11-20 01:00 JST",
+      "topic": "開発・OSS",
+      "title_ja": "オープンソースの最大の利点は、みんなで一緒に作り上げる点です。",
+      "overview": "コラボレーションとインクルージョンを目的とした新しいオープンソースプロジェクト、ReplicaとOpen Source Accessibility Frameworkをご紹介します。記事「オープンソースの最高のものは共に構築される」は、GitHubブログに最初に掲載されました。",
+      "title_en": "The best things in open source are built together",
+      "overview_en": "Introducing Replica and the Open Source Accessibility Framework, new open source projects for collaboration and inclusion. The post The best things in open source are built together appeared first on The GitHub Blog .",
+      "importance": "開発者が使えるツールや技術の選択肢に関わる可能性があります。"
+    },
+    {
+      "title": "nginx2root: Five new nginx vulnerabilities, and how Cloudflare protects origins from the worst of them",
+      "summary": "Five memory corruption bugs in nginx, called nginx2root, can let an unauthenticated attacker run code on a server. Here’s how they work, and why origins behind Cloudflare's proxy are shielded from the most serious of these bugs.",
+      "url": "https://blog.cloudflare.com/nginx2root",
+      "source": "Cloudflare Blog",
+      "published": "2026-11-20 10:58 JST",
+      "topic": "クラウド",
+      "title_ja": "nginx2root：5つの新しいnginxの脆弱性と、Cloudflareが最も深刻な脆弱性からオリジンを保護する方法",
+      "overview": "nginx2rootと呼ばれるnginxの5つのメモリ破壊バグにより、認証されていない攻撃者がサーバー上でコードを実行できてしまう可能性があります。ここでは、これらのバグの仕組みと、Cloudflareのプロキシの背後にあるオリジンが最も深刻なバグから保護されている理由について説明します。",
+      "title_en": "nginx2root: Five new nginx vulnerabilities, and how Cloudflare protects origins from the worst of them",
+      "overview_en": "Five memory corruption bugs in nginx, called nginx2root, can let an unauthenticated attacker run code on a server. Here’s how they work, and why origins behind Cloudflare's proxy are shielded from the most serious of these bugs.",
+      "importance": "クラウドサービスの機能や運用方法に関わる可能性があります。"
+    },
+    {
+      "title": "Walter Isaacson on curiosity and creativity in the AI age.",
+      "summary": "Walter Isaacson joins Google to discuss how history’s greatest innovators inspire creativity and human judgment in the AI age. Watch the episode.",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-walter-isaacson",
+      "source": "Google Blog AI",
+      "published": "2026-11-20 02:00 JST",
+      "topic": "AI・LLM",
+      "title_ja": "ウォルター・アイザックソン氏が語る、AI時代の好奇心と創造性。",
+      "overview": "ウォルター・アイザックソン氏がGoogleに加わり、歴史上最も偉大なイノベーターたちが、AI時代における創造性と人間の判断力をどのように刺激するかについて語ります。エピソードを視聴する。",
+      "title_en": "Walter Isaacson on curiosity and creativity in the AI age.",
+      "overview_en": "Walter Isaacson joins Google to discuss how history’s greatest innovators inspire creativity and human judgment in the AI age. Watch the episode.",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    }
+  ]
+}

@@ -1,26 +1,4 @@
 {
-  "2026-10-20": [
-    {
-      "title": "Introducing Clairic, a new System One class of extraction models",
-      "url": "https://blog.cloudflare.com/clairic-extraction-model"
-    },
-    {
-      "title": "How to continue a GitHub Copilot app session in VS Code",
-      "url": "https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code"
-    },
-    {
-      "title": "AWS Weekly Roundup: AWS Lambda Web Functions, Amazon S3 on the Vercel Marketplace, and more (October 19, 2026)",
-      "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-lambda-web-functions-amazon-s3-on-the-vercel-marketplace-and-more-october-19-2026"
-    },
-    {
-      "title": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
-      "url": "https://huggingface.co/blog/hf-torchneuron"
-    },
-    {
-      "title": "Cutting our inference bill by 68% by being obsessive about optimization",
-      "url": "https://blog.cloudflare.com/obsessive-inference-optimization"
-    }
-  ],
   "2026-10-21": [
     {
       "title": "Introducing tsrs: A port of TypeScript to Rust",
@@ -671,6 +649,28 @@
     {
       "title": "AWS、エージェントサンドボックス「Strands Box」を発表：信頼できないなら、箱に閉じ込めよ",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE82ZlR0WnhaTFlhOGJTcElmX2RpaHJiTUxMNjJ3SFRVYk9iVU9IMjlpMEhJaTFDWDN5M3RkOXllSzZfMGdxVTZCa2JZcEFsbjA0Ui1iajE5VzMwRkhaVEY5R1hvcXVod1dIbWxJcFBJOG9TenM5"
+    }
+  ],
+  "2026-11-20": [
+    {
+      "title": "Introducing Tool Retrieval in the Gemini API",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval"
+    },
+    {
+      "title": "Internet traffic and attacks during the 2026 U.S. midterm elections",
+      "url": "https://blog.cloudflare.com/internet-traffic-2026-us-election"
+    },
+    {
+      "title": "The best things in open source are built together",
+      "url": "https://github.blog/open-source/maintainers/the-best-things-in-open-source-are-built-together"
+    },
+    {
+      "title": "nginx2root: Five new nginx vulnerabilities, and how Cloudflare protects origins from the worst of them",
+      "url": "https://blog.cloudflare.com/nginx2root"
+    },
+    {
+      "title": "Walter Isaacson on curiosity and creativity in the AI age.",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-walter-isaacson"
     }
   ]
 }
