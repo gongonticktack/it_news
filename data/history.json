@@ -1,26 +1,4 @@
 {
-  "2026-10-21": [
-    {
-      "title": "Introducing tsrs: A port of TypeScript to Rust",
-      "url": "https://blog.cloudflare.com/typescript-rust-port"
-    },
-    {
-      "title": "Introducing Amazon ECS Gateway: A fully-managed ingress solution for ECS services",
-      "url": "https://aws.amazon.com/blogs/aws/introducing-amazon-ecs-gateway-a-fully-managed-ingress-solution-for-ecs-services"
-    },
-    {
-      "title": "8 eMudhra certificates are compromised. Here's what you need to know",
-      "url": "https://blog.cloudflare.com/emudhra-certificate-compromise"
-    },
-    {
-      "title": "NVIDIA Cosmos3-H-Dreams: Bringing Clinical Surgery to Life Through Generative Simulation",
-      "url": "https://huggingface.co/blog/nvidia/cosmos3-h-dreams"
-    },
-    {
-      "title": "FairStress: A deeper evaluation of fairness in LLM decision-making",
-      "url": "https://huggingface.co/blog/allenai/fairstress"
-    }
-  ],
   "2026-10-22": [
     {
       "title": "The bridge to agent-scale Git infrastructure",
@@ -671,6 +649,28 @@
     {
       "title": "Walter Isaacson on curiosity and creativity in the AI age.",
       "url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-walter-isaacson"
+    }
+  ],
+  "2026-11-21": [
+    {
+      "title": "How Cloudflare WAF helps protect against phpAfterShell and other critical PHP flaws",
+      "url": "https://blog.cloudflare.com/phpaftershell-waf-protection"
+    },
+    {
+      "title": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
+      "url": "https://huggingface.co/blog/harness-adapters-at-scale"
+    },
+    {
+      "title": "How Cloudflare WAF protects against ruby2shell (CVE-2026-132825)",
+      "url": "https://blog.cloudflare.com/ruby2shell-waf-protection"
+    },
+    {
+      "title": "MetaのWebXR開発ツール「IWSDK」がAIエージェント対応、Niantic、3Dガウシアン・スプラッティング形式「SPZ 4」を公開 ほか",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9XZmRYcFFfMkJhUEFITXRhQ05oVjVabzl6Qzd1MEE3REotRmRTTUNuVzZVVDRjOHZwaHFxU2N5VkZnZWJueVk2d0VPdw"
+    },
+    {
+      "title": "SailPoint、クラウドおよびオンプレミス向けアイデンティティ セキュリティのモダナイゼーション機能を発表",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5tdWtvYWRzWDc3T2sxZlFaX0ZDMUJJNURISFdMUW80bHFScktaVE1UMEhqaTNyQU5QTEdpaU9sanlkVm5xQS14SlNfVHUyRVJXbTV4eTZrLU1YbS1QX0VmWWdLczBqR01odm5ZSFlqZWlOeUlZdnlvOA"
     }
   ]
 }

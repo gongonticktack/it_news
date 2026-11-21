@@ -1,0 +1,70 @@
+{
+  "date": "2026-11-21",
+  "items": [
+    {
+      "title": "How Cloudflare WAF helps protect against phpAfterShell and other critical PHP flaws",
+      "summary": "phpAfterShell is a critical flaw in PHP's default session handler that can lead to code execution. Cloudflare WAF blocks it for all customers, including Free plans, and adds new rules for other PHP flaws fixed in the same release.",
+      "url": "https://blog.cloudflare.com/phpaftershell-waf-protection",
+      "source": "Cloudflare Blog",
+      "published": "2026-11-21 05:00 JST",
+      "topic": "クラウド",
+      "title_ja": "Cloudflare WAFがphpAfterShellやその他の重大なPHPの脆弱性から保護する方法",
+      "overview": "phpAfterShellは、PHPのデフォルトのセッションハンドラーに存在する重大な脆弱性であり、コード実行につながる可能性があります。Cloudflare WAFは、無料プランを含むすべてのお客様に対してこれをブロックし、同じリリースで修正された他のPHPの脆弱性に対する新しいルールを追加します。",
+      "title_en": "How Cloudflare WAF helps protect against phpAfterShell and other critical PHP flaws",
+      "overview_en": "phpAfterShell is a critical flaw in PHP's default session handler that can lead to code execution. Cloudflare WAF blocks it for all customers, including Free plans, and adds new rules for other PHP flaws fixed in the same release.",
+      "importance": "クラウドサービスの機能や運用方法に関わる可能性があります。"
+    },
+    {
+      "title": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
+      "summary": "",
+      "url": "https://huggingface.co/blog/harness-adapters-at-scale",
+      "source": "Hugging Face",
+      "published": "2026-11-20 09:00 JST",
+      "topic": "AI・LLM",
+      "title_ja": "ハーネスアダプターのご紹介：お気に入りのモデルをハーネスに適合させて、パフォーマンスとコストを改善しましょう",
+      "overview": "配信元から記事の概要が提供されていません。",
+      "title_en": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
+      "overview_en": "No summary was provided by the source.",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "How Cloudflare WAF protects against ruby2shell (CVE-2026-132825)",
+      "summary": "ruby2shell lets attackers corrupt memory in default Rails and Sinatra apps without logging in. Cloudflare WAF blocks it for every customer, including Free plans. Upgrade Ruby now, and use the WAF to cover the gap.",
+      "url": "https://blog.cloudflare.com/ruby2shell-waf-protection",
+      "source": "Cloudflare Blog",
+      "published": "2026-11-21 05:24 JST",
+      "topic": "クラウド",
+      "title_ja": "Cloudflare WAFがruby2shell（CVE-2026-132825）から保護する方法",
+      "overview": "ruby2shellにより、攻撃者はログインせずにデフォルトのRailsおよびSinatraアプリのメモリを破損させることができます。Cloudflare WAFは、無料プランを含むすべての顧客に対してこれをブロックします。今すぐRubyをアップグレードし、WAFを使用して脆弱性をカバーしましょう。",
+      "title_en": "How Cloudflare WAF protects against ruby2shell (CVE-2026-132825)",
+      "overview_en": "ruby2shell lets attackers corrupt memory in default Rails and Sinatra apps without logging in. Cloudflare WAF blocks it for every customer, including Free plans. Upgrade Ruby now, and use the WAF to cover the gap.",
+      "importance": "クラウドサービスの機能や運用方法に関わる可能性があります。"
+    },
+    {
+      "title": "MetaのWebXR開発ツール「IWSDK」がAIエージェント対応、Niantic、3Dガウシアン・スプラッティング形式「SPZ 4」を公開 ほか",
+      "summary": "MetaのWebXR開発ツール「IWSDK」がAIエージェント対応、Niantic、3Dガウシアン・スプラッティング形式「SPZ 4」を公開 ほか ThinkIT",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9XZmRYcFFfMkJhUEFITXRhQ05oVjVabzl6Qzd1MEE3REotRmRTTUNuVzZVVDRjOHZwaHFxU2N5VkZnZWJueVk2d0VPdw",
+      "source": "ThinkIT",
+      "published": "2026-11-19 05:20 JST",
+      "topic": "AI・LLM",
+      "title_ja": "MetaのWebXR開発ツール「IWSDK」がAIエージェント対応、Niantic、3Dガウシアン・スプラッティング形式「SPZ 4」を公開 ほか",
+      "overview": "MetaのWebXR開発ツール「IWSDK」がAIエージェント対応、Niantic、3Dガウシアン・スプラッティング形式「SPZ 4」を公開 ほか ThinkIT",
+      "title_en": "Meta's WebXR development tool \"IWSDK\" now supports AI agents, Niantic releases 3D Gaussian splatting format \"SPZ 4\", and more",
+      "overview_en": "Meta’s WebXR development tool \"IWSDK\" now supports AI agents, Niantic releases 3D Gaussian splatting format \"SPZ 4\", and more – ThinkIT",
+      "importance": "AIモデルの性能・利用方法や導入判断に関わる可能性があります。"
+    },
+    {
+      "title": "SailPoint、クラウドおよびオンプレミス向けアイデンティティ セキュリティのモダナイゼーション機能を発表",
+      "summary": "SailPoint、クラウドおよびオンプレミス向けアイデンティティ セキュリティのモダナイゼーション機能を発表 ニコニコニュース",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5tdWtvYWRzWDc3T2sxZlFaX0ZDMUJJNURISFdMUW80bHFScktaVE1UMEhqaTNyQU5QTEdpaU9sanlkVm5xQS14SlNfVHUyRVJXbTV4eTZrLU1YbS1QX0VmWWdLczBqR01odm5ZSFlqZWlOeUlZdnlvOA",
+      "source": "ニコニコニュース",
+      "published": "2026-11-20 05:15 JST",
+      "topic": "クラウド",
+      "title_ja": "SailPoint、クラウドおよびオンプレミス向けアイデンティティ セキュリティのモダナイゼーション機能を発表",
+      "overview": "SailPoint、クラウドおよびオンプレミス向けアイデンティティ セキュリティのモダナイゼーション機能を発表 ニコニコニュース",
+      "title_en": "SailPoint announces identity security modernisation capabilities for the cloud and on-premises",
+      "overview_en": "SailPoint announces identity security modernisation capabilities for the cloud and on-premises – Niconico News",
+      "importance": "クラウドサービスの機能や運用方法に関わる可能性があります。"
+    }
+  ]
+}
